@@ -1,0 +1,39 @@
+{
+  "products" : [
+    {
+      "attributes" : {
+        "capacity_band" : "200-250l",
+        "door_type" : "double_door"
+      },
+      "category" : "REFRIGERATOR",
+      "id" : "refrigerator-double-door-200-250l",
+      "name" : "Double door refrigerator (200–250L)"
+    },
+    {
+      "attributes" : {
+        "door_type" : "mini"
+      },
+      "category" : "REFRIGERATOR",
+      "id" : "refrigerator-mini",
+      "name" : "Mini refrigerator"
+    },
+    {
+      "attributes" : {
+        "capacity_band" : "150-200l",
+        "door_type" : "single_door"
+      },
+      "category" : "REFRIGERATOR",
+      "id" : "refrigerator-single-door-150-200l",
+      "name" : "Single door refrigerator (150–200L)"
+    },
+    {
+      "attributes" : {
+        "capacity_band" : "200-250l",
+        "door_type" : "single_door"
+      },
+      "category" : "REFRIGERATOR",
+      "id" : "refrigerator-single-door-200-250l",
+      "name" : "Single door refrigerator (200–250L)"
+    }
+  ]
+}

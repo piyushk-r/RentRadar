@@ -1,0 +1,74 @@
+{
+  "mappings" : [
+    {
+      "canonicalProductId" : "refrigerator-single-door-150-200l",
+      "confidence" : 1.0,
+      "externalId" : "101599",
+      "matchedAt" : "2026-08-25T18:32:39.498679500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Single Door Fridge (190 Litre)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-single-door-fridge-190-litre/101599"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-150-200l",
+      "confidence" : 1.0,
+      "externalId" : "106576",
+      "matchedAt" : "2026-08-25T18:32:55.850603200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Single Door Fridge (190 Litre - 2s)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-single-door-fridge-190ltr-2s/106576"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-150-200l",
+      "confidence" : 1.0,
+      "externalId" : "122282",
+      "matchedAt" : "2026-08-25T18:32:50.352683700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Samsung Single Door Fridge (190 Litre)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-single-door-fridge-190-litre/122282"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-200-250l",
+      "confidence" : 1.0,
+      "externalId" : "2874",
+      "matchedAt" : "2026-08-25T18:35:25.977691500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Refrigerator 210L",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-single-door-fridge-210-litre/2874"
+    },
+    {
+      "canonicalProductId" : "refrigerator-mini",
+      "confidence" : 0.95,
+      "externalId" : "5367",
+      "matchedAt" : "2026-08-25T18:32:44.824352600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Mini Refrigerator",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-mini-refrigerator/5367"
+    },
+    {
+      "canonicalProductId" : "refrigerator-double-door-200-250l",
+      "confidence" : 1.0,
+      "externalId" : "95989",
+      "matchedAt" : "2026-08-25T18:32:53.086808800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Double Door Fridge (240 Litre)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-double-door-fridge-240-litre/95989"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-150-200l",
+      "confidence" : 1.0,
+      "externalId" : "97699",
+      "matchedAt" : "2026-08-25T18:35:31.471390600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Refrigerator 170L",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-single-door-fridge-170-litre/97699"
+    }
+  ]
+}

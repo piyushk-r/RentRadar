@@ -1,0 +1,64 @@
+# The freshness contract (PRD section 13): the 12h TTL is this cron line, and
+# the distributed lock is the concurrency group. Scheduled runs are best-effort
+# and can be delayed under platform load — the UI reports actual data age, never
+# the schedule.
+name: scrape
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # the TTL, expressed as a schedule
+  workflow_dispatch: # manual runs share the same lock as the cron (FR-5.3)
+
+concurrency:
+  group: scrape # the distributed lock, expressed as a policy
+  cancel-in-progress: false
+
+# contents: write and nothing more (PRD section 21).
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      # Third-party actions pinned to commit SHAs (PRD section 21).
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Set up Java 21
+        uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 # v4.7.1
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+
+      - name: Build pipeline (tests included — golden files catch markup drift)
+        run: mvn -B -f pipeline/pom.xml verify
+
+      - name: Run pipeline
+        id: pipeline
+        # A non-zero exit means at least one provider failed. Its previous data
+        # was kept (FR-5.4) and runs.json records the failure — both of which
+        # should still be committed, so the job continues and fails at the end.
+        continue-on-error: true
+        run: java -jar pipeline/target/pipeline.jar --pipeline.data-dir=data
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "rentradar-pipeline"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "data: scheduled refresh $(date -u +'%Y-%m-%dT%H:%MZ')"
+            git push
+          fi
+
+      - name: Fail the workflow if any provider failed
+        # The failure email is the entire alerting system (FR-7.2).
+        if: steps.pipeline.outcome == 'failure'
+        run: |
+          echo "Pipeline reported provider failure(s) — see the run log and data/runs.json."
+          exit 1

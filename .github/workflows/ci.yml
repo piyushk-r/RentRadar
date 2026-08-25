@@ -1,0 +1,54 @@
+# CI on pushes and pull requests: pipeline tests (golden files, pricing
+# properties, ArchUnit boundaries) and a full web build over the committed
+# data — which also runs the NFR-A4 data validation gate.
+name: ci
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/**" # data commits are exercised by the scrape workflow itself
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Set up Java 21
+        uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 # v4.7.1
+        with:
+          distribution: temurin
+          java-version: "21"
+          cache: maven
+
+      - name: Test pipeline
+        run: mvn -B -f pipeline/pom.xml verify
+
+  web:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Set up Node 22
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install
+        working-directory: web
+        run: npm ci
+
+      - name: Build (includes data validation, NFR-A4)
+        working-directory: web
+        run: npm run build

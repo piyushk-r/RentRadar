@@ -1,0 +1,17 @@
+# Java / Maven
+pipeline/target/
+*.class
+
+# Node / Next.js
+web/node_modules/
+web/.next/
+web/out/
+# generated at build from /data by web/scripts/prepare-data.mjs
+web/public/data/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store

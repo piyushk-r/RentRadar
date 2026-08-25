@@ -1,0 +1,109 @@
+# robotstxt.org
+
+User-agent: *
+Disallow:
+Disallow: /admins/
+Disallow: /admin-preview/
+Disallow: /order/summary/
+Disallow: /user/
+Disallow: /checkout/
+Disallow: /email_login_client
+Disallow: /blog/tag/
+
+User-agent: Googlebot-Image
+Disallow:
+
+# Explicit Allow for AI and Search Bots
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: youBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+Sitemap: https://www.rentomojo.com/sitemap/bangalore
+
+Sitemap: https://www.rentomojo.com/sitemap/pune
+
+Sitemap: https://www.rentomojo.com/sitemap/delhi
+
+Sitemap: https://www.rentomojo.com/sitemap/chennai
+
+Sitemap: https://www.rentomojo.com/sitemap/hyderabad
+
+Sitemap: https://www.rentomojo.com/sitemap/mumbai
+
+Sitemap: https://www.rentomojo.com/sitemap/gurgaon
+
+Sitemap: https://www.rentomojo.com/sitemap/noida
+
+Sitemap: https://www.rentomojo.com/sitemap/ahmedabad
+
+Sitemap: https://www.rentomojo.com/sitemap/mysore
+
+Sitemap: https://www.rentomojo.com/sitemap/jaipur
+
+Sitemap: https://www.rentomojo.com/sitemap/faridabad
+
+Sitemap: https://www.rentomojo.com/sitemap/ghaziabad
+
+Sitemap: https://www.rentomojo.com/sitemap/gandhinagar
+
+Sitemap: https://www.rentomojo.com/sitemap/chandigarh
+
+Sitemap: https://www.rentomojo.com/sitemap/agra
+
+Sitemap: https://www.rentomojo.com/sitemap/mathura
+
+Sitemap: https://www.rentomojo.com/sitemap/lucknow
+
+Sitemap: https://www.rentomojo.com/sitemap/kolkata
+
+Sitemap: https://www.rentomojo.com/sitemap/indore
+
+Sitemap: https://www.rentomojo.com/sitemap/coimbatore
+
+Sitemap: https://www.rentomojo.com/sitemap/kochi
+
+Sitemap: https://www.rentomojo.com/sitemap/hosur
+
+Sitemap: https://www.rentomojo.com/sitemap/pondicherry
+
+Sitemap: https://www.rentomojo.com/sitemap/visakhapatnam
+
+Sitemap: https://www.rentomojo.com/blog/post-sitemap.xml
+
+Sitemap: https://www.rentomojo.com/blog/page-sitemap.xml
+
+Sitemap: https://www.rentomojo.com/blog/attachment-sitemap.xml
+
+Sitemap: https://www.rentomojo.com/blog/category-sitemap.xml
+
+Sitemap: https://www.rentomojo.com/blog/post_tag-sitemap.xml
+
+Sitemap: https://www.rentomojo.com/blog/post_format-sitemap.xml
+
+Sitemap: https://www.rentomojo.com/blog/author-sitemap.xml
+
+
+

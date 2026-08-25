@@ -1,0 +1,20 @@
+{
+  "lastRun" : {
+    "finishedAt" : "2026-08-25T18:35:42.811216800Z",
+    "startedAt" : "2026-08-25T18:35:16.135090200Z"
+  },
+  "providers" : {
+    "rentomojo" : {
+      "coverageDeltaPercent" : 60,
+      "error" : null,
+      "lastAttemptAt" : "2026-08-25T18:35:42.581283400Z",
+      "lastSuccessAt" : "2026-08-25T18:35:42.581283400Z",
+      "previousProductsFound" : 5,
+      "productsFound" : 8,
+      "status" : "DEGRADED",
+      "warnings" : [
+        "1 listing(s) below match confidence — sent to review queue"
+      ]
+    }
+  }
+}

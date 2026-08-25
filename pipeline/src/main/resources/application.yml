@@ -1,0 +1,32 @@
+spring:
+  main:
+    web-application-type: none
+    banner-mode: off
+
+logging:
+  level:
+    root: info
+    in.rentradar: info
+
+pipeline:
+  city: bangalore
+  # Relative to the working directory; the workflow and run scripts pass
+  # --pipeline.data-dir=data when invoked from the repo root.
+  data-dir: ../data
+  categories:
+    - REFRIGERATOR
+  # Honest identification with a contact route (PRD section 14 compliance gate).
+  user-agent: "RentRadarBot/0.1 (+https://github.com/piyushk-r/RentRadar; personal, non-commercial price comparison; contact: bookzee.in@gmail.com)"
+  # A handful of requests, twice a day, well spaced — politeness before throughput.
+  request-delay-millis: 2500
+  provider-timeout-seconds: 480
+  auto-match-threshold: 0.8
+  # A run that would delete more than this share of a provider's products fails
+  # instead of committing (catastrophic-diff guard, PRD section 17).
+  max-coverage-drop-share: 0.5
+  # Plausibility bounds for monthly rent (FR-7.3): outside [₹50, ₹100,000] is a parse bug.
+  min-plausible-monthly-paise: 5000
+  max-plausible-monthly-paise: 10000000
+  providers:
+    rentomojo:
+      enabled: true

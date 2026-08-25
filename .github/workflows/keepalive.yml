@@ -1,0 +1,37 @@
+# Defeats the 60-day scheduled-workflow disable (PRD section 2, C-2).
+# Two belts: a real commit to keep the repository "active", and an explicit
+# re-enable of the scrape workflow in case GitHub disabled it anyway (bot
+# commits may not reset the inactivity clock).
+name: keepalive
+
+on:
+  schedule:
+    - cron: "17 5 1 * *" # monthly, an odd minute to avoid the top-of-hour rush
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Touch heartbeat and commit
+        run: |
+          git config user.name "rentradar-pipeline"
+          git config user.email "actions@users.noreply.github.com"
+          date -u +'%Y-%m-%dT%H:%MZ' > .github/keepalive
+          git add .github/keepalive
+          git commit -m "chore: monthly keepalive"
+          git push
+
+      - name: Re-enable the scrape workflow if it was disabled
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow enable scrape.yml --repo "$GITHUB_REPOSITORY" || true
