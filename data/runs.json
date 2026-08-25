@@ -1,15 +1,15 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-08-25T18:35:42.811216800Z",
-    "startedAt" : "2026-08-25T18:35:16.135090200Z"
+    "finishedAt" : "2026-08-25T18:50:29.726179600Z",
+    "startedAt" : "2026-08-25T18:50:02.925741Z"
   },
   "providers" : {
     "rentomojo" : {
-      "coverageDeltaPercent" : 60,
+      "coverageDeltaPercent" : 14,
       "error" : null,
-      "lastAttemptAt" : "2026-08-25T18:35:42.581283400Z",
-      "lastSuccessAt" : "2026-08-25T18:35:42.581283400Z",
-      "previousProductsFound" : 5,
+      "lastAttemptAt" : "2026-08-25T18:50:29.509823500Z",
+      "lastSuccessAt" : "2026-08-25T18:50:29.509823500Z",
+      "previousProductsFound" : 7,
       "productsFound" : 8,
       "status" : "DEGRADED",
       "warnings" : [
