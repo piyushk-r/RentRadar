@@ -1,0 +1,40 @@
+# Manual price sheet template (PRD section 14: providers whose robots.txt
+# forbids crawling enter only through a sheet like this).
+#
+# To activate a provider: copy this file to <provider>.yml (e.g. furlenco.yml),
+# fill in REAL prices you read on their site in your browser, and commit.
+# The pipeline picks it up on its next run; the column appears labelled with
+# this sheet's age.
+#
+# Rules:
+#   - updatedAt is REQUIRED and must be bumped on every edit — it becomes every
+#     record's scrapedAt. A neglected sheet ages visibly and drops out of
+#     rankings past 72h. That is by design; do not backdate it.
+#   - All money is WHOLE RUPEES (the pipeline stores integer paise).
+#   - Never invent a price. Only enter what the provider's page actually shows,
+#     and keep the url pointing at the page you read it on.
+#   - category is one of: BED, MATTRESS, REFRIGERATOR, WASHING_MACHINE, SOFA,
+#     WARDROBE, STUDY_TABLE, OFFICE_CHAIR, DINING_TABLE, TV, AIR_CONDITIONER,
+#     MICROWAVE, AIR_COOLER, WATER_PURIFIER, OTHER
+#   - Only tenures the provider actually publishes. No derived prices.
+
+provider: furlenco            # stable lowercase id, appears in every data file
+displayName: Furlenco
+homepage: https://www.furlenco.com
+updatedAt: 2026-08-26         # bump on every edit
+
+listings:
+  - externalId: example-queen-bed        # any stable id you choose
+    name: "Queen bed with storage (as named on their site)"
+    url: "https://www.furlenco.com/the-exact-listing-page"
+    category: BED
+    availability: IN_STOCK               # or OUT_OF_STOCK
+    deliveryRupees: 0                    # optional, default 0
+    installationRupees: 0                # optional, default 0
+    tenures:
+      - months: 12
+        monthlyRupees: 599
+        depositRupees: 1999
+      - months: 6
+        monthlyRupees: 699
+        depositRupees: 1999

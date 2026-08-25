@@ -1,13 +1,9 @@
 'use client';
 
 import type { Cell, Comparison } from '../lib/compare';
-import { formatAge, freshnessBand } from '../lib/freshness';
+import { formatAge } from '../lib/freshness';
 import { formatPaise } from '../lib/money';
-import { PROVIDER_NAMES } from '../lib/types';
-
-function providerLabel(id: string): string {
-  return PROVIDER_NAMES[id] ?? id;
-}
+import { providerLabel } from '../lib/types';
 
 /**
  * One cell, one of four honest states: priced, not offered, out of stock, or
@@ -63,7 +59,20 @@ function PriceCell({ cell, tenure, now }: { cell: Cell; tenure: number; now: Dat
   );
 }
 
-export function ComparisonTable({ comparison, tenure, now }: { comparison: Comparison; tenure: number; now: Date }) {
+export function ComparisonTable({
+  comparison,
+  tenure,
+  now,
+  categoryLabel,
+  providerTypes = {},
+}: {
+  comparison: Comparison;
+  tenure: number;
+  now: Date;
+  categoryLabel?: string;
+  /** integrationType per provider id from runs.json — manual columns are labelled as such. */
+  providerTypes?: Record<string, string | null | undefined>;
+}) {
   const { providers, rows, totals } = comparison;
 
   if (rows.length === 0) {
@@ -85,7 +94,7 @@ export function ComparisonTable({ comparison, tenure, now }: { comparison: Compa
     <>
       <table className="compare">
         <caption className="visually-hidden">
-          Refrigerator rental prices in Bengaluru for a {tenure}-month tenure, by provider
+          {categoryLabel ?? 'Rental'} prices in Bengaluru for a {tenure}-month tenure, by provider
         </caption>
         <thead>
           <tr>
@@ -94,6 +103,7 @@ export function ComparisonTable({ comparison, tenure, now }: { comparison: Compa
               <th key={provider} scope="col">
                 {providerLabel(provider)}
                 <span className="checked">
+                  {providerTypes[provider] === 'MANUAL' ? 'manual sheet · ' : ''}
                   {columnCheckedAt[provider] ? `checked ${formatAge(columnCheckedAt[provider]!, now)}` : ''}
                 </span>
               </th>

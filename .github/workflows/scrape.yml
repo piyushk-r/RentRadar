@@ -36,6 +36,15 @@ jobs:
       - name: Build pipeline (tests included — golden files catch markup drift)
         run: mvn -B -f pipeline/pom.xml verify
 
+      - name: Cache Playwright browsers
+        uses: actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57 # v4.2.0
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}-1.49.0
+
+      - name: Install Playwright Chromium (for browser-rendered providers)
+        run: mvn -B -q -f pipeline/pom.xml exec:java -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install --with-deps chromium"
+
       - name: Run pipeline
         id: pipeline
         # A non-zero exit means at least one provider failed. Its previous data

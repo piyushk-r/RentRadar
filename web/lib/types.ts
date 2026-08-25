@@ -42,6 +42,8 @@ export interface CatalogueFile {
 
 export interface ProviderRun {
   status: 'OK' | 'DEGRADED' | 'FAILED';
+  displayName: string | null;
+  integrationType: 'API' | 'SCRAPE_HTML' | 'SCRAPE_BROWSER' | 'MANUAL' | null;
   lastAttemptAt: string | null;
   lastSuccessAt: string | null;
   productsFound: number;
@@ -58,6 +60,22 @@ export interface RunsFile {
 
 export const PROVIDER_NAMES: Record<string, string> = {
   rentomojo: 'RentoMojo',
+  guarented: 'Guarented',
+  cityfurnish: 'Cityfurnish',
+  furlenco: 'Furlenco',
+  payrentz: 'Payrentz',
+};
+
+export function providerLabel(id: string): string {
+  return PROVIDER_NAMES[id] ?? id.charAt(0).toUpperCase() + id.slice(1);
+}
+
+/** Display order and labels for the categories the site knows how to show. */
+export const CATEGORY_LABELS: Record<string, { plural: string; singular: string }> = {
+  BED: { plural: 'Beds', singular: 'Bed' },
+  MATTRESS: { plural: 'Mattresses', singular: 'Mattress' },
+  REFRIGERATOR: { plural: 'Refrigerators', singular: 'Refrigerator' },
+  WASHING_MACHINE: { plural: 'Washing machines', singular: 'Washing machine' },
 };
 
 export const TENURES = [3, 6, 9, 12, 18, 24] as const;

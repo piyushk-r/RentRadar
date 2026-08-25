@@ -1,6 +1,256 @@
 {
   "mappings" : [
     {
+      "canonicalProductId" : "bed-double",
+      "confidence" : 0.9,
+      "externalId" : "coach-wood-double-bed-on-rent",
+      "matchedAt" : "2026-08-25T19:26:02.779340500Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Astoria Platform Double Bed",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/coach-wood-double-bed-on-rent"
+    },
+    {
+      "canonicalProductId" : "mattress-double",
+      "confidence" : 0.9,
+      "externalId" : "double-bed-6-foam-mattress",
+      "matchedAt" : "2026-08-25T19:31:05.707623100Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Double Bed Foam Mattress (6 Inches)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/mattresses/double-bed-6-foam-mattress"
+    },
+    {
+      "canonicalProductId" : "mattress-double",
+      "confidence" : 0.9,
+      "externalId" : "double-bed-mattress",
+      "matchedAt" : "2026-08-25T19:30:48.709677600Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Double Bed Mattress (4 Inches)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/mattresses/double-bed-mattress"
+    },
+    {
+      "canonicalProductId" : "refrigerator-double-door-200-250l",
+      "confidence" : 1.0,
+      "externalId" : "double-door-fridge",
+      "matchedAt" : "2026-08-25T19:44:11.147091500Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Double Door Fridge",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/fridges/double-door-fridge"
+    },
+    {
+      "canonicalProductId" : "bed-double",
+      "confidence" : 0.9,
+      "externalId" : "drake-upholstered-double-bed-grey",
+      "matchedAt" : "2026-08-25T19:30:32.308195Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Drake Upholstered Bed (Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/drake-upholstered-double-bed-grey"
+    },
+    {
+      "canonicalProductId" : "bed-double",
+      "confidence" : 0.9,
+      "externalId" : "eden-upholstered-double-bed-on-rent",
+      "matchedAt" : "2026-08-25T19:27:41.491474400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Eden Upholstered Bed (Turquoise)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-double-bed-on-rent"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "eden-upholstered-single-bed-black",
+      "matchedAt" : "2026-08-25T19:29:46.250903200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Eden Upholstered Single Bed (Black)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-single-bed-black"
+    },
+    {
+      "canonicalProductId" : "washing-machine-front-load-under-7kg",
+      "confidence" : 1.0,
+      "externalId" : "front-load-washing-machine",
+      "matchedAt" : "2026-08-25T19:44:25.987132400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Front Load Washing Machine",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/washing-machine/front-load-washing-machine"
+    },
+    {
+      "canonicalProductId" : "bed-single-storage",
+      "confidence" : 0.9,
+      "externalId" : "helix-single-storage-bed-on-rent",
+      "matchedAt" : "2026-08-25T19:27:13.957192Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Helix Single Storage Bed",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/helix-single-storage-bed-on-rent"
+    },
+    {
+      "canonicalProductId" : "mattress-king",
+      "confidence" : 0.9,
+      "externalId" : "king-bed-6-foam-mattress",
+      "matchedAt" : "2026-08-25T19:31:14.187577300Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "King Bed Foam Mattress (6 Inches)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/mattresses/king-bed-6-foam-mattress"
+    },
+    {
+      "canonicalProductId" : "bed-double",
+      "confidence" : 0.9,
+      "externalId" : "new-eden-upholstered-double-bed-rent",
+      "matchedAt" : "2026-08-25T19:27:22.721623500Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Eden Upholstered Bed (Navy Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/new-eden-upholstered-double-bed-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king-storage",
+      "confidence" : 0.9,
+      "externalId" : "noah-bed-without-storage",
+      "matchedAt" : "2026-08-25T19:27:50.123747Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Noah King Size Bed",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/noah-bed-without-storage"
+    },
+    {
+      "canonicalProductId" : "bed-king-storage",
+      "confidence" : 0.9,
+      "externalId" : "noah-storage-king-bed",
+      "matchedAt" : "2026-08-25T19:27:05.012370900Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Noah Storage King Bed",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/noah-storage-king-bed"
+    },
+    {
+      "canonicalProductId" : "bed-double",
+      "confidence" : 0.9,
+      "externalId" : "rubberwood-double-bed",
+      "matchedAt" : "2026-08-25T19:25:55.361124200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Rubberwood Double Bed",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/rubberwood-double-bed"
+    },
+    {
+      "canonicalProductId" : "bed-double",
+      "confidence" : 0.9,
+      "externalId" : "rubberwood-double-bed-white-and-brown",
+      "matchedAt" : "2026-08-25T19:29:55.998110800Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Rubberwood Double Bed (White & Brown)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/rubberwood-double-bed-white-and-brown"
+    },
+    {
+      "canonicalProductId" : "bed-double",
+      "confidence" : 0.9,
+      "externalId" : "rubberwood-double-off-white-and-grey",
+      "matchedAt" : "2026-08-25T19:30:05.517668300Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Rubberwood Double Bed (Off White and Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/rubberwood-double-off-white-and-grey"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "rubberwood-single-bed",
+      "matchedAt" : "2026-08-25T19:26:37.857970600Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Rubberwood Single Bed",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/rubberwood-single-bed"
+    },
+    {
+      "canonicalProductId" : "mattress-single",
+      "confidence" : 0.9,
+      "externalId" : "single-bed-6-foam-mattress",
+      "matchedAt" : "2026-08-25T19:30:57.300151700Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Single Bed Foam Mattress (6 Inches)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/mattresses/single-bed-6-foam-mattress"
+    },
+    {
+      "canonicalProductId" : "mattress-single",
+      "confidence" : 0.9,
+      "externalId" : "single-bed-mattress",
+      "matchedAt" : "2026-08-25T19:30:40.995017400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Single Bed Mattress (4 Inches)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/mattresses/single-bed-mattress"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-150-200l",
+      "confidence" : 1.0,
+      "externalId" : "single-door-fridge",
+      "matchedAt" : "2026-08-25T19:44:18.088058100Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Single Door Fridge",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/fridges/single-door-fridge"
+    },
+    {
+      "canonicalProductId" : "bed-double",
+      "confidence" : 0.9,
+      "externalId" : "solid-wood-double-bed",
+      "matchedAt" : "2026-08-25T19:26:21.170732600Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Solid Wood Double Bed (Brown)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-double-bed"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "solid-wood-single-bed",
+      "matchedAt" : "2026-08-25T19:26:46.492186Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Solid Wood Single Bed",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-single-bed"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "solid-wood-single-bed-6-4-brown",
+      "matchedAt" : "2026-08-25T19:30:23.937073500Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Solid Wood Single Bed (6*4) - Brown",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-single-bed-6-4-brown"
+    },
+    {
+      "canonicalProductId" : "bed-double",
+      "confidence" : 0.9,
+      "externalId" : "wrought-iron-double-bed",
+      "matchedAt" : "2026-08-25T19:26:29.718981900Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Wrought Iron Double Bed",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/wrought-iron-double-bed"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "wrought-iron-single-bed",
+      "matchedAt" : "2026-08-25T19:26:55.018595Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Wrought Iron Single Bed",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/wrought-iron-single-bed"
+    },
+    {
       "canonicalProductId" : "refrigerator-single-door-150-200l",
       "confidence" : 1.0,
       "externalId" : "101599",
@@ -9,6 +259,26 @@
       "provider" : "rentomojo",
       "providerName" : "Single Door Fridge (190 Litre)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-single-door-fridge-190-litre/101599"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "102333",
+      "matchedAt" : "2026-08-25T19:25:44.795144500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Napster Queen Bed White",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-napster-queen-bed-white/102333"
+    },
+    {
+      "canonicalProductId" : "mattress-single",
+      "confidence" : 0.9,
+      "externalId" : "105028",
+      "matchedAt" : "2026-08-25T19:27:51.670963900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Set Of 2 Single Foam Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-set-of-2-single-foam-mattress/105028"
     },
     {
       "canonicalProductId" : "refrigerator-single-door-150-200l",
@@ -21,6 +291,216 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-single-door-fridge-190ltr-2s/106576"
     },
     {
+      "canonicalProductId" : "bed-king-storage",
+      "confidence" : 0.9,
+      "externalId" : "115615",
+      "matchedAt" : "2026-08-25T19:26:25.253823Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Brooklyn King Size Storage Bed (Charcoal Grey) (72*78 inch)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-king-size-storage-bed-charcoal-grey/115615"
+    },
+    {
+      "canonicalProductId" : "washing-machine-front-load-under-7kg",
+      "confidence" : 1.0,
+      "externalId" : "116108",
+      "matchedAt" : "2026-08-25T19:29:12.815396900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Samsung 6.0 Kg Inverter Fully-Automatic Front Loading Washing Machine",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-6-kg-inverter-fully-automatic-front-loading-washing-machine/116108"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "116473",
+      "matchedAt" : "2026-08-25T19:26:53.011477100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Miller Engineered Wood Non Storage Queen Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-miller-engineered-wood-non-storage-queen-bed/116473"
+    },
+    {
+      "canonicalProductId" : "mattress-king",
+      "confidence" : 0.9,
+      "externalId" : "117325",
+      "matchedAt" : "2026-08-25T19:27:40.575274300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Premium King 7-Zone Latex Mattress (With Memory Foam)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-premium-king-zone-latex-mattress-memory-foam/117325"
+    },
+    {
+      "canonicalProductId" : "mattress-queen",
+      "confidence" : 0.9,
+      "externalId" : "117345",
+      "matchedAt" : "2026-08-25T19:27:35.052372900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Premium Queen 7-Zone Latex Mattress (With Memory Foam)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-premium-queen-one-latex-mattress-memory-foam/117345"
+    },
+    {
+      "canonicalProductId" : "mattress-single",
+      "confidence" : 0.9,
+      "externalId" : "117355",
+      "matchedAt" : "2026-08-25T19:27:57.321426400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Premium Single 7-Zone Latex Mattress (With Memory Foam)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-premium-single-zone-latex-mattress-memory-foam/117355"
+    },
+    {
+      "canonicalProductId" : "mattress-king",
+      "confidence" : 0.9,
+      "externalId" : "117371",
+      "matchedAt" : "2026-08-25T19:28:17.221165100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Premium King XpertGRID Ultra Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-premium-king-xpertgrid-ultra-mattress/117371"
+    },
+    {
+      "canonicalProductId" : "mattress-queen",
+      "confidence" : 0.9,
+      "externalId" : "117398",
+      "matchedAt" : "2026-08-25T19:27:46.100829900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Premium Queen XpertGRID Ultra Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-premium-queen-xpertgrid-ultra-mattress/117398"
+    },
+    {
+      "canonicalProductId" : "mattress-single",
+      "confidence" : 0.9,
+      "externalId" : "117408",
+      "matchedAt" : "2026-08-25T19:28:03.139458400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Premium Single XpertGRID Ultra Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-premium-single-xpertgrid-ultra-mattress/117408"
+    },
+    {
+      "canonicalProductId" : "washing-machine-front-load-7-8kg",
+      "confidence" : 1.0,
+      "externalId" : "118195",
+      "matchedAt" : "2026-08-25T19:29:01.707491800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Inverter Front Load Washing Machine with Inbuilt Heater 7 Kg",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-inverter-front-load-washing-machine-with-inbuilt-heater-7-kg/118195"
+    },
+    {
+      "canonicalProductId" : "washing-machine-front-load-8kg-plus",
+      "confidence" : 1.0,
+      "externalId" : "118206",
+      "matchedAt" : "2026-08-25T19:29:18.350215Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Inverter Front Load Washing Machine with Inbuilt Heater 8 Kg",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-inverter-front-load-washing-machine-with-inbuilt-heater-8-kg/118206"
+    },
+    {
+      "canonicalProductId" : "mattress-king",
+      "confidence" : 0.9,
+      "externalId" : "119221",
+      "matchedAt" : "2026-08-25T19:27:18.350288900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "King Foam Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-king-foam-mattress/119221"
+    },
+    {
+      "canonicalProductId" : "bed-king-storage",
+      "confidence" : 0.9,
+      "externalId" : "119237",
+      "matchedAt" : "2026-08-25T19:26:30.844540500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Taurus Engineered Wood King Size Bed With Storage",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-taurus-engineered-wood-king-size-bed-with-storage/119237"
+    },
+    {
+      "canonicalProductId" : "bed-king-storage",
+      "confidence" : 0.9,
+      "externalId" : "119257",
+      "matchedAt" : "2026-08-25T19:26:33.604991100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Taurus Engineered Wood King Size Non Storage Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-taurus-engineered-wood-king-size-non-storage-bed/119257"
+    },
+    {
+      "canonicalProductId" : "washing-machine-semi-automatic",
+      "confidence" : 0.9,
+      "externalId" : "119583",
+      "matchedAt" : "2026-08-25T19:29:07.266995100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Samsung Semi Automatic Washing Machine (8 Kg)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-semi-automatic-washing-machine-8kg/119583"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "121231",
+      "matchedAt" : "2026-08-25T19:26:07.485496100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Aroura Single Bed with Back Cushion and Shelf",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-aroura-solid-wood-single-with-back-cushion-shelf/121231"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "121241",
+      "matchedAt" : "2026-08-25T19:26:58.636943900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Aroura Solid Wood Queen Bed with Back Storage and Cushion",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-aroura-solid-wood-queen-bed-with-back-storage-and-cushion/121241"
+    },
+    {
+      "canonicalProductId" : "bed-king-storage",
+      "confidence" : 0.9,
+      "externalId" : "121257",
+      "matchedAt" : "2026-08-25T19:26:13.694249600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Aroura Solid Wood King Bed with Back Storage and Cushion",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-aroura-solid-wood-king-bed-with-back-storage-and-cushion/121257"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "121376",
+      "matchedAt" : "2026-08-25T19:25:56.078382200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Aurora Low Height King Bed (Solid Wood)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-aroura-low-height-king-bed-solid-wood/121376"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "121387",
+      "matchedAt" : "2026-08-25T19:26:22.436060100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Poise Single Bed with Shelf",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-poise-single-bed-with-shelf/121387"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "121422",
+      "matchedAt" : "2026-08-25T19:26:41.856490400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Poise King Bed with Shelf",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-poise-king-bed-with-shelf/121422"
+    },
+    {
       "canonicalProductId" : "refrigerator-single-door-150-200l",
       "confidence" : 1.0,
       "externalId" : "122282",
@@ -29,6 +509,136 @@
       "provider" : "rentomojo",
       "providerName" : "Samsung Single Door Fridge (190 Litre)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-single-door-fridge-190-litre/122282"
+    },
+    {
+      "canonicalProductId" : "washing-machine-top-load-7-8kg",
+      "confidence" : 1.0,
+      "externalId" : "127663",
+      "matchedAt" : "2026-08-25T19:29:04.519306600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Samsung 7.0 Fully Automatic Top Load Washing Machine",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-7-fully-automatic-top-load-washing-machine/127663"
+    },
+    {
+      "canonicalProductId" : "washing-machine-top-load-under-7kg",
+      "confidence" : 1.0,
+      "externalId" : "127743",
+      "matchedAt" : "2026-08-25T19:28:50.651183500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Fully Automatic Top Load Washing Machine 6.5 kg",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-fully-automatic-top-load-washing-machine-6-5-kg/127743"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "130604",
+      "matchedAt" : "2026-08-25T19:26:36.351164700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Clementine Upholstered Metal Queen Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-clementine-upholstered-metal-queen-bed/130604"
+    },
+    {
+      "canonicalProductId" : "washing-machine-semi-automatic",
+      "confidence" : 0.9,
+      "externalId" : "138224",
+      "matchedAt" : "2026-08-25T19:29:10.049476100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Whirlpool Semi Automatic Washing Machine 7 Kg",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-whirlpool-semi-automatic-washing-machine-7kg/138224"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "138747",
+      "matchedAt" : "2026-08-25T19:27:01.388385600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Miller Engineered Wood With Storage Queen Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-miller-engineered-wood-with-storage-queen-bed/138747"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "139660",
+      "matchedAt" : "2026-08-25T19:26:50.279884600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Aroura Solid Wood Queen Bed with Back Storage and Cushion",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-aroura-solid-wood-queen-bed-with-backstorage-and-cushion/139660"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "139661",
+      "matchedAt" : "2026-08-25T19:26:44.591601400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Clementine Upholstered Metal Queen Bed (Blush Pink)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-clementine-upholstered-metal-queen-bed-blush-pink/139661"
+    },
+    {
+      "canonicalProductId" : "bed-king-storage",
+      "confidence" : 0.9,
+      "externalId" : "148486",
+      "matchedAt" : "2026-08-25T19:26:16.701433600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Taurus Engineered Wood Upholstered King Size Bed With Storage",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-taurus-engineered-wood-upholstered-king-size-bed-with-storage/148486"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "150001",
+      "matchedAt" : "2026-08-25T19:26:39.106509500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Mysa Wood & Metal Queen Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-mysa-wood-and-metal-queen-bed/150001"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "151225",
+      "matchedAt" : "2026-08-25T19:26:04.388897600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Aurora Wooden Queen Bed with Grey Upholstery",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-aurora-wooden-queen-bed-with-grey-upholstery/151225"
+    },
+    {
+      "canonicalProductId" : "mattress-single",
+      "confidence" : 0.9,
+      "externalId" : "151483",
+      "matchedAt" : "2026-08-25T19:28:00.208643100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Single TriFold Comfort Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-single-trifold-comfort-mattress/151483"
+    },
+    {
+      "canonicalProductId" : "bed-king-storage",
+      "confidence" : 0.9,
+      "externalId" : "153426",
+      "matchedAt" : "2026-08-25T19:26:47.517370600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Nidra Fully Upholstered King Size Storage Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-nidra-upholstered-king-size-storage-bed/153426"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "2734",
+      "matchedAt" : "2026-08-25T19:25:53.293336400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Atticus Solid Wood Single Platform Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-atticus-solid-wood-single-platform-bed/2734"
     },
     {
       "canonicalProductId" : "refrigerator-single-door-200-250l",
@@ -41,6 +651,186 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-single-door-fridge-210-litre/2874"
     },
     {
+      "canonicalProductId" : "washing-machine-semi-automatic",
+      "confidence" : 0.9,
+      "externalId" : "3094",
+      "matchedAt" : "2026-08-25T19:28:53.405917200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Semi Automatic Washing Machine",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-semi-automatic-washing-machine/3094"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "3104",
+      "matchedAt" : "2026-08-25T19:26:10.565275800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Elma Solid Wood Queen Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-elma-solid-wood-queen-bed/3104"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "3255",
+      "matchedAt" : "2026-08-25T19:26:19.623923300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Kipper Solid Wood Single Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-kipper-solid-wood-single-bed/3255"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "3256",
+      "matchedAt" : "2026-08-25T19:26:01.575189400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Kipper Solid Wood Queen Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-kipper-solid-wood-queen-bed/3256"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "3257",
+      "matchedAt" : "2026-08-25T19:25:39.168777500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Napster Queen Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-napster-queen-bed/3257"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "3258",
+      "matchedAt" : "2026-08-25T19:25:42.033686400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Napster Single Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-napster-bed-lite/3258"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "3272",
+      "matchedAt" : "2026-08-25T19:25:36.484295300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Aurora Low Height Queen Bed (Solid Wood)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-aurora-low-height-queen-bed-solid-wood/3272"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "3275",
+      "matchedAt" : "2026-08-25T19:25:47.725083400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Aurora Low Height Single Bed (Solid Wood)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-aurora-low-height-single-bed-solid-wood/3275"
+    },
+    {
+      "canonicalProductId" : "bed-single-storage",
+      "confidence" : 0.9,
+      "externalId" : "3277",
+      "matchedAt" : "2026-08-25T19:26:28.044138Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Hiber Solid Wood Single Storage Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-hiber-solid-wood-single-storage-bed/3277"
+    },
+    {
+      "canonicalProductId" : "mattress-king",
+      "confidence" : 0.9,
+      "externalId" : "44074",
+      "matchedAt" : "2026-08-25T19:27:37.798256200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "King Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-king-mattress/44074"
+    },
+    {
+      "canonicalProductId" : "mattress-single",
+      "confidence" : 0.9,
+      "externalId" : "44243",
+      "matchedAt" : "2026-08-25T19:27:12.722843200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Single Foam Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-foam-single-mattress/44243"
+    },
+    {
+      "canonicalProductId" : "mattress-single",
+      "confidence" : 0.9,
+      "externalId" : "44244",
+      "matchedAt" : "2026-08-25T19:28:14.472759700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Single Mattress - Coir & Foam",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-acc-single-mattress-coir-and-foam/44244"
+    },
+    {
+      "canonicalProductId" : "mattress-single",
+      "confidence" : 0.9,
+      "externalId" : "44245",
+      "matchedAt" : "2026-08-25T19:27:29.490019700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Single Mattress - Spring",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-single-mattress-spring/44245"
+    },
+    {
+      "canonicalProductId" : "mattress-queen",
+      "confidence" : 0.9,
+      "externalId" : "44492",
+      "matchedAt" : "2026-08-25T19:27:09.851721600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Queen Mattress - Foam",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-foam-queen-mattress/44492"
+    },
+    {
+      "canonicalProductId" : "mattress-queen",
+      "confidence" : 0.9,
+      "externalId" : "44493",
+      "matchedAt" : "2026-08-25T19:28:11.562462300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Queen Mattress - Spring",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-coir-queen-mattress-acc/44493"
+    },
+    {
+      "canonicalProductId" : "mattress-queen",
+      "confidence" : 0.9,
+      "externalId" : "44494",
+      "matchedAt" : "2026-08-25T19:27:15.575427200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Queen Spring Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-new-queen-mattress/44494"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4980",
+      "matchedAt" : "2026-08-25T19:26:55.884401700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Poise Queen Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-poise-queen-bed/4980"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "4981",
+      "matchedAt" : "2026-08-25T19:25:58.826175900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Poise King Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-poise-king-bed/4981"
+    },
+    {
       "canonicalProductId" : "refrigerator-mini",
       "confidence" : 0.95,
       "externalId" : "5367",
@@ -51,6 +841,56 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-mini-refrigerator/5367"
     },
     {
+      "canonicalProductId" : "mattress-single-xl",
+      "confidence" : 0.9,
+      "externalId" : "60017",
+      "matchedAt" : "2026-08-25T19:27:26.740502Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Single XL Coir & Foam Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-single-mattress/60017"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "6045",
+      "matchedAt" : "2026-08-25T19:25:50.529637500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Poise Single Bed - XL",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-poise-single-bed-xl/6045"
+    },
+    {
+      "canonicalProductId" : "mattress-single",
+      "confidence" : 0.9,
+      "externalId" : "83100",
+      "matchedAt" : "2026-08-25T19:28:08.719953100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Single Ortho Memory Foam Wakefit XpertGrid Classic Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-single-ortho-memory-foam-wakefit-xpertgrid-classic-mattress/83100"
+    },
+    {
+      "canonicalProductId" : "mattress-queen",
+      "confidence" : 0.9,
+      "externalId" : "83827",
+      "matchedAt" : "2026-08-25T19:28:19.994473700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Queen Ortho Memory Foam Wakefit XpertGrid Classic Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-queen-ortho-mattress/83827"
+    },
+    {
+      "canonicalProductId" : "mattress-single-xl",
+      "confidence" : 0.9,
+      "externalId" : "83829",
+      "matchedAt" : "2026-08-25T19:41:33.755933Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Single XL Ortho Memory Foam Wakefit XpertGrid Classic Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-dual-comfort-single-xl-mattress/83829"
+    },
+    {
       "canonicalProductId" : "refrigerator-double-door-200-250l",
       "confidence" : 1.0,
       "externalId" : "95989",
@@ -59,6 +899,86 @@
       "provider" : "rentomojo",
       "providerName" : "Double Door Fridge (240 Litre)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-double-door-fridge-240-litre/95989"
+    },
+    {
+      "canonicalProductId" : "mattress-single",
+      "confidence" : 0.9,
+      "externalId" : "97565",
+      "matchedAt" : "2026-08-25T19:27:54.461814800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Single Ortho Pocket Spring Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-velocity-ortho-single-mattress/97565"
+    },
+    {
+      "canonicalProductId" : "mattress-queen",
+      "confidence" : 0.9,
+      "externalId" : "97567",
+      "matchedAt" : "2026-08-25T19:27:21.133605600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Queen  Ortho Pocket Spring Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-velocity-ortho-queen-mattress/97567"
+    },
+    {
+      "canonicalProductId" : "mattress-single-xl",
+      "confidence" : 0.9,
+      "externalId" : "97570",
+      "matchedAt" : "2026-08-25T19:28:05.921487900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Single XL Ortho Pocket Spring Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-velocity-ortho-single-xl-mattress/97570"
+    },
+    {
+      "canonicalProductId" : "mattress-single",
+      "confidence" : 0.9,
+      "externalId" : "97571",
+      "matchedAt" : "2026-08-25T19:27:23.960086700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Pulse Ortho Single Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-pulse-ortho-single-mattress/97571"
+    },
+    {
+      "canonicalProductId" : "mattress-king",
+      "confidence" : 0.9,
+      "externalId" : "97572",
+      "matchedAt" : "2026-08-25T19:27:43.330274900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Velocity Ortho King Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-velocity-ortho-king-mattress/97572"
+    },
+    {
+      "canonicalProductId" : "mattress-queen",
+      "confidence" : 0.9,
+      "externalId" : "97573",
+      "matchedAt" : "2026-08-25T19:27:07.062890700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Pulse Ortho Queen Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-pulse-ortho-queen-mattress/97573"
+    },
+    {
+      "canonicalProductId" : "mattress-king",
+      "confidence" : 0.9,
+      "externalId" : "97574",
+      "matchedAt" : "2026-08-25T19:27:32.247520400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Pulse Ortho King Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-pulse-ortho-king-mattress/97574"
+    },
+    {
+      "canonicalProductId" : "mattress-single-xl",
+      "confidence" : 0.9,
+      "externalId" : "97575",
+      "matchedAt" : "2026-08-25T19:27:48.868383100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Pulse Ortho Single XL  Mattress",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-pulse-ortho-single-xl-mattress/97575"
     },
     {
       "canonicalProductId" : "refrigerator-single-door-150-200l",

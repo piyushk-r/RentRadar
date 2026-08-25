@@ -1,6 +1,114 @@
 {
   "pending" : [
     {
+      "confidence" : 0.0,
+      "externalId" : "bed-with-storage-on-rent",
+      "firstSeenAt" : "2026-08-25T19:26:11.708339900Z",
+      "name" : "Lucus Metal Frame Storage Bed",
+      "proposedCanonicalId" : null,
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/bed-with-storage-on-rent"
+    },
+    {
+      "confidence" : 0.0,
+      "externalId" : "eden-upholstered-bed-beige",
+      "firstSeenAt" : "2026-08-25T19:27:59.164956600Z",
+      "name" : "Eden Upholstered Bed (Beige)",
+      "proposedCanonicalId" : null,
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-beige"
+    },
+    {
+      "confidence" : 0.0,
+      "externalId" : "eden-upholstered-bed-black-velvet",
+      "firstSeenAt" : "2026-08-25T19:28:08.413844500Z",
+      "name" : "Eden Upholstered Bed (Black Velvet)",
+      "proposedCanonicalId" : null,
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-black-velvet"
+    },
+    {
+      "confidence" : 0.0,
+      "externalId" : "eden-upholstered-bed-brown",
+      "firstSeenAt" : "2026-08-25T19:28:52.605514Z",
+      "name" : "Eden Upholstered Bed (Brown)",
+      "proposedCanonicalId" : null,
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-brown"
+    },
+    {
+      "confidence" : 0.0,
+      "externalId" : "eden-upholstered-bed-grey-velvet",
+      "firstSeenAt" : "2026-08-25T19:28:17.966833700Z",
+      "name" : "Eden Upholstered Bed (Grey Velvet)",
+      "proposedCanonicalId" : null,
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-grey-velvet"
+    },
+    {
+      "confidence" : 0.0,
+      "externalId" : "eden-upholstered-bed-maroon",
+      "firstSeenAt" : "2026-08-25T19:29:27.174021300Z",
+      "name" : "Eden Upholstered Bed (Maroon)",
+      "proposedCanonicalId" : null,
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-maroon"
+    },
+    {
+      "confidence" : 0.0,
+      "externalId" : "eden-upholstered-bed-sandstone",
+      "firstSeenAt" : "2026-08-25T19:29:37.694682400Z",
+      "name" : "Eden Upholstered Bed (Sandstone)",
+      "proposedCanonicalId" : null,
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-sandstone"
+    },
+    {
+      "confidence" : 0.4,
+      "externalId" : "eden-upolstered-single-bed-and-single-bed-mattress",
+      "firstSeenAt" : "2026-08-25T19:30:14.887651200Z",
+      "name" : "Eden Upholstered Single Bed & Mattress Combo (Black)",
+      "proposedCanonicalId" : "bed-single",
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upolstered-single-bed-and-single-bed-mattress"
+    },
+    {
+      "confidence" : 0.0,
+      "externalId" : "emma-baby-cot-with-mattress",
+      "firstSeenAt" : "2026-08-25T19:27:31.110827Z",
+      "name" : "Emma Baby Cot with Mattress",
+      "proposedCanonicalId" : null,
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/emma-baby-cot-with-mattress"
+    },
+    {
+      "confidence" : 0.75,
+      "externalId" : "top-load-washing-machine",
+      "firstSeenAt" : "2026-08-25T19:31:46.477542300Z",
+      "name" : "Top Load Washing Machine",
+      "proposedCanonicalId" : "washing-machine-top-load",
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/appliances/washing-machine/top-load-washing-machine"
+    },
+    {
+      "confidence" : 0.75,
+      "externalId" : "101630",
+      "firstSeenAt" : "2026-08-25T19:28:56.187068100Z",
+      "name" : "Fully Automatic Top Load Washing Machine",
+      "proposedCanonicalId" : "washing-machine-top-load",
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-fully-automatic-top-load-washing-machine/101630"
+    },
+    {
+      "confidence" : 0.0,
+      "externalId" : "115648",
+      "firstSeenAt" : "2026-08-25T19:28:58.975998900Z",
+      "name" : "Premium Fully Automatic Washing Machine with inbuilt Heater (8 Kg)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-premium-fully-automatic-washing-machine-with-inbuilt-heater/115648"
+    },
+    {
       "confidence" : 0.5,
       "externalId" : "18481",
       "firstSeenAt" : "2026-08-25T18:32:58.588908400Z",
@@ -8,6 +116,15 @@
       "proposedCanonicalId" : "refrigerator-100-150l",
       "provider" : "rentomojo",
       "url" : "https://www.rentomojo.com/bangalore/appliances/rent-deep-freezer/18481"
+    },
+    {
+      "confidence" : 0.75,
+      "externalId" : "96620",
+      "firstSeenAt" : "2026-08-25T19:29:15.598102200Z",
+      "name" : "Front Load Washing Machine",
+      "proposedCanonicalId" : "washing-machine-front-load",
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-front-load-washing-machine/96620"
     }
   ]
 }

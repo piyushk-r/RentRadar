@@ -11,8 +11,15 @@ price history.** A static Next.js site reads those files and only ever does
 `min` and `sum`.
 
 Full requirements: [docs/CompareFurniture-PRD.md](docs/CompareFurniture-PRD.md).
-Current phase: **Phase 0** — one provider (RentoMojo), one category
-(refrigerators), the whole loop end to end.
+Current phase: **Phase 1** — categories bed, mattress, refrigerator, washing
+machine; providers:
+
+| Provider | Route | Status |
+|---|---|---|
+| RentoMojo | Server-rendered HTML, permitted paths | Live |
+| Guarented | Headless browser over permitted pages (client-rendered) | Live |
+| Cityfurnish, Furlenco, Payrentz | `data/manual/*.yml` sheets — robots.txt forbids crawling their catalogues | Plumbed; awaiting human-entered prices |
+| Rentickle | Deferred (PRD §25: hardest adapter, narrow permitted paths) | Phase 2 |
 
 ## Map
 

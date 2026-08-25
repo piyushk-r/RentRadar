@@ -2,6 +2,8 @@ package in.rentradar.pipeline;
 
 import in.rentradar.pipeline.common.model.RentalCategory;
 import in.rentradar.pipeline.provider.RentalProvider;
+import in.rentradar.pipeline.provider.guarented.GuarentedAdapter;
+import in.rentradar.pipeline.provider.manual.ManualSheetProvider;
 import in.rentradar.pipeline.provider.rentomojo.RentoMojoAdapter;
 import in.rentradar.pipeline.scraper.PoliteHttpClient;
 import in.rentradar.pipeline.store.DataStore;
@@ -11,6 +13,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
+import java.io.IOException;
+import java.io.UncheckedIOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
@@ -42,12 +47,28 @@ public class PipelineApplication {
     @Bean
     ProviderSet rentalProviders(PipelineConfig config, PoliteHttpClient client) {
         List<RentalProvider> providers = new ArrayList<>();
+        List<RentalCategory> categories = config.categories() == null || config.categories().isEmpty()
+                ? List.of(RentalCategory.REFRIGERATOR)
+                : config.categories();
         if (config.providers() == null || config.providers().rentomojo() == null
                 || config.providers().rentomojo().enabled()) {
-            List<RentalCategory> categories = config.categories() == null || config.categories().isEmpty()
-                    ? List.of(RentalCategory.REFRIGERATOR)
-                    : config.categories();
             providers.add(new RentoMojoAdapter(client, categories));
+        }
+        if (config.providers() == null || config.providers().guarented() == null
+                || config.providers().guarented().enabled()) {
+            providers.add(new GuarentedAdapter(client, categories, config.userAgent(), config.requestDelayMillis()));
+        }
+        // Hand-maintained sheets for the providers we may not crawl: every
+        // data/manual/*.yml becomes a provider column (PRD section 14).
+        Path manualDir = Path.of(config.dataDir()).toAbsolutePath().normalize().resolve("manual");
+        if (Files.isDirectory(manualDir)) {
+            try (var sheets = Files.list(manualDir)) {
+                sheets.filter(f -> f.getFileName().toString().endsWith(".yml"))
+                        .sorted()
+                        .forEach(sheet -> providers.add(new ManualSheetProvider(sheet)));
+            } catch (IOException e) {
+                throw new UncheckedIOException("could not scan manual sheets in " + manualDir, e);
+            }
         }
         return new ProviderSet(providers);
     }

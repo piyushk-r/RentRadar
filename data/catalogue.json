@@ -2,6 +2,109 @@
   "products" : [
     {
       "attributes" : {
+        "size" : "double",
+        "storage" : "no"
+      },
+      "category" : "BED",
+      "id" : "bed-double",
+      "name" : "Double bed"
+    },
+    {
+      "attributes" : {
+        "size" : "king",
+        "storage" : "no"
+      },
+      "category" : "BED",
+      "id" : "bed-king",
+      "name" : "King bed"
+    },
+    {
+      "attributes" : {
+        "size" : "king",
+        "storage" : "yes"
+      },
+      "category" : "BED",
+      "id" : "bed-king-storage",
+      "name" : "King bed with storage"
+    },
+    {
+      "attributes" : {
+        "size" : "queen",
+        "storage" : "no"
+      },
+      "category" : "BED",
+      "id" : "bed-queen",
+      "name" : "Queen bed"
+    },
+    {
+      "attributes" : {
+        "size" : "queen",
+        "storage" : "yes"
+      },
+      "category" : "BED",
+      "id" : "bed-queen-storage",
+      "name" : "Queen bed with storage"
+    },
+    {
+      "attributes" : {
+        "size" : "single",
+        "storage" : "no"
+      },
+      "category" : "BED",
+      "id" : "bed-single",
+      "name" : "Single bed"
+    },
+    {
+      "attributes" : {
+        "size" : "single",
+        "storage" : "yes"
+      },
+      "category" : "BED",
+      "id" : "bed-single-storage",
+      "name" : "Single bed with storage"
+    },
+    {
+      "attributes" : {
+        "size" : "double"
+      },
+      "category" : "MATTRESS",
+      "id" : "mattress-double",
+      "name" : "Double mattress"
+    },
+    {
+      "attributes" : {
+        "size" : "king"
+      },
+      "category" : "MATTRESS",
+      "id" : "mattress-king",
+      "name" : "King mattress"
+    },
+    {
+      "attributes" : {
+        "size" : "queen"
+      },
+      "category" : "MATTRESS",
+      "id" : "mattress-queen",
+      "name" : "Queen mattress"
+    },
+    {
+      "attributes" : {
+        "size" : "single"
+      },
+      "category" : "MATTRESS",
+      "id" : "mattress-single",
+      "name" : "Single mattress"
+    },
+    {
+      "attributes" : {
+        "size" : "single_xl"
+      },
+      "category" : "MATTRESS",
+      "id" : "mattress-single-xl",
+      "name" : "Single XL mattress"
+    },
+    {
+      "attributes" : {
         "capacity_band" : "200-250l",
         "door_type" : "double_door"
       },
@@ -34,6 +137,62 @@
       "category" : "REFRIGERATOR",
       "id" : "refrigerator-single-door-200-250l",
       "name" : "Single door refrigerator (200–250L)"
+    },
+    {
+      "attributes" : {
+        "capacity_band" : "7-8kg",
+        "load_type" : "front_load"
+      },
+      "category" : "WASHING_MACHINE",
+      "id" : "washing-machine-front-load-7-8kg",
+      "name" : "Front load washing machine (7–8 kg)"
+    },
+    {
+      "attributes" : {
+        "capacity_band" : "8kg-plus",
+        "load_type" : "front_load"
+      },
+      "category" : "WASHING_MACHINE",
+      "id" : "washing-machine-front-load-8kg-plus",
+      "name" : "Front load washing machine (8 kg+)"
+    },
+    {
+      "attributes" : {
+        "automation" : "fully",
+        "capacity_band" : "under-7kg",
+        "load_type" : "front_load"
+      },
+      "category" : "WASHING_MACHINE",
+      "id" : "washing-machine-front-load-under-7kg",
+      "name" : "Front load washing machine (under 7 kg)"
+    },
+    {
+      "attributes" : {
+        "automation" : "semi"
+      },
+      "category" : "WASHING_MACHINE",
+      "id" : "washing-machine-semi-automatic",
+      "name" : "Semi-automatic washing machine"
+    },
+    {
+      "attributes" : {
+        "automation" : "fully",
+        "capacity_band" : "7-8kg",
+        "load_type" : "top_load"
+      },
+      "category" : "WASHING_MACHINE",
+      "id" : "washing-machine-top-load-7-8kg",
+      "name" : "Top load washing machine (7–8 kg)"
+    },
+    {
+      "attributes" : {
+        "automation" : "fully",
+        "capacity_band" : "under-7kg",
+        "load_type" : "top_load"
+      },
+      "category" : "WASHING_MACHINE",
+      "id" : "washing-machine-top-load-under-7kg",
+      "name" : "Top load washing machine (under 7 kg)"
     }
   ]
 }

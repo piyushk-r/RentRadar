@@ -10,8 +10,8 @@ review, not a substitute for it.
 | Checked on | 25 Aug 2026 |
 | Checked by | bookzee.in@gmail.com |
 | robots.txt | `User-agent: *` disallows only `/admins/`, `/admin-preview/`, `/order/summary/`, `/user/`, `/checkout/`, `/email_login_client`, `/blog/tag/`. Category and product paths are permitted. Snapshot: `pipeline/src/test/resources/fixtures/rentomojo/robots.txt`. Re-fetched and honoured at runtime on every run by `PoliteHttpClient`. |
-| Paths read | `/bangalore/appliances/refrigerators-on-rent` (listing) and `/bangalore/appliances/rent-*/{id}` (product pages) |
-| Request volume | ~9 requests per run, twice a day, ≥2.5 s apart, exponential-style backoff then loud failure on 429/5xx |
+| Paths read | Category listings `/bangalore/appliances/refrigerators-on-rent`, `/bangalore/appliances/washing-machines-on-rent`, `/bangalore/furniture/beds-on-rent`, `/bangalore/furniture/mattresses-on-rent`, and their product pages `/bangalore/{section}/rent-*/{id}` (all permitted; expanded 26 Aug 2026) |
+| Request volume | ~80 requests per run (4 listings + ~75 product pages), twice a day, ≥2.5 s apart, backoff then loud failure on 429/5xx |
 | User-Agent | `RentRadarBot/0.1 (+https://github.com/piyushk-r/RentRadar; personal, non-commercial price comparison; contact: bookzee.in@gmail.com)` — no browser or named-crawler spoofing |
 | API | None published (no developer portal / partner feed found on 25 Aug 2026). The Nuxt SSR state embedded in the served page is parsed; no internal JSON endpoint is called. Recorded as scraping, not API. |
 | Access controls | No CAPTCHA, login, paywall or anti-bot measure is bypassed. If RentoMojo blocks us, we stop reading (PRD §14). |

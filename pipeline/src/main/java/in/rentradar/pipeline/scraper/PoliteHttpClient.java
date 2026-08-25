@@ -34,6 +34,15 @@ public class PoliteHttpClient {
 
     /** Fetch a page the robots.txt of its host permits. Throws if it does not — a blocked path is never read. */
     public String fetch(String url) throws FetchException, InterruptedException {
+        requireAllowed(url);
+        return rawFetch(URI.create(url));
+    }
+
+    /**
+     * The same robots gate for pages fetched by other means (the headless
+     * browser). Throws if the path is disallowed or robots.txt is unreadable.
+     */
+    public void requireAllowed(String url) throws FetchException, InterruptedException {
         URI uri = URI.create(url);
         RobotsTxt robots = robotsForHost(uri);
         String pathAndQuery = uri.getRawPath() + (uri.getRawQuery() != null ? "?" + uri.getRawQuery() : "");
@@ -41,7 +50,6 @@ public class PoliteHttpClient {
             throw new FetchException("robots.txt disallows " + pathAndQuery + " on " + uri.getHost()
                     + " — refusing to fetch (compliance gate, PRD section 14)");
         }
-        return rawFetch(uri);
     }
 
     private RobotsTxt robotsForHost(URI uri) throws FetchException, InterruptedException {

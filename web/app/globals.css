@@ -106,6 +106,162 @@ main {
   outline-offset: 1px;
 }
 
+/* --- basket chips --- */
+
+.chips {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.chip-toggle {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.chip-toggle.on {
+  border-color: var(--link);
+}
+
+.chip-toggle .chip-main {
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 14px;
+  color: var(--muted);
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.chip-toggle.on .chip-main {
+  color: var(--link);
+  font-weight: 500;
+}
+
+.chip-toggle .qty {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding-right: 6px;
+}
+
+.chip-toggle .qty button {
+  border: none;
+  background: none;
+  color: var(--link);
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.chip-toggle .qty button:hover {
+  background: var(--dim-bg);
+}
+
+.chip-toggle .qty b {
+  font-size: 13px;
+  min-width: 14px;
+  text-align: center;
+}
+
+/* --- basket summary --- */
+
+.basket {
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 36px;
+}
+
+.basket h2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.basket-picks {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+.basket-picks td {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--dim-bg);
+  font-size: 14px;
+}
+
+.pick-what {
+  font-weight: 500;
+  width: 28%;
+}
+
+.pick-who {
+  color: var(--muted);
+}
+
+.pick-price {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.basket-answers {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.answer h3 {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+
+.answer .big {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.answer .small {
+  color: var(--muted);
+  font-size: 12.5px;
+  max-width: 320px;
+}
+
+.answer.delta .big {
+  color: var(--best);
+}
+
+.uncovered,
+.partial {
+  color: var(--warn);
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.partial {
+  color: var(--muted);
+}
+
+.category-section {
+  margin-bottom: 44px;
+}
+
+.category-section h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
 /* --- results --- */
 
 .results {

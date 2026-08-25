@@ -1,19 +1,40 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-08-25T18:50:29.726179600Z",
-    "startedAt" : "2026-08-25T18:50:02.925741Z"
+    "finishedAt" : "2026-08-25T19:45:52.613480600Z",
+    "startedAt" : "2026-08-25T19:38:34.651019500Z"
   },
   "providers" : {
-    "rentomojo" : {
-      "coverageDeltaPercent" : 14,
+    "guarented" : {
+      "coverageDeltaPercent" : 59,
+      "displayName" : "Guarented",
       "error" : null,
-      "lastAttemptAt" : "2026-08-25T18:50:29.509823500Z",
-      "lastSuccessAt" : "2026-08-25T18:50:29.509823500Z",
-      "previousProductsFound" : 7,
-      "productsFound" : 8,
+      "integrationType" : "SCRAPE_BROWSER",
+      "lastAttemptAt" : "2026-08-25T19:45:52.385323300Z",
+      "lastSuccessAt" : "2026-08-25T19:45:52.385323300Z",
+      "previousProductsFound" : 22,
+      "productsFound" : 35,
       "status" : "DEGRADED",
       "warnings" : [
-        "1 listing(s) below match confidence — sent to review queue"
+        "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-double-bed-white: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (C:\\Users\\piyus\\AppData\\Local\\Temp\\playwright-java-1293…",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-yellow: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (C:\\Users\\piyus\\AppData\\Local\\Temp\\playwright-java-1293…",
+        "https://www.guarented.com/bangalore/rent/appliances/washing-machine/top-load-washing-machine-on-rent: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (C:\\Users\\piyus\\AppData\\Local\\Temp\\playwright-java-1293…",
+        "https://www.guarented.com/bangalore/rent/appliances/washing-machine/front-load-washing-machine-on-rent: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (C:\\Users\\piyus\\AppData\\Local\\Temp\\playwright-java-1293…",
+        "https://www.guarented.com/bangalore/rent/appliances/washing-machine/semi-automatic-washing-machine: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (C:\\Users\\piyus\\AppData\\Local\\Temp\\playwright-java-1293…",
+        "10 listing(s) below match confidence — sent to review queue"
+      ]
+    },
+    "rentomojo" : {
+      "coverageDeltaPercent" : 7,
+      "displayName" : "RentoMojo",
+      "error" : null,
+      "integrationType" : "SCRAPE_HTML",
+      "lastAttemptAt" : "2026-08-25T19:45:52.368959300Z",
+      "lastSuccessAt" : "2026-08-25T19:45:52.368959300Z",
+      "previousProductsFound" : 73,
+      "productsFound" : 78,
+      "status" : "DEGRADED",
+      "warnings" : [
+        "4 listing(s) below match confidence — sent to review queue"
       ]
     }
   }

@@ -70,6 +70,8 @@ public final class FileModels {
 
     public record ProviderRun(
             String status, // OK | DEGRADED | FAILED
+            String displayName,
+            String integrationType, // API | SCRAPE_HTML | SCRAPE_BROWSER | MANUAL — manual columns are labelled (PRD section 23)
             Instant lastAttemptAt,
             Instant lastSuccessAt,
             int productsFound,

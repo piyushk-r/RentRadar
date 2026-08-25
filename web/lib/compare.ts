@@ -37,6 +37,167 @@ export interface Comparison {
   latestScrapedAt: string | null;
 }
 
+// ---- the basket engine (PRD section 9) ----
+
+export interface BasketItem {
+  category: string;
+  qty: number;
+}
+
+export interface ItemPick {
+  category: string;
+  qty: number;
+  provider: string;
+  product: CatalogueEntry;
+  record: PriceRecord;
+}
+
+export interface BasketTotals {
+  monthlyPaise: number;
+  estimatedTotalPaise: number;
+  depositPaise: number;
+}
+
+export interface SingleProviderOption extends BasketTotals {
+  provider: string;
+  coveredCategories: number;
+  totalCategories: number;
+}
+
+export interface BasketResult {
+  /** Cheapest cross-provider pick per item, fully explainable (FR-3.3). */
+  picks: ItemPick[];
+  /** Categories no provider can price right now — excluded from totals, reported (FR-3.4). */
+  uncovered: string[];
+  mixed: BasketTotals | null;
+  mixedProviders: string[];
+  /** Cheapest provider stocking every requested category (PRD section 9B). */
+  bestSingle: SingleProviderOption | null;
+  /** Providers with partial coverage, reported separately, never mixed in. */
+  partialProviders: SingleProviderOption[];
+  /** Monthly saving from splitting across providers; null when no single covers all. */
+  deltaMonthlyPaise: number | null;
+}
+
+/**
+ * Records eligible to be ranked at this tenure: in stock, that tenure, and
+ * fresh enough for totals (older than 72h is excluded from rankings, PRD
+ * section 13).
+ */
+function eligibleRecords(records: PriceRecord[], tenureMonths: number, now: Date): PriceRecord[] {
+  return records.filter(
+    (r) =>
+      r.tenureMonths === tenureMonths &&
+      r.availability === 'IN_STOCK' &&
+      eligibleForTotals(freshnessBand(r.scrapedAt, now)),
+  );
+}
+
+export function buildBasket(
+  records: PriceRecord[],
+  catalogue: CatalogueEntry[],
+  basket: BasketItem[],
+  tenureMonths: number,
+  now: Date,
+): BasketResult {
+  const eligible = eligibleRecords(records, tenureMonths, now);
+  const productById = new Map(catalogue.map((p) => [p.id, p]));
+  const categoryOf = (r: PriceRecord) => productById.get(r.canonicalProductId)?.category ?? 'OTHER';
+
+  const providers = [...new Set(eligible.map((r) => r.provider))].sort();
+
+  // Cheapest record per (provider, category): min.
+  const cheapest = new Map<string, PriceRecord>();
+  for (const record of eligible) {
+    const key = record.provider + '|' + categoryOf(record);
+    const current = cheapest.get(key);
+    if (!current || record.estimatedTotalPaise < current.estimatedTotalPaise) {
+      cheapest.set(key, record);
+    }
+  }
+
+  const picks: ItemPick[] = [];
+  const uncovered: string[] = [];
+  for (const item of basket) {
+    let best: PriceRecord | null = null;
+    for (const provider of providers) {
+      const candidate = cheapest.get(provider + '|' + item.category) ?? null;
+      if (candidate && (!best || candidate.estimatedTotalPaise < best.estimatedTotalPaise)) {
+        best = candidate;
+      }
+    }
+    if (!best) {
+      uncovered.push(item.category);
+    } else {
+      picks.push({
+        category: item.category,
+        qty: item.qty,
+        provider: best.provider,
+        product: productById.get(best.canonicalProductId)!,
+        record: best,
+      });
+    }
+  }
+
+  // Mixed total: sum of the picks, quantities included.
+  let mixed: BasketTotals | null = null;
+  if (picks.length > 0) {
+    mixed = { monthlyPaise: 0, estimatedTotalPaise: 0, depositPaise: 0 };
+    for (const pick of picks) {
+      mixed.monthlyPaise += pick.record.monthlyPaise * pick.qty;
+      mixed.estimatedTotalPaise += pick.record.estimatedTotalPaise * pick.qty;
+      mixed.depositPaise += pick.record.depositPaise * pick.qty;
+    }
+  }
+
+  // Per-provider basket: full coverage competes for cheapest-single (9B);
+  // partial coverage is reported separately, never silently mixed in.
+  const fullCoverage: SingleProviderOption[] = [];
+  const partialProviders: SingleProviderOption[] = [];
+  for (const provider of providers) {
+    let covered = 0;
+    const totals: BasketTotals = { monthlyPaise: 0, estimatedTotalPaise: 0, depositPaise: 0 };
+    for (const item of basket) {
+      const record = cheapest.get(provider + '|' + item.category);
+      if (record) {
+        covered += 1;
+        totals.monthlyPaise += record.monthlyPaise * item.qty;
+        totals.estimatedTotalPaise += record.estimatedTotalPaise * item.qty;
+        totals.depositPaise += record.depositPaise * item.qty;
+      }
+    }
+    if (covered === 0) continue;
+    const option: SingleProviderOption = {
+      provider,
+      coveredCategories: covered,
+      totalCategories: basket.length,
+      ...totals,
+    };
+    if (covered === basket.length) {
+      fullCoverage.push(option);
+    } else {
+      partialProviders.push(option);
+    }
+  }
+
+  let bestSingle: SingleProviderOption | null = null;
+  for (const option of fullCoverage) {
+    if (!bestSingle || option.estimatedTotalPaise < bestSingle.estimatedTotalPaise) {
+      bestSingle = option;
+    }
+  }
+
+  return {
+    picks,
+    uncovered,
+    mixed,
+    mixedProviders: [...new Set(picks.map((p) => p.provider))].sort(),
+    bestSingle,
+    partialProviders,
+    deltaMonthlyPaise: bestSingle && mixed ? bestSingle.monthlyPaise - mixed.monthlyPaise : null,
+  };
+}
+
 export function buildComparison(
   records: PriceRecord[],
   catalogue: CatalogueEntry[],

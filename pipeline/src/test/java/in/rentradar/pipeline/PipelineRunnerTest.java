@@ -39,7 +39,7 @@ class PipelineRunnerTest {
     private PipelineConfig config(Path dataDir) {
         return new PipelineConfig("bangalore", dataDir.toString(), List.of(RentalCategory.REFRIGERATOR),
                 "test-agent", 0, 60, 0.8, 0.5, 50_00, 100_000_00,
-                new PipelineConfig.Providers(new PipelineConfig.Toggle(true)));
+                new PipelineConfig.Providers(new PipelineConfig.Toggle(true), new PipelineConfig.Toggle(false)));
     }
 
     private static RentalProduct fridge(String externalId, String name, long monthlyPaise, Instant scrapedAt) {

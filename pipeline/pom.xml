@@ -41,6 +41,14 @@
       <artifactId>jsoup</artifactId>
       <version>${jsoup.version}</version>
     </dependency>
+    <dependency>
+      <!-- Headless browser for providers that render prices client-side
+           (Guarented). Free in the Actions runner; what it costs is fragility,
+           not money (PRD section 14). -->
+      <groupId>com.microsoft.playwright</groupId>
+      <artifactId>playwright</artifactId>
+      <version>1.49.0</version>
+    </dependency>
 
     <dependency>
       <groupId>org.springframework.boot</groupId>

@@ -34,8 +34,8 @@ public final class RentoMojoListingParser {
         for (Element anchor : document.select("a.rm-product__card[href]")) {
             String href = anchor.attr("href");
             Matcher hrefMatch = PRODUCT_HREF.matcher(href);
-            if (!hrefMatch.matches()) {
-                continue; // packages, category cross-links, etc.
+            if (!hrefMatch.matches() || href.contains("/packages/")) {
+                continue; // packages and category cross-links are not comparable products
             }
             Element heading = anchor.selectFirst(".rm-product__heading");
             if (heading == null) {

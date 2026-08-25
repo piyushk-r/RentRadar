@@ -29,9 +29,12 @@ public class RentoMojoAdapter implements RentalProvider {
     public static final String PROVIDER_ID = "rentomojo";
     private static final String BASE_URL = "https://www.rentomojo.com";
 
-    /** Category listing paths per city, under the city prefix. Phase 0: refrigerators. */
+    /** Category listing paths per city, under the city prefix (from the published sitemap). */
     private static final Map<RentalCategory, String> CATEGORY_PATHS = new EnumMap<>(Map.of(
-            RentalCategory.REFRIGERATOR, "appliances/refrigerators-on-rent"
+            RentalCategory.REFRIGERATOR, "appliances/refrigerators-on-rent",
+            RentalCategory.WASHING_MACHINE, "appliances/washing-machines-on-rent",
+            RentalCategory.BED, "furniture/beds-on-rent",
+            RentalCategory.MATTRESS, "furniture/mattresses-on-rent"
     ));
 
     private final PoliteHttpClient client;

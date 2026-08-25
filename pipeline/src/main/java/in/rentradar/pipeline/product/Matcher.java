@@ -10,10 +10,17 @@ import java.util.TreeMap;
 
 /**
  * Proposes a canonical product for a raw listing (pipeline step 3, PRD section
- * 15). Rules first, and the rules are the whole matcher for refrigerators:
- * door type + capacity band identifies the row. Confidence reflects how much
- * of the identity was actually parsed, and anything below the threshold goes
- * to review, not to the site.
+ * 15). Rules first — and for these categories the rules are the whole matcher:
+ * the identity attributes below define a comparable row. Confidence reflects
+ * how much of the identity was actually parsed; below the threshold goes to
+ * review, not to the site.
+ *
+ * Row identity per category:
+ *   refrigerator     door type + capacity band
+ *   bed              size + storage (a queen with storage and one without are different rows)
+ *   mattress         size (construction type is an attribute, so each provider's
+ *                    cheapest mattress of a size competes in one row)
+ *   washing machine  semi-automatic, or load type + capacity band
  */
 public final class Matcher {
 
@@ -22,58 +29,106 @@ public final class Matcher {
 
     public static Optional<MatchResult> match(RentalProduct listing) {
         Map<String, String> attributes = Normalizer.extractAttributes(listing);
-        if (listing.category() == RentalCategory.REFRIGERATOR) {
-            return matchRefrigerator(listing, attributes);
+        if (attributes.containsKey(Normalizer.EXCLUDED)) {
+            return Optional.empty();
+        }
+        return switch (listing.category()) {
+            case REFRIGERATOR -> refrigerator(attributes);
+            case BED -> bed(attributes);
+            case MATTRESS -> mattress(attributes);
+            case WASHING_MACHINE -> washingMachine(attributes);
+            default -> Optional.empty();
+        };
+    }
+
+    private static Optional<MatchResult> refrigerator(Map<String, String> attributes) {
+        String doorType = attributes.get("door_type");
+        String band = attributes.get("capacity_band");
+        if (doorType == null && band == null) {
+            return Optional.empty();
+        }
+        if ("mini".equals(doorType)) {
+            return result("refrigerator-mini", RentalCategory.REFRIGERATOR, "Mini refrigerator", 0.95,
+                    Map.of("door_type", "mini"));
+        }
+        if (doorType != null && band != null) {
+            return result("refrigerator-" + doorType.replace('_', '-') + "-" + band, RentalCategory.REFRIGERATOR,
+                    displayDoor(doorType) + " refrigerator (" + displayBand(band) + ")", 1.0,
+                    Map.of("door_type", doorType, "capacity_band", band));
+        }
+        if (doorType != null) {
+            return result("refrigerator-" + doorType.replace('_', '-'), RentalCategory.REFRIGERATOR,
+                    displayDoor(doorType) + " refrigerator", 0.6, Map.of("door_type", doorType));
+        }
+        return result("refrigerator-" + band, RentalCategory.REFRIGERATOR,
+                "Refrigerator (" + displayBand(band) + ")", 0.5, Map.of("capacity_band", band));
+    }
+
+    private static Optional<MatchResult> bed(Map<String, String> attributes) {
+        String size = attributes.get("size");
+        if (size == null) {
+            return Optional.empty();
+        }
+        boolean combo = attributes.containsKey("combo");
+        boolean storage = "yes".equals(attributes.get("storage"));
+        String id = "bed-" + size.replace('_', '-') + (storage ? "-storage" : "");
+        String name = displaySize(size) + " bed" + (storage ? " with storage" : "");
+        // A bed-plus-mattress combo is not comparable to a bed alone: propose,
+        // but below the auto-link threshold so a human decides.
+        double confidence = combo ? 0.4 : 0.9;
+        return result(id, RentalCategory.BED, name, confidence,
+                Map.of("size", size, "storage", storage ? "yes" : "no"));
+    }
+
+    private static Optional<MatchResult> mattress(Map<String, String> attributes) {
+        String size = attributes.get("size");
+        if (size == null) {
+            return Optional.empty();
+        }
+        Map<String, String> canonical = new TreeMap<>();
+        canonical.put("size", size);
+        return result("mattress-" + size.replace('_', '-'), RentalCategory.MATTRESS,
+                displaySize(size) + " mattress", 0.9, canonical);
+    }
+
+    private static Optional<MatchResult> washingMachine(Map<String, String> attributes) {
+        String automation = attributes.get("automation");
+        String loadType = attributes.get("load_type");
+        String band = attributes.get("capacity_band");
+
+        if ("semi".equals(automation)) {
+            Map<String, String> canonical = new TreeMap<>();
+            canonical.put("automation", "semi");
+            if (band != null) {
+                canonical.put("capacity_band", band);
+            }
+            return result("washing-machine-semi-automatic", RentalCategory.WASHING_MACHINE,
+                    "Semi-automatic washing machine", 0.9, canonical);
+        }
+        if (loadType != null && band != null) {
+            Map<String, String> canonical = new TreeMap<>();
+            canonical.put("load_type", loadType);
+            canonical.put("capacity_band", band);
+            if (automation != null) {
+                canonical.put("automation", automation);
+            }
+            return result("washing-machine-" + loadType.replace('_', '-') + "-" + band,
+                    RentalCategory.WASHING_MACHINE,
+                    displayLoad(loadType) + " washing machine (" + displayKgBand(band) + ")", 1.0, canonical);
+        }
+        if (loadType != null) {
+            return result("washing-machine-" + loadType.replace('_', '-'), RentalCategory.WASHING_MACHINE,
+                    displayLoad(loadType) + " washing machine", 0.75, Map.of("load_type", loadType));
         }
         return Optional.empty();
     }
 
-    private static Optional<MatchResult> matchRefrigerator(RentalProduct listing, Map<String, String> attributes) {
-        if (attributes.containsKey("excluded")) {
-            return Optional.empty(); // e.g. a deep freezer in the fridge listing
-        }
-        String doorType = attributes.get("door_type");
-        String capacityBand = attributes.get("capacity_band");
-
-        if (doorType == null && capacityBand == null) {
-            return Optional.empty();
-        }
-
-        double confidence;
-        String id;
-        String name;
-        Map<String, String> canonicalAttributes = new TreeMap<>();
-
-        if ("mini".equals(doorType)) {
-            // Mini fridges are one row; capacity rarely appears in their names.
-            id = "refrigerator-mini";
-            name = "Mini refrigerator";
-            canonicalAttributes.put("door_type", "mini");
-            confidence = 0.95;
-        } else if (doorType != null && capacityBand != null) {
-            id = "refrigerator-" + doorType.replace('_', '-') + "-" + capacityBand;
-            name = displayDoor(doorType) + " refrigerator (" + displayBand(capacityBand) + ")";
-            canonicalAttributes.put("door_type", doorType);
-            canonicalAttributes.put("capacity_band", capacityBand);
-            confidence = 1.0;
-        } else if (doorType != null) {
-            // Door type without capacity: too coarse to auto-link.
-            id = "refrigerator-" + doorType.replace('_', '-');
-            name = displayDoor(doorType) + " refrigerator";
-            canonicalAttributes.put("door_type", doorType);
-            confidence = 0.6;
-        } else {
-            // Capacity without door type: propose a band-only row at low confidence.
-            id = "refrigerator-" + capacityBand;
-            name = "Refrigerator (" + displayBand(capacityBand) + ")";
-            canonicalAttributes.put("capacity_band", capacityBand);
-            confidence = 0.5;
-        }
-
-        return Optional.of(new MatchResult(
-                new CanonicalProduct(id, RentalCategory.REFRIGERATOR, name, canonicalAttributes),
-                confidence));
+    private static Optional<MatchResult> result(String id, RentalCategory category, String name,
+                                                double confidence, Map<String, String> attributes) {
+        return Optional.of(new MatchResult(new CanonicalProduct(id, category, name, attributes), confidence));
     }
+
+    // ---- display helpers ----
 
     private static String displayDoor(String doorType) {
         return switch (doorType) {
@@ -86,5 +141,29 @@ public final class Matcher {
 
     private static String displayBand(String band) {
         return band.toUpperCase(Locale.ROOT).replace("-", "–");
+    }
+
+    private static String displayLoad(String loadType) {
+        return "front_load".equals(loadType) ? "Front load" : "Top load";
+    }
+
+    private static String displayKgBand(String band) {
+        return switch (band) {
+            case "under-7kg" -> "under 7 kg";
+            case "7-8kg" -> "7–8 kg";
+            case "8kg-plus" -> "8 kg+";
+            default -> band;
+        };
+    }
+
+    private static String displaySize(String size) {
+        return switch (size) {
+            case "single" -> "Single";
+            case "single_xl" -> "Single XL";
+            case "double" -> "Double";
+            case "queen" -> "Queen";
+            case "king" -> "King";
+            default -> size.replace('_', ' ');
+        };
     }
 }

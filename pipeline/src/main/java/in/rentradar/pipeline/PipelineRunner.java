@@ -72,6 +72,8 @@ public class PipelineRunner {
 
         for (RentalProvider provider : providers) {
             String providerId = provider.getProvider().id();
+            String displayName = provider.getProvider().displayName();
+            String integrationType = provider.getProvider().integrationType().name();
             ProviderRefreshResult result = results.get(providerId);
             Instant attemptAt = Instant.now();
             int previousCount = DataStore.countProviderListings(previousPrices.records(), providerId);
@@ -107,13 +109,15 @@ public class PipelineRunner {
                         : null;
                 String status = warnings.isEmpty() ? "OK" : "DEGRADED";
                 providerRuns.put(providerId, new FileModels.ProviderRun(
-                        status, attemptAt, attemptAt, newCount, previousCount, coverageDelta, null, warnings));
+                        status, displayName, integrationType, attemptAt, attemptAt, newCount, previousCount,
+                        coverageDelta, null, warnings));
                 log.info("{}: {} with {} products ({} price records)", providerId, status, newCount, providerRecords.size());
             } catch (ValidationException e) {
                 anyFailure = true;
                 Instant lastSuccess = previousRunSuccess(providerId);
                 providerRuns.put(providerId, new FileModels.ProviderRun(
-                        "FAILED", attemptAt, lastSuccess, 0, previousCount, null, e.getMessage(), warnings));
+                        "FAILED", displayName, integrationType, attemptAt, lastSuccess, 0, previousCount,
+                        null, e.getMessage(), warnings));
                 log.error("{}: FAILED — {} (previous data kept, FR-5.4)", providerId, e.getMessage());
             }
         }
@@ -137,19 +141,31 @@ public class PipelineRunner {
     // ---- provider isolation ----
 
     private Map<String, ProviderRefreshResult> refreshAllIsolated() throws InterruptedException {
-        Map<String, ProviderRefreshResult> results = new LinkedHashMap<>();
+        // One single-thread executor per provider: isolation and a per-provider
+        // timeout (FR-6.1). Providers run concurrently — they are different
+        // hosts, and each adapter paces its own requests; a hung adapter
+        // cannot stall the fleet.
+        Map<String, ExecutorService> executors = new LinkedHashMap<>();
+        Map<String, Future<ProviderRefreshResult>> futures = new LinkedHashMap<>();
+        long started = System.currentTimeMillis();
         for (RentalProvider provider : providers) {
             String providerId = provider.getProvider().id();
-            // One single-thread executor per provider: a hung adapter cannot stall the fleet (FR-6.1).
             ExecutorService executor = Executors.newSingleThreadExecutor(r -> {
                 Thread t = new Thread(r, "provider-" + providerId);
                 t.setDaemon(true);
                 return t;
             });
-            long started = System.currentTimeMillis();
+            executors.put(providerId, executor);
+            futures.put(providerId, executor.submit(() -> provider.refresh(config.city())));
+        }
+
+        Map<String, ProviderRefreshResult> results = new LinkedHashMap<>();
+        for (Map.Entry<String, Future<ProviderRefreshResult>> entry : futures.entrySet()) {
+            String providerId = entry.getKey();
+            long remaining = Math.max(1,
+                    config.providerTimeoutSeconds() * 1000 - (System.currentTimeMillis() - started));
             try {
-                Future<ProviderRefreshResult> future = executor.submit(() -> provider.refresh(config.city()));
-                results.put(providerId, future.get(config.providerTimeoutSeconds(), TimeUnit.SECONDS));
+                results.put(providerId, entry.getValue().get(remaining, TimeUnit.MILLISECONDS));
             } catch (TimeoutException e) {
                 results.put(providerId, ProviderRefreshResult.failure(providerId,
                         "timed out after " + config.providerTimeoutSeconds() + "s", System.currentTimeMillis() - started));
@@ -157,7 +173,7 @@ public class PipelineRunner {
                 results.put(providerId, ProviderRefreshResult.failure(providerId,
                         "adapter threw: " + e.getMessage(), System.currentTimeMillis() - started));
             } finally {
-                executor.shutdownNow();
+                executors.get(providerId).shutdownNow();
             }
         }
         return results;

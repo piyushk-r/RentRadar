@@ -39,4 +39,30 @@ class RentoMojoListingParserTest {
         // Packages and cross-links must not leak in as products.
         assertThat(cards).noneSatisfy(card -> assertThat(card.path()).contains("/packages/"));
     }
+
+    @Test
+    void parsesBedMattressAndWashingMachineListings() {
+        List<RentoMojoListingParser.ListingCard> beds =
+                RentoMojoListingParser.parse(Fixtures.read("rentomojo/listing-beds.html"));
+        assertThat(beds.size()).isGreaterThanOrEqualTo(15);
+        assertThat(beds).anySatisfy(card -> assertThat(card.name()).contains("Queen Bed"));
+
+        List<RentoMojoListingParser.ListingCard> mattresses =
+                RentoMojoListingParser.parse(Fixtures.read("rentomojo/listing-mattresses.html"));
+        assertThat(mattresses.size()).isGreaterThanOrEqualTo(15);
+        assertThat(mattresses).anySatisfy(card -> assertThat(card.name()).contains("Mattress"));
+
+        List<RentoMojoListingParser.ListingCard> washingMachines =
+                RentoMojoListingParser.parse(Fixtures.read("rentomojo/listing-washing-machines.html"));
+        assertThat(washingMachines.size()).isGreaterThanOrEqualTo(8);
+        assertThat(washingMachines).anySatisfy(card -> assertThat(card.name()).contains("Washing Machine"));
+
+        for (List<RentoMojoListingParser.ListingCard> cards : List.of(beds, mattresses, washingMachines)) {
+            assertThat(cards).allSatisfy(card -> {
+                assertThat(card.externalId()).matches("\\d+");
+                assertThat(card.name()).isNotBlank();
+                assertThat(card.path()).doesNotContain("/packages/");
+            });
+        }
+    }
 }

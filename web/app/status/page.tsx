@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { formatAge } from '../../lib/freshness';
 import type { RunsFile } from '../../lib/types';
-import { PROVIDER_NAMES } from '../../lib/types';
+import { providerLabel } from '../../lib/types';
 
 /**
  * The admin panel that isn't one (PRD section 19): public, read-only pipeline
@@ -48,6 +48,7 @@ export default function Status() {
             <thead>
               <tr>
                 <th scope="col">Provider</th>
+                <th scope="col">Route</th>
                 <th scope="col">Status</th>
                 <th scope="col">Last success</th>
                 <th scope="col">Products</th>
@@ -57,7 +58,18 @@ export default function Status() {
             <tbody>
               {providers.map(([id, run]) => (
                 <tr key={id}>
-                  <th scope="row">{PROVIDER_NAMES[id] ?? id}</th>
+                  <th scope="row">{run.displayName ?? providerLabel(id)}</th>
+                  <td>
+                    {run.integrationType === 'MANUAL'
+                      ? 'manual sheet'
+                      : run.integrationType === 'SCRAPE_BROWSER'
+                        ? 'browser'
+                        : run.integrationType === 'SCRAPE_HTML'
+                          ? 'html'
+                          : run.integrationType === 'API'
+                            ? 'api'
+                            : '—'}
+                  </td>
                   <td>
                     <span className={`chip ${run.status.toLowerCase()}`}>{run.status}</span>
                   </td>
