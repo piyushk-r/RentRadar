@@ -1,7 +1,7 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-08-26T01:13:44.653240526Z",
-    "startedAt" : "2026-08-26T01:07:55.890888020Z"
+    "finishedAt" : "2026-08-26T12:49:13.923777606Z",
+    "startedAt" : "2026-08-26T12:45:07.009481906Z"
   },
   "providers" : {
     "guarented" : {
@@ -9,17 +9,17 @@
       "displayName" : "Guarented",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-08-26T01:13:44.570580366Z",
-      "lastSuccessAt" : "2026-08-26T01:13:44.570580366Z",
+      "lastAttemptAt" : "2026-08-26T12:49:13.876992136Z",
+      "lastSuccessAt" : "2026-08-26T12:49:13.876992136Z",
       "previousProductsFound" : 25,
       "productsFound" : 35,
       "status" : "DEGRADED",
       "warnings" : [
-        "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-double-bed-white: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (/tmp/playwright-java-5462821987626453372/package/lib/s…",
-        "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-yellow: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (/tmp/playwright-java-5462821987626453372/package/lib/s…",
-        "https://www.guarented.com/bangalore/rent/appliances/washing-machine/top-load-washing-machine-on-rent: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (/tmp/playwright-java-5462821987626453372/package/lib/s…",
-        "https://www.guarented.com/bangalore/rent/appliances/washing-machine/front-load-washing-machine-on-rent: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (/tmp/playwright-java-5462821987626453372/package/lib/s…",
-        "https://www.guarented.com/bangalore/rent/appliances/washing-machine/semi-automatic-washing-machine: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (/tmp/playwright-java-5462821987626453372/package/lib/s…",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-double-bed-white: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (/tmp/playwright-java-14383618276345949789/package/lib/…",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-yellow: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (/tmp/playwright-java-14383618276345949789/package/lib/…",
+        "https://www.guarented.com/bangalore/rent/appliances/washing-machine/top-load-washing-machine-on-rent: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (/tmp/playwright-java-14383618276345949789/package/lib/…",
+        "https://www.guarented.com/bangalore/rent/appliances/washing-machine/front-load-washing-machine-on-rent: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (/tmp/playwright-java-14383618276345949789/package/lib/…",
+        "https://www.guarented.com/bangalore/rent/appliances/washing-machine/semi-automatic-washing-machine: Error {\n  message='Timeout 20000ms exceeded.\n  name='TimeoutError\n  stack='TimeoutError: Timeout 20000ms exceeded.\n    at ProgressController.run (/tmp/playwright-java-14383618276345949789/package/lib/…",
         "10 listing(s) below match confidence — sent to review queue"
       ]
     },
@@ -28,7 +28,7 @@
       "displayName" : "RentoMojo",
       "error" : "BED: could not read robots.txt for www.rentomojo.com; refusing to crawl; MATTRESS: could not read robots.txt for www.rentomojo.com; refusing to crawl; REFRIGERATOR: could not read robots.txt for www.rentomojo.com; refusing to crawl; WASHING_MACHINE: could not read robots.txt for www.rentomojo.com; refusing to crawl",
       "integrationType" : "SCRAPE_HTML",
-      "lastAttemptAt" : "2026-08-26T01:13:44.559115936Z",
+      "lastAttemptAt" : "2026-08-26T12:49:13.869364692Z",
       "lastSuccessAt" : "2026-08-25T19:45:52.368959300Z",
       "previousProductsFound" : 74,
       "productsFound" : 0,
