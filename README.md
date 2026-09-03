@@ -114,6 +114,14 @@ appear on the next build.
 
 - Action SHAs in the workflows are pinned; if GitHub rejects one after a fork
   or an action re-release, re-pin against the tag noted in the comment.
+- `data/prices/sofa.json` is over the ~300 KB budget in FR-8.1 (RentoMojo
+  lists ~90 sofas × 6 tenures). Splitting further would mean sharding a
+  category across files the client has to discover; instead each category
+  section fetches its own file only when it scrolls into view, so the budget's
+  actual intent — don't download the sofas to compare fridges — holds. The
+  data gate prints a warning whenever a category crosses the line.
+- A ₹1 deposit is not a parse bug: Guarented genuinely advertises "Security
+  Deposit (Refundable): Rs. 1" on some products. Verified 3 Sep 2026.
 - RentoMojo publishes tenures 3/6/9/11/12/24/36 — there is no 18-month plan,
   so the 18-month view honestly says "no 18-month plan" rather than deriving
   one (PRD §25).
