@@ -1,484 +1,508 @@
 {
-  "productId": "mattress-king",
-  "collectingSince": "2026-08-26T01:20:35+05:30",
+  "productId": "dining-table-6-seater",
+  "collectingSince": "2026-09-03T22:52:59+05:30",
   "series": [
     {
       "provider": "guarented",
-      "externalId": "king-bed-6-foam-mattress",
+      "externalId": "6-seater-dining-table-on-rent",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          170300
+          "2026-09-03T22:52:59+05:30",
+          139700
         ]
       ]
     },
     {
       "provider": "guarented",
-      "externalId": "king-bed-6-foam-mattress",
+      "externalId": "6-seater-dining-table-on-rent",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          119700
+          "2026-09-03T22:52:59+05:30",
+          108100
         ]
       ]
     },
     {
       "provider": "guarented",
-      "externalId": "king-bed-6-foam-mattress",
+      "externalId": "6-seater-dining-table-on-rent",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          89500
+          "2026-09-03T22:52:59+05:30",
+          97400
         ]
       ]
     },
     {
       "provider": "guarented",
-      "externalId": "king-bed-6-foam-mattress",
+      "externalId": "6-seater-dining-table-on-rent",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          82200
+          "2026-09-03T22:52:59+05:30",
+          95700
         ]
       ]
     },
     {
       "provider": "guarented",
-      "externalId": "king-bed-6-foam-mattress",
+      "externalId": "6-seater-dining-table-on-rent",
       "tenureMonths": 18,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          78400
+          "2026-09-03T22:52:59+05:30",
+          94000
         ]
       ]
     },
     {
       "provider": "guarented",
-      "externalId": "king-bed-6-foam-mattress",
+      "externalId": "6-seater-dining-table-on-rent",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          74400
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "117325",
-      "tenureMonths": 3,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          103600
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "117325",
-      "tenureMonths": 6,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          95300
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          104800
+          89700
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "117325",
-      "tenureMonths": 9,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          88600
-        ],
-        [
-          "2026-09-03T22:52:59+05:30",
-          97500
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "117325",
-      "tenureMonths": 12,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          82900
-        ],
-        [
-          "2026-09-03T22:52:59+05:30",
-          91200
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "117325",
-      "tenureMonths": 24,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          82000
-        ],
-        [
-          "2026-09-03T22:52:59+05:30",
-          90300
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "117371",
+      "provider": "guarented",
+      "externalId": "wooden-6-seater-dining-table-with-picasso-chair-set",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          102400
+          "2026-09-03T22:52:59+05:30",
+          160900
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "117371",
+      "provider": "guarented",
+      "externalId": "wooden-6-seater-dining-table-with-picasso-chair-set",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          94200
+          "2026-09-03T22:52:59+05:30",
+          135500
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "117371",
+      "provider": "guarented",
+      "externalId": "wooden-6-seater-dining-table-with-picasso-chair-set",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          87600
+          "2026-09-03T22:52:59+05:30",
+          104200
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "117371",
+      "provider": "guarented",
+      "externalId": "wooden-6-seater-dining-table-with-picasso-chair-set",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          81900
+          "2026-09-03T22:52:59+05:30",
+          102700
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "117371",
+      "provider": "guarented",
+      "externalId": "wooden-6-seater-dining-table-with-picasso-chair-set",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          102500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "wooden-6-seater-dining-table-with-picasso-chair-set",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          81000
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "119221",
-      "tenureMonths": 3,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          33600
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "119221",
-      "tenureMonths": 6,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          30900
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          34000
+          87200
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "119221",
-      "tenureMonths": 9,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          28700
-        ],
-        [
-          "2026-09-03T22:52:59+05:30",
-          31600
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "119221",
-      "tenureMonths": 12,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          26900
-        ],
-        [
-          "2026-09-03T22:52:59+05:30",
-          29600
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "119221",
-      "tenureMonths": 24,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          26600
-        ],
-        [
-          "2026-09-03T22:52:59+05:30",
-          29300
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "44074",
-      "tenureMonths": 3,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          37400
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "44074",
-      "tenureMonths": 6,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          34400
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "44074",
-      "tenureMonths": 9,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          32000
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "44074",
-      "tenureMonths": 12,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          29900
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "44074",
-      "tenureMonths": 24,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          29600
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "97572",
+      "provider": "guarented",
+      "externalId": "wooden-top-6-seater-dining-table",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          78600
+          "2026-09-03T22:52:59+05:30",
+          109200
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "97572",
+      "provider": "guarented",
+      "externalId": "wooden-top-6-seater-dining-table",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          72300
+          "2026-09-03T22:52:59+05:30",
+          84700
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "97572",
+      "provider": "guarented",
+      "externalId": "wooden-top-6-seater-dining-table",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          67300
+          "2026-09-03T22:52:59+05:30",
+          46500
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "97572",
+      "provider": "guarented",
+      "externalId": "wooden-top-6-seater-dining-table",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          62900
+          "2026-09-03T22:52:59+05:30",
+          44500
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "97572",
+      "provider": "guarented",
+      "externalId": "wooden-top-6-seater-dining-table",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          42300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "wooden-top-6-seater-dining-table",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          62300
+          "2026-09-03T22:52:59+05:30",
+          38100
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "97574",
+      "externalId": "126837",
       "tenureMonths": 3,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          91100
+          "2026-09-03T22:52:59+05:30",
+          184800
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "97574",
+      "externalId": "126837",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          83800
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          92200
+          170100
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "97574",
+      "externalId": "126837",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          78000
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          85800
+          158200
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "97574",
+      "externalId": "126837",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          72900
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          80200
+          147900
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "97574",
+      "externalId": "126837",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          72100
-        ],
+          "2026-09-03T22:52:59+05:30",
+          146400
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "127950",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          79400
+          247400
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "127950",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          227500
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "127950",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          211700
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "127950",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          197900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "127950",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          195900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "135646",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          269100
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "135646",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          247500
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "135646",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          210000
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "135646",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          207900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "2883",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          149900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "2883",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          137900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "2883",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          128300
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "2883",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          119900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "2883",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          118700
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "79536",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          149900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "79536",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          137900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "79536",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          128300
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "79536",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          119900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "79536",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          118600
         ]
       ]
     }

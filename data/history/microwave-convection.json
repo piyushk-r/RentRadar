@@ -1,200 +1,184 @@
 {
-  "productId": "washing-machine-semi-automatic",
-  "collectingSince": "2026-08-26T01:20:35+05:30",
+  "productId": "microwave-convection",
+  "collectingSince": "2026-09-03T22:52:59+05:30",
   "series": [
     {
-      "provider": "rentomojo",
-      "externalId": "119583",
+      "provider": "guarented",
+      "externalId": "convection-microwave-oven",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          79900
+          "2026-09-03T22:52:59+05:30",
+          111700
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "119583",
+      "provider": "guarented",
+      "externalId": "convection-microwave-oven",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          73500
+          "2026-09-03T22:52:59+05:30",
+          52100
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "119583",
+      "provider": "guarented",
+      "externalId": "convection-microwave-oven",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          68400
+          "2026-09-03T22:52:59+05:30",
+          47500
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "119583",
+      "provider": "guarented",
+      "externalId": "convection-microwave-oven",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          63900
+          "2026-09-03T22:52:59+05:30",
+          41600
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "119583",
+      "provider": "guarented",
+      "externalId": "convection-microwave-oven",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          41100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "convection-microwave-oven",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          63200
+          "2026-09-03T22:52:59+05:30",
+          40900
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "138224",
+      "externalId": "127336",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          72400
+          "2026-09-03T22:52:59+05:30",
+          82500
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "138224",
+      "externalId": "127336",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          66500
+          "2026-09-03T22:52:59+05:30",
+          75800
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "138224",
+      "externalId": "127336",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          61900
+          "2026-09-03T22:52:59+05:30",
+          70500
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "138224",
+      "externalId": "127336",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          57900
+          "2026-09-03T22:52:59+05:30",
+          65900
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "138224",
+      "externalId": "127336",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          57300
+          "2026-09-03T22:52:59+05:30",
+          65300
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "3094",
-      "tenureMonths": 3,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          49800
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "3094",
+      "externalId": "17666",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          45800
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          50400
+          56500
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "3094",
+      "externalId": "17666",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          42600
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          46900
+          52600
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "3094",
+      "externalId": "17666",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          39800
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          43800
+          49200
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "3094",
+      "externalId": "17666",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          39400
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          43400
+          48600
         ]
       ]
     }

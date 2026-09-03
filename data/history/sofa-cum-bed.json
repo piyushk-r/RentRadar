@@ -1,260 +1,244 @@
 {
-  "productId": "bed-king",
-  "collectingSince": "2026-08-26T01:20:35+05:30",
+  "productId": "sofa-cum-bed",
+  "collectingSince": "2026-09-03T22:52:59+05:30",
   "series": [
     {
-      "provider": "rentomojo",
-      "externalId": "115483",
+      "provider": "guarented",
+      "externalId": "divine-convertible-2-seater-sofa-cum-bed",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          53600
+          188100
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "115483",
+      "provider": "guarented",
+      "externalId": "divine-convertible-2-seater-sofa-cum-bed",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          49300
+          169400
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "115483",
+      "provider": "guarented",
+      "externalId": "divine-convertible-2-seater-sofa-cum-bed",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          45800
+          127000
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "115483",
+      "provider": "guarented",
+      "externalId": "divine-convertible-2-seater-sofa-cum-bed",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          42900
+          125000
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "115483",
+      "provider": "guarented",
+      "externalId": "divine-convertible-2-seater-sofa-cum-bed",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          117700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "divine-convertible-2-seater-sofa-cum-bed",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          42500
+          115200
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121376",
+      "externalId": "115816",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          81200
+          114800
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121376",
+      "externalId": "115816",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          84600
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          74700
+          105700
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121376",
+      "externalId": "115816",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          78700
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          69500
+          98300
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121376",
+      "externalId": "115816",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          73600
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          64900
+          91900
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121376",
+      "externalId": "115816",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          72800
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          64200
+          90900
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121422",
+      "externalId": "138357",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          94900
+          "2026-09-03T22:52:59+05:30",
+          110900
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121422",
+      "externalId": "138357",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          87300
+          "2026-09-03T22:52:59+05:30",
+          102000
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121422",
-      "tenureMonths": 9,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          81300
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "121422",
+      "externalId": "138357",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          75900
+          "2026-09-03T22:52:59+05:30",
+          86500
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121422",
+      "externalId": "138357",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          75200
+          "2026-09-03T22:52:59+05:30",
+          85600
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "4981",
+      "externalId": "5100",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          74900
+          "2026-09-03T22:52:59+05:30",
+          137400
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "4981",
+      "externalId": "5100",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          68900
+          "2026-09-03T22:52:59+05:30",
+          126400
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "4981",
+      "externalId": "5100",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          64100
+          "2026-09-03T22:52:59+05:30",
+          117600
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "4981",
+      "externalId": "5100",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          59900
+          "2026-09-03T22:52:59+05:30",
+          109900
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "4981",
+      "externalId": "5100",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          59200
+          "2026-09-03T22:52:59+05:30",
+          108800
         ]
       ]
     }

@@ -1,0 +1,414 @@
+{
+  "productId": "sofa-l-shape",
+  "collectingSince": "2026-09-03T22:52:59+05:30",
+  "series": [
+    {
+      "provider": "guarented",
+      "externalId": "holmes-l-shape-sofa-blue",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          207500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "holmes-l-shape-sofa-blue",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          166000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "holmes-l-shape-sofa-blue",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          127900
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "holmes-l-shape-sofa-blue",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          126700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "holmes-l-shape-sofa-blue",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          116000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "holmes-l-shape-sofa-blue",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          110100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "iris-l-shape-sofa",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          198200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "iris-l-shape-sofa",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          171100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "iris-l-shape-sofa",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          135500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "iris-l-shape-sofa",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          134300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "iris-l-shape-sofa",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          127500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "iris-l-shape-sofa",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "l-shape-sofa-on-rent",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          207500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "l-shape-sofa-on-rent",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          166000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "l-shape-sofa-on-rent",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          127900
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "l-shape-sofa-on-rent",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          126700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "l-shape-sofa-on-rent",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          116000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "l-shape-sofa-on-rent",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          110100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "milo-l-shape-sofa-on-rent",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          207500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "milo-l-shape-sofa-on-rent",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          166000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "milo-l-shape-sofa-on-rent",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          127900
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "milo-l-shape-sofa-on-rent",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          126700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "milo-l-shape-sofa-on-rent",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          116000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "milo-l-shape-sofa-on-rent",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          110100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "mira-l-shape-sofa",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          198200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "mira-l-shape-sofa",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          171100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "mira-l-shape-sofa",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          135500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "mira-l-shape-sofa",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          134300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "mira-l-shape-sofa",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          127500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "mira-l-shape-sofa",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124500
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "148818",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          241100
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "148818",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          221800
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "148818",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          192900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "148818",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          190900
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "productId": "dining-table-2-seater",
+  "collectingSince": "2026-09-03T22:52:59+05:30",
+  "series": [
+    {
+      "provider": "rentomojo",
+      "externalId": "156362",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          57000
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "156362",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          47500
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "156362",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          38000
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "4982",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          56200
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "4982",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          51700
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "4982",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          48100
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "4982",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          44900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "4982",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          44400
+        ]
+      ]
+    }
+  ]
+}

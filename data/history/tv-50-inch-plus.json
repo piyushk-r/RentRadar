@@ -1,260 +1,256 @@
 {
-  "productId": "bed-king",
-  "collectingSince": "2026-08-26T01:20:35+05:30",
+  "productId": "tv-50-inch-plus",
+  "collectingSince": "2026-09-03T22:52:59+05:30",
   "series": [
     {
       "provider": "rentomojo",
-      "externalId": "115483",
+      "externalId": "127605",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          53600
+          382500
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "115483",
+      "externalId": "127605",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          49300
+          351900
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "115483",
+      "externalId": "127605",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          45800
+          327500
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "115483",
+      "externalId": "127605",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          42900
+          306000
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "115483",
+      "externalId": "127605",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          42500
+          302900
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121376",
+      "externalId": "148978",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          291600
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "148978",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          249900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "149011",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          81200
+          266700
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121376",
+      "externalId": "149011",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          84600
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          74700
+          233300
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121376",
-      "tenureMonths": 9,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          78700
-        ],
-        [
-          "2026-09-03T22:52:59+05:30",
-          69500
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "121376",
+      "externalId": "149011",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          73600
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          64900
+          200000
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121376",
-      "tenureMonths": 24,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          72800
-        ],
-        [
-          "2026-09-03T22:52:59+05:30",
-          64200
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "121422",
+      "externalId": "149077",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          94900
+          "2026-09-03T22:52:59+05:30",
+          240000
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121422",
+      "externalId": "149077",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          87300
+          "2026-09-03T22:52:59+05:30",
+          210000
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121422",
-      "tenureMonths": 9,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          81300
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "121422",
+      "externalId": "149077",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          75900
+          "2026-09-03T22:52:59+05:30",
+          180000
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "121422",
-      "tenureMonths": 24,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          75200
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "4981",
+      "externalId": "149921",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          74900
+          "2026-09-03T22:52:59+05:30",
+          333200
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "4981",
+      "externalId": "149921",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          68900
+          "2026-09-03T22:52:59+05:30",
+          291600
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "4981",
-      "tenureMonths": 9,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          64100
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "4981",
+      "externalId": "149921",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          59900
+          "2026-09-03T22:52:59+05:30",
+          249900
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "4981",
+      "externalId": "94001",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          237400
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "94001",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          218400
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "94001",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          203200
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "94001",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          189900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "94001",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          59200
+          "2026-09-03T22:52:59+05:30",
+          188000
         ]
       ]
     }

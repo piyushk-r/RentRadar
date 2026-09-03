@@ -1,0 +1,1230 @@
+{
+  "productId": "sofa-5-seater",
+  "collectingSince": "2026-09-03T22:52:59+05:30",
+  "series": [
+    {
+      "provider": "guarented",
+      "externalId": "aria-5-seater-sofa-button-tufted",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          248300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "aria-5-seater-sofa-button-tufted",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          167000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "aria-5-seater-sofa-button-tufted",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          118400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "aria-5-seater-sofa-button-tufted",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          106800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "aria-5-seater-sofa-button-tufted",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          100500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "aria-5-seater-sofa-button-tufted",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          94200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "grey-jute-sofa-5-seater",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "grey-jute-sofa-5-seater",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "grey-jute-sofa-5-seater",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "grey-jute-sofa-5-seater",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "grey-jute-sofa-5-seater",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "grey-jute-sofa-5-seater",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-brown-sofa-5-seater",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-brown-sofa-5-seater",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-brown-sofa-5-seater",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-brown-sofa-5-seater",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-brown-sofa-5-seater",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-brown-sofa-5-seater",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater-blue",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater-blue",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater-blue",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater-blue",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater-blue",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater-blue",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater-brown",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater-brown",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater-brown",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater-brown",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater-brown",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "jute-sofa-5-seater-brown",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-aquablue-sofa-5-seater",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-aquablue-sofa-5-seater",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-aquablue-sofa-5-seater",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-aquablue-sofa-5-seater",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-aquablue-sofa-5-seater",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-aquablue-sofa-5-seater",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-black-sofa-5-seater",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-black-sofa-5-seater",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-black-sofa-5-seater",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-black-sofa-5-seater",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-black-sofa-5-seater",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-black-sofa-5-seater",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-green-sofa-5-seater",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-green-sofa-5-seater",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-green-sofa-5-seater",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-green-sofa-5-seater",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-green-sofa-5-seater",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-green-sofa-5-seater",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-grey-sofa-5-seater",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-grey-sofa-5-seater",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-grey-sofa-5-seater",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-grey-sofa-5-seater",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-grey-sofa-5-seater",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-grey-sofa-5-seater",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-navyblue-sofa-5-seater",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-navyblue-sofa-5-seater",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-navyblue-sofa-5-seater",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-navyblue-sofa-5-seater",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-navyblue-sofa-5-seater",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-navyblue-sofa-5-seater",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater-grey",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater-grey",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater-grey",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater-grey",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater-grey",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater-grey",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater-navy-blue",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater-navy-blue",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater-navy-blue",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater-navy-blue",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater-navy-blue",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-5-seater-navy-blue",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-blue-5-seater",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-blue-5-seater",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-blue-5-seater",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-blue-5-seater",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-blue-5-seater",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-blue-5-seater",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-green-5-seater",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          220300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-green-5-seater",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          169400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-green-5-seater",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-green-5-seater",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          108100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-green-5-seater",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "velvet-sofa-green-5-seater",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "zoey-5-seater-sofa-blue-button-tufted",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          248300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "zoey-5-seater-sofa-blue-button-tufted",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          167000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "zoey-5-seater-sofa-blue-button-tufted",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          118400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "zoey-5-seater-sofa-blue-button-tufted",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          106800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "zoey-5-seater-sofa-blue-button-tufted",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          100500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "zoey-5-seater-sofa-blue-button-tufted",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          94200
+        ]
+      ]
+    }
+  ]
+}

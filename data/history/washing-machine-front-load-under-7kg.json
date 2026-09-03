@@ -6,11 +6,15 @@
       "provider": "guarented",
       "externalId": "front-load-washing-machine",
       "tenureMonths": 3,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
           162600
+        ],
+        [
+          "2026-09-03T22:52:59+05:30",
+          154200
         ]
       ]
     },
@@ -18,11 +22,15 @@
       "provider": "guarented",
       "externalId": "front-load-washing-machine",
       "tenureMonths": 6,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
           94000
+        ],
+        [
+          "2026-09-03T22:52:59+05:30",
+          85500
         ]
       ]
     },
@@ -30,11 +38,15 @@
       "provider": "guarented",
       "externalId": "front-load-washing-machine",
       "tenureMonths": 9,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
           89700
+        ],
+        [
+          "2026-09-03T22:52:59+05:30",
+          81300
         ]
       ]
     },
@@ -42,11 +54,15 @@
       "provider": "guarented",
       "externalId": "front-load-washing-machine",
       "tenureMonths": 12,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
           84700
+        ],
+        [
+          "2026-09-03T22:52:59+05:30",
+          76200
         ]
       ]
     },
@@ -54,11 +70,15 @@
       "provider": "guarented",
       "externalId": "front-load-washing-machine",
       "tenureMonths": 18,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
           83500
+        ],
+        [
+          "2026-09-03T22:52:59+05:30",
+          75000
         ]
       ]
     },
@@ -66,11 +86,15 @@
       "provider": "guarented",
       "externalId": "front-load-washing-machine",
       "tenureMonths": 24,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
           83000
+        ],
+        [
+          "2026-09-03T22:52:59+05:30",
+          74500
         ]
       ]
     },
@@ -78,7 +102,7 @@
       "provider": "rentomojo",
       "externalId": "116108",
       "tenureMonths": 3,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
@@ -90,7 +114,7 @@
       "provider": "rentomojo",
       "externalId": "116108",
       "tenureMonths": 6,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
@@ -102,7 +126,7 @@
       "provider": "rentomojo",
       "externalId": "116108",
       "tenureMonths": 9,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
@@ -114,7 +138,7 @@
       "provider": "rentomojo",
       "externalId": "116108",
       "tenureMonths": 12,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
@@ -126,7 +150,7 @@
       "provider": "rentomojo",
       "externalId": "116108",
       "tenureMonths": 24,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",

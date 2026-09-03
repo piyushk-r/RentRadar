@@ -18,7 +18,13 @@ const THRESHOLD = thresholdArg > -1 ? Number(process.argv[thresholdArg + 1]) : 1
 const TENURE = 12;
 
 function git(...args) {
-  return execFileSync('git', args, { encoding: 'utf8', maxBuffer: MAX_BUFFER });
+  // stderr is piped, not inherited: a path absent from an older commit is
+  // expected, and git's "fatal:" line would otherwise pollute the report.
+  return execFileSync('git', args, {
+    encoding: 'utf8',
+    maxBuffer: MAX_BUFFER,
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
 }
 
 function showJson(ref) {

@@ -19,7 +19,13 @@ const STATS_FILE = join('data', 'provider-stats.json');
 const MAX_BUFFER = 64 * 1024 * 1024;
 
 function git(...args) {
-  return execFileSync('git', args, { encoding: 'utf8', maxBuffer: MAX_BUFFER });
+  // stderr is piped, not inherited: asking for a path that did not exist at an
+  // older commit is expected here, and git's "fatal:" line is not a problem.
+  return execFileSync('git', args, {
+    encoding: 'utf8',
+    maxBuffer: MAX_BUFFER,
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
 }
 
 function gitShowJson(ref) {

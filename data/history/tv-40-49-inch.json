@@ -1,484 +1,472 @@
 {
-  "productId": "mattress-king",
-  "collectingSince": "2026-08-26T01:20:35+05:30",
+  "productId": "tv-40-49-inch",
+  "collectingSince": "2026-09-03T22:52:59+05:30",
   "series": [
     {
       "provider": "guarented",
-      "externalId": "king-bed-6-foam-mattress",
+      "externalId": "smart-40-inch-tv-on-rent",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          170300
+          "2026-09-03T22:52:59+05:30",
+          160900
         ]
       ]
     },
     {
       "provider": "guarented",
-      "externalId": "king-bed-6-foam-mattress",
+      "externalId": "smart-40-inch-tv-on-rent",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
+          "2026-09-03T22:52:59+05:30",
+          118600
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "smart-40-inch-tv-on-rent",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          109200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "smart-40-inch-tv-on-rent",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          95700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "smart-40-inch-tv-on-rent",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          94500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "smart-40-inch-tv-on-rent",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          94100
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "101614",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          124900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "101614",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          114900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "101614",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          106900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "101614",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          99900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "101614",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          98900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "115335",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          184800
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "115335",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          170100
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "115335",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          158200
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "115335",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          147900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "115335",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          146400
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "116044",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
           119700
         ]
       ]
     },
     {
-      "provider": "guarented",
-      "externalId": "king-bed-6-foam-mattress",
-      "tenureMonths": 9,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          89500
-        ]
-      ]
-    },
-    {
-      "provider": "guarented",
-      "externalId": "king-bed-6-foam-mattress",
-      "tenureMonths": 12,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          82200
-        ]
-      ]
-    },
-    {
-      "provider": "guarented",
-      "externalId": "king-bed-6-foam-mattress",
-      "tenureMonths": 18,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          78400
-        ]
-      ]
-    },
-    {
-      "provider": "guarented",
-      "externalId": "king-bed-6-foam-mattress",
-      "tenureMonths": 24,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          74400
-        ]
-      ]
-    },
-    {
       "provider": "rentomojo",
-      "externalId": "117325",
-      "tenureMonths": 3,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          103600
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "117325",
+      "externalId": "116044",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          95300
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          104800
+          110200
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "117325",
+      "externalId": "116044",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          88600
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          97500
+          102500
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "117325",
+      "externalId": "116044",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          82900
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          91200
+          95800
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "117325",
+      "externalId": "116044",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          82000
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          90300
+          94700
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "117371",
+      "externalId": "116077",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          102400
+          "2026-09-03T22:52:59+05:30",
+          169500
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "117371",
+      "externalId": "116077",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          94200
+          "2026-09-03T22:52:59+05:30",
+          155900
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "117371",
+      "externalId": "116077",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          87600
+          "2026-09-03T22:52:59+05:30",
+          145100
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "117371",
+      "externalId": "116077",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          81900
+          "2026-09-03T22:52:59+05:30",
+          135600
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "117371",
+      "externalId": "116077",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          81000
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "119221",
-      "tenureMonths": 3,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          33600
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "119221",
-      "tenureMonths": 6,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          30900
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          34000
+          134200
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "119221",
-      "tenureMonths": 9,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          28700
-        ],
-        [
-          "2026-09-03T22:52:59+05:30",
-          31600
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "119221",
-      "tenureMonths": 12,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          26900
-        ],
-        [
-          "2026-09-03T22:52:59+05:30",
-          29600
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "119221",
-      "tenureMonths": 24,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          26600
-        ],
-        [
-          "2026-09-03T22:52:59+05:30",
-          29300
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "44074",
-      "tenureMonths": 3,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          37400
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "44074",
-      "tenureMonths": 6,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          34400
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "44074",
-      "tenureMonths": 9,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          32000
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "44074",
-      "tenureMonths": 12,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          29900
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "44074",
-      "tenureMonths": 24,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          29600
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "97572",
+      "externalId": "149078",
       "tenureMonths": 3,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          78600
+          "2026-09-03T22:52:59+05:30",
+          213300
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "97572",
+      "externalId": "149078",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          72300
+          "2026-09-03T22:52:59+05:30",
+          186700
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "97572",
-      "tenureMonths": 9,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          67300
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "97572",
+      "externalId": "149078",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          62900
+          "2026-09-03T22:52:59+05:30",
+          160000
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "97572",
-      "tenureMonths": 24,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
-      "points": [
-        [
-          "2026-08-26T01:20:35+05:30",
-          62300
-        ]
-      ]
-    },
-    {
-      "provider": "rentomojo",
-      "externalId": "97574",
+      "externalId": "82373",
       "tenureMonths": 3,
-      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          91100
+          "2026-09-03T22:52:59+05:30",
+          76400
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "97574",
+      "externalId": "82373",
       "tenureMonths": 6,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          83800
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          92200
+          70300
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "97574",
+      "externalId": "82373",
       "tenureMonths": 9,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          78000
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          85800
+          65300
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "97574",
+      "externalId": "82373",
       "tenureMonths": 12,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          72900
-        ],
-        [
           "2026-09-03T22:52:59+05:30",
-          80200
+          61100
         ]
       ]
     },
     {
       "provider": "rentomojo",
-      "externalId": "97574",
+      "externalId": "82373",
       "tenureMonths": 24,
       "lastSeen": "2026-09-03T22:52:59+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          72100
-        ],
+          "2026-09-03T22:52:59+05:30",
+          60400
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "95617",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
         [
           "2026-09-03T22:52:59+05:30",
-          79400
+          200100
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "95617",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          184100
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "95617",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          171300
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "95617",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          160100
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "95617",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "points": [
+        [
+          "2026-09-03T22:52:59+05:30",
+          158500
         ]
       ]
     }
