@@ -1,0 +1,18 @@
+// Cloudflare deploy config. The site is a static export (PRD §16: a pipeline,
+// not a server), so this is an assets-only Worker — no `main`, no code path,
+// nothing running per request. `npx wrangler deploy` reads this.
+//
+// Hosting on Cloudflare rather than Vercel is the one choice made to keep the
+// door open (PRD §22): Vercel's Hobby terms restrict it to non-commercial use,
+// and Cloudflare has no equivalent clause.
+{
+  "name": "rentradar",
+  "compatibility_date": "2026-09-03",
+  "assets": {
+    // Written by `cd web && npm ci && npm run build` (the build command).
+    "directory": "./web/out",
+    // Next's static export writes 404.html; serve it for unknown paths rather
+    // than a bare Cloudflare error.
+    "not_found_handling": "404-page"
+  }
+}
