@@ -4,9 +4,10 @@
 //
 // Validates ../data and copies it to public/data for the static export.
 
-import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync } from 'node:fs';
+import { copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { load as loadYaml } from 'js-yaml';
 
 const webDir = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const dataDir = resolve(webDir, '..', 'data');
@@ -46,19 +47,43 @@ const MONEY_FIELDS = [
   'cashUpfrontPaise',
 ];
 
-const prices = loadJson('prices.json', true);
+// Prices are split per category under data/prices/ (FR-8.1); the legacy
+// single prices.json is accepted until the first post-split run commits.
+function loadPriceFiles() {
+  const pricesDir = join(dataDir, 'prices');
+  if (existsSync(pricesDir)) {
+    const files = readdirSync(pricesDir).filter((n) => n.endsWith('.json')).sort();
+    if (files.length === 0) fail('data/prices/ exists but holds no category files');
+    return files.map((name) => {
+      const relative = `prices/${name}`;
+      // The payload budget (AC-2.4): the split is the mechanism, so a single
+      // category ballooning past it deserves a loud warning, not silence.
+      const size = statSync(join(pricesDir, name)).size;
+      if (size > 300 * 1024) console.warn(`WARN ${relative} is ${(size / 1024).toFixed(0)} KB — over the ~300 KB payload budget (FR-8.1)`);
+      return { name: relative, data: loadJson(relative, true) };
+    });
+  }
+  return [{ name: 'prices.json', data: loadJson('prices.json', true) }];
+}
+
+const priceFiles = loadPriceFiles();
 const catalogue = loadJson('catalogue.json', true);
 const runs = loadJson('runs.json', true);
 loadJson('mappings.json', true);
 
-if (prices && catalogue) {
+let totalRecords = 0;
+if (catalogue) {
   const catalogueIds = new Set((catalogue.products ?? []).map((p) => p.id));
-  const records = prices.records ?? [];
-  if (!Array.isArray(records)) {
-    fail('prices.json has no records array');
-  } else {
+  for (const { name, data } of priceFiles) {
+    if (!data) continue;
+    const records = data.records ?? [];
+    if (!Array.isArray(records)) {
+      fail(`${name} has no records array`);
+      continue;
+    }
+    totalRecords += records.length;
     records.forEach((record, index) => {
-      const where = `prices.json record #${index} (${record.provider ?? '?'}/${record.externalId ?? '?'})`;
+      const where = `${name} record #${index} (${record.provider ?? '?'}/${record.externalId ?? '?'})`;
       // Attribution is non-negotiable (PRD section 13): provider, providerUrl, scrapedAt.
       if (!record.provider) fail(`${where}: missing provider`);
       if (!record.providerUrl) fail(`${where}: missing providerUrl`);
@@ -75,14 +100,58 @@ if (prices && catalogue) {
       }
       if (record.monthlyPaise < 0 || record.estimatedTotalPaise < 0) fail(`${where}: negative money`);
     });
-    if (records.length === 0) {
-      fail('prices.json has zero records — refusing to build an empty comparison site');
+  }
+  if (totalRecords === 0) {
+    fail('zero price records — refusing to build an empty comparison site');
+  }
+}
+
+// Setup templates (FR-4.5): YAML in data/, JSON for the browser.
+const setupsYml = join(dataDir, 'setups.yml');
+let setups = null;
+if (existsSync(setupsYml)) {
+  try {
+    setups = loadYaml(readFileSync(setupsYml, 'utf8'));
+    if (!Array.isArray(setups?.setups)) fail('setups.yml has no setups list');
+    for (const setup of setups?.setups ?? []) {
+      if (!setup.apartment || !setup.occupants || typeof setup.items !== 'object') {
+        fail(`setups.yml: template "${setup.label ?? '?'}" needs apartment, occupants and items`);
+      }
     }
+  } catch (e) {
+    fail(`setups.yml is not valid YAML: ${e.message}`);
   }
 }
 
 if (runs && !runs.providers) {
   fail('runs.json has no providers map');
+}
+
+// Cities (AC-3.3): the one place a new city is declared, so it is worth
+// validating — a malformed entry would silently drop its landing pages.
+const cities = loadJson('cities.json', false);
+if (cities) {
+  if (!Array.isArray(cities.cities) || cities.cities.length === 0) {
+    fail('cities.json has no cities array');
+  } else {
+    for (const city of cities.cities) {
+      const where = `cities.json city "${city.id ?? '?'}"`;
+      if (!city.id || !city.label) fail(`${where}: needs an id and a label`);
+      if (!Array.isArray(city.pincodeRanges)) fail(`${where}: pincodeRanges must be an array`);
+      for (const [provider, record] of Object.entries(city.providers ?? {})) {
+        if (!record.source || !record.checkedAt) {
+          fail(`${where}: provider "${provider}" needs a source URL and the date it was checked`);
+        }
+      }
+    }
+    // Every city that claims serviceability should actually have prices.
+    const pricedCities = new Set(priceFiles.flatMap(({ data }) => (data?.records ?? []).map((r) => r.city)));
+    for (const city of cities.cities) {
+      if (!pricedCities.has(city.id)) {
+        console.warn(`WARN cities.json lists "${city.id}" but no price record carries that city — run the pipeline with --pipeline.city=${city.id}`);
+      }
+    }
+  }
 }
 
 if (problems.length > 0) {
@@ -93,10 +162,26 @@ if (problems.length > 0) {
   process.exit(1);
 }
 
+// Wipe first: a file deleted from data/ (prices.json after the per-category
+// split, a retired history file) must not survive here and be served as data.
+rmSync(outDir, { recursive: true, force: true });
 mkdirSync(outDir, { recursive: true });
 for (const name of readdirSync(dataDir)) {
   if (name.endsWith('.json')) {
     copyFileSync(join(dataDir, name), join(outDir, name));
   }
 }
-console.log(`data validated and copied: ${(prices.records ?? []).length} price records, ${(catalogue.products ?? []).length} canonical products`);
+// Per-category prices and per-product history ship as directories.
+for (const sub of ['prices', 'history']) {
+  const from = join(dataDir, sub);
+  if (!existsSync(from)) continue;
+  const to = join(outDir, sub);
+  mkdirSync(to, { recursive: true });
+  for (const name of readdirSync(from)) {
+    if (name.endsWith('.json')) copyFileSync(join(from, name), join(to, name));
+  }
+}
+if (setups) {
+  writeFileSync(join(outDir, 'setups.json'), JSON.stringify(setups, null, 2) + '\n');
+}
+console.log(`data validated and copied: ${totalRecords} price records in ${priceFiles.length} file(s), ${(catalogue.products ?? []).length} canonical products`);

@@ -2,7 +2,10 @@ package in.rentradar.pipeline.store;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import in.rentradar.pipeline.common.Json;
+import in.rentradar.pipeline.common.model.RentalCategory;
 import in.rentradar.pipeline.pricing.PriceRecord;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;
@@ -11,9 +14,11 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.TreeSet;
 
 /**
  * Reads and writes the data/ directory — the database (PRD section 17).
@@ -21,6 +26,8 @@ import java.util.TreeMap;
  * end of a run so a killed run leaves the previous commit untouched (AC-0.3).
  */
 public class DataStore {
+
+    private static final Logger log = LoggerFactory.getLogger(DataStore.class);
 
     private final Path dataDir;
     private final ObjectMapper mapper = Json.mapper();
@@ -35,8 +42,33 @@ public class DataStore {
 
     // ---- reads ----
 
+    /**
+     * Prices live in per-category files under data/prices/ (FR-8.1: a visitor
+     * comparing fridges must not download the sofas). Reads accept the legacy
+     * single data/prices.json so the first run after the split migrates it.
+     */
     public FileModels.PricesFile loadPrices() {
-        return load("prices.json", FileModels.PricesFile.class, new FileModels.PricesFile(List.of()));
+        Path pricesDir = dataDir.resolve("prices");
+        // The legacy file is deleted only after every category file is
+        // written, so if it is still here the split never finished — it, not
+        // the half-built directory, is the intact store (AC-0.3).
+        if (!Files.isDirectory(pricesDir) || Files.exists(dataDir.resolve("prices.json"))) {
+            return load("prices.json", FileModels.PricesFile.class, new FileModels.PricesFile(List.of()));
+        }
+        List<PriceRecord> all = new ArrayList<>();
+        try (var files = Files.list(pricesDir)) {
+            for (Path file : files.filter(f -> f.getFileName().toString().endsWith(".json"))
+                    .sorted().toList()) {
+                try {
+                    all.addAll(mapper.readValue(file.toFile(), FileModels.PricesFile.class).records());
+                } catch (IOException e) {
+                    throw new UncheckedIOException("could not read " + file + " — refusing to overwrite a store I cannot parse", e);
+                }
+            }
+        } catch (IOException e) {
+            throw new UncheckedIOException("could not list " + pricesDir, e);
+        }
+        return new FileModels.PricesFile(all);
     }
 
     public FileModels.CatalogueFile loadCatalogue() {
@@ -121,8 +153,49 @@ public class DataStore {
 
     // ---- writes ----
 
-    public void writePrices(FileModels.PricesFile prices) throws IOException {
-        Json.writeAtomically(mapper, dataDir.resolve("prices.json"), prices);
+    /**
+     * Writes data/prices/{category}.json, one file per category present
+     * (FR-8.1). Stale category files and the legacy prices.json are removed so
+     * the store never carries two copies of a record.
+     */
+    public void writePrices(FileModels.PricesFile prices,
+                            Map<String, RentalCategory> categoryByCanonicalId) throws IOException {
+        Path pricesDir = dataDir.resolve("prices");
+        Files.createDirectories(pricesDir);
+
+        Map<String, List<PriceRecord>> byCategory = new TreeMap<>();
+        Set<String> uncategorized = new TreeSet<>();
+        for (PriceRecord record : prices.records()) {
+            RentalCategory category = categoryByCanonicalId.get(record.canonicalProductId());
+            if (category == null) {
+                // The catalogue no longer knows this id (a review PR renamed or
+                // removed the row while a mapping still points at it). Filing it
+                // under "other" is the honest placement, but it must be said out
+                // loud — the row would otherwise vanish from its real category.
+                uncategorized.add(record.canonicalProductId());
+            }
+            String slug = category == null
+                    ? RentalCategory.OTHER.name().toLowerCase(Locale.ROOT)
+                    : category.name().toLowerCase(Locale.ROOT).replace('_', '-');
+            byCategory.computeIfAbsent(slug, k -> new ArrayList<>()).add(record);
+        }
+        if (!uncategorized.isEmpty()) {
+            log.warn("{} canonical id(s) not in the catalogue — filed under 'other': {}",
+                    uncategorized.size(), uncategorized);
+        }
+        for (Map.Entry<String, List<PriceRecord>> entry : byCategory.entrySet()) {
+            Json.writeAtomically(mapper, pricesDir.resolve(entry.getKey() + ".json"),
+                    new FileModels.PricesFile(entry.getValue()));
+        }
+        try (var files = Files.list(pricesDir)) {
+            for (Path file : files.filter(f -> f.getFileName().toString().endsWith(".json")).toList()) {
+                String slug = file.getFileName().toString().replaceAll("\\.json$", "");
+                if (!byCategory.containsKey(slug)) {
+                    Files.delete(file);
+                }
+            }
+        }
+        Files.deleteIfExists(dataDir.resolve("prices.json"));
     }
 
     public void writeCatalogue(FileModels.CatalogueFile catalogue) throws IOException {

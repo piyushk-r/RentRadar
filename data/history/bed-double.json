@@ -1,0 +1,654 @@
+{
+  "productId": "bed-double",
+  "collectingSince": "2026-08-26T01:20:35+05:30",
+  "series": [
+    {
+      "provider": "guarented",
+      "externalId": "coach-wood-double-bed-on-rent",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          102000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "coach-wood-double-bed-on-rent",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          67700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "coach-wood-double-bed-on-rent",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          61800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "coach-wood-double-bed-on-rent",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          52500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "coach-wood-double-bed-on-rent",
+      "tenureMonths": 18,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          52100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "coach-wood-double-bed-on-rent",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          51600
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "drake-upholstered-double-bed-grey",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          97400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "drake-upholstered-double-bed-grey",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          40600
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "drake-upholstered-double-bed-grey",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          37700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "drake-upholstered-double-bed-grey",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          34200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "drake-upholstered-double-bed-grey",
+      "tenureMonths": 18,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          34100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "drake-upholstered-double-bed-grey",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          33800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "eden-upholstered-double-bed-on-rent",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          109200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "eden-upholstered-double-bed-on-rent",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "eden-upholstered-double-bed-on-rent",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          67700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "eden-upholstered-double-bed-on-rent",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          65700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "eden-upholstered-double-bed-on-rent",
+      "tenureMonths": 18,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          60900
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "eden-upholstered-double-bed-on-rent",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          57500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "new-eden-upholstered-double-bed-rent",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          109200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "new-eden-upholstered-double-bed-rent",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          91400
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "new-eden-upholstered-double-bed-rent",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          67700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "new-eden-upholstered-double-bed-rent",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          65700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "new-eden-upholstered-double-bed-rent",
+      "tenureMonths": 18,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          60900
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "new-eden-upholstered-double-bed-rent",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          57500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-bed",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          93100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-bed",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          61800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-bed",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          55800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-bed",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          53800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-bed",
+      "tenureMonths": 18,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          48200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-bed",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          46500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-bed-white-and-brown",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          93100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-bed-white-and-brown",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          61800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-bed-white-and-brown",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          55800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-bed-white-and-brown",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          53800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-bed-white-and-brown",
+      "tenureMonths": 18,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          48200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-bed-white-and-brown",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          46500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-off-white-and-grey",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          93100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-off-white-and-grey",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          61800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-off-white-and-grey",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          55800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-off-white-and-grey",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          53800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-off-white-and-grey",
+      "tenureMonths": 18,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          48200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "rubberwood-double-off-white-and-grey",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          46500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "solid-wood-double-bed",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          115000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "solid-wood-double-bed",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          66000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "solid-wood-double-bed",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          60100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "solid-wood-double-bed",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          58100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "solid-wood-double-bed",
+      "tenureMonths": 18,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          52500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "solid-wood-double-bed",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          50800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "wrought-iron-double-bed",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          88900
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "wrought-iron-double-bed",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          41100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "wrought-iron-double-bed",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          38100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "wrought-iron-double-bed",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          33300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "wrought-iron-double-bed",
+      "tenureMonths": 18,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          33000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "wrought-iron-double-bed",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          32600
+        ]
+      ]
+    }
+  ]
+}

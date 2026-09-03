@@ -1,0 +1,138 @@
+{
+  "productId": "washing-machine-front-load-under-7kg",
+  "collectingSince": "2026-08-26T01:20:35+05:30",
+  "series": [
+    {
+      "provider": "guarented",
+      "externalId": "front-load-washing-machine",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          162600
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "front-load-washing-machine",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          94000
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "front-load-washing-machine",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          89700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "front-load-washing-machine",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          84700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "front-load-washing-machine",
+      "tenureMonths": 18,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          83500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "front-load-washing-machine",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          83000
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "116108",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          169900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "116108",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          156400
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "116108",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          145400
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "116108",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          135900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "116108",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          134500
+        ]
+      ]
+    }
+  ]
+}

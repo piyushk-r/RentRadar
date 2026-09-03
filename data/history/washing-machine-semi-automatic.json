@@ -1,0 +1,186 @@
+{
+  "productId": "washing-machine-semi-automatic",
+  "collectingSince": "2026-08-26T01:20:35+05:30",
+  "series": [
+    {
+      "provider": "rentomojo",
+      "externalId": "119583",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          79900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "119583",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          73500
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "119583",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          68400
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "119583",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          63900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "119583",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          63200
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "138224",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          72400
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "138224",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          66500
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "138224",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          61900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "138224",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          57900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "138224",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          57300
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "3094",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          49800
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "3094",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          45800
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "3094",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          42600
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "3094",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          39800
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "3094",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          39400
+        ]
+      ]
+    }
+  ]
+}

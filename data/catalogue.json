@@ -2,6 +2,49 @@
   "products" : [
     {
       "attributes" : {
+        "ac_type" : "split",
+        "tonnage" : "1.5"
+      },
+      "category" : "AIR_CONDITIONER",
+      "id" : "ac-split-1-5-ton",
+      "name" : "Split AC (1.5 ton)"
+    },
+    {
+      "attributes" : {
+        "ac_type" : "split",
+        "tonnage" : "1"
+      },
+      "category" : "AIR_CONDITIONER",
+      "id" : "ac-split-1-ton",
+      "name" : "Split AC (1 ton)"
+    },
+    {
+      "attributes" : {
+        "ac_type" : "split",
+        "tonnage" : "2"
+      },
+      "category" : "AIR_CONDITIONER",
+      "id" : "ac-split-2-ton",
+      "name" : "Split AC (2 ton)"
+    },
+    {
+      "attributes" : {
+        "capacity_band" : "30-55l"
+      },
+      "category" : "AIR_COOLER",
+      "id" : "air-cooler-30-55l",
+      "name" : "Air cooler (30–55 L)"
+    },
+    {
+      "attributes" : {
+        "capacity_band" : "under-30l"
+      },
+      "category" : "AIR_COOLER",
+      "id" : "air-cooler-under-30l",
+      "name" : "Air cooler (under 30 L)"
+    },
+    {
+      "attributes" : {
         "size" : "double",
         "storage" : "no"
       },
@@ -65,6 +108,30 @@
     },
     {
       "attributes" : {
+        "seats" : "2"
+      },
+      "category" : "DINING_TABLE",
+      "id" : "dining-table-2-seater",
+      "name" : "2-seater dining set"
+    },
+    {
+      "attributes" : {
+        "seats" : "4"
+      },
+      "category" : "DINING_TABLE",
+      "id" : "dining-table-4-seater",
+      "name" : "4-seater dining set"
+    },
+    {
+      "attributes" : {
+        "seats" : "6"
+      },
+      "category" : "DINING_TABLE",
+      "id" : "dining-table-6-seater",
+      "name" : "6-seater dining set"
+    },
+    {
+      "attributes" : {
         "size" : "double"
       },
       "category" : "MATTRESS",
@@ -105,6 +172,36 @@
     },
     {
       "attributes" : {
+        "type" : "convection"
+      },
+      "category" : "MICROWAVE",
+      "id" : "microwave-convection",
+      "name" : "Convection microwave"
+    },
+    {
+      "attributes" : {
+        "type" : "grill"
+      },
+      "category" : "MICROWAVE",
+      "id" : "microwave-grill",
+      "name" : "Grill microwave"
+    },
+    {
+      "attributes" : {
+        "type" : "solo"
+      },
+      "category" : "MICROWAVE",
+      "id" : "microwave-solo",
+      "name" : "Solo microwave"
+    },
+    {
+      "attributes" : { },
+      "category" : "OFFICE_CHAIR",
+      "id" : "office-chair",
+      "name" : "Office / study chair"
+    },
+    {
+      "attributes" : {
         "capacity_band" : "200-250l",
         "door_type" : "double_door"
       },
@@ -137,6 +234,126 @@
       "category" : "REFRIGERATOR",
       "id" : "refrigerator-single-door-200-250l",
       "name" : "Single door refrigerator (200–250L)"
+    },
+    {
+      "attributes" : {
+        "seats" : "1"
+      },
+      "category" : "SOFA",
+      "id" : "sofa-1-seater",
+      "name" : "1-seater sofa"
+    },
+    {
+      "attributes" : {
+        "seats" : "2"
+      },
+      "category" : "SOFA",
+      "id" : "sofa-2-seater",
+      "name" : "2-seater sofa"
+    },
+    {
+      "attributes" : {
+        "seats" : "3"
+      },
+      "category" : "SOFA",
+      "id" : "sofa-3-seater",
+      "name" : "3-seater sofa"
+    },
+    {
+      "attributes" : {
+        "seats" : "5"
+      },
+      "category" : "SOFA",
+      "id" : "sofa-5-seater",
+      "name" : "5-seater sofa"
+    },
+    {
+      "attributes" : {
+        "style" : "sofa_cum_bed"
+      },
+      "category" : "SOFA",
+      "id" : "sofa-cum-bed",
+      "name" : "Sofa-cum-bed"
+    },
+    {
+      "attributes" : {
+        "style" : "l_shape"
+      },
+      "category" : "SOFA",
+      "id" : "sofa-l-shape",
+      "name" : "L-shaped sofa"
+    },
+    {
+      "attributes" : {
+        "style" : "recliner"
+      },
+      "category" : "SOFA",
+      "id" : "sofa-recliner",
+      "name" : "Recliner"
+    },
+    {
+      "attributes" : {
+        "storage" : "yes"
+      },
+      "category" : "STUDY_TABLE",
+      "id" : "study-table",
+      "name" : "Study table"
+    },
+    {
+      "attributes" : {
+        "size_band" : "32-39-inch"
+      },
+      "category" : "TV",
+      "id" : "tv-32-39-inch",
+      "name" : "TV (32–39 inch)"
+    },
+    {
+      "attributes" : {
+        "size_band" : "40-49-inch"
+      },
+      "category" : "TV",
+      "id" : "tv-40-49-inch",
+      "name" : "TV (40–49 inch)"
+    },
+    {
+      "attributes" : {
+        "size_band" : "50-inch-plus"
+      },
+      "category" : "TV",
+      "id" : "tv-50-inch-plus",
+      "name" : "TV (50 inch+)"
+    },
+    {
+      "attributes" : {
+        "size_band" : "under-32-inch"
+      },
+      "category" : "TV",
+      "id" : "tv-under-32-inch",
+      "name" : "TV (under 32 inch)"
+    },
+    {
+      "attributes" : {
+        "doors" : "1"
+      },
+      "category" : "WARDROBE",
+      "id" : "wardrobe-1-door",
+      "name" : "1-door wardrobe"
+    },
+    {
+      "attributes" : {
+        "doors" : "2"
+      },
+      "category" : "WARDROBE",
+      "id" : "wardrobe-2-door",
+      "name" : "2-door wardrobe"
+    },
+    {
+      "attributes" : {
+        "doors" : "3"
+      },
+      "category" : "WARDROBE",
+      "id" : "wardrobe-3-door",
+      "name" : "3-door wardrobe"
     },
     {
       "attributes" : {
@@ -193,6 +410,12 @@
       "category" : "WASHING_MACHINE",
       "id" : "washing-machine-top-load-under-7kg",
       "name" : "Top load washing machine (under 7 kg)"
+    },
+    {
+      "attributes" : { },
+      "category" : "WATER_PURIFIER",
+      "id" : "water-purifier",
+      "name" : "Water purifier"
     }
   ]
 }

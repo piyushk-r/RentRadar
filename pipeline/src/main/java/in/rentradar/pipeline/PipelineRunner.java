@@ -87,7 +87,17 @@ public class PipelineRunner {
 
                 List<PriceRecord> providerRecords = new ArrayList<>();
                 int unmatched = 0;
+                int excluded = 0;
                 for (RentalProduct listing : result.products()) {
+                    if (Matcher.isExcluded(listing)) {
+                        // A rule positively ruled this listing out of its
+                        // category (a freezer among fridges): confidently out
+                        // of scope, so neither a row nor a review item — and
+                        // not a defect worth degrading the provider over.
+                        excluded++;
+                        pending.remove(listing.providerId() + "|" + listing.externalId());
+                        continue;
+                    }
                     String canonicalId = resolveCanonicalId(listing, mappingIndex, catalogue, pending);
                     if (canonicalId == null) {
                         unmatched++;
@@ -99,6 +109,9 @@ public class PipelineRunner {
 
                 if (unmatched > 0) {
                     warnings.add(unmatched + " listing(s) below match confidence — sent to review queue");
+                }
+                if (excluded > 0) {
+                    log.info("{}: {} listing(s) ruled out of their category by rule", providerId, excluded);
                 }
                 freshRecords.addAll(providerRecords);
                 succeededProviders.add(providerId);
@@ -129,7 +142,9 @@ public class PipelineRunner {
                 .toList()));
         store.writeMappings(new FileModels.MappingsFile(List.copyOf(mappingIndex.values())));
         store.writePending(new FileModels.PendingFile(List.copyOf(pending.values())));
-        store.writePrices(new FileModels.PricesFile(merged));
+        Map<String, in.rentradar.pipeline.common.model.RentalCategory> categoryById = new TreeMap<>();
+        catalogue.forEach((id, product) -> categoryById.put(id, product.category()));
+        store.writePrices(new FileModels.PricesFile(merged), categoryById);
         store.writeRuns(new FileModels.RunsFile(new FileModels.RunInfo(runStarted, Instant.now()), providerRuns));
 
         log.info("run finished: {} price records ({} fresh), {} canonical products, {} pending matches{}",
@@ -194,16 +209,38 @@ public class PipelineRunner {
         FileModels.MappingEntry existing = mappingIndex.get(key);
         if (existing != null) {
             pending.remove(key);
-            return existing.canonicalProductId();
+            String mappedId = existing.canonicalProductId();
+            if (mappedId == null || mappedId.isBlank()) {
+                // A reviewer's way of saying "this maps to nothing": honour it
+                // as unmatched rather than crashing the run on a hand edit.
+                return null;
+            }
+            // A hand-merged mapping may name a canonical id no run has minted
+            // yet; synthesize the catalogue row so the mapping is usable the
+            // moment it lands, without a second manual edit. The matcher knows
+            // the true category better than the provider's directory does.
+            CanonicalProduct proposed = Matcher.match(listing).map(MatchResult::product).orElse(null);
+            catalogue.computeIfAbsent(mappedId, id -> proposed != null && proposed.id().equals(id)
+                    ? proposed
+                    : new CanonicalProduct(id,
+                            proposed == null ? listing.category() : proposed.category(),
+                            displayNameFromId(id), Map.of()));
+            return mappedId;
         }
 
         MatchResult match = Matcher.match(listing).orElse(null);
         if (match == null || match.confidence() < config.autoMatchThreshold()) {
-            pending.putIfAbsent(key, new FileModels.PendingEntry(
+            // Replace rather than putIfAbsent: an entry already in the queue
+            // must pick up fields added since it was written (its category),
+            // and a renamed listing should show its current name — but the
+            // first-seen date is the one thing that must not move.
+            FileModels.PendingEntry previous = pending.get(key);
+            pending.put(key, new FileModels.PendingEntry(
                     listing.providerId(), listing.externalId(), listing.name(), listing.url(),
+                    listing.category().name(),
                     match == null ? null : match.product().id(),
                     match == null ? 0.0 : match.confidence(),
-                    listing.scrapedAt()));
+                    previous == null ? listing.scrapedAt() : previous.firstSeenAt()));
             return null;
         }
 
@@ -214,6 +251,12 @@ public class PipelineRunner {
                 product.id(), match.confidence(), "auto", listing.scrapedAt()));
         pending.remove(key);
         return product.id();
+    }
+
+    /** "bed-queen-storage" → "Bed queen storage": legible, and a human can rename it in a PR. */
+    private static String displayNameFromId(String id) {
+        String words = id.replace('-', ' ');
+        return words.isEmpty() ? id : Character.toUpperCase(words.charAt(0)) + words.substring(1);
     }
 
     private Map<String, CanonicalProduct> catalogueIndex(FileModels.CatalogueFile file) {

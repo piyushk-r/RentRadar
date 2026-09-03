@@ -86,7 +86,10 @@ class PipelineRunnerTest {
                 .run();
 
         assertThat(exitOne).isZero();
-        FileModels.PricesFile pricesOne = mapper.readValue(tempDir.resolve("prices.json").toFile(), FileModels.PricesFile.class);
+        // Prices are split per category (FR-8.1), one file per category present.
+        assertThat(Files.exists(tempDir.resolve("prices").resolve("refrigerator.json"))).isTrue();
+        assertThat(Files.exists(tempDir.resolve("prices.json"))).isFalse();
+        FileModels.PricesFile pricesOne = store.loadPrices();
         assertThat(pricesOne.records()).hasSize(2);
         assertThat(Files.exists(tempDir.resolve("catalogue.json"))).isTrue();
         assertThat(Files.exists(tempDir.resolve("mappings.json"))).isTrue();
@@ -98,7 +101,7 @@ class PipelineRunnerTest {
                 .run();
 
         assertThat(exitTwo).as("a failed provider fails the run so the workflow emails (FR-7.2)").isEqualTo(1);
-        FileModels.PricesFile pricesTwo = mapper.readValue(tempDir.resolve("prices.json").toFile(), FileModels.PricesFile.class);
+        FileModels.PricesFile pricesTwo = store.loadPrices();
         assertThat(pricesTwo.records()).hasSize(2);
         assertThat(pricesTwo.records()).allSatisfy(record ->
                 assertThat(record.scrapedAt()).as("age keeps climbing; nothing was fabricated").isEqualTo(DAY_ONE));
@@ -127,7 +130,7 @@ class PipelineRunnerTest {
                 List.of(fakeProvider(new ProviderRefreshResult("fakeprov", true, one, List.of(), List.of(), 10)))).run();
 
         assertThat(exit).isEqualTo(1);
-        FileModels.PricesFile prices = Json.mapper().readValue(tempDir.resolve("prices.json").toFile(), FileModels.PricesFile.class);
+        FileModels.PricesFile prices = store.loadPrices();
         assertThat(prices.records())
                 .as("the collapse was not committed")
                 .allSatisfy(record -> assertThat(record.scrapedAt()).isEqualTo(DAY_ONE));
@@ -144,7 +147,7 @@ class PipelineRunnerTest {
                 List.of(fakeProvider(new ProviderRefreshResult("fakeprov", true, mixed, List.of(), List.of(), 10)))).run();
 
         assertThat(exit).isZero();
-        FileModels.PricesFile prices = Json.mapper().readValue(tempDir.resolve("prices.json").toFile(), FileModels.PricesFile.class);
+        FileModels.PricesFile prices = store.loadPrices();
         assertThat(prices.records()).allSatisfy(r -> assertThat(r.externalId()).isEqualTo("1"));
 
         FileModels.PendingFile pending = Json.mapper().readValue(tempDir.resolve("pending-matches.json").toFile(), FileModels.PendingFile.class);

@@ -1,17 +1,72 @@
 package in.rentradar.pipeline.store;
 
+import in.rentradar.pipeline.common.Json;
 import in.rentradar.pipeline.common.model.Availability;
+import in.rentradar.pipeline.common.model.RentalCategory;
 import in.rentradar.pipeline.pricing.PriceRecord;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.io.TempDir;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.time.Instant;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 class DataStoreTest {
+
+    @TempDir
+    Path tempDir;
+
+    @Test
+    void pricesAreSplitPerCategoryAndReadBackWhole() throws Exception {
+        DataStore store = new DataStore(tempDir);
+        List<PriceRecord> records = List.of(
+                record("rentomojo", "1", 470_00, "2026-08-27T06:00:00Z"),
+                categorized("guarented", "sofa-3-seater", 900_00));
+        Map<String, RentalCategory> categories = Map.of(
+                "refrigerator-single-door-150-200l", RentalCategory.REFRIGERATOR,
+                "sofa-3-seater", RentalCategory.SOFA);
+
+        store.writePrices(new FileModels.PricesFile(records), categories);
+
+        assertThat(tempDir.resolve("prices/refrigerator.json")).exists();
+        assertThat(tempDir.resolve("prices/sofa.json")).exists();
+        assertThat(store.loadPrices().records()).hasSize(2);
+
+        // A category that empties out must not leave its file behind.
+        store.writePrices(new FileModels.PricesFile(List.of(records.get(0))), categories);
+        assertThat(tempDir.resolve("prices/sofa.json")).doesNotExist();
+        assertThat(store.loadPrices().records()).hasSize(1);
+    }
+
+    @Test
+    void anInterruptedSplitFallsBackToTheIntactLegacyFile() throws Exception {
+        // writePrices deletes prices.json only after every category file is
+        // written, so a legacy file sitting beside a prices/ directory means
+        // the split died midway — the legacy file is the whole store (AC-0.3).
+        Files.createDirectories(tempDir.resolve("prices"));
+        Json.writeAtomically(Json.mapper(), tempDir.resolve("prices/refrigerator.json"),
+                new FileModels.PricesFile(List.of(record("rentomojo", "1", 470_00, "2026-08-27T06:00:00Z"))));
+        Json.writeAtomically(Json.mapper(), tempDir.resolve("prices.json"),
+                new FileModels.PricesFile(List.of(
+                        record("rentomojo", "1", 470_00, "2026-08-27T06:00:00Z"),
+                        record("guarented", "9", 350_00, "2026-08-27T06:00:00Z"))));
+
+        assertThat(new DataStore(tempDir).loadPrices().records())
+                .as("the partial directory must not be mistaken for the store")
+                .hasSize(2);
+    }
+
+    private static PriceRecord categorized(String provider, String canonicalId, long monthlyPaise) {
+        return new PriceRecord(provider, "x", canonicalId, "Some product", "bangalore", 12,
+                monthlyPaise, 0, monthlyPaise, 0, 0, 0, 0, monthlyPaise * 12, monthlyPaise * 2,
+                Availability.IN_STOCK, null, "https://example.test/x", Instant.parse("2026-08-27T06:00:00Z"));
+    }
 
     private static PriceRecord record(String provider, String externalId, long monthlyPaise, String scrapedAt) {
         return new PriceRecord(provider, externalId, "refrigerator-single-door-150-200l",

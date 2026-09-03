@@ -30,11 +30,21 @@ public class RentoMojoAdapter implements RentalProvider {
     private static final String BASE_URL = "https://www.rentomojo.com";
 
     /** Category listing paths per city, under the city prefix (from the published sitemap). */
-    private static final Map<RentalCategory, String> CATEGORY_PATHS = new EnumMap<>(Map.of(
-            RentalCategory.REFRIGERATOR, "appliances/refrigerators-on-rent",
-            RentalCategory.WASHING_MACHINE, "appliances/washing-machines-on-rent",
-            RentalCategory.BED, "furniture/beds-on-rent",
-            RentalCategory.MATTRESS, "furniture/mattresses-on-rent"
+    private static final Map<RentalCategory, String> CATEGORY_PATHS = new EnumMap<>(Map.ofEntries(
+            Map.entry(RentalCategory.REFRIGERATOR, "appliances/refrigerators-on-rent"),
+            Map.entry(RentalCategory.WASHING_MACHINE, "appliances/washing-machines-on-rent"),
+            Map.entry(RentalCategory.BED, "furniture/beds-on-rent"),
+            Map.entry(RentalCategory.MATTRESS, "furniture/mattresses-on-rent"),
+            Map.entry(RentalCategory.SOFA, "furniture/sofas-on-rent"),
+            Map.entry(RentalCategory.WARDROBE, "furniture/wardrobe-and-organizer-on-rent"),
+            Map.entry(RentalCategory.STUDY_TABLE, "furniture/study-tables-on-rent"),
+            Map.entry(RentalCategory.OFFICE_CHAIR, "furniture/chairs-and-stools-on-rent"),
+            Map.entry(RentalCategory.DINING_TABLE, "furniture/dining-tables-on-rent"),
+            Map.entry(RentalCategory.TV, "appliances/smart-led-tvs-on-rent"),
+            Map.entry(RentalCategory.AIR_CONDITIONER, "appliances/air-conditioners-on-rent"),
+            Map.entry(RentalCategory.MICROWAVE, "appliances/microwaves-and-induction-on-rent"),
+            Map.entry(RentalCategory.AIR_COOLER, "appliances/air-coolers-on-rent"),
+            Map.entry(RentalCategory.WATER_PURIFIER, "appliances/water-purifiers-on-rent")
     ));
 
     private final PoliteHttpClient client;
@@ -57,6 +67,18 @@ public class RentoMojoAdapter implements RentalProvider {
 
     @Override
     public List<RentalProduct> fetchProducts(String city, RentalCategory category) throws Exception {
+        return fetchCategory(city, category, new ArrayList<>());
+    }
+
+    /**
+     * One category: the listing page decides whether the category can be read
+     * at all, so a failure there propagates. A single product page failing is
+     * a warning — across ~300 pages a transient timeout is routine, and losing
+     * the provider's entire refresh over one of them would leave every price
+     * stale. Mass breakage is still caught, by the coverage guard (FR-6.4).
+     */
+    private List<RentalProduct> fetchCategory(String city, RentalCategory category, List<String> warnings)
+            throws Exception {
         String categoryPath = CATEGORY_PATHS.get(category);
         if (categoryPath == null) {
             return List.of();
@@ -69,23 +91,35 @@ public class RentoMojoAdapter implements RentalProvider {
         List<RentalProduct> products = new ArrayList<>();
         for (RentoMojoListingParser.ListingCard card : cards) {
             String productUrl = BASE_URL + card.path();
-            String productHtml = client.fetch(productUrl);
-            RentoMojoProductParser.ProductDetails details = RentoMojoProductParser.parse(productHtml);
-            products.add(new RentalProduct(
-                    PROVIDER_ID,
-                    card.externalId(),
-                    details.name(),
-                    productUrl,
-                    details.imageUrl(),
-                    category,
-                    details.availability(),
-                    0, // delivery: RentoMojo advertises free delivery; no fee is published on the page
-                    details.installationFeePaise(),
-                    details.tenurePrices(),
-                    details.rawAttributes(),
-                    Instant.now()));
+            try {
+                RentoMojoProductParser.ProductDetails details =
+                        RentoMojoProductParser.parse(client.fetch(productUrl));
+                products.add(new RentalProduct(
+                        PROVIDER_ID,
+                        card.externalId(),
+                        details.name(),
+                        productUrl,
+                        details.imageUrl(),
+                        category,
+                        details.availability(),
+                        0, // delivery: RentoMojo advertises free delivery; no fee is published on the page
+                        details.installationFeePaise(),
+                        details.tenurePrices(),
+                        details.rawAttributes(),
+                        Instant.now()));
+            } catch (InterruptedException e) {
+                throw e;
+            } catch (Exception e) {
+                warnings.add(productUrl + ": " + shortMessage(e));
+                log.warn("rentomojo: skipping {} — {}", productUrl, shortMessage(e));
+            }
         }
         return products;
+    }
+
+    private static String shortMessage(Exception e) {
+        String message = e.getMessage();
+        return message == null || message.isBlank() ? e.getClass().getSimpleName() : message;
     }
 
     @Override
@@ -96,7 +130,7 @@ public class RentoMojoAdapter implements RentalProvider {
         List<String> errors = new ArrayList<>();
         for (RentalCategory category : categories) {
             try {
-                all.addAll(fetchProducts(city, category));
+                all.addAll(fetchCategory(city, category, warnings));
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 errors.add(category + ": interrupted");

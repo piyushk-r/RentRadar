@@ -1,0 +1,29 @@
+{
+  "cities": [
+    {
+      "id": "bangalore",
+      "label": "Bengaluru",
+      "pincodeRanges": [[560001, 560129]],
+      "note": "City-level only. No provider publishes a machine-readable pincode list we may read, so exact-address serviceability is confirmed on the provider's own checkout.",
+      "providers": {
+        "rentomojo": {
+          "claim": "Operates in Bengaluru (publishes a Bengaluru catalogue and city sitemap)",
+          "source": "https://www.rentomojo.com/bangalore",
+          "checkedAt": "2026-08-27"
+        },
+        "guarented": {
+          "claim": "Operates in Bengaluru (Bengaluru-specific catalogue)",
+          "source": "https://www.guarented.com/bangalore",
+          "checkedAt": "2026-08-27"
+        }
+      }
+    }
+  ],
+  "_howToAddACity": [
+    "AC-3.3: a second city is configuration and serviceability data, not code.",
+    "1. Add an entry above: id must be the provider's own city slug (both providers use /bangalore/, /hyderabad/, …).",
+    "2. Record each provider's serviceability claim with the source URL and the date you checked it.",
+    "3. Set pipeline.city in pipeline/src/main/resources/application.yml (or pass --pipeline.city=<id>) and run.",
+    "The site picks the new city up from this file: a picker appears, and its landing pages are generated at /<id>/…"
+  ]
+}

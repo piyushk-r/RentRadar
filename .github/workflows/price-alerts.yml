@@ -1,0 +1,57 @@
+# Price alerts (AC-3.2). The PRD is explicit that alerts have no free
+# serverless home worth the complexity, so this is not a subscription system:
+# it diffs the last two commits of the price files and opens a GitHub issue,
+# which emails whoever watches the repo. No addresses stored, nothing to run.
+name: price-alerts
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/prices/**"
+      - "data/prices.json"
+  workflow_dispatch:
+
+# Issues are the delivery mechanism; nothing else is written.
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: price-alerts
+  cancel-in-progress: false
+
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          # Needs the previous data commit to diff against.
+          fetch-depth: 2
+
+      - name: Diff the last two price commits
+        id: diff
+        run: |
+          node tools/price-alerts.mjs --threshold 10 > "$RUNNER_TEMP/alerts.md"
+          if [ -s "$RUNNER_TEMP/alerts.md" ]; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            echo "No notable price moves."
+          fi
+
+      - name: Open an issue with the moves
+        if: steps.diff.outputs.found == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "Price moves: $(date -u +'%Y-%m-%d %H:%MZ')" \
+            --body-file "$RUNNER_TEMP/alerts.md" \
+            --label price-alert || \
+          gh issue create \
+            --title "Price moves: $(date -u +'%Y-%m-%d %H:%MZ')" \
+            --body-file "$RUNNER_TEMP/alerts.md"

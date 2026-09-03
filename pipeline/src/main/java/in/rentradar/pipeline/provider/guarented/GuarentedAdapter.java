@@ -40,12 +40,25 @@ public class GuarentedAdapter implements RentalProvider {
     public static final String PROVIDER_ID = "guarented";
     private static final String BASE_URL = "https://www.guarented.com";
 
-    private static final Map<RentalCategory, String> CATEGORY_PATH_PREFIXES = new EnumMap<>(Map.of(
-            RentalCategory.BED, "/bangalore/rent/furniture/beds/",
-            RentalCategory.MATTRESS, "/bangalore/rent/furniture/mattresses/",
-            RentalCategory.REFRIGERATOR, "/bangalore/rent/appliances/fridges/",
-            RentalCategory.WASHING_MACHINE, "/bangalore/rent/appliances/washing-machine/"
+    /** Path under the city prefix — Guarented's URLs are /{city}/rent/… (AC-3.3). */
+    private static final Map<RentalCategory, String> CATEGORY_PATH_PREFIXES = new EnumMap<>(Map.ofEntries(
+            Map.entry(RentalCategory.BED, "/rent/furniture/beds/"),
+            Map.entry(RentalCategory.MATTRESS, "/rent/furniture/mattresses/"),
+            Map.entry(RentalCategory.REFRIGERATOR, "/rent/appliances/fridges/"),
+            Map.entry(RentalCategory.WASHING_MACHINE, "/rent/appliances/washing-machine/"),
+            Map.entry(RentalCategory.SOFA, "/rent/furniture/sofas/"),
+            Map.entry(RentalCategory.WARDROBE, "/rent/furniture/wardrobes/"),
+            Map.entry(RentalCategory.DINING_TABLE, "/rent/furniture/dining/"),
+            // The study directory holds tables and chairs; discovery splits it
+            // by slug, so both categories claim the prefix here.
+            Map.entry(RentalCategory.STUDY_TABLE, "/rent/furniture/study/"),
+            Map.entry(RentalCategory.TV, "/rent/appliances/tv/"),
+            Map.entry(RentalCategory.MICROWAVE, "/rent/appliances/microwave/"),
+            Map.entry(RentalCategory.AIR_COOLER, "/rent/appliances/cooler/"),
+            Map.entry(RentalCategory.WATER_PURIFIER, "/rent/appliances/water-purifier/")
     ));
+
+    private static final String STUDY_PATH = "/rent/furniture/study/";
 
     private static final Pattern LOC = Pattern.compile("<loc>\\s*([^<\\s]+)\\s*</loc>");
     private static final Pattern RUPEE_AMOUNT = Pattern.compile("(?:₹|Rs\\.?)\\s*([0-9][0-9,]*)");
@@ -75,10 +88,7 @@ public class GuarentedAdapter implements RentalProvider {
 
     @Override
     public List<RentalProduct> fetchProducts(String city, RentalCategory category) throws Exception {
-        if (!"bangalore".equals(city)) {
-            return List.of();
-        }
-        Map<RentalCategory, Set<String>> discovered = discoverProductUrls();
+        Map<RentalCategory, Set<String>> discovered = discoverProductUrls(city);
         try (BrowserRenderer renderer = new BrowserRenderer(userAgent, requestDelayMillis)) {
             List<RentalProduct> products = new ArrayList<>();
             for (String url : discovered.getOrDefault(category, Set.of())) {
@@ -102,7 +112,7 @@ public class GuarentedAdapter implements RentalProvider {
 
         Map<RentalCategory, Set<String>> discovered;
         try {
-            discovered = discoverProductUrls();
+            discovered = discoverProductUrls(city);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
             return ProviderRefreshResult.failure(PROVIDER_ID, "interrupted during discovery",
@@ -144,8 +154,9 @@ public class GuarentedAdapter implements RentalProvider {
 
     // ---- discovery ----
 
-    private Map<RentalCategory, Set<String>> discoverProductUrls() throws Exception {
+    private Map<RentalCategory, Set<String>> discoverProductUrls(String city) throws Exception {
         String sitemap = client.fetch(BASE_URL + "/sitemap.xml");
+        String cityPrefix = "/" + city;
         Map<RentalCategory, Set<String>> byCategory = new EnumMap<>(RentalCategory.class);
         Matcher matcher = LOC.matcher(sitemap);
         while (matcher.find()) {
@@ -154,8 +165,18 @@ public class GuarentedAdapter implements RentalProvider {
             if (slug.contains("combo")) {
                 continue; // bundles are not comparable single products
             }
+            if (url.contains(cityPrefix + STUDY_PATH)) {
+                // One directory, two categories: chairs by slug, tables otherwise.
+                RentalCategory category = slug.contains("chair")
+                        ? RentalCategory.OFFICE_CHAIR
+                        : RentalCategory.STUDY_TABLE;
+                if (categories.contains(category)) {
+                    byCategory.computeIfAbsent(category, k -> new LinkedHashSet<>()).add(url);
+                }
+                continue;
+            }
             for (Map.Entry<RentalCategory, String> entry : CATEGORY_PATH_PREFIXES.entrySet()) {
-                if (categories.contains(entry.getKey()) && url.contains(entry.getValue())) {
+                if (categories.contains(entry.getKey()) && url.contains(cityPrefix + entry.getValue())) {
                     byCategory.computeIfAbsent(entry.getKey(), k -> new LinkedHashSet<>()).add(url);
                 }
             }

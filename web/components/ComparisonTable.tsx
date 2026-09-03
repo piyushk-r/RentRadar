@@ -1,9 +1,11 @@
 'use client';
 
-import type { Cell, Comparison } from '../lib/compare';
+import { Fragment, useState } from 'react';
+import type { Cell, Comparison, Row } from '../lib/compare';
 import { formatAge } from '../lib/freshness';
 import { formatPaise } from '../lib/money';
 import { providerLabel } from '../lib/types';
+import { PriceHistory } from './PriceHistory';
 
 /**
  * One cell, one of four honest states: priced, not offered, out of stock, or
@@ -65,6 +67,8 @@ export function ComparisonTable({
   now,
   categoryLabel,
   providerTypes = {},
+  orderedRows,
+  why = {},
 }: {
   comparison: Comparison;
   tenure: number;
@@ -72,8 +76,14 @@ export function ComparisonTable({
   categoryLabel?: string;
   /** integrationType per provider id from runs.json — manual columns are labelled as such. */
   providerTypes?: Record<string, string | null | undefined>;
+  /** rows in the caller's filter/sort order; defaults to the comparison's own */
+  orderedRows?: Row[];
+  /** best-value breakdowns per product id ("why this ranked here", §11) */
+  why?: Record<string, string>;
 }) {
-  const { providers, rows, totals } = comparison;
+  const { providers, totals } = comparison;
+  const rows = orderedRows ?? comparison.rows;
+  const [historyFor, setHistoryFor] = useState<string | null>(null);
 
   if (rows.length === 0) {
     return <p className="empty">No priced products yet for this selection.</p>;
@@ -112,21 +122,45 @@ export function ComparisonTable({
         </thead>
         <tbody>
           {rows.map((row) => (
-            <tr key={row.product.id}>
-              <th scope="row">
-                <div className="product-name">{row.product.name}</div>
-                <div className="product-attrs">
-                  {Object.entries(row.product.attributes)
-                    .map(([key, value]) => `${key.replace(/_/g, ' ')}: ${value.replace(/_/g, ' ')}`)
-                    .join(' · ')}
-                </div>
-              </th>
-              {providers.map((provider) => (
-                <td key={provider}>
-                  <PriceCell cell={row.cells[provider]} tenure={tenure} now={now} />
-                </td>
-              ))}
-            </tr>
+            <Fragment key={row.product.id}>
+              <tr>
+                <th scope="row">
+                  <div className="product-name">
+                    {row.product.name}
+                    {why[row.product.id] && (
+                      <span className="why-rank" tabIndex={0} title={why[row.product.id]} aria-label="Why this ranked here">
+                        ⓘ
+                      </span>
+                    )}
+                  </div>
+                  <div className="product-attrs">
+                    {Object.entries(row.product.attributes)
+                      .map(([key, value]) => `${key.replace(/_/g, ' ')}: ${value.replace(/_/g, ' ')}`)
+                      .join(' · ')}
+                  </div>
+                  <button
+                    type="button"
+                    className="history-toggle"
+                    aria-expanded={historyFor === row.product.id}
+                    onClick={() => setHistoryFor((current) => (current === row.product.id ? null : row.product.id))}
+                  >
+                    {historyFor === row.product.id ? 'Hide price history' : 'Price history'}
+                  </button>
+                </th>
+                {providers.map((provider) => (
+                  <td key={provider}>
+                    <PriceCell cell={row.cells[provider]} tenure={tenure} now={now} />
+                  </td>
+                ))}
+              </tr>
+              {historyFor === row.product.id && (
+                <tr className="history-row">
+                  <td colSpan={providers.length + 1}>
+                    <PriceHistory productId={row.product.id} tenure={tenure} now={now} />
+                  </td>
+                </tr>
+              )}
+            </Fragment>
           ))}
         </tbody>
         <tfoot>
@@ -164,6 +198,15 @@ export function ComparisonTable({
                 <PriceCell cell={row.cells[provider]} tenure={tenure} now={now} />
               </div>
             ))}
+            <button
+              type="button"
+              className="history-toggle"
+              aria-expanded={historyFor === row.product.id}
+              onClick={() => setHistoryFor((current) => (current === row.product.id ? null : row.product.id))}
+            >
+              {historyFor === row.product.id ? 'Hide price history' : 'Price history'}
+            </button>
+            {historyFor === row.product.id && <PriceHistory productId={row.product.id} tenure={tenure} now={now} />}
           </div>
         ))}
       </div>

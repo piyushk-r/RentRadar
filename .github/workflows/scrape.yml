@@ -13,18 +13,27 @@ concurrency:
   group: scrape # the distributed lock, expressed as a policy
   cancel-in-progress: false
 
-# contents: write and nothing more (PRD section 21).
+# contents: write for the data commit; pull-requests: write for the review
+# queue (FR-7.4) — and nothing more (PRD section 21).
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # 14 categories at a polite request pace: the pipeline alone can take
+    # ~45 minutes (provider-timeout-seconds: 2700).
+    timeout-minutes: 75
     steps:
       # Third-party actions pinned to commit SHAs (PRD section 21).
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          # Full history, not the default depth-1: price history IS the git log
+          # (AC-2.1). A shallow clone would make build-history.mjs see one
+          # commit and overwrite every collected observation with a single point.
+          fetch-depth: 0
 
       - name: Set up Java 21
         uses: actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 # v4.7.1
@@ -64,6 +73,43 @@ jobs:
             git commit -m "data: scheduled refresh $(date -u +'%Y-%m-%dT%H:%MZ')"
             git push
           fi
+
+      - name: Rebuild price history from git (AC-2.1)
+        run: |
+          node tools/build-history.mjs
+          git add data/history data/provider-stats.json
+          if git diff --cached --quiet; then
+            echo "No history changes to commit."
+          else
+            git commit -m "data: price history rebuilt from git log"
+            git push
+          fi
+
+      - name: Open review-queue pull request (FR-7.4 / AC-2.3)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          COUNT=$(node -e "console.log(JSON.parse(require('node:fs').readFileSync('data/pending-matches.json','utf8')).pending.filter(e => e.proposedCanonicalId).length)")
+          if [ "$COUNT" -eq 0 ]; then
+            echo "No proposable pending matches."
+            exit 0
+          fi
+          # One review PR at a time: a human may have edited the open branch,
+          # so never regenerate over it. The next run picks up the remainder.
+          if [ "$(gh pr list --state open --head review-queue --json number --jq length)" != "0" ]; then
+            echo "A review-queue PR is already open."
+            exit 0
+          fi
+          git checkout -B review-queue
+          node tools/propose-mappings.mjs > "$RUNNER_TEMP/pr-body.md"
+          git add data/mappings.json data/catalogue.json data/pending-matches.json
+          git commit -m "review queue: $COUNT proposed mapping(s)"
+          git push -f origin review-queue
+          gh pr create \
+            --title "Review queue: $COUNT proposed mapping(s)" \
+            --body-file "$RUNNER_TEMP/pr-body.md" \
+            --base main --head review-queue
+          git checkout main
 
       - name: Fail the workflow if any provider failed
         # The failure email is the entire alerting system (FR-7.2).

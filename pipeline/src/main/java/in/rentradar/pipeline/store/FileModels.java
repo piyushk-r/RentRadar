@@ -53,6 +53,7 @@ public final class FileModels {
             String externalId,
             String name,
             String url,
+            String category, // the listing's category, so a review PR can mint the catalogue row
             String proposedCanonicalId,
             double confidence,
             Instant firstSeenAt) {

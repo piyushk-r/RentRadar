@@ -1,0 +1,54 @@
+{
+  "productId": "washing-machine-top-load-under-7kg",
+  "collectingSince": "2026-08-26T01:20:35+05:30",
+  "series": [
+    {
+      "provider": "rentomojo",
+      "externalId": "127743",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          89700
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "127743",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          83500
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "127743",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          78100
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "127743",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          77300
+        ]
+      ]
+    }
+  ]
+}

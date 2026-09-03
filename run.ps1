@@ -26,6 +26,11 @@ if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 java -jar pipeline/target/pipeline.jar --pipeline.data-dir=data
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
+# History comes from committed runs (AC-2.1); a local uncommitted refresh
+# contributes points only after it is committed and this is re-run.
+node tools/build-history.mjs
+if ($LASTEXITCODE -ne 0) { Write-Host "history rebuild skipped (node or git unavailable)" }
+
 Write-Host ""
 Write-Host "data/ refreshed. Review with: git diff data/"
 Write-Host "To run the site: cd web; npm install; npm run dev"

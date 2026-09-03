@@ -216,4 +216,228 @@ class MatcherTest {
                 "https://example.test/p/13", RentalCategory.WASHING_MACHINE)).orElseThrow();
         assertThat(vague.confidence()).isLessThan(0.8);
     }
+
+    // ---- sofas (names from live listings, 27 Aug 2026) ----
+
+    @Test
+    void sofasMatchOnSeatsWithShapesAsTheirOwnRows() {
+        MatchResult jute = Matcher.match(listing("Jute Sofa 3 Seater",
+                "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-3-seater",
+                RentalCategory.SOFA)).orElseThrow();
+        assertThat(jute.product().id()).isEqualTo("sofa-3-seater");
+        assertThat(jute.confidence()).isGreaterThanOrEqualTo(0.8);
+
+        MatchResult lShape = Matcher.match(listing("L Shape Sofa",
+                "https://www.guarented.com/bangalore/rent/furniture/sofas/l-shape-sofa-on-rent",
+                RentalCategory.SOFA)).orElseThrow();
+        assertThat(lShape.product().id()).isEqualTo("sofa-l-shape");
+
+        // "3 and 2 seater" is a set: proposed for review, never auto-linked.
+        MatchResult set = Matcher.match(listing("Zoey 3 and 2 Seater Sofa",
+                "https://example.test/p/sofa-set", RentalCategory.SOFA)).orElseThrow();
+        assertThat(set.confidence()).isLessThan(0.8);
+
+        assertThat(Matcher.match(listing("Sofa Cover Deluxe", "https://example.test/p/cover",
+                RentalCategory.SOFA))).isEmpty();
+    }
+
+    // ---- wardrobes ----
+
+    @Test
+    void wardrobesMatchOnDoorCountAndOrganizersAreExcluded() {
+        MatchResult twoDoor = Matcher.match(listing("Zoro 2 Door Wardrobe",
+                "https://example.test/p/w1", RentalCategory.WARDROBE)).orElseThrow();
+        assertThat(twoDoor.product().id()).isEqualTo("wardrobe-2-door");
+        assertThat(twoDoor.confidence()).isGreaterThanOrEqualTo(0.8);
+
+        // Material alone identifies a family, not a row.
+        MatchResult vague = Matcher.match(listing("Engineered Wood Wardrobe",
+                "https://example.test/p/w2", RentalCategory.WARDROBE)).orElseThrow();
+        assertThat(vague.confidence()).isLessThan(0.8);
+
+        assertThat(Matcher.match(listing("Clothes Organizer 6 Shelf",
+                "https://example.test/p/w3", RentalCategory.WARDROBE))).isEmpty();
+    }
+
+    // ---- study tables and chairs share a provider directory ----
+
+    @Test
+    void studyTablesAreOneRowAndChairsAreExcludedFromIt() {
+        MatchResult table = Matcher.match(listing("Verona Wooden Study Table",
+                "https://www.guarented.com/bangalore/rent/furniture/study/verona-wooden-study-table",
+                RentalCategory.STUDY_TABLE)).orElseThrow();
+        assertThat(table.product().id()).isEqualTo("study-table");
+        assertThat(table.confidence()).isGreaterThanOrEqualTo(0.8);
+
+        assertThat(Matcher.match(listing("Nelson Study Chair",
+                "https://www.guarented.com/bangalore/rent/furniture/study/nelson-study-chair-on-rent",
+                RentalCategory.STUDY_TABLE))).isEmpty();
+    }
+
+    @Test
+    void officeChairsAreOneRowAndStoolsAreExcluded() {
+        MatchResult revolving = Matcher.match(listing("Revolving Study Chair",
+                "https://www.guarented.com/bangalore/rent/furniture/study/revolving-study-chair",
+                RentalCategory.OFFICE_CHAIR)).orElseThrow();
+        assertThat(revolving.product().id()).isEqualTo("office-chair");
+        assertThat(revolving.confidence()).isGreaterThanOrEqualTo(0.8);
+
+        assertThat(Matcher.match(listing("Bar Stool", "https://example.test/p/stool",
+                RentalCategory.OFFICE_CHAIR))).isEmpty();
+    }
+
+    @Test
+    void officeChairsSoldUnderBareModelNamesAreMatchedNotDiscarded() {
+        // Seen live on RentoMojo's chairs listing: Featherlite models whose
+        // names never say "chair". The back-height wording is the signal.
+        RentalProduct comet = listing("Comet Medium Back Powered by Featherlite",
+                "https://www.rentomojo.com/bangalore/furniture/rent-comet-medium-back-powered-by-featherlite/156263",
+                RentalCategory.OFFICE_CHAIR);
+        assertThat(Matcher.isExcluded(comet)).as("a bare model name is not a positive non-chair").isFalse();
+        assertThat(Matcher.match(comet).orElseThrow().product().id()).isEqualTo("office-chair");
+
+        // Nothing chair-like at all: proposed nowhere, so it lands in review
+        // rather than being silently dropped.
+        RentalProduct mystery = listing("Q-Dios Desk Organiser", "https://example.test/p/organiser",
+                RentalCategory.OFFICE_CHAIR);
+        assertThat(Matcher.isExcluded(mystery)).isFalse();
+        assertThat(Matcher.match(mystery)).isEmpty();
+    }
+
+    @Test
+    void shippingWeightInSpecsIsNotADrumCapacity() {
+        // "Weight: 45 kg" on a spec table must not become an 8kg+ machine.
+        MatchResult match = Matcher.match(listingWithSpecs("Top Load Washing Machine",
+                "https://www.guarented.com/bangalore/rent/appliances/washing-machine/top-load-washing-machine",
+                RentalCategory.WASHING_MACHINE, "Weight: 45 kg · Warranty: 1 year")).orElseThrow();
+        assertThat(match.product().attributes()).doesNotContainKey("capacity_band");
+        assertThat(match.confidence()).as("no capacity parsed — review, not a confident row").isLessThan(0.8);
+    }
+
+    @Test
+    void airCoolerLitresTakeTheFirstFigureAndRejectImplausibleOnes() {
+        // A range later in the name must not beat the capacity stated first.
+        MatchResult plainFirst = Matcher.match(listing("45 Litre Air Cooler (24-32 L tank)",
+                "https://example.test/p/c2", RentalCategory.AIR_COOLER)).orElseThrow();
+        assertThat(plainFirst.product().id()).isEqualTo("air-cooler-30-55l");
+
+        // A model year is not a tank size: nothing to band and nothing else to
+        // go on, so no proposal at all — the listing goes to review.
+        assertThat(Matcher.match(listing("Air Cooler 2024 Model",
+                "https://example.test/p/c3", RentalCategory.AIR_COOLER))).isEmpty();
+    }
+
+    // ---- dining tables ----
+
+    @Test
+    void diningTablesMatchOnSeaterAndPatioSetsAreExcluded() {
+        MatchResult six = Matcher.match(listing("Wooden Top 6 Seater Dining Table",
+                "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-top-6-seater-dining-table",
+                RentalCategory.DINING_TABLE)).orElseThrow();
+        assertThat(six.product().id()).isEqualTo("dining-table-6-seater");
+        assertThat(six.confidence()).isGreaterThanOrEqualTo(0.8);
+
+        assertThat(Matcher.match(listing("Patio Table Chair",
+                "https://www.guarented.com/bangalore/rent/furniture/dining/patio-table-chair-on-rent",
+                RentalCategory.DINING_TABLE))).isEmpty();
+
+        // No seater count: proposed to review, never guessed.
+        assertThat(Matcher.match(listing("Classic Dining Table",
+                "https://example.test/p/d1", RentalCategory.DINING_TABLE))).isEmpty();
+    }
+
+    // ---- TVs ----
+
+    @Test
+    void tvsMatchOnScreenSizeBandAndTvUnitsAreExcluded() {
+        MatchResult small = Matcher.match(listing("32 Inch Smart LED TV",
+                "https://www.guarented.com/bangalore/rent/appliances/tv/32-inch-smart-led-tv",
+                RentalCategory.TV)).orElseThrow();
+        assertThat(small.product().id()).isEqualTo("tv-32-39-inch");
+        assertThat(small.confidence()).isGreaterThanOrEqualTo(0.8);
+
+        MatchResult mid = Matcher.match(listing("Smart TV 43 Inch",
+                "https://www.guarented.com/bangalore/rent/appliances/tv/smart-tv-43-inch",
+                RentalCategory.TV)).orElseThrow();
+        assertThat(mid.product().id()).isEqualTo("tv-40-49-inch");
+
+        assertThat(Matcher.match(listing("Engineered Wood Entertainment TV Unit",
+                "https://example.test/p/tvunit", RentalCategory.TV))).isEmpty();
+    }
+
+    // ---- air conditioners ----
+
+    @Test
+    void acsMatchOnTypeAndTonnage() {
+        MatchResult split = Matcher.match(listing("Voltas 1.5 Ton Split AC",
+                "https://example.test/p/ac1", RentalCategory.AIR_CONDITIONER)).orElseThrow();
+        assertThat(split.product().id()).isEqualTo("ac-split-1-5-ton");
+        assertThat(split.confidence()).isEqualTo(1.0);
+
+        MatchResult window = Matcher.match(listing("Window AC 1 Ton",
+                "https://example.test/p/ac2", RentalCategory.AIR_CONDITIONER)).orElseThrow();
+        assertThat(window.product().id()).isEqualTo("ac-window-1-ton");
+
+        // Tonnage without type: too coarse to auto-link.
+        MatchResult vague = Matcher.match(listing("Inverter AC 1.5 Ton",
+                "https://example.test/p/ac3", RentalCategory.AIR_CONDITIONER)).orElseThrow();
+        assertThat(vague.confidence()).isLessThan(0.8);
+    }
+
+    // ---- microwaves ----
+
+    @Test
+    void microwavesMatchOnTypeAndInductionCooktopsAreExcluded() {
+        MatchResult convection = Matcher.match(listing("Convection Microwave Oven",
+                "https://www.guarented.com/bangalore/rent/appliances/microwave/convection-microwave-oven",
+                RentalCategory.MICROWAVE)).orElseThrow();
+        assertThat(convection.product().id()).isEqualTo("microwave-convection");
+        assertThat(convection.confidence()).isGreaterThanOrEqualTo(0.8);
+
+        MatchResult solo = Matcher.match(listing("Solo Microwave Oven",
+                "https://example.test/p/m1", RentalCategory.MICROWAVE)).orElseThrow();
+        assertThat(solo.product().id()).isEqualTo("microwave-solo");
+
+        assertThat(Matcher.match(listing("Induction Cooktop",
+                "https://example.test/p/m2", RentalCategory.MICROWAVE))).isEmpty();
+    }
+
+    // ---- air coolers ----
+
+    @Test
+    void airCoolersMatchOnCapacityBand() {
+        MatchResult mid = Matcher.match(listing("Air Cooler 50 Litres",
+                "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-50-litres-on-rent",
+                RentalCategory.AIR_COOLER)).orElseThrow();
+        assertThat(mid.product().id()).isEqualTo("air-cooler-30-55l");
+        assertThat(mid.confidence()).isGreaterThanOrEqualTo(0.8);
+
+        // A published range bands by its lower bound, same rule as fridges.
+        MatchResult range = Matcher.match(listing("Air Cooler 24-32 Litres",
+                "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-24-32-litres",
+                RentalCategory.AIR_COOLER)).orElseThrow();
+        assertThat(range.product().id()).isEqualTo("air-cooler-under-30l");
+
+        // Marketing type without litres: review, not a row.
+        MatchResult vague = Matcher.match(listing("Personal Air Cooler",
+                "https://example.test/p/c1", RentalCategory.AIR_COOLER)).orElseThrow();
+        assertThat(vague.confidence()).isLessThan(0.8);
+    }
+
+    // ---- water purifiers ----
+
+    @Test
+    void waterPurifiersAreOneRowAndControllersGoToReview() {
+        MatchResult ro = Matcher.match(listing("Kent RO + UV Water Purifier",
+                "https://example.test/p/wp1", RentalCategory.WATER_PURIFIER)).orElseThrow();
+        assertThat(ro.product().id()).isEqualTo("water-purifier");
+        assertThat(ro.confidence()).isGreaterThanOrEqualTo(0.8);
+        assertThat(ro.product().attributes()).containsEntry("tech", "ro_uv");
+
+        // Seen live on Guarented: a "controller" meters an existing purifier.
+        MatchResult controller = Matcher.match(listing("Water Purifier Controller",
+                "https://www.guarented.com/bangalore/rent/appliances/water-purifier/water-purifier-controller-on-rent",
+                RentalCategory.WATER_PURIFIER)).orElseThrow();
+        assertThat(controller.confidence()).isLessThan(0.8);
+    }
 }

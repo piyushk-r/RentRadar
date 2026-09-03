@@ -1,0 +1,126 @@
+{
+  "productId": "refrigerator-double-door-200-250l",
+  "collectingSince": "2026-08-26T00:11:08+05:30",
+  "series": [
+    {
+      "provider": "guarented",
+      "externalId": "double-door-fridge",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          101100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "double-door-fridge",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          85500
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "double-door-fridge",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          80100
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "double-door-fridge",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          71900
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "double-door-fridge",
+      "tenureMonths": 18,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          71600
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "double-door-fridge",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          71300
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "95989",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T00:11:08+05:30",
+          149100
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "95989",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T00:11:08+05:30",
+          138700
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "95989",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T00:11:08+05:30",
+          129700
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "95989",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T00:11:08+05:30",
+          128400
+        ]
+      ]
+    }
+  ]
+}

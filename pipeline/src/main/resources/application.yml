@@ -18,11 +18,23 @@ pipeline:
     - MATTRESS
     - REFRIGERATOR
     - WASHING_MACHINE
+    - SOFA
+    - WARDROBE
+    - STUDY_TABLE
+    - OFFICE_CHAIR
+    - DINING_TABLE
+    - TV
+    - AIR_CONDITIONER
+    - MICROWAVE
+    - AIR_COOLER
+    - WATER_PURIFIER
   # Honest identification with a contact route (PRD section 14 compliance gate).
   user-agent: "RentRadarBot/0.1 (+https://github.com/piyushk-r/RentRadar; personal, non-commercial price comparison; contact: bookzee.in@gmail.com)"
   # A handful of requests, twice a day, well spaced — politeness before throughput.
   request-delay-millis: 2500
-  provider-timeout-seconds: 480
+  # 14 categories at a polite 2.5s per page needs headroom: ~300 RentoMojo
+  # pages alone is ~13 minutes before Playwright renders start.
+  provider-timeout-seconds: 2700
   auto-match-threshold: 0.8
   # A run that would delete more than this share of a provider's products fails
   # instead of committing (catastrophic-diff guard, PRD section 17).

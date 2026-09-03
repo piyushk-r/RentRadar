@@ -1,6 +1,126 @@
 {
   "mappings" : [
     {
+      "canonicalProductId" : "tv-32-39-inch",
+      "confidence" : 0.9,
+      "externalId" : "32-inch-smart-led-tv",
+      "matchedAt" : "2026-09-03T16:39:53.901832300Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Smart LED TV 32 Inch",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/tv/32-inch-smart-led-tv"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "6-seater-dining-table-on-rent",
+      "matchedAt" : "2026-09-03T16:37:52.209418900Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Hudson 6-Seater Dining Table & Chair Set",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/6-seater-dining-table-on-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "aria-3-seater-brown",
+      "matchedAt" : "2026-09-03T16:28:06.707104600Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Aria 3 Seater Sofa (Brown)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/aria-3-seater-brown"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "aria-3-seater-grey",
+      "matchedAt" : "2026-09-03T16:27:16.231349400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Aria 3-Seater Sofa (Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/aria-3-seater-grey"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "aria-3-seater-red",
+      "matchedAt" : "2026-09-03T16:28:55.323926600Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Aria 3 Seater Sofa (Red)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/aria-3-seater-red"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "aria-3-seater-sofa-black",
+      "matchedAt" : "2026-09-03T16:29:14.765249300Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Aria 3-Seater Sofa (Black)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/aria-3-seater-sofa-black"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "aria-3-seater-sofa-button-tufted",
+      "matchedAt" : "2026-09-03T16:32:53.079061200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Aria 3-Seater Sofa Grey (Button Tufted)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/aria-3-seater-sofa-button-tufted"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "aria-3-seater-sofa-button-tufted-blue",
+      "matchedAt" : "2026-09-03T16:33:09.056647300Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Aria 3-Seater Sofa Blue (Button Tufted)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/aria-3-seater-sofa-button-tufted-blue"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "aria-3-seater-sofa-dark-green",
+      "matchedAt" : "2026-09-03T16:26:32.862477100Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Aria 3-Seater Sofa (Dark Green)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/aria-3-seater-sofa-dark-green"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "aria-3-seater-velvet-sofa-blue",
+      "matchedAt" : "2026-09-03T16:31:19.355211400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Aria 3-Seater Velvet Sofa (Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/aria-3-seater-velvet-sofa-blue"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "aria-5-seater-sofa-button-tufted",
+      "matchedAt" : "2026-09-03T16:32:45.870028100Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Zoey 5-Seater Sofa Grey (Button Tufted)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/aria-5-seater-sofa-button-tufted"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "aria-sofa-3-seater-on-rent",
+      "matchedAt" : "2026-09-03T16:24:19.108333900Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Aria 3 Seater Sofa (Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/aria-sofa-3-seater-on-rent"
+    },
+    {
       "canonicalProductId" : "bed-double",
       "confidence" : 0.9,
       "externalId" : "coach-wood-double-bed-on-rent",
@@ -9,6 +129,26 @@
       "provider" : "guarented",
       "providerName" : "Astoria Platform Double Bed",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/coach-wood-double-bed-on-rent"
+    },
+    {
+      "canonicalProductId" : "microwave-convection",
+      "confidence" : 0.9,
+      "externalId" : "convection-microwave-oven",
+      "matchedAt" : "2026-09-03T16:40:37.787186700Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Convection Microwave Oven",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/microwave/convection-microwave-oven"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "divine-convertible-2-seater-sofa-cum-bed",
+      "matchedAt" : "2026-09-03T16:25:24.689917800Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Divine Convertible 2-Seater Sofa Cum Bed",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/divine-convertible-2-seater-sofa-cum-bed"
     },
     {
       "canonicalProductId" : "mattress-double",
@@ -71,6 +211,46 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-single-bed-black"
     },
     {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "einstein-desk-on-rent",
+      "matchedAt" : "2026-09-03T16:35:46.459576500Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Einstein Study Desk with Storage",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/einstein-desk-on-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "einstein-study-desk-without-storage",
+      "matchedAt" : "2026-09-03T16:36:28.043133700Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Einstein Study Desk without Storage",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/einstein-study-desk-without-storage"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "engineered-wood-2-door-wardrobe-with-mirror",
+      "matchedAt" : "2026-09-03T16:34:21.868483500Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Engineered Wood 2-Door Wardrobe with Mirror",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/wardrobes/engineered-wood-2-door-wardrobe-with-mirror"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "engineered-wood-study-table",
+      "matchedAt" : "2026-09-03T16:35:55.122728200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Engineered Wood Study Table",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/engineered-wood-study-table"
+    },
+    {
       "canonicalProductId" : "washing-machine-front-load-under-7kg",
       "confidence" : 1.0,
       "externalId" : "front-load-washing-machine",
@@ -79,6 +259,36 @@
       "provider" : "guarented",
       "providerName" : "Front Load Washing Machine",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/washing-machine/front-load-washing-machine"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "goose-study-table",
+      "matchedAt" : "2026-09-03T16:36:18.599950500Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Goose Engineered Wood Study Table",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/goose-study-table"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "grey-jute-sofa-5-seater",
+      "matchedAt" : "2026-09-03T16:31:55.343572600Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 5 Seater (Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/grey-jute-sofa-5-seater"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "harry-4-seater-dining-set",
+      "matchedAt" : "2026-09-03T16:39:49.319312900Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Harry 4-Seater Dining Set",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/harry-4-seater-dining-set"
     },
     {
       "canonicalProductId" : "bed-single-storage",
@@ -91,6 +301,146 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/helix-single-storage-bed-on-rent"
     },
     {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "holmes-l-shape-sofa-blue",
+      "matchedAt" : "2026-09-03T16:26:24.026762300Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Holmes L-Shape Sofa (Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/holmes-l-shape-sofa-blue"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "indie-2-seater-grey-sofa-on-rent",
+      "matchedAt" : "2026-09-03T16:30:08.884630900Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Indie 2-Seater Sofa (Grey Velvet)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/indie-2-seater-grey-sofa-on-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "iris-l-shape-sofa",
+      "matchedAt" : "2026-09-03T16:26:16.112960900Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Iris L Shape Sofa with Puffy",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/iris-l-shape-sofa"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "jane-single-seater-sofa-grey",
+      "matchedAt" : "2026-09-03T16:30:18.217383500Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jane Sofa 1 Seater (Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jane-single-seater-sofa-grey"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "jonas-study-chair-on-rent",
+      "matchedAt" : "2026-09-03T16:37:10.831437600Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jonas Revolving Chair",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/jonas-study-chair-on-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "jute-3-seater-sofa-blue",
+      "matchedAt" : "2026-09-03T16:31:05.074449200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 3 Seater (Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-3-seater-sofa-blue"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "jute-brown-sofa-5-seater",
+      "matchedAt" : "2026-09-03T16:32:01.550829500Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 5 Seater (Brown)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-brown-sofa-5-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "jute-sofa-1-seater-blue",
+      "matchedAt" : "2026-09-03T16:30:52.526101200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 1 Seater (Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-1-seater-blue"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "jute-sofa-1-seater-brown",
+      "matchedAt" : "2026-09-03T16:30:30.810350300Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 1 Seater (Brown)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-1-seater-brown"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "jute-sofa-3-seater",
+      "matchedAt" : "2026-09-03T16:24:26.935741400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 3 Seater (Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-3-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "jute-sofa-3-seater-brown",
+      "matchedAt" : "2026-09-03T16:26:09.209376800Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 3 Seater (Brown)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-3-seater-brown"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "jute-sofa-5-seater",
+      "matchedAt" : "2026-09-03T16:24:12.026889200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 5 Seater (Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-5-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "jute-sofa-5-seater-blue",
+      "matchedAt" : "2026-09-03T16:28:39.553978700Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 5 Seater (Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-5-seater-blue"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "jute-sofa-5-seater-brown",
+      "matchedAt" : "2026-09-03T16:30:44.947962100Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 5 Seater (Brown)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-5-seater-brown"
+    },
+    {
       "canonicalProductId" : "mattress-king",
       "confidence" : 0.9,
       "externalId" : "king-bed-6-foam-mattress",
@@ -99,6 +449,106 @@
       "provider" : "guarented",
       "providerName" : "King Bed Foam Mattress (6 Inches)",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/mattresses/king-bed-6-foam-mattress"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "l-shape-sofa-on-rent",
+      "matchedAt" : "2026-09-03T16:24:02.720710100Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Holmes L-Shape Sofa (Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/l-shape-sofa-on-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "lara-2-seater-beige-sofa",
+      "matchedAt" : "2026-09-03T16:28:14.942065700Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Lara 2 Seater Sofa",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/lara-2-seater-beige-sofa"
+    },
+    {
+      "canonicalProductId" : "tv-32-39-inch",
+      "confidence" : 0.9,
+      "externalId" : "led-tv-32-inch",
+      "matchedAt" : "2026-09-03T16:39:59.618909900Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "LED TV 32 Inch",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/tv/led-tv-32-inch"
+    },
+    {
+      "canonicalProductId" : "wardrobe-1-door",
+      "confidence" : 0.9,
+      "externalId" : "leon-single-door-wardrobe-with-mirror",
+      "matchedAt" : "2026-09-03T16:34:12.956049700Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Leon Single Door Wardrobe with Mirror",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/wardrobes/leon-single-door-wardrobe-with-mirror"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "milo-l-shape-sofa-on-rent",
+      "matchedAt" : "2026-09-03T16:27:23.374661900Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Milo L-Shape Sofa",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/milo-l-shape-sofa-on-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "mira-l-shape-sofa",
+      "matchedAt" : "2026-09-03T16:29:28.997042400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Mira L Shape Sofa",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/mira-l-shape-sofa"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "monroe-2-seater-sofa-black",
+      "matchedAt" : "2026-09-03T16:31:11.059325300Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Monroe 2 Seater Sofa (Black)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/monroe-2-seater-sofa-black"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "monroe-2-seater-sofa-button-tufted",
+      "matchedAt" : "2026-09-03T16:33:01.437523600Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Monroe 2-Seater Sofa Grey (Button Tufted)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/monroe-2-seater-sofa-button-tufted"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "monroe-2-seater-sofa-button-tufted-blue",
+      "matchedAt" : "2026-09-03T16:33:16.859068700Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Monroe 2-Seater Sofa Blue (Button Tufted)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/monroe-2-seater-sofa-button-tufted-blue"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "nelson-study-chair-on-rent",
+      "matchedAt" : "2026-09-03T16:37:02.971440800Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Nelson Chair",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/nelson-study-chair-on-rent"
     },
     {
       "canonicalProductId" : "bed-double",
@@ -129,6 +579,26 @@
       "provider" : "guarented",
       "providerName" : "Noah Storage King Bed",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/noah-storage-king-bed"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "pika-study-table",
+      "matchedAt" : "2026-09-03T16:36:09.822806900Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Pika Study Table",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/pika-study-table"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "revolving-study-chair",
+      "matchedAt" : "2026-09-03T16:37:18.704091400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Revolving Study Chair",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/revolving-study-chair"
     },
     {
       "canonicalProductId" : "bed-double",
@@ -201,6 +671,36 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/fridges/single-door-fridge"
     },
     {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "singleseatsofa",
+      "matchedAt" : "2026-09-03T16:25:08.917941100Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 1 Seater (Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/singleseatsofa"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "smart-40-inch-tv-on-rent",
+      "matchedAt" : "2026-09-03T16:40:04.144637200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Smart TV 40-Inch",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/tv/smart-40-inch-tv-on-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "solid-wood-4-seater-dining-table",
+      "matchedAt" : "2026-09-03T16:38:07.419361200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "4-Seater Wooden Dining Table & Chair Set",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/solid-wood-4-seater-dining-table"
+    },
+    {
       "canonicalProductId" : "bed-double",
       "confidence" : 0.9,
       "externalId" : "solid-wood-double-bed",
@@ -231,6 +731,246 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-single-bed-6-4-brown"
     },
     {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "two-seater-sofa-on-rent",
+      "matchedAt" : "2026-09-03T16:25:00.757673300Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Monroe 2 Seater Sofa",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/two-seater-sofa-on-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-aquablue-sofa-5-seater",
+      "matchedAt" : "2026-09-03T16:32:23.268447200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 5 Seater (Aqua Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-aquablue-sofa-5-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-black-sofa-5-seater",
+      "matchedAt" : "2026-09-03T16:32:08.903324700Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 5 Seater (Black)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-black-sofa-5-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-green-sofa-5-seater",
+      "matchedAt" : "2026-09-03T16:32:15.086414700Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 5 Seater (Green)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-green-sofa-5-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-grey-sofa-5-seater",
+      "matchedAt" : "2026-09-03T16:32:35.715302600Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 5 Seater (Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-grey-sofa-5-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-navyblue-sofa-5-seater",
+      "matchedAt" : "2026-09-03T16:32:27.930710800Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 5 Seater (Navy Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-navyblue-sofa-5-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-1-seater",
+      "matchedAt" : "2026-09-03T16:30:24.744290400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 1 Seater (Black)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-1-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-1-seater-blue",
+      "matchedAt" : "2026-09-03T16:28:22.460678200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 1 Seater (Aqua Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-1-seater-blue"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-1-seater-grey",
+      "matchedAt" : "2026-09-03T16:31:48.347505100Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 1 Seater (Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-1-seater-grey"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-1-seater-navy-blue",
+      "matchedAt" : "2026-09-03T16:27:32.939451600Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 1 Seater (Navy Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-1-seater-navy-blue"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-3-seater",
+      "matchedAt" : "2026-09-03T16:30:59.008762100Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 3 Seater (Black)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-3-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-3-seater-blue",
+      "matchedAt" : "2026-09-03T16:28:48.288337400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 3 Seater (Aqua Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-3-seater-blue"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-3-seater-green",
+      "matchedAt" : "2026-09-03T16:30:36.981839Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 3 Seater (Green)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-3-seater-green"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-3-seater-grey",
+      "matchedAt" : "2026-09-03T16:31:37.201894Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 3 Seater (Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-3-seater-grey"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-3-seater-navy-blue",
+      "matchedAt" : "2026-09-03T16:29:03.282682400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 3 Seater (Navy Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-3-seater-navy-blue"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-5-seater",
+      "matchedAt" : "2026-09-03T16:27:07.737377200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 5 Seater (Black)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-5-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-5-seater-grey",
+      "matchedAt" : "2026-09-03T16:31:29.528302300Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 5 Seater (Grey)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-5-seater-grey"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-5-seater-navy-blue",
+      "matchedAt" : "2026-09-03T16:25:59.771854700Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 5 Seater (Navy Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-5-seater-navy-blue"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-blue-5-seater",
+      "matchedAt" : "2026-09-03T16:28:32.363803900Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 5 Seater (Aqua Blue)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-blue-5-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-green-1-seater",
+      "matchedAt" : "2026-09-03T16:29:35.723844300Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 1 Seater (Green)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-green-1-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "velvet-sofa-green-5-seater",
+      "matchedAt" : "2026-09-03T16:29:21.603933400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Velvet Sofa 5 Seater (Green)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/velvet-sofa-green-5-seater"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "verona-wooden-study-table",
+      "matchedAt" : "2026-09-03T16:36:02.880467400Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Verona Wooden Study Table",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/verona-wooden-study-table"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "wooden-6-seater-dining-table-with-picasso-chair-set",
+      "matchedAt" : "2026-09-03T16:39:43.599457600Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Wooden 6 Seater Dining Table with Picasso Chairs Set",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-6-seater-dining-table-with-picasso-chair-set"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "wooden-top-6-seater-dining-table",
+      "matchedAt" : "2026-09-03T16:37:59.472822200Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "6-Seater Dining Table & Chair Set",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-top-6-seater-dining-table"
+    },
+    {
       "canonicalProductId" : "bed-double",
       "confidence" : 0.9,
       "externalId" : "wrought-iron-double-bed",
@@ -251,6 +991,36 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/wrought-iron-single-bed"
     },
     {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "zoey-5-seater-sofa-blue-button-tufted",
+      "matchedAt" : "2026-09-03T16:33:25.770452800Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Zoey 5-Seater Sofa Blue (Button Tufted)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/zoey-5-seater-sofa-blue-button-tufted"
+    },
+    {
+      "canonicalProductId" : "tv-under-32-inch",
+      "confidence" : 0.9,
+      "externalId" : "101573",
+      "matchedAt" : "2026-09-03T16:59:36.531568700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "LED TV -  24\"",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-led-tv-24-inches/101573"
+    },
+    {
+      "canonicalProductId" : "air-cooler-under-30l",
+      "confidence" : 0.9,
+      "externalId" : "101581",
+      "matchedAt" : "2026-09-03T17:01:28.977780400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Air Cooler 27 L",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-air-cooler-27-litre/101581"
+    },
+    {
       "canonicalProductId" : "refrigerator-single-door-150-200l",
       "confidence" : 1.0,
       "externalId" : "101599",
@@ -259,6 +1029,66 @@
       "provider" : "rentomojo",
       "providerName" : "Single Door Fridge (190 Litre)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-single-door-fridge-190-litre/101599"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "101614",
+      "matchedAt" : "2026-09-03T16:59:16.341328400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Smart LED TV - 43\"",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-smart-led-tv-43-inches/101614"
+    },
+    {
+      "canonicalProductId" : "ac-split-1-ton",
+      "confidence" : 1.0,
+      "externalId" : "101641",
+      "matchedAt" : "2026-09-03T17:00:48.750072700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "1 Ton 3 Star Non Inverter Split AC",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-1-ton-3-star-non-inverter-split-ac/101641"
+    },
+    {
+      "canonicalProductId" : "ac-split-1-5-ton",
+      "confidence" : 1.0,
+      "externalId" : "101652",
+      "matchedAt" : "2026-09-03T17:00:55.267590500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "1.5 Ton 3 Star Non Inverter Split AC",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-1-5-ton-3-star-non-inverter-split-ac/101652"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "101954",
+      "matchedAt" : "2026-09-03T16:51:36.237525800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Regina Low Height 3-Seater Sofa (Green)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-regina-low-height-3-seater-sofa-green/101954"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "102066",
+      "matchedAt" : "2026-09-03T16:50:27.281453400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Aqua 3-Seater Sofa",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-aqua-3-seater-sofa/102066"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "102254",
+      "matchedAt" : "2026-09-03T16:51:33.062506Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Regina Low Height 3-Seater Sofa (White)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-regina-low-height-3-seater-sofa-white/102254"
     },
     {
       "canonicalProductId" : "bed-queen",
@@ -271,6 +1101,136 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-napster-queen-bed-white/102333"
     },
     {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "102422",
+      "matchedAt" : "2026-09-03T16:55:25.318358800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Kipper 2-Door Wardrobe",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-kipper-2-door-wardrobe/102422"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "103107",
+      "matchedAt" : "2026-09-03T17:01:59.737193Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Kent Pride Plus Water Purifier",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-kent-pride-plus-water-purifier/103107"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "103401",
+      "matchedAt" : "2026-09-03T16:54:40.547185400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Leo 3-Seater Sofa (Blue)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-leo-3-seater-sofa-blue/103401"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "103654",
+      "matchedAt" : "2026-09-03T16:54:37.479885700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Moonstone 3-Seater Sofa",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-moonstone-3-seater-sofa/103654"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "103750",
+      "matchedAt" : "2026-09-03T16:56:01.181692800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Leonard Study Table",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-leonard-study-table/103750"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "104634",
+      "matchedAt" : "2026-09-03T16:54:55.994910700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Glazy 2-Door Wardrobe",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-glazy-2-door-wardrobe/104634"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "104640",
+      "matchedAt" : "2026-09-03T16:49:59.936304600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Roma 3-Seater Sofa (Dark Blue)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-roma-3-seater-sofa-db/104640"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "104641",
+      "matchedAt" : "2026-09-03T16:50:04.519433100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Roma 3-Seater Sofa (Teal Green)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-roma-3-seater-sofa-tg/104641"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "104994",
+      "matchedAt" : "2026-09-03T16:57:49.546328900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Adde Grey Chair by Ikea",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-adde-grey-chair-by-ikea/104994"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "105022",
+      "matchedAt" : "2026-09-03T16:53:21.925099500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Casper 1-Seater Fabric Sofa (Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-casper-1-seater-sofa/105022"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "105024",
+      "matchedAt" : "2026-09-03T16:57:46.454282Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Adde White Chair by Ikea",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-adde-white-chair-by-ikea/105024"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "105026",
+      "matchedAt" : "2026-09-03T16:54:28.353987200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Brooklyn 1-Seater Sofa (Blue)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-1-seater-sofa-blue/105026"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "105027",
+      "matchedAt" : "2026-09-03T16:52:14.866837300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Brooklyn 1-Seater Sofa (Burgundy)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-1-seater-sofa-burgundy/105027"
+    },
+    {
       "canonicalProductId" : "mattress-single",
       "confidence" : 0.9,
       "externalId" : "105028",
@@ -279,6 +1239,16 @@
       "provider" : "rentomojo",
       "providerName" : "Set Of 2 Single Foam Mattress",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-set-of-2-single-foam-mattress/105028"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "106276",
+      "matchedAt" : "2026-09-03T16:52:42.864043600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Brooklyn 3-Seater Sofa (Blue)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-3-seater-sofa-blue/106276"
     },
     {
       "canonicalProductId" : "refrigerator-single-door-150-200l",
@@ -291,6 +1261,156 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-single-door-fridge-190ltr-2s/106576"
     },
     {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "106654",
+      "matchedAt" : "2026-09-03T17:02:25.410932500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Kent Maxx Water Purifier",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-kent-maxx-water-purifier/106654"
+    },
+    {
+      "canonicalProductId" : "ac-split-1-5-ton",
+      "confidence" : 1.0,
+      "externalId" : "109476",
+      "matchedAt" : "2026-09-03T17:00:58.241382200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "1.5 Ton 2 Star Non Inverter Split AC",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-1-5-ton-2-star-non-inverter-split-ac/109476"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "109885",
+      "matchedAt" : "2026-09-03T16:56:52.086702700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Alex Mesh Office Chair with Adjustable Headrest & Armrest",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-alex-mesh-office-chair/109885"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "114988",
+      "matchedAt" : "2026-09-03T16:55:54.425522100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Stuart Study Table (Walnut)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-stuart-study-table-walnut/114988"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "115186",
+      "matchedAt" : "2026-09-03T16:52:39.362952400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Parker Leatherette Recliner (Teal Blue)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-parker-leatherette-recliner-teal-blue/115186"
+    },
+    {
+      "canonicalProductId" : "ac-split-1-5-ton",
+      "confidence" : 1.0,
+      "externalId" : "115219",
+      "matchedAt" : "2026-09-03T17:00:31.504937900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "1.5 Ton 3 Star Convertible Inverter Split AC",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-ton-3-star-convertible-inverter-split-ac/115219"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "115262",
+      "matchedAt" : "2026-09-03T17:01:41.421709Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Water Purifier with Mineral Enhancer",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-water-purifier-with-mineral-enhancer/115262"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "115285",
+      "matchedAt" : "2026-09-03T16:53:27.994784300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Brooklyn 1-Seater Fabric Sofa (Charcoal Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-1-seater-fabric-sofa-charcoal-grey/115285"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "115286",
+      "matchedAt" : "2026-09-03T16:52:22.702548800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Brooklyn 3-Seater Fabric Sofa (Charcoal Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-3-seater-fabric-sofa-charcoal-grey/115286"
+    },
+    {
+      "canonicalProductId" : "ac-split-2-ton",
+      "confidence" : 1.0,
+      "externalId" : "115333",
+      "matchedAt" : "2026-09-03T17:00:42.708829200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "2 Ton 3 Star Convertible Inverter Split AC",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-2-ton-3-star-convertible-inverter-split-ac/115333"
+    },
+    {
+      "canonicalProductId" : "tv-32-39-inch",
+      "confidence" : 0.9,
+      "externalId" : "115334",
+      "matchedAt" : "2026-09-03T16:59:26.766952Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Samsung Smart LED 32 inch HD TV",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-smart-led-32-inch-hd-tv/115334"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "115335",
+      "matchedAt" : "2026-09-03T16:59:23.411226Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Samsung Smart LED 43 inch FHD TV with Personal Computer Mode",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-smart-led-43-inch-fhd-tv/115335"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "115336",
+      "matchedAt" : "2026-09-03T16:50:54.792350800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Roma Fabric Recliner (Iridium Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-roma-fabric-recliner-iridium-grey/115336"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "115337",
+      "matchedAt" : "2026-09-03T16:53:40.858908600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Robin Fabric Push Back Recliner (Charcoal Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-robin-fabric-push-back-recliner/115337"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "115483",
+      "matchedAt" : "2026-09-03T16:46:17.485627800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Dreamcatcher King Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-dreamcatcher-king-bed/115483"
+    },
+    {
       "canonicalProductId" : "bed-king-storage",
       "confidence" : 0.9,
       "externalId" : "115615",
@@ -299,6 +1419,76 @@
       "provider" : "rentomojo",
       "providerName" : "Brooklyn King Size Storage Bed (Charcoal Grey) (72*78 inch)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-king-size-storage-bed-charcoal-grey/115615"
+    },
+    {
+      "canonicalProductId" : "wardrobe-1-door",
+      "confidence" : 0.9,
+      "externalId" : "115696",
+      "matchedAt" : "2026-09-03T16:55:05.549071700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Stowy 1- Door Wardrobe (Walnut)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-stowy-wardrobe-1-door-walnut/115696"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "115712",
+      "matchedAt" : "2026-09-03T16:54:46.868032200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Stowy 2- Door Wardrobe (Walnut)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-stowy-wardrobe-2-door-walnut/115712"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "115816",
+      "matchedAt" : "2026-09-03T16:50:18.232081400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Wingman Sofa cum Bed (Mist Blue)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-wingman-sofa-cum-bed-mist-blue/115816"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "115912",
+      "matchedAt" : "2026-09-03T16:53:24.979216100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Roma Fabric Motorized Recliner (Sandstone)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-roma-fabric-motorized-recliner-sandstone/115912"
+    },
+    {
+      "canonicalProductId" : "wardrobe-3-door",
+      "confidence" : 0.9,
+      "externalId" : "115945",
+      "matchedAt" : "2026-09-03T16:54:59.108503200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Pearl 3 Door wardrobe (Walnut)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-pearl-3-door-wardrobe-walnut/115945"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "116044",
+      "matchedAt" : "2026-09-03T16:59:02.773673700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "LED TV 43 inch",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-led-tv-43-inch/116044"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "116077",
+      "matchedAt" : "2026-09-03T16:59:33.162002800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "LED TV 49 inch",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-led-tv-49-inch/116077"
     },
     {
       "canonicalProductId" : "washing-machine-front-load-under-7kg",
@@ -311,6 +1501,26 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-6-kg-inverter-fully-automatic-front-loading-washing-machine/116108"
     },
     {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "116143",
+      "matchedAt" : "2026-09-03T17:02:02.908673100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "DrinkPrime - Unlimited",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-unlimited-water-plan/116143"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "116224",
+      "matchedAt" : "2026-09-03T16:58:45.874032400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Rian 4-Seater Dining Set (Cappuccino)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-rian-4-seater-dining-set-cappuccino/116224"
+    },
+    {
       "canonicalProductId" : "bed-queen-storage",
       "confidence" : 0.9,
       "externalId" : "116473",
@@ -319,6 +1529,56 @@
       "provider" : "rentomojo",
       "providerName" : "Miller Engineered Wood Non Storage Queen Bed",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-miller-engineered-wood-non-storage-queen-bed/116473"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "117101",
+      "matchedAt" : "2026-09-03T16:55:28.664980400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Rian 2 Door Wardrobe with Mirror(Sonoma Oak)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-rian-2-door-wardrobe-with-mirror-sonoma-oak/117101"
+    },
+    {
+      "canonicalProductId" : "wardrobe-3-door",
+      "confidence" : 0.9,
+      "externalId" : "117145",
+      "matchedAt" : "2026-09-03T16:55:44.365191700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Rian 3 Door Wardrobe without Mirror(Sonoma Oak)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-rian-3-door-wardrobe-without-mirror-sonoma-oak/117145"
+    },
+    {
+      "canonicalProductId" : "wardrobe-1-door",
+      "confidence" : 0.9,
+      "externalId" : "117160",
+      "matchedAt" : "2026-09-03T16:55:21.997920500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Rian 1 Door Wardrobe with Dresser(Sonoma Oak)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-rian-1-door-wardrobe-with-dresser-sonoma-oak/117160"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "117272",
+      "matchedAt" : "2026-09-03T17:02:20.992097800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Urban Company Native M2 Water Purifier",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-urban-company-native-m2-water-purifier/117272"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "117291",
+      "matchedAt" : "2026-09-03T17:02:14.722969300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Urban Company Native M1 Water Purifier",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-urban-company-native-m1-water-purifier/117291"
     },
     {
       "canonicalProductId" : "mattress-king",
@@ -401,6 +1661,246 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-inverter-front-load-washing-machine-with-inbuilt-heater-8-kg/118206"
     },
     {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "118233",
+      "matchedAt" : "2026-09-03T16:51:19.582440100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Casper 3-Seater Fabric Sofa (Sage Green)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-casper-3-seater-fabric-sofa-sage-green/118233"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "118241",
+      "matchedAt" : "2026-09-03T16:53:03.331754300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Casper 1-Seater Fabric Sofa (Sage Green)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-casper-1-seater-fabric-sofa-sage-green/118241"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "118273",
+      "matchedAt" : "2026-09-03T16:52:19.321143400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Casper 2-Seater Fabric Sofa (Sage Green)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-casper-2-seater-fabric-sofa-sage-green/118273"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "118295",
+      "matchedAt" : "2026-09-03T16:52:01.439769Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Felix 1-Seater Fabric Sofa (Ash Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-felix-1-seater-fabric-sofa-ash-grey/118295"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "118343",
+      "matchedAt" : "2026-09-03T16:50:08.996707500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Roma 3-Seater Fabric Sofa (Safari Brown)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-roma-3-seater-fabric-sofa-safari-brown/118343"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "118358",
+      "matchedAt" : "2026-09-03T16:52:55.611978300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Roma 1-Seater Fabric Sofa (Safari Brown)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-roma-1-seater-fabric-sofa-safari-brown/118358"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "118500",
+      "matchedAt" : "2026-09-03T16:52:52.214413900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Henry 1-Seater Fabric Sofa (Sylvan Green)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-henry-1-seater-fabric-sofa-sylvan-green/118500"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "118519",
+      "matchedAt" : "2026-09-03T16:51:52.068509800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Henry 3-Seater Fabric Sofa (Sylvan Green)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-henry-3-seater-fabric-sofa-sylvan-green/118519"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "118527",
+      "matchedAt" : "2026-09-03T16:50:58.618819700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Leo 3-Seater Fabric Sofa (Saga Green)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-leo-3-seater-fabric-sofa-saga-green/118527"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "118562",
+      "matchedAt" : "2026-09-03T16:51:39.631757600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Regina Low Height 3-Seater Sofa (Ash Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-regina-low-height-3-seater-sofa-ash-grey/118562"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "118578",
+      "matchedAt" : "2026-09-03T16:53:56.886822400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Regina Low Height 1-Seater Sofa (Ash Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-regina-low-height-1-seater-fabric-sofa-ash-grey/118578"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "118944",
+      "matchedAt" : "2026-09-03T16:51:09.354669Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Moonstone Fabric 2-Seater Sofa Sky Blue",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-moonstone-fabric-2-seater-sofa-sky-blue/118944"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "118963",
+      "matchedAt" : "2026-09-03T16:52:11.302055700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Moonstone 1-Seater Fabric Sofa (Sky Blue)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-moonstone-1-seater-fabric-sofa-sky-blue/118963"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "118966",
+      "matchedAt" : "2026-09-03T16:51:42.826627600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Brooklyn 1-Seater Fabric Sofa (Beige)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-fabric-1-seater-sofa-beige/118966"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "118981",
+      "matchedAt" : "2026-09-03T16:51:29.861911600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Brooklyn 2-Seater Fabric Sofa (Beige)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-fabric-2-seater-sofa-beige/118981"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "119017",
+      "matchedAt" : "2026-09-03T16:54:09.730401100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Regina Low Height 1-Seater Sofa (Green)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-regina-low-height-1-seater-fabric-sofa-green/119017"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "119035",
+      "matchedAt" : "2026-09-03T16:51:46.005933100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Casper 2-Seater Fabric Sofa (Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-casper-2-seater-fabric-sofa-grey/119035"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "119066",
+      "matchedAt" : "2026-09-03T16:52:29.623358200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Roma 1-Seater Fabric Sofa (Teal Green)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-roma-1-seater-fabric-sofa-teal-green/119066"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "119081",
+      "matchedAt" : "2026-09-03T16:52:08.005886700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Brooklyn 2-Seater Fabric Sofa (Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-fabric-2-seater-sofa-grey/119081"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "119096",
+      "matchedAt" : "2026-09-03T16:53:18.868386700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Brooklyn 2-Seater Fabric Sofa (Burgundy)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-fabric-2-seater-sofa-burgundy/119096"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "119109",
+      "matchedAt" : "2026-09-03T16:49:55.596073800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Moonstone Fabric 2-Seater Sofa Grey",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-moonstone-fabric-2-seater-sofa-grey/119109"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "119129",
+      "matchedAt" : "2026-09-03T16:51:12.789645100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Moonstone 1-Seater Fabric Sofa (Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-moonstone-1-seater-fabric-sofa-grey/119129"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "119141",
+      "matchedAt" : "2026-09-03T16:53:12.692578800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Brooklyn 2-Seater Fabric Sofa (Blue)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-fabric-2-seater-sofa-blue/119141"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "119162",
+      "matchedAt" : "2026-09-03T16:53:59.980177900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Aqua 1-Seater Fabric Sofa (Blue)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-aqua-1-seater-fabric-sofa-blue/119162"
+    },
+    {
       "canonicalProductId" : "mattress-king",
       "confidence" : 0.9,
       "externalId" : "119221",
@@ -421,6 +1921,16 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-taurus-engineered-wood-king-size-bed-with-storage/119237"
     },
     {
+      "canonicalProductId" : "ac-split-1-ton",
+      "confidence" : 1.0,
+      "externalId" : "119243",
+      "matchedAt" : "2026-09-03T17:00:26.946899Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "1 Ton 3 Star Convertible Inverter Split AC",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-1-ton-3-star-convertible-inverter-split-ac/119243"
+    },
+    {
       "canonicalProductId" : "bed-king-storage",
       "confidence" : 0.9,
       "externalId" : "119257",
@@ -431,6 +1941,36 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-taurus-engineered-wood-king-size-non-storage-bed/119257"
     },
     {
+      "canonicalProductId" : "ac-split-1-ton",
+      "confidence" : 1.0,
+      "externalId" : "119533",
+      "matchedAt" : "2026-09-03T17:00:45.685910300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Voltas 1 Ton 3 Star Convertible Inverter Split AC",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-voltas-1-ton-3-star-convertible-inverter-split-ac/119533"
+    },
+    {
+      "canonicalProductId" : "ac-split-1-5-ton",
+      "confidence" : 1.0,
+      "externalId" : "119543",
+      "matchedAt" : "2026-09-03T17:00:35.874015200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Voltas 1.5 Ton 3 Star Convertible Inverter Split AC",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-voltas-1-5-ton-3-star-convertible-inverter-split-ac/119543"
+    },
+    {
+      "canonicalProductId" : "ac-split-2-ton",
+      "confidence" : 1.0,
+      "externalId" : "119557",
+      "matchedAt" : "2026-09-03T17:00:51.818873400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Voltas 2 Ton 3 Star Convertible Inverter Split AC",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-voltas-2-ton-3-star-convertible-inverter-split-ac/119557"
+    },
+    {
       "canonicalProductId" : "washing-machine-semi-automatic",
       "confidence" : 0.9,
       "externalId" : "119583",
@@ -439,6 +1979,26 @@
       "provider" : "rentomojo",
       "providerName" : "Samsung Semi Automatic Washing Machine (8 Kg)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-semi-automatic-washing-machine-8kg/119583"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "120436",
+      "matchedAt" : "2026-09-03T16:57:02.051166300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Titan Pro Gaming Chair",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-titan-pro-gaming-chair/120436"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "120457",
+      "matchedAt" : "2026-09-03T16:56:59.063589Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Matrix Breatheable Mesh Office Chair",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-matrix-breatheable-mesh-office-chair/120457"
     },
     {
       "canonicalProductId" : "bed-single",
@@ -501,6 +2061,16 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-poise-king-bed-with-shelf/121422"
     },
     {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "122121",
+      "matchedAt" : "2026-09-03T17:01:50.982694300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Livpure Envy Alkaline Water Purifier",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-livpure-envy-alkaline-water-purifier/122121"
+    },
+    {
       "canonicalProductId" : "refrigerator-single-door-150-200l",
       "confidence" : 1.0,
       "externalId" : "122282",
@@ -509,6 +2079,66 @@
       "provider" : "rentomojo",
       "providerName" : "Samsung Single Door Fridge (190 Litre)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-single-door-fridge-190-litre/122282"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "126837",
+      "matchedAt" : "2026-09-03T16:58:18.125935Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Adam Solid Wood 6 Seater Dining Set",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-adam-solid-wood-6-seater-dining-set/126837"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "126860",
+      "matchedAt" : "2026-09-03T16:58:11.665624100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Adam Solid Wood 4 Seater Dining Set",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-adam-solid-wood-4-seater-dining-set/126860"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "127036",
+      "matchedAt" : "2026-09-03T17:01:48.051137500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "RM® Premium Water Purifier RO+UF+In Tank UV LED 6L",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-rm-premium-water-purifier-ro-uf-in-tank-uv-led-6l/127036"
+    },
+    {
+      "canonicalProductId" : "microwave-convection",
+      "confidence" : 0.9,
+      "externalId" : "127336",
+      "matchedAt" : "2026-09-03T17:01:16.949620600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Samsung Mircowave Convection",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-mircowave-convection/127336"
+    },
+    {
+      "canonicalProductId" : "microwave-grill",
+      "confidence" : 0.9,
+      "externalId" : "127378",
+      "matchedAt" : "2026-09-03T17:01:04.449675600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Samsung Mircowave Grill",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-mircowave-grill/127378"
+    },
+    {
+      "canonicalProductId" : "tv-50-inch-plus",
+      "confidence" : 0.9,
+      "externalId" : "127605",
+      "matchedAt" : "2026-09-03T16:59:30.014023700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Samsung LED TV 55 inch Ultra HD",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-led-55-inch-ultra-hd/127605"
     },
     {
       "canonicalProductId" : "washing-machine-top-load-7-8kg",
@@ -531,6 +2161,16 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-fully-automatic-top-load-washing-machine-6-5-kg/127743"
     },
     {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "127950",
+      "matchedAt" : "2026-09-03T16:58:42.905187200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Phantom Solid Wood 6-Seater Dining Table",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-phantom-solid-wood-6-seater-dining-table/127950"
+    },
+    {
       "canonicalProductId" : "bed-queen",
       "confidence" : 0.9,
       "externalId" : "130604",
@@ -539,6 +2179,106 @@
       "provider" : "rentomojo",
       "providerName" : "Clementine Upholstered Metal Queen Bed",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-clementine-upholstered-metal-queen-bed/130604"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "132285",
+      "matchedAt" : "2026-09-03T17:01:35.579764700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "DriftPro 7 Stage Water Purifier",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftpro-7-stage-water-purifier/132285"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "132305",
+      "matchedAt" : "2026-09-03T17:01:56.879805600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "DriftLux 7 Stage Water Purifier",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftlux-7-stage-water-purifier/132305"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "132578",
+      "matchedAt" : "2026-09-03T16:55:31.683202700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Jaden Engineered Wood 2 Door Sliding Wardrobe by Urban Ladder",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-jaden-engineered-wood-2-door-sliding-wardrobe-by-urban-ladder/132578"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "135317",
+      "matchedAt" : "2026-09-03T16:56:38.845881400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Caramel Crest L-shape study table",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-caramel-crest-l-shape-study-table/135317"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "135580",
+      "matchedAt" : "2026-09-03T16:58:39.612068600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Phantom Solid Wood 4-Seater Dining  Table(White Marble Effect )",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-phantom-solid-wood-4-seater-dining-table-white-marble-effect/135580"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "135646",
+      "matchedAt" : "2026-09-03T16:58:24.309775700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Phantom Solid Wood 6-Seater Dining Table (White Marble Effect)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-phantom-solid-wood-6-seater-dining-table-white-marble-effect/135646"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "136243",
+      "matchedAt" : "2026-09-03T16:56:55.174758100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Vista Breatheable Mesh Office Chair",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-vista-breatheable-mesh-office-chair/136243"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "136604",
+      "matchedAt" : "2026-09-03T17:02:17.742186800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Livpure Glitz Smart Water Purifier",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-livpure-glitz-smart-water-purifier/136604"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "136671",
+      "matchedAt" : "2026-09-03T17:01:38.553705900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "DriftGo Water Purifier",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftgo-7-stage-water-purifier/136671"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "137961",
+      "matchedAt" : "2026-09-03T16:57:39.189443700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Nova Ergonomic Chair with Adjustable Headrest",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-nova-ergonomic-office-chair-with-adjustable-headrest/137961"
     },
     {
       "canonicalProductId" : "washing-machine-semi-automatic",
@@ -551,6 +2291,46 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-whirlpool-semi-automatic-washing-machine-7kg/138224"
     },
     {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "138286",
+      "matchedAt" : "2026-09-03T17:02:06.032114Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Drinkprime Alkaline",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-alkaline/138286"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "138357",
+      "matchedAt" : "2026-09-03T16:51:06.000384300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Wingman Fabric Sofa cum Bed (Beige)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-wingman-fabric-sofa-cum-bed-beige/138357"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "138385",
+      "matchedAt" : "2026-09-03T17:02:08.966552100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Drinkprime RO+",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-ro-plus/138385"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "138386",
+      "matchedAt" : "2026-09-03T17:02:11.789805800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Drinkprime Copper Under The Sink",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-copper-under-the-sink/138386"
+    },
+    {
       "canonicalProductId" : "bed-queen-storage",
       "confidence" : 0.9,
       "externalId" : "138747",
@@ -559,6 +2339,36 @@
       "provider" : "rentomojo",
       "providerName" : "Miller Engineered Wood With Storage Queen Bed",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-miller-engineered-wood-with-storage-queen-bed/138747"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "138914",
+      "matchedAt" : "2026-09-03T16:52:46.056270100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Casper 3 Seater Sofa (Denim navy blue)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-casper-3-seater-sofa-denim-navy-blue/138914"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "138916",
+      "matchedAt" : "2026-09-03T16:50:50.595897Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Oliver 3 Seater Sofa (Dusty Beige)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-oliver-3-seater-sofa-dusty-beige/138916"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "139593",
+      "matchedAt" : "2026-09-03T16:51:58.252842800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Felix 3 Seater Sofa (Mint Blue)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-felix-3-seater-sofa-mint-blue/139593"
     },
     {
       "canonicalProductId" : "bed-queen-storage",
@@ -581,6 +2391,66 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-clementine-upholstered-metal-queen-bed-blush-pink/139661"
     },
     {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "140099",
+      "matchedAt" : "2026-09-03T16:50:13.729794600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Aqua 3-Seater Fabric Sofa (Muted Burgundy)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-aqua-3-seater-fabric-sofa-muted-burgundy/140099"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "140200",
+      "matchedAt" : "2026-09-03T16:57:08.616060400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Phantom Scoop Seat Chair",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-phantom-scoop-seat-chair/140200"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "140266",
+      "matchedAt" : "2026-09-03T16:51:55.057791500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Oliver 3 Seater Sofa (Olive Green)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-oliver-3-seater-sofa-olive-green/140266"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "140267",
+      "matchedAt" : "2026-09-03T16:52:26.095236100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Regina Low Height 3-Seater Sofa (Pastel Wine)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-regina-low-height-3-seater-sofa-pastel-wine/140267"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "140268",
+      "matchedAt" : "2026-09-03T16:54:21.984795900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Roma 3 Seater Sofa (Desert Rose)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-roma-3-seater-sofa-desert-rose/140268"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "140365",
+      "matchedAt" : "2026-09-03T16:56:10.666485800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Moonwood Workstation Blue Color",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-moonwood-workstation-blue-color/140365"
+    },
+    {
       "canonicalProductId" : "bed-king-storage",
       "confidence" : 0.9,
       "externalId" : "148486",
@@ -589,6 +2459,96 @@
       "provider" : "rentomojo",
       "providerName" : "Taurus Engineered Wood Upholstered King Size Bed With Storage",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-taurus-engineered-wood-upholstered-king-size-bed-with-storage/148486"
+    },
+    {
+      "canonicalProductId" : "wardrobe-3-door",
+      "confidence" : 0.9,
+      "externalId" : "148554",
+      "matchedAt" : "2026-09-03T16:55:08.684336Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Serra 3 Door Wardrobe With Mirror",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-serra-3-door-wardrobe-with-mirror/148554"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "148616",
+      "matchedAt" : "2026-09-03T16:55:15.933373500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Glazy 2 Door Wardrobe With Mirror",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-glazy-2-door-wardrobe-with-mirror/148616"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "148648",
+      "matchedAt" : "2026-09-03T16:58:21.122802100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Terra Round 4 Seater Dining Set",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-terra-round-4-seater-dining-set/148648"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "148818",
+      "matchedAt" : "2026-09-03T16:51:22.981623800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Oasis Fabric L-Shape Modular Sectional Sofa (Denim Blue)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-oasis-fabric-l-shape-modular-sectional-sofa-denim-blue/148818"
+    },
+    {
+      "canonicalProductId" : "tv-50-inch-plus",
+      "confidence" : 0.9,
+      "externalId" : "148978",
+      "matchedAt" : "2026-09-03T17:00:13.710004500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Hisense 55\" QLED 4K Smart TV - Powered by Systech",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-hisense-55-qled-4k-smart-tv-powered-by-systech/148978"
+    },
+    {
+      "canonicalProductId" : "tv-50-inch-plus",
+      "confidence" : 0.9,
+      "externalId" : "149011",
+      "matchedAt" : "2026-09-03T16:59:42.802935800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Hisense 55\" UHD Smart TV - Powered by Systech",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-hisense-55uhd-smart-tv-powered-by-systech/149011"
+    },
+    {
+      "canonicalProductId" : "tv-50-inch-plus",
+      "confidence" : 0.9,
+      "externalId" : "149077",
+      "matchedAt" : "2026-09-03T16:59:48.925059400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Hisense 50\" UHD Smart TV - Powered by Systech",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-hisense-50-uhd-smart-tv-powered-by-systech/149077"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "149078",
+      "matchedAt" : "2026-09-03T16:59:53.180947200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Toshiba 43\" UHD Smart TV - Powered by Systech",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-toshiba-43-uhd-smart-tv-powered-by-systech/149078"
+    },
+    {
+      "canonicalProductId" : "tv-50-inch-plus",
+      "confidence" : 0.9,
+      "externalId" : "149921",
+      "matchedAt" : "2026-09-03T16:59:57.062986800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Toshiba 55\" UHD Smart TV - Powered by Systech",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-toshiba-55-uhd-smart-tv-powered-by-systech/149921"
     },
     {
       "canonicalProductId" : "bed-queen",
@@ -601,6 +2561,16 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-mysa-wood-and-metal-queen-bed/150001"
     },
     {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "150973",
+      "matchedAt" : "2026-09-03T16:56:31.149315900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Elin Study Table",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-elin-study-table/150973"
+    },
+    {
       "canonicalProductId" : "bed-queen",
       "confidence" : 0.9,
       "externalId" : "151225",
@@ -609,6 +2579,26 @@
       "provider" : "rentomojo",
       "providerName" : "Aurora Wooden Queen Bed with Grey Upholstery",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-aurora-wooden-queen-bed-with-grey-upholstery/151225"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "151254",
+      "matchedAt" : "2026-09-03T16:55:12.039596400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Stowy 2 Door Wardrobe With Mirror",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-stowy-two-door-wardobe-with-mirror/151254"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "151288",
+      "matchedAt" : "2026-09-03T17:01:44.466467Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "NiraFlo Water Purifier",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-nira-flo-water-purifer/151288"
     },
     {
       "canonicalProductId" : "mattress-single",
@@ -621,6 +2611,36 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-single-trifold-comfort-mattress/151483"
     },
     {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "153098",
+      "matchedAt" : "2026-09-03T16:58:36.555060300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Tira 4 Seater Dining Table",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-tira-4-seater-dining-table/153098"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "153294",
+      "matchedAt" : "2026-09-03T16:54:03.274675700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Pebble 2 Seater Sofa",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-pebble-two-seater-sofa/153294"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "153353",
+      "matchedAt" : "2026-09-03T16:53:37.441693Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Pebble 3 Seater Sofa",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-pebble-three-seater-sofa/153353"
+    },
+    {
       "canonicalProductId" : "bed-king-storage",
       "confidence" : 0.9,
       "externalId" : "153426",
@@ -629,6 +2649,326 @@
       "provider" : "rentomojo",
       "providerName" : "Nidra Fully Upholstered King Size Storage Bed",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-nidra-upholstered-king-size-storage-bed/153426"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "153581",
+      "matchedAt" : "2026-09-03T16:46:53.743731300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Boho Queen Bed (Solid Wood)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-boho-queen-bed-solid-wood/153581"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "155052",
+      "matchedAt" : "2026-09-03T16:54:25.257509800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Sama 3-Seater Sofa(Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-sama-three-seater-sofa-grey/155052"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.85,
+      "externalId" : "155973",
+      "matchedAt" : "2026-09-03T17:01:53.876317900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Nirapure UV+UF Water Purifier (Non-RO)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-nirapure-uv-uf-water-purifer-non-ro/155973"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "156039",
+      "matchedAt" : "2026-09-03T16:57:42.152126Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Frido 3D Posture Plus Ergonomic Chair",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-frido-three-d-posture-plus-ergonomic-chairs/156039"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "156065",
+      "matchedAt" : "2026-09-03T16:57:14.745069200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Contact Project Medium Back Chair- Powered by Rentlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-contact-project-medium-back-chair-powered-by-featherlite/156065"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "156164",
+      "matchedAt" : "2026-09-03T16:57:17.883407800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Click Medium Back Chair- Powered by Featherlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-click-medium-back-chair-powered-by-featherlite/156164"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "156233",
+      "matchedAt" : "2026-09-03T16:56:35.428576100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Elvi Motorized Height Adjustable Table",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-elvi-motorized-height-adjustable-table/156233"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "156262",
+      "matchedAt" : "2026-09-03T16:57:20.883792300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Astro - High Back Chair - Powered by Featherlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-astro-high-back-chair-powered-by-featherlite/156262"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "156263",
+      "matchedAt" : "2026-09-03T16:57:23.827723600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Comet Medium Back - Powered by Featherlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-comet-medium-back-powered-by-featherlite/156263"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "156264",
+      "matchedAt" : "2026-09-03T16:56:13.719376800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "ECO - RT1 - Powered by Featherlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-eco-rt1-powered-by-featherlite/156264"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "156296",
+      "matchedAt" : "2026-09-03T16:56:17.059891800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Height Adjustable Table HAT ATLAS - Powered by Featherlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-height-ddjustable-table-hat-atlas-powered-by-featherlite/156296"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "156297",
+      "matchedAt" : "2026-09-03T16:56:20.056949100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Rise Table - Powered by Featherlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-rise-table-powered-by-featherlite/156297"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "156298",
+      "matchedAt" : "2026-09-03T16:56:24.029452700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Power RTS-1 Table-Powered by Featherlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-power-rts-1-table-powered-by-featherlite/156298"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "156329",
+      "matchedAt" : "2026-09-03T16:57:26.815316200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Amaze High Back-Powered by Featherlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-amaze-high-back-powered-by-featherlitee/156329"
+    },
+    {
+      "canonicalProductId" : "dining-table-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "156362",
+      "matchedAt" : "2026-09-03T16:58:30.369078900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Stix 2 seater dining table + 2 Tang Chairs-Powered by Featherlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-stix-2-seater-dining-table-2-tang-chairs-powered-by-featherlite/156362"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "156364",
+      "matchedAt" : "2026-09-03T16:57:29.796347700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Liberate Gaming Chair Blue-Powered by Featherlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-liberate-gaming-chair-blue-powered-by-featherlite/156364"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "156396",
+      "matchedAt" : "2026-09-03T16:57:32.775842900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Liberate - High Back Chair-Powered by Featherlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-liberate-medium-back-chair-powered-by-featherlite/156396"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "156428",
+      "matchedAt" : "2026-09-03T16:57:35.865762800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Amaze Medium Back-Powered by Featherlite",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-amaze-medium-back-powered-by-featherlite/156428"
+    },
+    {
+      "canonicalProductId" : "microwave-convection",
+      "confidence" : 0.9,
+      "externalId" : "17666",
+      "matchedAt" : "2026-09-03T17:01:10.907030100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Convection Microwave 20L",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-convection-microwave/17666"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "1981",
+      "matchedAt" : "2026-09-03T16:54:52.908735500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Stowy 2-Door Wardrobe",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-stowy-wardrobe-2-door/1981"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "1985",
+      "matchedAt" : "2026-09-03T16:51:48.924253800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Simba 1-Seater Couch",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-simba-couch-1-seater/1985"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "1990",
+      "matchedAt" : "2026-09-03T16:55:51.223204900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Stuart Study Table",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-stuart-study-table/1990"
+    },
+    {
+      "canonicalProductId" : "wardrobe-1-door",
+      "confidence" : 0.9,
+      "externalId" : "1999",
+      "matchedAt" : "2026-09-03T16:54:49.873193600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Stowy 1-Door Wardrobe",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-stowy-wardrobe-1-door/1999"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "2017",
+      "matchedAt" : "2026-09-03T16:51:26.379579800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Felix 1-Seater Couch",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-felix-couch-1-seater/2017"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "2018",
+      "matchedAt" : "2026-09-03T16:56:42.107565500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Howard Study Table",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-howard-study-table/2018"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "2019",
+      "matchedAt" : "2026-09-03T16:49:39.335088100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Felix 3-Seater Couch",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-felix-couch-3-seater/2019"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "2020",
+      "matchedAt" : "2026-09-03T16:57:11.720330400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Westero Chair",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-westero-solid-wood-chair/2020"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "2022",
+      "matchedAt" : "2026-09-03T16:57:05.454994600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Miller Mid-back Support Office Chair",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-miller-mid-back-support-office-chair/2022"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "2024",
+      "matchedAt" : "2026-09-03T16:56:48.772804900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Morris Ergo-Back Support Office Chair",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-morris-office-chair/2024"
+    },
+    {
+      "canonicalProductId" : "microwave-solo",
+      "confidence" : 0.9,
+      "externalId" : "2028",
+      "matchedAt" : "2026-09-03T17:01:07.698216200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Solo Microwave 20L",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-solo-microwave-oven/2028"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "24410",
+      "matchedAt" : "2026-09-03T16:57:56.120260200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Michelle Solid Wood 4-Seater Dining Table & Chairs",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-michelle-solid-wood-4-seater-dining-table-and-chairs/24410"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "2727",
+      "matchedAt" : "2026-09-03T16:56:04.380799400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Sheldon Study Table",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-sheldon-study-table-new/2727"
     },
     {
       "canonicalProductId" : "bed-single",
@@ -651,6 +2991,26 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-single-door-fridge-210-litre/2874"
     },
     {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "2875",
+      "matchedAt" : "2026-09-03T16:58:05.174051200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Tyler Solid Wood 4-Seater Dining Table & Chairs",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-tyler-solid-wood-dining-set-4-seater/2875"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "2883",
+      "matchedAt" : "2026-09-03T16:58:02.208364300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Tyler Solid Wood 6-Seater Dining Table & Chairs",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-tyler-solid-wood-dining-set-6-seater/2883"
+    },
+    {
       "canonicalProductId" : "washing-machine-semi-automatic",
       "confidence" : 0.9,
       "externalId" : "3094",
@@ -663,12 +3023,32 @@
     {
       "canonicalProductId" : "bed-queen",
       "confidence" : 0.9,
+      "externalId" : "3103",
+      "matchedAt" : "2026-09-03T16:46:48.128377Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Marley Queen Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-marley-solid-wood-queen-bed/3103"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
       "externalId" : "3104",
       "matchedAt" : "2026-08-25T19:26:10.565275800Z",
       "matchedBy" : "auto",
       "provider" : "rentomojo",
       "providerName" : "Elma Solid Wood Queen Bed",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-elma-solid-wood-queen-bed/3104"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "3112",
+      "matchedAt" : "2026-09-03T16:49:50.852668Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Barney Recliner",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-barney-recliner/3112"
     },
     {
       "canonicalProductId" : "bed-single",
@@ -811,6 +3191,36 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-new-queen-mattress/44494"
     },
     {
+      "canonicalProductId" : "wardrobe-1-door",
+      "confidence" : 0.9,
+      "externalId" : "4940",
+      "matchedAt" : "2026-09-03T16:55:38.059651800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Magnum 1-Door Wardrobe",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-magnum-wardrobe-1-door/4940"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "4948",
+      "matchedAt" : "2026-09-03T16:55:02.168060700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Magnum 2-Door Wardrobe",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-magnum-wardrobe-2-door/4948"
+    },
+    {
+      "canonicalProductId" : "wardrobe-3-door",
+      "confidence" : 0.9,
+      "externalId" : "4956",
+      "matchedAt" : "2026-09-03T16:55:41.250989500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Magnum 3-Door Wardrobe",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-magnum-wardrobe-3-door/4956"
+    },
+    {
       "canonicalProductId" : "bed-queen",
       "confidence" : 0.9,
       "externalId" : "4980",
@@ -829,6 +3239,56 @@
       "provider" : "rentomojo",
       "providerName" : "Poise King Bed",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-poise-king-bed/4981"
+    },
+    {
+      "canonicalProductId" : "dining-table-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "4982",
+      "matchedAt" : "2026-09-03T16:57:59.193951800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Poise 2-Seater Dining Table & Chairs - Solid Wood & Metal",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-poise-2-seater-dining-set-solid-wood-and-metal/4982"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "5091",
+      "matchedAt" : "2026-09-03T16:55:57.681768300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Poise Study Table",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-poise-study-table/5091"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "5100",
+      "matchedAt" : "2026-09-03T16:50:42.093589500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Cheshire Sofa cum Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-cheshire-sofa-cum-bed/5100"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5108",
+      "matchedAt" : "2026-09-03T16:54:34.434740200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Casper 3-Seater Sofa",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-heathcliff-3-seater-couch/5108"
+    },
+    {
+      "canonicalProductId" : "air-cooler-30-55l",
+      "confidence" : 0.9,
+      "externalId" : "5345",
+      "matchedAt" : "2026-09-03T17:01:26.001866500Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Air Cooler 35L",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-air-cooler-35-litre/5345"
     },
     {
       "canonicalProductId" : "refrigerator-mini",
@@ -861,6 +3321,86 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-poise-single-bed-xl/6045"
     },
     {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "6115",
+      "matchedAt" : "2026-09-03T16:55:34.671012700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Hutch 2-Door Wardrobe",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-hutch-wardrobe-2-door/6115"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "6263",
+      "matchedAt" : "2026-09-03T16:50:46.065321800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Oliver 2-Seater Sofa",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-oliver-2-seater-sofa/6263"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "6272",
+      "matchedAt" : "2026-09-03T16:50:22.847372800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Oliver 3-Seater Sofa",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-oliver-3-seater-sofa/6272"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "67586",
+      "matchedAt" : "2026-09-03T16:56:07.368051900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Vittsjo Laptop Table",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-vittsjo-laptop-table/67586"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "79536",
+      "matchedAt" : "2026-09-03T16:58:14.632185700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Poise 6-Seater Dining Set",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-poise-6-seater-dining-set-solid-wood-and-metal/79536"
+    },
+    {
+      "canonicalProductId" : "tv-32-39-inch",
+      "confidence" : 0.9,
+      "externalId" : "82371",
+      "matchedAt" : "2026-09-03T16:58:59.258163100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "LED TV - 32\"",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-led-tv-32-inches/82371"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "82373",
+      "matchedAt" : "2026-09-03T17:00:10.033170300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "LED TV - 40\"",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-led-tv-40-inches/82373"
+    },
+    {
+      "canonicalProductId" : "tv-32-39-inch",
+      "confidence" : 0.9,
+      "externalId" : "82762",
+      "matchedAt" : "2026-09-03T16:59:20.075771400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Smart LED TV - 32\"",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-smart-led-tv-32-inches/82762"
+    },
+    {
       "canonicalProductId" : "mattress-single",
       "confidence" : 0.9,
       "externalId" : "83100",
@@ -889,6 +3429,46 @@
       "provider" : "rentomojo",
       "providerName" : "Single XL Ortho Memory Foam Wakefit XpertGrid Classic Mattress",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-dual-comfort-single-xl-mattress/83829"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "85260",
+      "matchedAt" : "2026-09-03T16:58:08.673179200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Poise 4-Seater Dining Table & Chairs - Solid Wood & Metal",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-poise-dining-set-4seater-solid-wood-and-metal/85260"
+    },
+    {
+      "canonicalProductId" : "ac-split-1-ton",
+      "confidence" : 1.0,
+      "externalId" : "92633",
+      "matchedAt" : "2026-09-03T17:00:39.209028400Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "1 Ton 3 Star Inverter Split AC",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-1-ton-3-star-inverter-split-ac/92633"
+    },
+    {
+      "canonicalProductId" : "tv-50-inch-plus",
+      "confidence" : 0.9,
+      "externalId" : "94001",
+      "matchedAt" : "2026-09-03T17:00:01.446931100Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Smart LED TV- 55\"",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-smart-led-tv-55-inches/94001"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "95617",
+      "matchedAt" : "2026-09-03T17:00:05.211909200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Smart LED TV - 49\"",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-smart-led-tv-49-inches/95617"
     },
     {
       "canonicalProductId" : "refrigerator-double-door-200-250l",
@@ -989,6 +3569,26 @@
       "provider" : "rentomojo",
       "providerName" : "Refrigerator 170L",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-single-door-fridge-170-litre/97699"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "98181",
+      "matchedAt" : "2026-09-03T16:50:33.122882300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Leo 3-Seater Sofa (Brown)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-leo-3-seater-sofa-brown/98181"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "98330",
+      "matchedAt" : "2026-09-03T16:51:02.327579900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Leo 3-Seater Sofa (Wine Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-leo-3-seater-sofa-wine-grey/98330"
     }
   ]
 }

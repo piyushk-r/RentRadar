@@ -1,6 +1,7 @@
 {
   "pending" : [
     {
+      "category" : "BED",
       "confidence" : 0.0,
       "externalId" : "bed-with-storage-on-rent",
       "firstSeenAt" : "2026-08-25T19:26:11.708339900Z",
@@ -10,6 +11,7 @@
       "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/bed-with-storage-on-rent"
     },
     {
+      "category" : "BED",
       "confidence" : 0.0,
       "externalId" : "eden-upholstered-bed-beige",
       "firstSeenAt" : "2026-08-25T19:27:59.164956600Z",
@@ -19,6 +21,7 @@
       "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-beige"
     },
     {
+      "category" : "BED",
       "confidence" : 0.0,
       "externalId" : "eden-upholstered-bed-black-velvet",
       "firstSeenAt" : "2026-08-25T19:28:08.413844500Z",
@@ -28,6 +31,7 @@
       "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-black-velvet"
     },
     {
+      "category" : "BED",
       "confidence" : 0.0,
       "externalId" : "eden-upholstered-bed-brown",
       "firstSeenAt" : "2026-08-25T19:28:52.605514Z",
@@ -37,6 +41,7 @@
       "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-brown"
     },
     {
+      "category" : "BED",
       "confidence" : 0.0,
       "externalId" : "eden-upholstered-bed-grey-velvet",
       "firstSeenAt" : "2026-08-25T19:28:17.966833700Z",
@@ -46,6 +51,7 @@
       "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-grey-velvet"
     },
     {
+      "category" : "BED",
       "confidence" : 0.0,
       "externalId" : "eden-upholstered-bed-maroon",
       "firstSeenAt" : "2026-08-25T19:29:27.174021300Z",
@@ -55,6 +61,7 @@
       "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-maroon"
     },
     {
+      "category" : "BED",
       "confidence" : 0.0,
       "externalId" : "eden-upholstered-bed-sandstone",
       "firstSeenAt" : "2026-08-25T19:29:37.694682400Z",
@@ -64,6 +71,7 @@
       "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-sandstone"
     },
     {
+      "category" : "BED",
       "confidence" : 0.4,
       "externalId" : "eden-upolstered-single-bed-and-single-bed-mattress",
       "firstSeenAt" : "2026-08-25T19:30:14.887651200Z",
@@ -73,15 +81,17 @@
       "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upolstered-single-bed-and-single-bed-mattress"
     },
     {
+      "category" : "WARDROBE",
       "confidence" : 0.0,
-      "externalId" : "emma-baby-cot-with-mattress",
-      "firstSeenAt" : "2026-08-25T19:27:31.110827Z",
-      "name" : "Emma Baby Cot with Mattress",
+      "externalId" : "leon-single-wardrobe-on-rent",
+      "firstSeenAt" : "2026-09-03T16:33:58.046363700Z",
+      "name" : "Leon Single Wardrobe",
       "proposedCanonicalId" : null,
       "provider" : "guarented",
-      "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/emma-baby-cot-with-mattress"
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/wardrobes/leon-single-wardrobe-on-rent"
     },
     {
+      "category" : "WASHING_MACHINE",
       "confidence" : 0.75,
       "externalId" : "top-load-washing-machine",
       "firstSeenAt" : "2026-08-25T19:31:46.477542300Z",
@@ -91,6 +101,67 @@
       "url" : "https://www.guarented.com/bangalore/rent/appliances/washing-machine/top-load-washing-machine"
     },
     {
+      "category" : "WARDROBE",
+      "confidence" : 0.6,
+      "externalId" : "wardrobes-on-rent",
+      "firstSeenAt" : "2026-09-03T16:34:05.810040500Z",
+      "name" : "Engineered Wood Wardrobe",
+      "proposedCanonicalId" : "wardrobe-engineered-wood",
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/wardrobes/wardrobes-on-rent"
+    },
+    {
+      "category" : "WATER_PURIFIER",
+      "confidence" : 0.4,
+      "externalId" : "water-purifier-controller-on-rent",
+      "firstSeenAt" : "2026-09-03T16:44:18.119929200Z",
+      "name" : "Water Purifier - RO + UV + UF + TDS Controller",
+      "proposedCanonicalId" : "water-purifier",
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/appliances/water-purifier/water-purifier-controller-on-rent"
+    },
+    {
+      "category" : "DINING_TABLE",
+      "confidence" : 0.0,
+      "externalId" : "wooden-dining-table-round",
+      "firstSeenAt" : "2026-09-03T16:39:31.972657Z",
+      "name" : "Wooden Dining Table (Round - Only Table)",
+      "proposedCanonicalId" : null,
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-dining-table-round"
+    },
+    {
+      "category" : "DINING_TABLE",
+      "confidence" : 0.0,
+      "externalId" : "wooden-dining-table-round-with-picasso-chair-set",
+      "firstSeenAt" : "2026-09-03T16:39:37.891642600Z",
+      "name" : "Wooden Dining Table Round with Picasso Chairs Set",
+      "proposedCanonicalId" : null,
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-dining-table-round-with-picasso-chair-set"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.4,
+      "externalId" : "zoey-3-and-2-seater-sofa-on-rent",
+      "firstSeenAt" : "2026-09-03T16:25:17.785199300Z",
+      "name" : "Zoey 3+2 Seater Sofa",
+      "proposedCanonicalId" : "sofa-set-2-seater",
+      "provider" : "guarented",
+      "url" : "https://www.guarented.com/bangalore/rent/furniture/sofas/zoey-3-and-2-seater-sofa-on-rent"
+    },
+    {
+      "category" : "AIR_COOLER",
+      "confidence" : 0.0,
+      "externalId" : "101622",
+      "firstSeenAt" : "2026-09-03T17:01:23.114245700Z",
+      "name" : "Air Cooler Large",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-air-cooler-large/101622"
+    },
+    {
+      "category" : "WASHING_MACHINE",
       "confidence" : 0.75,
       "externalId" : "101630",
       "firstSeenAt" : "2026-08-25T19:28:56.187068100Z",
@@ -100,6 +171,37 @@
       "url" : "https://www.rentomojo.com/bangalore/appliances/rent-fully-automatic-top-load-washing-machine/101630"
     },
     {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "115540",
+      "firstSeenAt" : "2026-09-03T16:52:49.155819300Z",
+      "name" : "Brooklyn Ottoman with Storage (Burgundy)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-ottoman-with-storage-burgundy/115540"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "115549",
+      "firstSeenAt" : "2026-09-03T16:54:06.485007600Z",
+      "name" : "Brooklyn Ottoman with Storage (Aqua)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-ottoman-with-storage-aqua/115549"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "115550",
+      "firstSeenAt" : "2026-09-03T16:52:04.762121800Z",
+      "name" : "Brooklyn Ottoman with Storage (Charcoal Grey)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-ottoman-with-storage-charcoal-grey/115550"
+    },
+    {
+      "category" : "WASHING_MACHINE",
       "confidence" : 0.0,
       "externalId" : "115648",
       "firstSeenAt" : "2026-08-25T19:28:58.975998900Z",
@@ -109,15 +211,277 @@
       "url" : "https://www.rentomojo.com/bangalore/appliances/rent-premium-fully-automatic-washing-machine-with-inbuilt-heater/115648"
     },
     {
-      "confidence" : 0.5,
-      "externalId" : "18481",
-      "firstSeenAt" : "2026-08-25T18:32:58.588908400Z",
-      "name" : "Deep Freezer 100L",
-      "proposedCanonicalId" : "refrigerator-100-150l",
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "116857",
+      "firstSeenAt" : "2026-09-03T16:54:31.432947400Z",
+      "name" : "Leo Reversible Lounger Sofa (Brown)",
+      "proposedCanonicalId" : null,
       "provider" : "rentomojo",
-      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-deep-freezer/18481"
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-leo-reversible-lounger-sofa-brown/116857"
     },
     {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118256",
+      "firstSeenAt" : "2026-09-03T16:54:12.826860800Z",
+      "name" : "Casper Fabric Ottoman (Sage Green)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-casper-fabric-ottoman-sage-green/118256"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118334",
+      "firstSeenAt" : "2026-09-03T16:53:44.229795Z",
+      "name" : "Felix Fabric Ottoman (Ash Grey)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-felix-fabric-ottoman-ash-grey/118334"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118370",
+      "firstSeenAt" : "2026-09-03T16:52:32.899366800Z",
+      "name" : "Roma Fabric Ottoman (Safari Brown)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-roma-fabric-ottoman-safari-brown/118370"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118481",
+      "firstSeenAt" : "2026-09-03T16:53:53.794299100Z",
+      "name" : "Henry Fabric Ottoman (Sylvan Green)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-henry-fabric-ottoman-sylvan-green/118481"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118665",
+      "firstSeenAt" : "2026-09-03T16:53:09.583959900Z",
+      "name" : "Aqua Fabric Ottoman (Blue)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-aqua-fabric-ottoman-blue/118665"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118677",
+      "firstSeenAt" : "2026-09-03T16:51:16.285127Z",
+      "name" : "Brooklyn Ottoman with Storage (Beige)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-brooklyn-ottoman-with-storage-beige/118677"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118700",
+      "firstSeenAt" : "2026-09-03T16:52:58.794454500Z",
+      "name" : "Casper Fabric Ottoman (Grey)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-casper-fabric-ottoman-grey/118700"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118712",
+      "firstSeenAt" : "2026-09-03T16:53:34.295798100Z",
+      "name" : "Leo Fabric Ottoman (Blue)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-leo-fabric-ottoman-blue/118712"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118722",
+      "firstSeenAt" : "2026-09-03T16:53:31.191963300Z",
+      "name" : "Felix Fabric Ottoman (Blue)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-felix-fabric-ottoman-blue/118722"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118751",
+      "firstSeenAt" : "2026-09-03T16:54:18.838192200Z",
+      "name" : "Leo Fabric Ottoman (Wine Grey)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-leo-fabric-ottoman-wine-grey/118751"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118773",
+      "firstSeenAt" : "2026-09-03T16:53:06.432825900Z",
+      "name" : "Leo Fabric Ottoman Sage Green",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-leo-fabric-ottoman-sage-green/118773"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118869",
+      "firstSeenAt" : "2026-09-03T16:53:50.310354600Z",
+      "name" : "Moonstone Fabric Ottoman Sky Blue",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-moonstone-fabric-ottoman-sky-blue/118869"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "118926",
+      "firstSeenAt" : "2026-09-03T16:54:15.817016500Z",
+      "name" : "Regina Fabric Ottoman (Green)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-regina-fabric-ottoman-green/118926"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "119474",
+      "firstSeenAt" : "2026-09-03T16:53:15.757687400Z",
+      "name" : "Moonstone Fabric Ottoman Grey",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-moonstone-fabric-ottoman-grey/119474"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "128289",
+      "firstSeenAt" : "2026-09-03T16:50:37.837209400Z",
+      "name" : "Leo Reversible Lounger Sofa (Turquoise Blue)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-leo-reversible-lounger-sofa-turquoise-blue/128289"
+    },
+    {
+      "category" : "TV",
+      "confidence" : 0.0,
+      "externalId" : "128321",
+      "firstSeenAt" : "2026-09-03T16:58:52.597267900Z",
+      "name" : "Smart Google TV - 32",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-smart-google-tv-32/128321"
+    },
+    {
+      "category" : "TV",
+      "confidence" : 0.0,
+      "externalId" : "128792",
+      "firstSeenAt" : "2026-09-03T16:59:12.643524600Z",
+      "name" : "Smart Google TV - 49",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-smart-google-tv-49/128792"
+    },
+    {
+      "category" : "TV",
+      "confidence" : 0.0,
+      "externalId" : "128804",
+      "firstSeenAt" : "2026-09-03T16:58:56.177971500Z",
+      "name" : "Smart Google TV - 43",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-smart-google-tv-43/128804"
+    },
+    {
+      "category" : "TV",
+      "confidence" : 0.0,
+      "externalId" : "128827",
+      "firstSeenAt" : "2026-09-03T16:59:09.106218600Z",
+      "name" : "Smart Google TV- 55",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-smart-google-tv-55/128827"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "132647",
+      "firstSeenAt" : "2026-09-03T16:53:47.327052300Z",
+      "name" : "Leo Reversible Lounger Sofa (Grey)",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-leo-reversible-lounger-sofa-grey/132647"
+    },
+    {
+      "category" : "MICROWAVE",
+      "confidence" : 0.0,
+      "externalId" : "135481",
+      "firstSeenAt" : "2026-09-03T17:01:14.006727100Z",
+      "name" : "Digital 6L Air Fryer",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-digital-6l-air-fryer/135481"
+    },
+    {
+      "category" : "TV",
+      "confidence" : 0.0,
+      "externalId" : "138189",
+      "firstSeenAt" : "2026-09-03T16:59:05.919403400Z",
+      "name" : "4K Ultra HD Smart Google TV - 43",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-4k-ultra-hd-smart-google-tv-43/138189"
+    },
+    {
+      "category" : "WARDROBE",
+      "confidence" : 0.6,
+      "externalId" : "139739",
+      "firstSeenAt" : "2026-09-03T16:55:18.929504400Z",
+      "name" : "Moonwood Wardrobe Blue Color",
+      "proposedCanonicalId" : "wardrobe-wood",
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-moonwood-wardrobe-blue-color/139739"
+    },
+    {
+      "category" : "DINING_TABLE",
+      "confidence" : 0.0,
+      "externalId" : "156330",
+      "firstSeenAt" : "2026-09-03T16:58:27.281839100Z",
+      "name" : "V Leg Dining Table + 4 Tang Chairs-Powered by Featherlite",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-v-leg-dining-table-4-tang-chairs-powered-by-featherlite/156330"
+    },
+    {
+      "category" : "DINING_TABLE",
+      "confidence" : 0.0,
+      "externalId" : "156395",
+      "firstSeenAt" : "2026-09-03T16:58:33.348526800Z",
+      "name" : "V Leg Dining Table + 4 Air Chairs-Powered by Featherlite",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-v-leg-dining-table-4-air-chairs-powered-by-featherlite/156395"
+    },
+    {
+      "category" : "SOFA",
+      "confidence" : 0.0,
+      "externalId" : "2924",
+      "firstSeenAt" : "2026-09-03T16:52:36.096083100Z",
+      "name" : "Garfield Ottoman",
+      "proposedCanonicalId" : null,
+      "provider" : "rentomojo",
+      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-garfield-ottoman/2924"
+    },
+    {
+      "category" : "WASHING_MACHINE",
       "confidence" : 0.75,
       "externalId" : "96620",
       "firstSeenAt" : "2026-08-25T19:29:15.598102200Z",

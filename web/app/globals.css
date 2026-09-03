@@ -533,3 +533,387 @@ table.status {
   margin-bottom: 24px;
   font-size: 14px;
 }
+
+/* --- Phase 2: filters, sorting, setup builder, history, landing pages --- */
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 18px;
+  padding: 10px 0 14px;
+  border-bottom: 1px solid var(--hairline);
+  margin-bottom: 18px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.filter-group {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.filter-chip {
+  font: inherit;
+  color: var(--muted);
+  background: none;
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  padding: 3px 12px;
+  cursor: pointer;
+}
+
+.filter-chip.on {
+  color: var(--link);
+  border-color: var(--link);
+  background: #e8f0fe;
+}
+
+.filter-field {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.filter-field input[type='number'] {
+  width: 72px;
+  font: inherit;
+  color: var(--ink);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 3px 6px;
+}
+
+.filter-field select {
+  font: inherit;
+  color: var(--ink);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 3px 6px;
+  background: #fff;
+}
+
+.filter-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.attr-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin: -6px 0 10px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+.attr-filters label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.attr-filters select {
+  font: inherit;
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 2px 4px;
+  background: #fff;
+  color: var(--ink);
+}
+
+/* Build my setup (PRD section 12) */
+
+.setup-builder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 14px 0 4px;
+  font-size: 13.5px;
+  color: var(--muted);
+}
+
+.setup-builder select {
+  font: inherit;
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 4px 6px;
+  background: #fff;
+  color: var(--ink);
+}
+
+.setup-apply {
+  font: inherit;
+  color: var(--link);
+  background: none;
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+.setup-apply:hover {
+  background: var(--dim-bg);
+}
+
+.setup-preview {
+  flex-basis: 100%;
+  font-size: 12.5px;
+  color: var(--faint);
+}
+
+.popular {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* best-value "why this ranked here" (PRD section 11) */
+
+.why-rank {
+  margin-left: 6px;
+  color: var(--faint);
+  font-size: 12px;
+  cursor: help;
+}
+
+/* price history (AC-2.1) */
+
+.history-toggle {
+  font: inherit;
+  font-size: 12px;
+  color: var(--link);
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.history-toggle:hover {
+  text-decoration: underline;
+}
+
+.history-row > td {
+  background: var(--dim-bg);
+  padding: 12px 16px;
+}
+
+.history {
+  max-width: 720px;
+}
+
+.history-caption {
+  font-size: 12.5px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.history-legend {
+  display: flex;
+  gap: 14px;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.history-legend i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 4px;
+  vertical-align: baseline;
+}
+
+.history-plot {
+  position: relative;
+}
+
+.history-plot svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.history-tooltip {
+  position: absolute;
+  transform: translate(-50%, -130%);
+  background: var(--ink);
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.history-note {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.history-table {
+  margin-top: 8px;
+  font-size: 12.5px;
+}
+
+.history-table summary {
+  color: var(--link);
+  cursor: pointer;
+}
+
+.history-table table {
+  margin-top: 6px;
+  border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+  text-align: left;
+  padding: 3px 14px 3px 0;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--muted);
+}
+
+/* pincode serviceability */
+
+.pincode-check {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.pincode-check label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pincode-check input {
+  width: 90px;
+  font: inherit;
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.pincode-result {
+  color: var(--muted);
+}
+
+.pincode-result.ok {
+  color: var(--best);
+}
+
+/* landing pages (PRD section 22) */
+
+.landing {
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 16px 48px;
+}
+
+.landing h1 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.landing-home {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.landing-intro {
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.landing-cta {
+  margin-bottom: 22px;
+  font-size: 14.5px;
+}
+
+.landing-table th[scope='row'] {
+  vertical-align: top;
+}
+
+.landing-note {
+  margin-top: 22px;
+  font-size: 12.5px;
+  color: var(--faint);
+  max-width: 640px;
+}
+
+/* --- Phase 3: free-text search --- */
+
+.searchbox {
+  margin: 20px auto 4px;
+  max-width: 560px;
+}
+
+.searchbox form {
+  display: flex;
+  gap: 8px;
+}
+
+.searchbox input[type='search'] {
+  flex: 1;
+  font: inherit;
+  color: var(--ink);
+  border: 1px solid var(--hairline);
+  border-radius: 24px;
+  padding: 10px 18px;
+  outline: none;
+}
+
+.searchbox input[type='search']:focus {
+  border-color: var(--link);
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.12);
+}
+
+.searchbox button[type='submit'] {
+  font: inherit;
+  color: var(--ink);
+  background: var(--dim-bg);
+  border: 1px solid var(--hairline);
+  border-radius: 24px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.searchbox button[type='submit']:hover {
+  box-shadow: 0 1px 4px rgba(32, 33, 36, 0.12);
+}
+
+.search-examples,
+.search-readback {
+  margin-top: 8px;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+.search-unparsed {
+  color: var(--faint);
+}
+
+.linkish {
+  font: inherit;
+  color: var(--link);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.linkish:hover {
+  text-decoration: underline;
+}

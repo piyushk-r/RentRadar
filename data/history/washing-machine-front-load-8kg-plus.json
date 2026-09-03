@@ -1,0 +1,66 @@
+{
+  "productId": "washing-machine-front-load-8kg-plus",
+  "collectingSince": "2026-08-26T01:20:35+05:30",
+  "series": [
+    {
+      "provider": "rentomojo",
+      "externalId": "118206",
+      "tenureMonths": 3,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          189800
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "118206",
+      "tenureMonths": 6,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          174700
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "118206",
+      "tenureMonths": 9,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          162500
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "118206",
+      "tenureMonths": 12,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          151900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "118206",
+      "tenureMonths": 24,
+      "lastSeen": "2026-08-26T01:20:35+05:30",
+      "points": [
+        [
+          "2026-08-26T01:20:35+05:30",
+          150300
+        ]
+      ]
+    }
+  ]
+}

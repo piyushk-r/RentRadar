@@ -1,0 +1,41 @@
+# Build-my-setup templates (FR-4.5): "2BHK, two people, one year" → a basket.
+# Editing this file is a commit, not a code change — the site rebuilds itself.
+# Item keys are category slugs (the ?items= vocabulary); values are quantities.
+# Templates are starting points, fully editable before comparison (FR-4.3).
+setups:
+  - apartment: 1bhk
+    occupants: 1
+    label: "1BHK, living alone"
+    items: { bed: 1, mattress: 1, refrigerator: 1, washing-machine: 1, study-table: 1, office-chair: 1 }
+  - apartment: 1bhk
+    occupants: 2
+    label: "1BHK, two people"
+    items: { bed: 1, mattress: 1, refrigerator: 1, washing-machine: 1, sofa: 1, wardrobe: 1 }
+  - apartment: 1bhk
+    occupants: 3
+    label: "1BHK, three or more"
+    items: { bed: 2, mattress: 2, refrigerator: 1, washing-machine: 1, wardrobe: 1 }
+  - apartment: 2bhk
+    occupants: 1
+    label: "2BHK, living alone"
+    items: { bed: 1, mattress: 1, refrigerator: 1, washing-machine: 1, sofa: 1, study-table: 1, office-chair: 1 }
+  - apartment: 2bhk
+    occupants: 2
+    label: "2BHK, two people"
+    items: { bed: 2, mattress: 2, refrigerator: 1, washing-machine: 1, sofa: 1, dining-table: 1, wardrobe: 2 }
+  - apartment: 2bhk
+    occupants: 3
+    label: "2BHK, three or more"
+    items: { bed: 2, mattress: 2, refrigerator: 1, washing-machine: 1, sofa: 1, dining-table: 1, wardrobe: 2, study-table: 1 }
+  - apartment: 3bhk
+    occupants: 1
+    label: "3BHK, living alone"
+    items: { bed: 1, mattress: 1, refrigerator: 1, washing-machine: 1, sofa: 1, dining-table: 1, wardrobe: 1, tv: 1 }
+  - apartment: 3bhk
+    occupants: 2
+    label: "3BHK, two people"
+    items: { bed: 2, mattress: 2, refrigerator: 1, washing-machine: 1, sofa: 1, dining-table: 1, wardrobe: 2, tv: 1 }
+  - apartment: 3bhk
+    occupants: 3
+    label: "3BHK, three or more"
+    items: { bed: 3, mattress: 3, refrigerator: 1, washing-machine: 1, sofa: 1, dining-table: 1, wardrobe: 3, tv: 1 }
