@@ -361,8 +361,24 @@ public class GuarentedAdapter implements RentalProvider {
         return Long.parseLong(matcher.group(1).replace(",", "")) * 100;
     }
 
-    private static String shortMessage(Exception e) {
+    /**
+     * Warnings end up on a public status page, so keep the sentence that says
+     * what went wrong and drop the rest. Playwright's Java wrapper hands us a
+     * whole stack — complete with the absolute paths of the machine that ran
+     * the pipeline — inside its message.
+     */
+    static String shortMessage(Exception e) {
         String message = e.getMessage() == null ? e.getClass().getSimpleName() : e.getMessage();
-        return message.length() > 200 ? message.substring(0, 200) + "…" : message;
+        String flat = message.replaceAll("\\s+", " ").trim();
+        // Everything from the first stack-ish marker onwards describes the
+        // library to itself, not the failure.
+        String reason = flat.split("\\s(?:stack=|name=|at [\\w.$]+\\()")[0]
+                .replaceAll("^Error \\{ message='?", "")
+                .replaceAll("[\\s'\"{,.]+$", "")
+                .trim();
+        if (reason.isEmpty()) {
+            reason = e.getClass().getSimpleName();
+        }
+        return reason.length() > 160 ? reason.substring(0, 159) + "…" : reason;
     }
 }

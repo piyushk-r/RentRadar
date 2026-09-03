@@ -4,7 +4,7 @@ import { Fragment, useState } from 'react';
 import type { Cell, Comparison, Row } from '../lib/compare';
 import { formatAge } from '../lib/freshness';
 import { formatPaise } from '../lib/money';
-import { providerLabel } from '../lib/types';
+import { ProviderName } from './ProviderMark';
 import { PriceHistory } from './PriceHistory';
 
 /**
@@ -111,7 +111,7 @@ export function ComparisonTable({
             <th scope="col">Product</th>
             {providers.map((provider) => (
               <th key={provider} scope="col">
-                {providerLabel(provider)}
+                <ProviderName provider={provider} />
                 <span className="checked">
                   {providerTypes[provider] === 'MANUAL' ? 'manual sheet · ' : ''}
                   {columnCheckedAt[provider] ? `checked ${formatAge(columnCheckedAt[provider]!, now)}` : ''}
@@ -194,7 +194,7 @@ export function ComparisonTable({
             <h3>{row.product.name}</h3>
             {providers.map((provider) => (
               <div className="provider-line" key={provider}>
-                <span className="who">{providerLabel(provider)}</span>
+                <span className="who"><ProviderName provider={provider} size={16} /></span>
                 <PriceCell cell={row.cells[provider]} tenure={tenure} now={now} />
               </div>
             ))}

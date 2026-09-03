@@ -4,12 +4,17 @@ import { useEffect, useState } from 'react';
 import { formatAge } from '../../lib/freshness';
 import type { RunsFile } from '../../lib/types';
 import { providerLabel } from '../../lib/types';
+import { ProviderMark } from '../../components/ProviderMark';
+import { tidyMessage as tidy } from '../../lib/tidy';
 
 /**
  * The admin panel that isn't one (PRD section 19): public, read-only pipeline
  * health from runs.json. If the pipeline has been dead for a week, this page
  * says so to anyone (FR-7.6).
  */
+/** At most this many warnings per provider; the rest are counted, not listed. */
+const MAX_WARNINGS = 5;
+
 export default function Status() {
   const [runs, setRuns] = useState<RunsFile | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -58,7 +63,12 @@ export default function Status() {
             <tbody>
               {providers.map(([id, run]) => (
                 <tr key={id}>
-                  <th scope="row">{run.displayName ?? providerLabel(id)}</th>
+                  <th scope="row">
+                    <span className="provider-name">
+                      <ProviderMark provider={id} />
+                      {run.displayName ?? providerLabel(id)}
+                    </span>
+                  </th>
                   <td>
                     {run.integrationType === 'MANUAL'
                       ? 'manual sheet'
@@ -85,12 +95,17 @@ export default function Status() {
                     )}
                   </td>
                   <td>
-                    {run.error && <div className="error-text">{run.error}</div>}
-                    {run.warnings.map((warning) => (
+                    {run.error && <div className="error-text">{tidy(run.error)}</div>}
+                    {run.warnings.slice(0, MAX_WARNINGS).map((warning) => (
                       <div key={warning} className="coverage-note">
-                        {warning}
+                        {tidy(warning)}
                       </div>
                     ))}
+                    {run.warnings.length > MAX_WARNINGS && (
+                      <div className="coverage-note">
+                        …and {run.warnings.length - MAX_WARNINGS} more of the same kind
+                      </div>
+                    )}
                     {!run.error && run.warnings.length === 0 && '—'}
                   </td>
                 </tr>

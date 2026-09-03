@@ -7,6 +7,7 @@
 import type { SortMode } from '../lib/rank';
 import { SORT_LABELS } from '../lib/rank';
 import { providerLabel } from '../lib/types';
+import { ProviderMark } from './ProviderMark';
 
 export interface GlobalFilters {
   /** null = all providers */
@@ -61,6 +62,7 @@ export function FilterBar({
             aria-pressed={active.includes(id)}
             onClick={() => toggleProvider(id)}
           >
+            <ProviderMark provider={id} size={15} />
             {providerLabel(id)}
           </button>
         ))}
