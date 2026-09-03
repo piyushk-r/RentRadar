@@ -76,6 +76,9 @@ the one free-tier term that could ever bite; PRD §22):
 
 - Build command: `cd web && npm ci && npm run build`
 - Output directory: `web/out`
+- Root directory: the repository root (the build reads `data/` from outside `web/`)
+- Node version: pinned by `.node-version` (22); Cloudflare's default has moved
+  before, and Next 15 needs 18.18 or newer.
 - Every data commit from the scrape workflow triggers a rebuild, so the site
   is as fresh as the data.
 
