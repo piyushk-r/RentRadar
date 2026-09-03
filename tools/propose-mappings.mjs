@@ -17,29 +17,64 @@ import { join } from 'node:path';
 
 const DATA = 'data';
 
+/**
+ * A number that remembers how it was written. Java writes a double as `1.0`;
+ * JavaScript renders the same value as `1`, which would rewrite every
+ * confidence line in the file and be undone by the next pipeline run. Parsing
+ * with the reviver's source text keeps the original spelling.
+ */
+class RawNumber {
+  constructor(source) {
+    this.source = source;
+  }
+  valueOf() {
+    return Number(this.source);
+  }
+  toString() {
+    return this.source;
+  }
+}
+
 function read(name) {
-  return JSON.parse(readFileSync(join(DATA, name), 'utf8'));
+  return JSON.parse(readFileSync(join(DATA, name), 'utf8'), function (key, value, context) {
+    return typeof value === 'number' && context?.source !== undefined ? new RawNumber(context.source) : value;
+  });
 }
 
 /**
- * Keys sorted alphabetically, matching the pipeline's own writer — otherwise
- * the review PR lands in semantic key order and the next run rewrites it as a
- * gratuitous follow-up diff.
+ * Serializes exactly the way the Java pipeline does — Jackson's default pretty
+ * printer with alphabetically sorted keys: two-space indent, a space on both
+ * sides of the colon, and `{ }` for an empty object.
+ *
+ * This is not cosmetic. The whole review mechanism is "read a diff and click
+ * merge" (PRD §19), and `JSON.stringify`'s `"key": value` differs from
+ * Jackson's `"key" : value` on every single line — which turns an 8-line
+ * review into a 4,000-line rewrite, and makes the next pipeline run undo it.
  */
-function sortKeys(value) {
-  if (Array.isArray(value)) return value.map(sortKeys);
-  if (value && typeof value === 'object') {
-    return Object.fromEntries(
-      Object.keys(value)
-        .sort()
-        .map((key) => [key, sortKeys(value[key])]),
-    );
+function toJacksonJson(value, indent = 0) {
+  const pad = '  '.repeat(indent);
+  const padInner = '  '.repeat(indent + 1);
+  if (value instanceof RawNumber) return value.source;
+  if (typeof value === 'number') {
+    // A number this script itself produced: Java would write it as a double.
+    return Number.isInteger(value) ? `${value}.0` : String(value);
   }
-  return value;
+  if (Array.isArray(value)) {
+    if (value.length === 0) return '[ ]';
+    const items = value.map((item) => padInner + toJacksonJson(item, indent + 1));
+    return '[\n' + items.join(',\n') + '\n' + pad + ']';
+  }
+  if (value && typeof value === 'object') {
+    const keys = Object.keys(value).sort();
+    if (keys.length === 0) return '{ }';
+    const entries = keys.map((key) => `${padInner}${JSON.stringify(key)} : ${toJacksonJson(value[key], indent + 1)}`);
+    return '{\n' + entries.join(',\n') + '\n' + pad + '}';
+  }
+  return JSON.stringify(value);
 }
 
 function write(name, value) {
-  writeFileSync(join(DATA, name), JSON.stringify(sortKeys(value), null, 2) + '\n');
+  writeFileSync(join(DATA, name), toJacksonJson(value) + '\n');
 }
 
 const pendingFile = read('pending-matches.json');
