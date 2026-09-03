@@ -36,9 +36,17 @@ function gitShowJson(ref) {
   }
 }
 
-/** Commits that touched the given paths, oldest first, as {sha, date}. */
+/**
+ * Commits that touched the given paths, oldest first, as {sha, date}.
+ *
+ * `--full-history` is load-bearing: with a pathspec, git's default history
+ * simplification prunes commits from a merged branch when the merge result
+ * matches one parent for those paths. After merging a week of scheduled
+ * refreshes that silently hid 19 of 23 price commits — the time series would
+ * have lost most of its points with nothing to indicate it.
+ */
 function commitsTouching(...paths) {
-  const out = git('log', '--reverse', '--format=%H|%cI', '--', ...paths).trim();
+  const out = git('log', '--full-history', '--reverse', '--format=%H|%cI', '--', ...paths).trim();
   if (!out) return [];
   return out.split('\n').map((line) => {
     const [sha, date] = line.split('|');

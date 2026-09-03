@@ -6,14 +6,14 @@
       "provider": "guarented",
       "externalId": "double-door-fridge",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "lastSeen": "2026-09-03T23:26:42+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
           101100
         ],
         [
-          "2026-09-03T22:52:59+05:30",
+          "2026-08-26T12:49:14Z",
           109600
         ]
       ]
@@ -22,14 +22,14 @@
       "provider": "guarented",
       "externalId": "double-door-fridge",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "lastSeen": "2026-09-03T23:26:42+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
           85500
         ],
         [
-          "2026-09-03T22:52:59+05:30",
+          "2026-08-26T12:49:14Z",
           81300
         ]
       ]
@@ -38,14 +38,14 @@
       "provider": "guarented",
       "externalId": "double-door-fridge",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "lastSeen": "2026-09-03T23:26:42+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
           80100
         ],
         [
-          "2026-09-03T22:52:59+05:30",
+          "2026-08-26T12:49:14Z",
           75800
         ]
       ]
@@ -54,14 +54,14 @@
       "provider": "guarented",
       "externalId": "double-door-fridge",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "lastSeen": "2026-09-03T23:26:42+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
           71900
         ],
         [
-          "2026-09-03T22:52:59+05:30",
+          "2026-08-26T12:49:14Z",
           67700
         ]
       ]
@@ -70,14 +70,14 @@
       "provider": "guarented",
       "externalId": "double-door-fridge",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "lastSeen": "2026-09-03T23:26:42+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
           71600
         ],
         [
-          "2026-09-03T22:52:59+05:30",
+          "2026-08-26T12:49:14Z",
           67400
         ]
       ]
@@ -86,14 +86,14 @@
       "provider": "guarented",
       "externalId": "double-door-fridge",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "lastSeen": "2026-09-03T23:26:42+05:30",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
           71300
         ],
         [
-          "2026-09-03T22:52:59+05:30",
+          "2026-08-26T12:49:14Z",
           67000
         ]
       ]
@@ -102,7 +102,7 @@
       "provider": "rentomojo",
       "externalId": "95989",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "lastSeen": "2026-09-03T23:26:42+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -114,7 +114,7 @@
       "provider": "rentomojo",
       "externalId": "95989",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "lastSeen": "2026-09-03T23:26:42+05:30",
       "points": [
         [
           "2026-08-26T00:11:08+05:30",
@@ -130,7 +130,7 @@
       "provider": "rentomojo",
       "externalId": "95989",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "lastSeen": "2026-09-03T23:26:42+05:30",
       "points": [
         [
           "2026-08-26T00:11:08+05:30",
@@ -146,7 +146,7 @@
       "provider": "rentomojo",
       "externalId": "95989",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "lastSeen": "2026-09-03T23:26:42+05:30",
       "points": [
         [
           "2026-08-26T00:11:08+05:30",
@@ -162,7 +162,7 @@
       "provider": "rentomojo",
       "externalId": "95989",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-03T22:52:59+05:30",
+      "lastSeen": "2026-09-03T23:26:42+05:30",
       "points": [
         [
           "2026-08-26T00:11:08+05:30",
