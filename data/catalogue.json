@@ -292,6 +292,12 @@
       "name" : "Recliner"
     },
     {
+      "attributes" : { },
+      "category" : "SOFA",
+      "id" : "sofa-set-2-seater",
+      "name" : "Sofa set 2 seater"
+    },
+    {
       "attributes" : {
         "storage" : "yes"
       },
@@ -356,6 +362,24 @@
       "name" : "3-door wardrobe"
     },
     {
+      "attributes" : { },
+      "category" : "WARDROBE",
+      "id" : "wardrobe-engineered-wood",
+      "name" : "Wardrobe engineered wood"
+    },
+    {
+      "attributes" : { },
+      "category" : "WARDROBE",
+      "id" : "wardrobe-wood",
+      "name" : "Wardrobe wood"
+    },
+    {
+      "attributes" : { },
+      "category" : "WASHING_MACHINE",
+      "id" : "washing-machine-front-load",
+      "name" : "Washing machine front load"
+    },
+    {
       "attributes" : {
         "capacity_band" : "7-8kg",
         "load_type" : "front_load"
@@ -390,6 +414,12 @@
       "category" : "WASHING_MACHINE",
       "id" : "washing-machine-semi-automatic",
       "name" : "Semi-automatic washing machine"
+    },
+    {
+      "attributes" : { },
+      "category" : "WASHING_MACHINE",
+      "id" : "washing-machine-top-load",
+      "name" : "Washing machine top load"
     },
     {
       "attributes" : {

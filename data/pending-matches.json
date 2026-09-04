@@ -71,16 +71,6 @@
       "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-sandstone"
     },
     {
-      "category" : "BED",
-      "confidence" : 0.4,
-      "externalId" : "eden-upolstered-single-bed-and-single-bed-mattress",
-      "firstSeenAt" : "2026-08-25T19:30:14.887651200Z",
-      "name" : "Eden Upholstered Single Bed & Mattress Combo (Black)",
-      "proposedCanonicalId" : "bed-single",
-      "provider" : "guarented",
-      "url" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upolstered-single-bed-and-single-bed-mattress"
-    },
-    {
       "category" : "WARDROBE",
       "confidence" : 0.0,
       "externalId" : "leon-single-wardrobe-on-rent",
@@ -89,36 +79,6 @@
       "proposedCanonicalId" : null,
       "provider" : "guarented",
       "url" : "https://www.guarented.com/bangalore/rent/furniture/wardrobes/leon-single-wardrobe-on-rent"
-    },
-    {
-      "category" : "WASHING_MACHINE",
-      "confidence" : 0.75,
-      "externalId" : "top-load-washing-machine",
-      "firstSeenAt" : "2026-08-25T19:31:46.477542300Z",
-      "name" : "Top Load Washing Machine",
-      "proposedCanonicalId" : "washing-machine-top-load",
-      "provider" : "guarented",
-      "url" : "https://www.guarented.com/bangalore/rent/appliances/washing-machine/top-load-washing-machine"
-    },
-    {
-      "category" : "WARDROBE",
-      "confidence" : 0.6,
-      "externalId" : "wardrobes-on-rent",
-      "firstSeenAt" : "2026-09-03T16:34:05.810040500Z",
-      "name" : "Engineered Wood Wardrobe",
-      "proposedCanonicalId" : "wardrobe-engineered-wood",
-      "provider" : "guarented",
-      "url" : "https://www.guarented.com/bangalore/rent/furniture/wardrobes/wardrobes-on-rent"
-    },
-    {
-      "category" : "WATER_PURIFIER",
-      "confidence" : 0.4,
-      "externalId" : "water-purifier-controller-on-rent",
-      "firstSeenAt" : "2026-09-03T16:44:18.119929200Z",
-      "name" : "Water Purifier - RO + UV + UF + TDS Controller",
-      "proposedCanonicalId" : "water-purifier",
-      "provider" : "guarented",
-      "url" : "https://www.guarented.com/bangalore/rent/appliances/water-purifier/water-purifier-controller-on-rent"
     },
     {
       "category" : "DINING_TABLE",
@@ -141,16 +101,6 @@
       "url" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-dining-table-round-with-picasso-chair-set"
     },
     {
-      "category" : "SOFA",
-      "confidence" : 0.4,
-      "externalId" : "zoey-3-and-2-seater-sofa-on-rent",
-      "firstSeenAt" : "2026-09-03T16:25:17.785199300Z",
-      "name" : "Zoey 3+2 Seater Sofa",
-      "proposedCanonicalId" : "sofa-set-2-seater",
-      "provider" : "guarented",
-      "url" : "https://www.guarented.com/bangalore/rent/furniture/sofas/zoey-3-and-2-seater-sofa-on-rent"
-    },
-    {
       "category" : "AIR_COOLER",
       "confidence" : 0.0,
       "externalId" : "101622",
@@ -159,16 +109,6 @@
       "proposedCanonicalId" : null,
       "provider" : "rentomojo",
       "url" : "https://www.rentomojo.com/bangalore/appliances/rent-air-cooler-large/101622"
-    },
-    {
-      "category" : "WASHING_MACHINE",
-      "confidence" : 0.75,
-      "externalId" : "101630",
-      "firstSeenAt" : "2026-08-25T19:28:56.187068100Z",
-      "name" : "Fully Automatic Top Load Washing Machine",
-      "proposedCanonicalId" : "washing-machine-top-load",
-      "provider" : "rentomojo",
-      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-fully-automatic-top-load-washing-machine/101630"
     },
     {
       "category" : "SOFA",
@@ -441,16 +381,6 @@
       "url" : "https://www.rentomojo.com/bangalore/appliances/rent-4k-ultra-hd-smart-google-tv-43/138189"
     },
     {
-      "category" : "WARDROBE",
-      "confidence" : 0.6,
-      "externalId" : "139739",
-      "firstSeenAt" : "2026-09-03T16:55:18.929504400Z",
-      "name" : "Moonwood Wardrobe Blue Color",
-      "proposedCanonicalId" : "wardrobe-wood",
-      "provider" : "rentomojo",
-      "url" : "https://www.rentomojo.com/bangalore/furniture/rent-moonwood-wardrobe-blue-color/139739"
-    },
-    {
       "category" : "DINING_TABLE",
       "confidence" : 0.0,
       "externalId" : "156330",
@@ -479,16 +409,6 @@
       "proposedCanonicalId" : null,
       "provider" : "rentomojo",
       "url" : "https://www.rentomojo.com/bangalore/furniture/rent-garfield-ottoman/2924"
-    },
-    {
-      "category" : "WASHING_MACHINE",
-      "confidence" : 0.75,
-      "externalId" : "96620",
-      "firstSeenAt" : "2026-08-25T19:29:15.598102200Z",
-      "name" : "Front Load Washing Machine",
-      "proposedCanonicalId" : "washing-machine-front-load",
-      "provider" : "rentomojo",
-      "url" : "https://www.rentomojo.com/bangalore/appliances/rent-front-load-washing-machine/96620"
     }
   ]
 }

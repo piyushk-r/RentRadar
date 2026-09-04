@@ -211,6 +211,16 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-single-bed-black"
     },
     {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.4,
+      "externalId" : "eden-upolstered-single-bed-and-single-bed-mattress",
+      "matchedAt" : "2026-08-25T19:30:14.887651200Z",
+      "matchedBy" : "review-queue",
+      "provider" : "guarented",
+      "providerName" : "Eden Upholstered Single Bed & Mattress Combo (Black)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upolstered-single-bed-and-single-bed-mattress"
+    },
+    {
       "canonicalProductId" : "study-table",
       "confidence" : 0.85,
       "externalId" : "einstein-desk-on-rent",
@@ -731,6 +741,16 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-single-bed-6-4-brown"
     },
     {
+      "canonicalProductId" : "washing-machine-top-load",
+      "confidence" : 0.75,
+      "externalId" : "top-load-washing-machine",
+      "matchedAt" : "2026-08-25T19:31:46.477542300Z",
+      "matchedBy" : "review-queue",
+      "provider" : "guarented",
+      "providerName" : "Top Load Washing Machine",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/washing-machine/top-load-washing-machine"
+    },
+    {
       "canonicalProductId" : "sofa-2-seater",
       "confidence" : 0.9,
       "externalId" : "two-seater-sofa-on-rent",
@@ -951,6 +971,26 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/verona-wooden-study-table"
     },
     {
+      "canonicalProductId" : "wardrobe-engineered-wood",
+      "confidence" : 0.6,
+      "externalId" : "wardrobes-on-rent",
+      "matchedAt" : "2026-09-03T16:34:05.810040500Z",
+      "matchedBy" : "review-queue",
+      "provider" : "guarented",
+      "providerName" : "Engineered Wood Wardrobe",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/wardrobes/wardrobes-on-rent"
+    },
+    {
+      "canonicalProductId" : "water-purifier",
+      "confidence" : 0.4,
+      "externalId" : "water-purifier-controller-on-rent",
+      "matchedAt" : "2026-09-03T16:44:18.119929200Z",
+      "matchedBy" : "review-queue",
+      "provider" : "guarented",
+      "providerName" : "Water Purifier - RO + UV + UF + TDS Controller",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/water-purifier/water-purifier-controller-on-rent"
+    },
+    {
       "canonicalProductId" : "dining-table-6-seater",
       "confidence" : 0.9,
       "externalId" : "wooden-6-seater-dining-table-with-picasso-chair-set",
@@ -989,6 +1029,16 @@
       "provider" : "guarented",
       "providerName" : "Wrought Iron Single Bed",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/wrought-iron-single-bed"
+    },
+    {
+      "canonicalProductId" : "sofa-set-2-seater",
+      "confidence" : 0.4,
+      "externalId" : "zoey-3-and-2-seater-sofa-on-rent",
+      "matchedAt" : "2026-09-03T16:25:17.785199300Z",
+      "matchedBy" : "review-queue",
+      "provider" : "guarented",
+      "providerName" : "Zoey 3+2 Seater Sofa",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/zoey-3-and-2-seater-sofa-on-rent"
     },
     {
       "canonicalProductId" : "sofa-5-seater",
@@ -1039,6 +1089,16 @@
       "provider" : "rentomojo",
       "providerName" : "Smart LED TV - 43\"",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-smart-led-tv-43-inches/101614"
+    },
+    {
+      "canonicalProductId" : "washing-machine-top-load",
+      "confidence" : 0.75,
+      "externalId" : "101630",
+      "matchedAt" : "2026-08-25T19:28:56.187068100Z",
+      "matchedBy" : "review-queue",
+      "provider" : "rentomojo",
+      "providerName" : "Fully Automatic Top Load Washing Machine",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-fully-automatic-top-load-washing-machine/101630"
     },
     {
       "canonicalProductId" : "ac-split-1-ton",
@@ -2391,6 +2451,16 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-clementine-upholstered-metal-queen-bed-blush-pink/139661"
     },
     {
+      "canonicalProductId" : "wardrobe-wood",
+      "confidence" : 0.6,
+      "externalId" : "139739",
+      "matchedAt" : "2026-09-03T16:55:18.929504400Z",
+      "matchedBy" : "review-queue",
+      "provider" : "rentomojo",
+      "providerName" : "Moonwood Wardrobe Blue Color",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-moonwood-wardrobe-blue-color/139739"
+    },
+    {
       "canonicalProductId" : "sofa-3-seater",
       "confidence" : 0.9,
       "externalId" : "140099",
@@ -3479,6 +3549,16 @@
       "provider" : "rentomojo",
       "providerName" : "Double Door Fridge (240 Litre)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-double-door-fridge-240-litre/95989"
+    },
+    {
+      "canonicalProductId" : "washing-machine-front-load",
+      "confidence" : 0.75,
+      "externalId" : "96620",
+      "matchedAt" : "2026-08-25T19:29:15.598102200Z",
+      "matchedBy" : "review-queue",
+      "provider" : "rentomojo",
+      "providerName" : "Front Load Washing Machine",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-front-load-washing-machine/96620"
     },
     {
       "canonicalProductId" : "mattress-single",
