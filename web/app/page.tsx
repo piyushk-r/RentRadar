@@ -133,7 +133,32 @@ export default function Home() {
       sort: sort && sort in SORT_LABELS ? (sort as SortMode) : 'cheapest-total',
     });
     setNow(new Date());
-    const onScroll = () => setCollapsed(window.scrollY > 150);
+    /**
+     * Collapsing removes a few hundred pixels of hero from the flow, which
+     * shortens the document. Two things follow, and both have bitten:
+     *
+     * - A single threshold oscillates: cross it, the page shortens, the
+     *   browser clamps the scroll back under the threshold, it expands, and
+     *   round it goes. Hence a dead band — collapse high, expand low.
+     * - On a short page the clamp is unavoidable however wide the band is, so
+     *   only collapse when there is genuinely enough left to scroll.
+     */
+    const COLLAPSE_AT = 240;
+    const EXPAND_AT = 120;
+    const onScroll = () => {
+      const y = window.scrollY;
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      setCollapsed((was) => {
+        // Measured: collapsing shortens the page by roughly 460px, and the
+        // browser clamps the scroll to match. The page must be long enough
+        // that the clamped position still lands above EXPAND_AT, or the two
+        // thresholds trade places and it oscillates again.
+        if (scrollable < 1500) return false;
+        if (!was && y > COLLAPSE_AT) return true;
+        if (was && y < EXPAND_AT) return false;
+        return was;
+      });
+    };
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     const tick = setInterval(() => setNow(new Date()), 60_000);

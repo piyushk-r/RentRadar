@@ -8,7 +8,9 @@
   margin: 0 auto;
   padding: 84px 16px 8px;
   text-align: center;
-  transition: padding var(--med) var(--ease);
+  /* Deliberately not transitioned: padding is a layout property, and animating
+     it on an in-flow element reflows the page every frame — which reads as the
+     search button shivering while you scroll. The collapse is a clean swap. */
 }
 
 .home.has-results {
