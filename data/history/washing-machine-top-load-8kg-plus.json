@@ -1,0 +1,78 @@
+{
+  "productId": "washing-machine-top-load-8kg-plus",
+  "collectingSince": "2026-09-06T00:43:28+05:30",
+  "series": [
+    {
+      "provider": "furlenco",
+      "externalId": "5750",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          131900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5750",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          131900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5750",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          131900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5750",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          131900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5750",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          131900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5750",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          131900
+        ]
+      ]
+    }
+  ]
+}

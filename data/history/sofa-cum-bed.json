@@ -6,7 +6,7 @@
       "provider": "guarented",
       "externalId": "divine-convertible-2-seater-sofa-cum-bed",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -18,7 +18,7 @@
       "provider": "guarented",
       "externalId": "divine-convertible-2-seater-sofa-cum-bed",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -30,7 +30,7 @@
       "provider": "guarented",
       "externalId": "divine-convertible-2-seater-sofa-cum-bed",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -42,7 +42,7 @@
       "provider": "guarented",
       "externalId": "divine-convertible-2-seater-sofa-cum-bed",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -54,7 +54,7 @@
       "provider": "guarented",
       "externalId": "divine-convertible-2-seater-sofa-cum-bed",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -66,7 +66,7 @@
       "provider": "guarented",
       "externalId": "divine-convertible-2-seater-sofa-cum-bed",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -76,9 +76,69 @@
     },
     {
       "provider": "rentomojo",
+      "externalId": "114998",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          126200
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "114998",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          116100
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "114998",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          108000
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "114998",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          100900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "114998",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          99900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
       "externalId": "115816",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -90,7 +150,7 @@
       "provider": "rentomojo",
       "externalId": "115816",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -102,7 +162,7 @@
       "provider": "rentomojo",
       "externalId": "115816",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -114,7 +174,7 @@
       "provider": "rentomojo",
       "externalId": "115816",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -126,7 +186,7 @@
       "provider": "rentomojo",
       "externalId": "115816",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -138,7 +198,7 @@
       "provider": "rentomojo",
       "externalId": "138357",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:01:36+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -150,7 +210,7 @@
       "provider": "rentomojo",
       "externalId": "138357",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:01:36+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -162,7 +222,7 @@
       "provider": "rentomojo",
       "externalId": "138357",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:01:36+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -174,7 +234,7 @@
       "provider": "rentomojo",
       "externalId": "138357",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:01:36+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -184,9 +244,69 @@
     },
     {
       "provider": "rentomojo",
+      "externalId": "1972",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          133600
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "1972",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          122900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "1972",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          114300
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "1972",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          106900
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
+      "externalId": "1972",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          105800
+        ]
+      ]
+    },
+    {
+      "provider": "rentomojo",
       "externalId": "5100",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -198,7 +318,7 @@
       "provider": "rentomojo",
       "externalId": "5100",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -210,7 +330,7 @@
       "provider": "rentomojo",
       "externalId": "5100",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -222,7 +342,7 @@
       "provider": "rentomojo",
       "externalId": "5100",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -234,7 +354,7 @@
       "provider": "rentomojo",
       "externalId": "5100",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-05T14:57:09Z",
+      "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",

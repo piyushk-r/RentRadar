@@ -1,196 +1,220 @@
 {
-  "productId": "bed-single-storage",
-  "collectingSince": "2026-08-26T01:20:35+05:30",
+  "productId": "refrigerator-double-door-250-350l",
+  "collectingSince": "2026-09-06T00:43:28+05:30",
   "series": [
     {
-      "provider": "guarented",
-      "externalId": "helix-single-storage-bed-on-rent",
+      "provider": "furlenco",
+      "externalId": "3789",
       "tenureMonths": 3,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          107500
+          "2026-09-06T00:43:28+05:30",
+          130900
         ]
       ]
     },
     {
-      "provider": "guarented",
-      "externalId": "helix-single-storage-bed-on-rent",
+      "provider": "furlenco",
+      "externalId": "3789",
       "tenureMonths": 6,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          76200
+          "2026-09-06T00:43:28+05:30",
+          130900
         ]
       ]
     },
     {
-      "provider": "guarented",
-      "externalId": "helix-single-storage-bed-on-rent",
+      "provider": "furlenco",
+      "externalId": "3789",
       "tenureMonths": 9,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          46500
+          "2026-09-06T00:43:28+05:30",
+          130900
         ]
       ]
     },
     {
-      "provider": "guarented",
-      "externalId": "helix-single-storage-bed-on-rent",
+      "provider": "furlenco",
+      "externalId": "3789",
       "tenureMonths": 12,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          45300
+          "2026-09-06T00:43:28+05:30",
+          130900
         ]
       ]
     },
     {
-      "provider": "guarented",
-      "externalId": "helix-single-storage-bed-on-rent",
+      "provider": "furlenco",
+      "externalId": "3789",
       "tenureMonths": 18,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          40600
+          "2026-09-06T00:43:28+05:30",
+          130900
         ]
       ]
     },
     {
-      "provider": "guarented",
-      "externalId": "helix-single-storage-bed-on-rent",
+      "provider": "furlenco",
+      "externalId": "3789",
       "tenureMonths": 24,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          36400
+          "2026-09-06T00:43:28+05:30",
+          130900
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "117123",
+      "provider": "furlenco",
+      "externalId": "5749",
       "tenureMonths": 3,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-06T00:43:28+05:30",
-          47400
+          234900
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "117123",
+      "provider": "furlenco",
+      "externalId": "5749",
       "tenureMonths": 6,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-06T00:43:28+05:30",
-          43600
+          234900
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "117123",
+      "provider": "furlenco",
+      "externalId": "5749",
       "tenureMonths": 9,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-06T00:43:28+05:30",
-          40500
+          234900
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "117123",
+      "provider": "furlenco",
+      "externalId": "5749",
       "tenureMonths": 12,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-06T00:43:28+05:30",
-          37900
+          234900
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "117123",
+      "provider": "furlenco",
+      "externalId": "5749",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          234900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5749",
       "tenureMonths": 24,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
           "2026-09-06T00:43:28+05:30",
-          37500
+          234900
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "3277",
+      "provider": "furlenco",
+      "externalId": "6112",
       "tenureMonths": 3,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          71100
+          "2026-09-06T00:43:28+05:30",
+          149900
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "3277",
+      "provider": "furlenco",
+      "externalId": "6112",
       "tenureMonths": 6,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          65400
+          "2026-09-06T00:43:28+05:30",
+          149900
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "3277",
+      "provider": "furlenco",
+      "externalId": "6112",
       "tenureMonths": 9,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          60800
+          "2026-09-06T00:43:28+05:30",
+          149900
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "3277",
+      "provider": "furlenco",
+      "externalId": "6112",
       "tenureMonths": 12,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          56900
+          "2026-09-06T00:43:28+05:30",
+          149900
         ]
       ]
     },
     {
-      "provider": "rentomojo",
-      "externalId": "3277",
+      "provider": "furlenco",
+      "externalId": "6112",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "points": [
+        [
+          "2026-09-06T00:43:28+05:30",
+          149900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "6112",
       "tenureMonths": 24,
       "lastSeen": "2026-09-06T00:43:28+05:30",
       "points": [
         [
-          "2026-08-26T01:20:35+05:30",
-          56300
+          "2026-09-06T00:43:28+05:30",
+          149900
         ]
       ]
     }
