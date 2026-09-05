@@ -47,3 +47,5 @@ pipeline:
       enabled: true
     guarented:
       enabled: true
+    furlenco:
+      enabled: true

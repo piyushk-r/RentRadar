@@ -23,7 +23,7 @@ public record PipelineConfig(
         long maxPlausibleMonthlyPaise,
         Providers providers) {
 
-    public record Providers(Toggle rentomojo, Toggle guarented) {
+    public record Providers(Toggle rentomojo, Toggle guarented, Toggle furlenco) {
     }
 
     public record Toggle(boolean enabled) {

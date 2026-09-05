@@ -2,6 +2,7 @@ package in.rentradar.pipeline;
 
 import in.rentradar.pipeline.common.model.RentalCategory;
 import in.rentradar.pipeline.provider.RentalProvider;
+import in.rentradar.pipeline.provider.furlenco.FurlencoAdapter;
 import in.rentradar.pipeline.provider.guarented.GuarentedAdapter;
 import in.rentradar.pipeline.provider.manual.ManualSheetProvider;
 import in.rentradar.pipeline.provider.rentomojo.RentoMojoAdapter;
@@ -57,6 +58,10 @@ public class PipelineApplication {
         if (config.providers() == null || config.providers().guarented() == null
                 || config.providers().guarented().enabled()) {
             providers.add(new GuarentedAdapter(client, categories, config.userAgent(), config.requestDelayMillis()));
+        }
+        if (config.providers() == null || config.providers().furlenco() == null
+                || config.providers().furlenco().enabled()) {
+            providers.add(new FurlencoAdapter(client, categories, config.userAgent(), config.requestDelayMillis()));
         }
         // Hand-maintained sheets for the providers we may not crawl: every
         // data/manual/*.yml becomes a provider column (PRD section 14).
