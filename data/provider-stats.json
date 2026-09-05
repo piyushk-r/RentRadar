@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-09-03T23:26:42+05:30",
+  "asOf": "2026-09-05T14:57:09Z",
   "providers": {
     "guarented": {
       "successRate30d": 1,
-      "samples": 21
+      "samples": 25
     },
     "rentomojo": {
-      "successRate30d": 0.22,
-      "samples": 23
+      "successRate30d": 0.19,
+      "samples": 27
     }
   }
 }
