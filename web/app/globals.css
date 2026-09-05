@@ -1187,3 +1187,194 @@ table.status {
     grid-template-columns: 1fr;
   }
 }
+
+/* --- typography: a clearer hierarchy ------------------------------------ */
+
+/* Optical sizing and a tighter measure at large sizes; numerals stay lined
+   so a column of money is scannable. */
+.wordmark {
+  font-size: clamp(38px, 7vw, 60px);
+  line-height: 1.05;
+}
+
+.tagline {
+  font-size: 14.5px;
+  letter-spacing: 0.1px;
+  max-width: 46ch;
+  margin-inline: auto;
+}
+
+.offer-price,
+.answer .big,
+.history-caption b {
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: 'tnum' 1, 'lnum' 1;
+}
+
+/* Section headings get a rule that starts at the text and fades, so the eye
+   finds the boundary without a heavy border. */
+.category-section > h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.category-section > h2::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--hairline-strong), transparent);
+}
+
+.product-attrs {
+  font-size: 12px;
+  letter-spacing: 0.2px;
+}
+
+/* --- interaction: make it feel like it responds -------------------------- */
+
+/* One place defines how things move, so nothing animates by accident. */
+:root {
+  --ease: cubic-bezier(0.2, 0, 0.13, 1);
+}
+
+.filter-chip,
+.chip-toggle,
+.setup-apply,
+.history-toggle,
+.searchbox button[type='submit'] {
+  transition: background 0.15s var(--ease), border-color 0.15s var(--ease),
+    color 0.15s var(--ease), transform 0.12s var(--ease), box-shadow 0.15s var(--ease);
+}
+
+.filter-chip:hover,
+.chip-toggle:hover {
+  border-color: var(--hairline-strong);
+  color: var(--ink);
+}
+
+.filter-chip:active,
+.chip-toggle:active,
+.setup-apply:active {
+  transform: translateY(1px);
+}
+
+.chip-toggle.on {
+  background: var(--link-dim);
+  box-shadow: 0 0 0 1px var(--link) inset;
+}
+
+/* Keyboard users get the same affordance as the mouse, everywhere. */
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+input:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Rows arrive rather than appear, but only for people who want motion. */
+@media (prefers-reduced-motion: no-preference) {
+  .row-card {
+    animation: rise 0.32s var(--ease) both;
+  }
+
+  .offer.is-priced:active {
+    transform: translateY(0);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* The whole offer panel is the target, not just the price link. */
+.offer.is-priced {
+  cursor: pointer;
+}
+
+.offer.is-priced .offer-price a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+
+.offer.is-priced .offer-price a {
+  text-decoration: none;
+}
+
+.offer.is-priced:hover .offer-price a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* The row lifts only when the pointer is on it, not while a panel is hovered —
+   two things moving at once reads as jitter. */
+.row-card:has(.offer:hover) {
+  transform: none;
+}
+
+/* --- results bar: freshness on the left, share on the right ------------- */
+
+.results-bar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.results-bar .freshness-line {
+  margin: 0;
+  text-align: left;
+}
+
+.share-link,
+.filter-clear {
+  font: inherit;
+  font-size: 12.5px;
+  color: var(--muted);
+  background: none;
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  padding: 3px 12px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.share-link:hover,
+.filter-clear:hover {
+  color: var(--ink);
+  border-color: var(--hairline-strong);
+}
+
+.filter-clear {
+  color: var(--link);
+  border-color: var(--link-dim);
+}
+
+/* The filter bar stays reachable while the results scroll past it. */
+.filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: linear-gradient(180deg, var(--page) 82%, transparent);
+  backdrop-filter: blur(6px);
+  padding-top: 12px;
+}

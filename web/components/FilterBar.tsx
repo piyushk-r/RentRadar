@@ -34,6 +34,17 @@ function numberOrNull(value: string): number | null {
   return value.trim() !== '' && Number.isFinite(n) && n >= 0 ? n : null;
 }
 
+/** How many filters are actually narrowing the results right now. */
+export function activeFilterCount(filters: GlobalFilters, allProviders: string[]): number {
+  let n = 0;
+  if (filters.providers && filters.providers.length < allProviders.length) n += 1;
+  if (filters.monthlyMinRupees != null) n += 1;
+  if (filters.monthlyMaxRupees != null) n += 1;
+  if (filters.depositMaxRupees != null) n += 1;
+  if (filters.freshOnly) n += 1;
+  return n;
+}
+
 export function FilterBar({
   allProviders,
   filters,
@@ -44,6 +55,7 @@ export function FilterBar({
   onChange: (next: GlobalFilters) => void;
 }) {
   const active = filters.providers ?? allProviders;
+  const narrowing = activeFilterCount(filters, allProviders);
 
   function toggleProvider(id: string) {
     const next = active.includes(id) ? active.filter((p) => p !== id) : [...active, id];
@@ -120,6 +132,16 @@ export function FilterBar({
           ))}
         </select>
       </label>
+
+      {narrowing > 0 && (
+        <button
+          type="button"
+          className="filter-clear"
+          onClick={() => onChange({ ...DEFAULT_FILTERS, sort: filters.sort })}
+        >
+          Clear {narrowing} filter{narrowing === 1 ? '' : 's'}
+        </button>
+      )}
     </div>
   );
 }

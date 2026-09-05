@@ -102,6 +102,7 @@ export default function Home() {
   const fetchedSlugs = useRef(new Set<string>());
   const [error, setError] = useState<string | null>(null);
   const [now, setNow] = useState<Date | null>(null);
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -436,9 +437,28 @@ export default function Home() {
 
         {loaded && (
           <>
-            <p className="freshness-line">
-              {latestScrapedAt ? `Prices last checked ${formatAge(latestScrapedAt, now)}` : 'Loading prices…'}
-            </p>
+            <div className="results-bar">
+              <span className="freshness-line">
+                {latestScrapedAt ? `Prices last checked ${formatAge(latestScrapedAt, now)}` : 'Loading prices…'}
+              </span>
+              {/* The whole query already lives in the URL (FR-8.3); this just
+                  hands it over without asking anyone to select the address bar. */}
+              <button
+                type="button"
+                className="share-link"
+                onClick={() => {
+                  navigator.clipboard
+                    ?.writeText(window.location.href)
+                    .then(() => {
+                      setCopied(true);
+                      window.setTimeout(() => setCopied(false), 2000);
+                    })
+                    .catch(() => setCopied(false));
+                }}
+              >
+                {copied ? '✓ Link copied' : 'Copy link'}
+              </button>
+            </div>
 
             {allProviders.length > 0 && (
               <FilterBar allProviders={allProviders} filters={filters} onChange={setFilters} />

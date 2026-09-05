@@ -117,7 +117,18 @@ public class FurlencoAdapter implements RentalProvider {
         try (BrowserRenderer renderer = new BrowserRenderer(userAgent, requestDelayMillis)) {
             List<Card> cards = renderer.withPage(listingUrl, page -> {
                 FurlencoCityGate.answer(page, city);
-                page.waitForTimeout(5000);
+                // Wait for the cards themselves rather than a fixed pause: the
+                // busier category pages (beds, sofas) paint well after the
+                // quick ones, and a fixed wait silently returned zero for them.
+                try {
+                    page.waitForSelector("a[href*='/rent/products/']",
+                            new com.microsoft.playwright.Page.WaitForSelectorOptions().setTimeout(25000));
+                } catch (RuntimeException e) {
+                    // Genuinely empty, or slower than we are willing to wait —
+                    // either way the zero-product guard decides what it means.
+                    log.warn("furlenco: no product cards appeared on {}", listingUrl);
+                }
+                page.waitForTimeout(1500);
                 return readCards(page);
             });
             log.info("furlenco: {} cards on {}", cards.size(), listingUrl);
