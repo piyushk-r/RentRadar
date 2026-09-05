@@ -103,6 +103,8 @@ export default function Home() {
   const [error, setError] = useState<string | null>(null);
   const [now, setNow] = useState<Date | null>(null);
   const [copied, setCopied] = useState(false);
+  // Past the hero, the header becomes a slim bar: search, city, tenure.
+  const [collapsed, setCollapsed] = useState(false);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -131,8 +133,14 @@ export default function Home() {
       sort: sort && sort in SORT_LABELS ? (sort as SortMode) : 'cheapest-total',
     });
     setNow(new Date());
+    const onScroll = () => setCollapsed(window.scrollY > 150);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
     const tick = setInterval(() => setNow(new Date()), 60_000);
-    return () => clearInterval(tick);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      clearInterval(tick);
+    };
   }, []);
 
   // The query state stays in the URL so a comparison is shareable (FR-8.3).
@@ -362,7 +370,7 @@ export default function Home() {
 
   return (
     <main>
-      <div className={`home${loaded ? ' has-results' : ''}`}>
+      <div className={`home${loaded ? ' has-results' : ''}${collapsed ? ' is-collapsed' : ''}`}>
         <h1 className="wordmark">
           Rent<span className="accent">Radar</span>
         </h1>

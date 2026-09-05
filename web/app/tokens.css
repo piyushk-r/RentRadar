@@ -1,0 +1,149 @@
+:root {
+  color-scheme: dark;
+
+  /* Surfaces. Blue-tinted near-black rather than pure black, then two
+     elevations above it. Nothing is "black on black" — every raised thing is
+     a lighter plane plus a hairline, not a drawn box. */
+  --bg: #0a0b0f;
+  --surface-1: #12141a;
+  --surface-2: #181b22;
+  --surface-3: #1e222b;
+
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.14);
+  --border-bright: rgba(255, 255, 255, 0.22);
+
+  /* A gray ramp, not a palette: one bright ink and two steps down. */
+  --text-1: #f4f5f7;
+  --text-2: rgba(244, 245, 247, 0.62);
+  --text-3: rgba(244, 245, 247, 0.4);
+
+  /* One accent, spent sparingly: the search button, active states, best price. */
+  --accent: #7c5cff;
+  --accent-bright: #9b85ff;
+  --accent-dim: rgba(124, 92, 255, 0.16);
+  --accent-cyan: #34d3ee;
+  --accent-gradient: linear-gradient(135deg, #7c5cff 0%, #34d3ee 140%);
+
+  --good: #34d399;
+  --good-dim: rgba(52, 211, 153, 0.12);
+  --warn: #fbbf24;
+  --bad: #f87171;
+
+  /* Elevation: an inner top highlight so a surface catches the light from
+     above, plus a diffuse shadow so it sits over the page. */
+  --lift-1: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 1px 2px rgba(0, 0, 0, 0.4);
+  --lift-2: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 4px 16px -4px rgba(0, 0, 0, 0.5);
+  --lift-3: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 12px 32px -8px rgba(0, 0, 0, 0.6);
+
+  --radius-sm: 10px;
+  --radius: 14px;
+  --radius-lg: 18px;
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --fast: 160ms;
+  --med: 220ms;
+
+  --content: 1160px;
+
+  /* Names the rest of the sheet still uses, mapped onto the new ramp. */
+  --page: var(--bg);
+  --surface: var(--surface-1);
+  --dim-bg: var(--surface-2);
+  --ink: var(--text-1);
+  --muted: var(--text-2);
+  --faint: var(--text-3);
+  --hairline: var(--border);
+  --hairline-strong: var(--border-strong);
+  --link: var(--accent-bright);
+  --link-dim: var(--accent-dim);
+  --best: var(--good);
+  --best-bg: var(--good-dim);
+  --shadow: var(--lift-2);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--text-1);
+  background: var(--bg);
+  font-size: 14.5px;
+  line-height: 1.55;
+  letter-spacing: -0.006em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* One light source, behind the hero, so the page has a direction. */
+.page-glow {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(720px 380px at 50% -80px, rgba(124, 92, 255, 0.16), transparent 70%),
+    radial-gradient(520px 300px at 82% 4%, rgba(52, 211, 238, 0.07), transparent 72%);
+}
+
+/* Grain, so a large dark field is not perfectly flat. Very low opacity: it
+   should be felt rather than seen. */
+.page-grain {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.035;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+/* Headings and the wordmark take the display face and tighter tracking. */
+.wordmark,
+h1,
+h2,
+h3,
+.offer-price,
+.answer .big {
+  font-family: var(--font-display), var(--font-sans), sans-serif;
+  letter-spacing: -0.03em;
+}
+
+/* Money is compared down a column, so it is always tabular and lining. */
+.offer-price,
+.offer-facts dd,
+.answer .big,
+.pick-price,
+.compare td,
+.landing-table td,
+.history-table td,
+.totals-card,
+.filter-field input {
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: 'tnum' 1, 'lnum' 1;
+}
+
+/* Keyboard users get the same affordance as the mouse, everywhere. */
+:focus-visible {
+  outline: 2px solid var(--accent-bright);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

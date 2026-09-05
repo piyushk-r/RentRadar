@@ -1,0 +1,1056 @@
+/* ===== hero =========================================================== */
+
+.home {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: var(--content);
+  margin: 0 auto;
+  padding: 84px 16px 8px;
+  text-align: center;
+  transition: padding var(--med) var(--ease);
+}
+
+.home.has-results {
+  padding-top: 44px;
+}
+
+.wordmark {
+  font-size: clamp(40px, 5.4vw, 62px);
+  font-weight: 800;
+  line-height: 1.02;
+  color: var(--text-1);
+}
+
+.wordmark .accent {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.tagline {
+  margin-top: 10px;
+  color: var(--text-2);
+  font-size: 15px;
+  max-width: none;
+}
+
+/* ===== search: the primary action ===================================== */
+
+.searchbox {
+  margin: 26px auto 0;
+  max-width: 620px;
+}
+
+.searchbox form {
+  display: flex;
+  gap: 10px;
+}
+
+.searchbox input[type='search'] {
+  flex: 1;
+  font: inherit;
+  font-size: 15px;
+  color: var(--text-1);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 13px 18px;
+  outline: none;
+  box-shadow: var(--lift-1);
+  transition: border-color var(--fast) var(--ease), box-shadow var(--fast) var(--ease);
+}
+
+.searchbox input[type='search']::placeholder {
+  color: var(--text-3);
+}
+
+/* A glow ring rather than a hard outline: it reads as the field lighting up. */
+.searchbox input[type='search']:focus {
+  border-color: var(--accent);
+  box-shadow: var(--lift-1), 0 0 0 4px var(--accent-dim);
+}
+
+.searchbox button[type='submit'] {
+  font: inherit;
+  font-weight: 600;
+  font-size: 14.5px;
+  color: #fff;
+  background: var(--accent-gradient);
+  border: none;
+  border-radius: var(--radius);
+  padding: 13px 24px;
+  cursor: pointer;
+  box-shadow: var(--lift-1), 0 6px 20px -8px rgba(124, 92, 255, 0.7);
+  transition: transform var(--fast) var(--ease), box-shadow var(--fast) var(--ease), filter var(--fast) var(--ease);
+}
+
+.searchbox button[type='submit']:hover {
+  filter: brightness(1.08);
+  box-shadow: var(--lift-1), 0 10px 26px -8px rgba(124, 92, 255, 0.85);
+}
+
+.searchbox button[type='submit']:active {
+  transform: translateY(1px);
+}
+
+.search-examples,
+.search-readback {
+  margin-top: 10px;
+  font-size: 12.5px;
+  color: var(--text-3);
+}
+
+.search-readback b {
+  color: var(--text-1);
+  font-weight: 600;
+}
+
+.search-unparsed {
+  color: var(--text-3);
+}
+
+.linkish {
+  font: inherit;
+  color: var(--text-2);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--border-strong);
+  transition: color var(--fast) var(--ease);
+}
+
+.linkish:hover {
+  color: var(--text-1);
+}
+
+/* ===== hero controls: secondary, quieter ============================== */
+
+.controls {
+  margin-top: 22px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.controls select {
+  appearance: none;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-2)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888e9c'/%3E%3C/svg%3E")
+    no-repeat right 15px center;
+  padding: 9px 36px 9px 16px;
+  font: inherit;
+  font-size: 13.5px;
+  color: var(--text-2);
+  cursor: pointer;
+  box-shadow: var(--lift-1);
+  transition: border-color var(--fast) var(--ease), color var(--fast) var(--ease);
+}
+
+.controls select:hover:not(:disabled) {
+  border-color: var(--border-strong);
+  color: var(--text-1);
+}
+
+.setup-builder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 18px 0 0;
+  font-size: 13px;
+  color: var(--text-3);
+}
+
+.setup-builder select {
+  font: inherit;
+  font-size: 13px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 6px 8px;
+  background: var(--surface-2);
+  color: var(--text-2);
+}
+
+.setup-apply {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-1);
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: border-color var(--fast) var(--ease), background var(--fast) var(--ease);
+}
+
+.setup-apply:hover:not(:disabled) {
+  border-color: var(--border-strong);
+  background: var(--surface-3);
+}
+
+.setup-preview {
+  flex-basis: 100%;
+  font-size: 12px;
+  color: var(--text-3);
+}
+
+/* ===== category chips: secondary, quiet =============================== */
+
+.chips {
+  margin: 20px auto 0;
+  max-width: 900px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.chip-toggle {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-1);
+  overflow: hidden;
+  transition: border-color var(--fast) var(--ease), background var(--fast) var(--ease),
+    transform var(--fast) var(--ease);
+}
+
+.chip-toggle:hover {
+  border-color: var(--border-strong);
+  background: var(--surface-2);
+}
+
+.chip-toggle:active {
+  transform: translateY(1px);
+}
+
+.chip-toggle.on {
+  border-color: rgba(124, 92, 255, 0.55);
+  background: var(--accent-dim);
+}
+
+.chip-toggle .chip-main {
+  border: none;
+  background: none;
+  font: inherit;
+  font-size: 13px;
+  color: var(--text-2);
+  padding: 7px 14px;
+  cursor: pointer;
+}
+
+.chip-toggle.on .chip-main {
+  color: var(--accent-bright);
+  font-weight: 600;
+}
+
+.chip-toggle .qty {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding-right: 6px;
+}
+
+.chip-toggle .qty button {
+  border: none;
+  background: none;
+  color: var(--accent-bright);
+  font-size: 15px;
+  width: 22px;
+  height: 22px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background var(--fast) var(--ease);
+}
+
+.chip-toggle .qty button:hover {
+  background: rgba(124, 92, 255, 0.2);
+}
+
+.chip-toggle .qty b {
+  font-size: 12.5px;
+  min-width: 14px;
+  text-align: center;
+  color: var(--text-1);
+}
+
+.popular {
+  margin-top: 14px;
+  font-size: 12.5px;
+  color: var(--text-3);
+}
+
+.popular a {
+  color: var(--text-2);
+}
+
+.popular a:hover {
+  color: var(--text-1);
+}
+
+/* ===== results column ================================================= */
+
+.results {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: var(--content);
+  margin: 26px auto 0;
+  padding: 0 16px 64px;
+  flex: 1;
+}
+
+.results-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.freshness-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  color: var(--text-3);
+  font-size: 12.5px;
+  text-align: left;
+}
+
+/* A live signal, not decoration: the data behind this page is refreshed on a
+   schedule, and the dot says the loop is running. */
+.freshness-line::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--good);
+  box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.5);
+  animation: pulse 2.4s var(--ease) infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 7px rgba(52, 211, 153, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(52, 211, 153, 0);
+  }
+}
+
+.share-link,
+.filter-clear {
+  font: inherit;
+  font-size: 12.5px;
+  color: var(--text-2);
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color var(--fast) var(--ease), color var(--fast) var(--ease),
+    background var(--fast) var(--ease);
+}
+
+.share-link:hover,
+.filter-clear:hover {
+  color: var(--text-1);
+  border-color: var(--border-strong);
+  background: var(--surface-2);
+}
+
+.filter-clear {
+  color: var(--accent-bright);
+  border-color: rgba(124, 92, 255, 0.4);
+}
+
+/* ===== filter bar: glass, sticky ====================================== */
+
+.filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 18px;
+  margin-bottom: 22px;
+  padding: 12px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(18, 20, 26, 0.72);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  box-shadow: var(--lift-2);
+  font-size: 12.5px;
+  color: var(--text-2);
+}
+
+.filter-group {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font: inherit;
+  font-weight: 500;
+  color: var(--text-3);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 13px;
+  cursor: pointer;
+  transition: border-color var(--fast) var(--ease), color var(--fast) var(--ease),
+    background var(--fast) var(--ease);
+}
+
+.filter-chip:hover {
+  color: var(--text-1);
+  border-color: var(--border-strong);
+}
+
+.filter-chip.on {
+  color: var(--text-1);
+  border-color: rgba(124, 92, 255, 0.5);
+  background: var(--accent-dim);
+}
+
+.filter-field {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+  color: var(--text-3);
+}
+
+.filter-field input[type='number'],
+.filter-field select,
+.attr-filters select,
+.pincode-check input {
+  font: inherit;
+  font-size: 12.5px;
+  color: var(--text-1);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 5px 9px;
+  transition: border-color var(--fast) var(--ease), box-shadow var(--fast) var(--ease);
+}
+
+.filter-field input[type='number'] {
+  width: 78px;
+}
+
+.filter-field input:focus,
+.filter-field select:focus,
+.attr-filters select:focus,
+.pincode-check input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-dim);
+}
+
+.filter-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  color: var(--text-3);
+}
+
+.filter-check input {
+  accent-color: var(--accent);
+}
+
+/* ===== section headings =============================================== */
+
+.category-section {
+  margin-bottom: 40px;
+}
+
+.category-section > h2 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-1);
+  margin-bottom: 10px;
+}
+
+.category-section > h2::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--border-strong), transparent);
+}
+
+.attr-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin: 0 0 14px;
+  font-size: 12px;
+  color: var(--text-3);
+}
+
+.attr-filters label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ===== result rows ==================================================== */
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row-card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px 18px 18px;
+  box-shadow: var(--lift-2);
+  transition: transform var(--med) var(--ease), border-color var(--med) var(--ease),
+    box-shadow var(--med) var(--ease);
+}
+
+.row-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-bright);
+  box-shadow: var(--lift-3);
+}
+
+.row-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.row-head .product-name {
+  font-family: var(--font-display), var(--font-sans), sans-serif;
+  font-size: 15.5px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-1);
+}
+
+.product-attrs {
+  margin-top: 2px;
+  color: var(--text-3);
+  font-size: 12px;
+}
+
+.why-rank {
+  margin-left: 6px;
+  color: var(--text-3);
+  font-size: 11.5px;
+  cursor: help;
+}
+
+.history-toggle {
+  font: inherit;
+  font-size: 12px;
+  color: var(--text-2);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color var(--fast) var(--ease);
+}
+
+.history-toggle:hover {
+  color: var(--accent-bright);
+}
+
+/* ===== offers ========================================================= */
+
+.offers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(228px, 1fr));
+  gap: 10px;
+}
+
+.offer {
+  position: relative;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 13px 14px 11px;
+  box-shadow: var(--lift-1);
+  transition: transform var(--fast) var(--ease), border-color var(--fast) var(--ease),
+    box-shadow var(--fast) var(--ease);
+}
+
+.offer.is-priced:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-bright);
+  box-shadow: var(--lift-2);
+}
+
+.offer.is-absent {
+  background: transparent;
+  border-style: dashed;
+  box-shadow: none;
+}
+
+/* The winner: a ring and a lit ground, with the word "Best" beside it so the
+   distinction never rides on colour alone. */
+.offer.is-best {
+  border-color: rgba(52, 211, 153, 0.5);
+  background: linear-gradient(180deg, var(--good-dim) 0%, var(--surface-2) 72%);
+  box-shadow: var(--lift-1), 0 0 0 1px rgba(52, 211, 153, 0.28);
+}
+
+.offer.is-dim {
+  opacity: 0.55;
+}
+
+.offer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 9px;
+}
+
+.offer-head .provider-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-2);
+  letter-spacing: -0.01em;
+}
+
+/* The price is the largest thing in the row. */
+.offer-price {
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text-1);
+}
+
+.offer-price a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.offer-price .per {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--text-3);
+  letter-spacing: 0;
+}
+
+.offer-facts {
+  display: flex;
+  gap: 18px;
+  margin-top: 9px;
+}
+
+.offer-facts div {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-facts dt {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-3);
+}
+
+.offer-facts dd {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-2);
+}
+
+.offer-absent {
+  font-size: 13px;
+  color: var(--text-3);
+  padding: 8px 0 4px;
+}
+
+.offer-foot {
+  margin-top: 10px;
+  padding-top: 9px;
+  border-top: 1px solid var(--border);
+  font-size: 10.5px;
+  color: var(--text-3);
+  min-height: 12px;
+}
+
+.best-badge {
+  display: inline-block;
+  color: var(--good);
+  background: var(--good-dim);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  border: 1px solid rgba(52, 211, 153, 0.4);
+  border-radius: 999px;
+  padding: 1px 9px;
+}
+
+.stale-note {
+  color: var(--warn);
+  font-size: 11.5px;
+  margin-top: 4px;
+}
+
+.unverified-note {
+  color: var(--bad);
+  font-size: 11.5px;
+  margin-top: 4px;
+}
+
+.state-note {
+  color: var(--text-3);
+  font-size: 13px;
+}
+
+.row-history {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+/* ===== totals ========================================================= */
+
+.totals-card {
+  margin-top: 4px;
+  padding: 14px 18px 16px;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-lg);
+}
+
+.totals-label {
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-3);
+  margin-bottom: 10px;
+}
+
+.offer.is-total {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  padding-left: 0;
+}
+
+.offer.is-total .offer-price {
+  font-size: 21px;
+}
+
+.offer.is-total .offer-foot {
+  border-top: none;
+  padding-top: 4px;
+}
+
+/* ===== basket summary ================================================= */
+
+.basket {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px 22px;
+  margin-bottom: 32px;
+  box-shadow: var(--lift-2);
+}
+
+.basket h2 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: var(--text-1);
+}
+
+.basket-picks {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 18px;
+}
+
+.basket-picks td {
+  padding: 7px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 13.5px;
+  color: var(--text-2);
+}
+
+.pick-what {
+  font-weight: 600;
+  width: 28%;
+  color: var(--text-1);
+}
+
+.pick-who {
+  color: var(--text-2);
+}
+
+.pick-price {
+  text-align: right;
+  color: var(--text-1);
+  font-weight: 600;
+}
+
+.basket-answers {
+  display: flex;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+.answer h3 {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-3);
+  margin-bottom: 4px;
+}
+
+.answer .big {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-1);
+}
+
+.answer .small {
+  color: var(--text-3);
+  font-size: 12px;
+  max-width: 320px;
+}
+
+.answer.delta .big {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.uncovered,
+.partial {
+  color: var(--warn);
+  font-size: 12.5px;
+  margin-top: 10px;
+}
+
+.partial {
+  color: var(--text-3);
+}
+
+/* ===== provider marks ================================================= */
+
+.provider-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.provider-mark {
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+  background: #f4f5f7;
+  padding: 2px;
+  object-fit: contain;
+  flex: none;
+}
+
+.filter-chip .provider-mark {
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+}
+
+/* ===== loading ======================================================== */
+
+.loading,
+.empty {
+  color: var(--text-3);
+  text-align: center;
+  margin-top: 40px;
+  font-size: 13.5px;
+}
+
+/* A section waiting on its price file shows the shape of what is coming. */
+.category-section .loading {
+  position: relative;
+  height: 132px;
+  margin: 0;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: var(--surface-1);
+  overflow: hidden;
+  color: transparent;
+}
+
+.category-section .loading::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* ===== motion ========================================================= */
+
+@media (prefers-reduced-motion: no-preference) {
+  .row-card {
+    animation: rise var(--med) var(--ease) both;
+  }
+
+  /* Rows arrive in sequence rather than all at once. */
+  .rows > *:nth-child(1) { animation-delay: 0ms; }
+  .rows > *:nth-child(2) { animation-delay: 40ms; }
+  .rows > *:nth-child(3) { animation-delay: 80ms; }
+  .rows > *:nth-child(4) { animation-delay: 120ms; }
+  .rows > *:nth-child(5) { animation-delay: 160ms; }
+  .rows > *:nth-child(n + 6) { animation-delay: 200ms; }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+/* Two things lifting at once reads as jitter. */
+.row-card:has(.offer:hover) {
+  transform: none;
+}
+
+@media (max-width: 620px) {
+  .home {
+    padding-top: 48px;
+  }
+
+  .offers {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-bar {
+    gap: 8px 12px;
+  }
+}
+
+/* ===== collapsed header ================================================
+   Past the hero, the header becomes what a reader still needs while
+   scanning results — the search, the city, the tenure — and nothing else.
+   Same markup, different arrangement. */
+
+.home.is-collapsed {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 9px 16px;
+  text-align: left;
+  background: rgba(10, 11, 15, 0.72);
+  backdrop-filter: blur(20px) saturate(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(140%);
+  border-bottom: 1px solid var(--border);
+  max-width: none;
+}
+
+/* The parts that belong to a landing page, not to a results view. */
+.home.is-collapsed .tagline,
+.home.is-collapsed .chips,
+.home.is-collapsed .setup-builder,
+.home.is-collapsed .popular,
+.home.is-collapsed .search-examples,
+.home.is-collapsed .search-readback {
+  display: none;
+}
+
+.home.is-collapsed .wordmark {
+  font-size: 19px;
+  line-height: 1;
+  flex: none;
+}
+
+.home.is-collapsed .searchbox {
+  flex: 1;
+  margin: 0;
+  max-width: 520px;
+}
+
+.home.is-collapsed .searchbox input[type='search'] {
+  padding: 8px 14px;
+  font-size: 13.5px;
+  border-radius: var(--radius-sm);
+}
+
+.home.is-collapsed .searchbox button[type='submit'] {
+  padding: 8px 16px;
+  font-size: 13px;
+  border-radius: var(--radius-sm);
+}
+
+.home.is-collapsed .controls {
+  margin: 0;
+  flex: none;
+}
+
+.home.is-collapsed .controls select {
+  padding: 7px 32px 7px 13px;
+  font-size: 12.5px;
+}
+
+/* The filter bar sticks below the collapsed header rather than under it. */
+.home.is-collapsed ~ .results .filter-bar {
+  top: 58px;
+}
+
+@media (max-width: 720px) {
+  .home.is-collapsed .wordmark,
+  .home.is-collapsed .controls {
+    display: none;
+  }
+
+  .home.is-collapsed .searchbox {
+    max-width: none;
+  }
+}

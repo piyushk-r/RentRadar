@@ -8,59 +8,6 @@
   padding: 0;
 }
 
-:root {
-  color-scheme: dark;
-
-  /* Surfaces, darkest first. The page is near-black; anything raised above it
-     (cards, inputs, the sticky header row) steps up one level. */
-  --page: #0d0f12;
-  --surface: #16191d;
-  --surface-2: #1c2026;
-  --dim-bg: #1c2026;
-
-  /* Ink. Primary is deliberately not pure white — it reads softer at weight. */
-  --ink: #e8eaed;
-  --muted: #9aa4b2;
-  --faint: #6b7480;
-
-  --hairline: #272c33;
-  --hairline-strong: #333a43;
-
-  /* Accents, stepped for a dark surface rather than inherited from light. */
-  --link: #6ba5ff;
-  --link-dim: #2a3a55;
-  --best: #34d399;
-  --best-bg: #10291f;
-  --warn: #fbbf24;
-  --bad: #f87171;
-
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.3);
-}
-
-html {
-  -webkit-text-size-adjust: 100%;
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Arial, sans-serif;
-  color: var(--ink);
-  background: var(--page);
-  font-size: 15px;
-  line-height: 1.55;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* Every figure a reader compares down a column is tabular. */
-.price-cell,
-.compare td,
-.compare tfoot,
-.landing-table td,
-.basket-answers,
-.history-table td {
-  font-variant-numeric: tabular-nums;
-}
-
 a {
   color: var(--link);
   text-decoration: none;

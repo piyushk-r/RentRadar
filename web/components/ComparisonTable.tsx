@@ -6,6 +6,7 @@ import { formatAge } from '../lib/freshness';
 import { formatPaise } from '../lib/money';
 import { ProviderName } from './ProviderMark';
 import { PriceHistory } from './PriceHistory';
+import { useCountUp } from '../lib/useCountUp';
 
 /**
  * One product per card, one panel per provider inside it. A flat grid reads
@@ -32,6 +33,7 @@ function OfferPanel({
   integrationType?: string | null;
 }) {
   const priced = cell.state === 'priced' && cell.record && cell.band;
+  const shownMonthly = useCountUp(cell.record?.monthlyPaise ?? 0);
   const dim = cell.band === 'outdated' || cell.band === 'unverified';
   const record = cell.record;
 
@@ -55,7 +57,7 @@ function OfferPanel({
         <>
           <div className="offer-price">
             <a href={record.providerUrl} rel="noopener noreferrer" target="_blank">
-              {formatPaise(record.monthlyPaise)}
+              {formatPaise(shownMonthly)}
             </a>
             <span className="per">/mo</span>
           </div>
