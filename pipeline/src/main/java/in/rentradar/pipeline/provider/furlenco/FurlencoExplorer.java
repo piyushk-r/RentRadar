@@ -77,16 +77,18 @@ public final class FurlencoExplorer {
 
     private static final String CARDS_JS = """
             () => {
-              const out = [];
-              for (const el of document.querySelectorAll("h1,h2,h3,h4,div,p,span,li,button")) {
-                const t = (el.textContent || "").trim();
-                if (t.length > 4 && t.length < 220) {
-                  const low = t.toLowerCase();
-                  if (low.includes("minimum") || low.includes("tenure") || low.includes("lock-in") || low.includes("lock in") || low.includes("months")) out.push(t);
-                }
-                if (out.length > 25) break;
+              const shapes = {};
+              for (const a of document.querySelectorAll("a[href]")) {
+                const h = a.getAttribute("href") || "";
+                if (!h.startsWith("/")) continue;
+                const key = h.split("/").slice(0, 3).join("/");
+                shapes[key] = (shapes[key] || 0) + 1;
               }
-              return [...new Set(out)];
+              const out = Object.entries(shapes).sort((a, b) => b[1] - a[1]).slice(0, 12)
+                    .map(([k, v]) => v + "x  " + k);
+              out.push("---- total anchors: " + document.querySelectorAll("a[href]").length);
+              out.push("---- body chars: " + (document.body.innerText || "").length);
+              return out;
             }
             """;
 

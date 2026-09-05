@@ -69,6 +69,25 @@ npm install
 npm run dev       # or npm run build for the static export in web/out/
 ```
 
+## Updating the live site
+
+```powershell
+.\refresh.ps1          # build, scrape, commit, rebuild history, push
+.\refresh.ps1 -NoPush  # same, but stop before pushing
+```
+
+Cloudflare rebuilds on the push, so that is the whole update.
+
+The 12-hour cron does the same thing unattended, with one gap: RentoMojo's
+host serves this project from a home connection but refuses GitHub's runner IP
+range, so CI cannot refresh it and `/status` says so. Guarented and Furlenco
+refresh fine there. Running `refresh.ps1` locally is what keeps RentoMojo
+current.
+
+Order matters, and the script handles it: `build-history.mjs` walks
+*committed* history, so the data is committed first and the history rebuilt
+after — the same two-step the scrape workflow uses.
+
 ## Deploy
 
 Host on **Cloudflare Pages** (not Vercel Hobby — its non-commercial clause is

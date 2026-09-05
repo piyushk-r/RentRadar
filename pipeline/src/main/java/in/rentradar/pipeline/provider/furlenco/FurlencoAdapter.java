@@ -47,18 +47,35 @@ public class FurlencoAdapter implements RentalProvider {
     public static final String PROVIDER_ID = "furlenco";
     private static final String BASE_URL = "https://www.furlenco.com";
 
-    /** Category listing paths under the city prefix, from the published sitemap. */
-    private static final Map<RentalCategory, String> CATEGORY_PATHS = new EnumMap<>(Map.ofEntries(
-            Map.entry(RentalCategory.BED, "/bedroom-beds-furniture-on-rent"),
-            Map.entry(RentalCategory.WARDROBE, "/wardrobes-on-rent"),
-            Map.entry(RentalCategory.REFRIGERATOR, "/refrigerators-on-rent"),
-            Map.entry(RentalCategory.WASHING_MACHINE, "/washing-machine-on-rent"),
-            Map.entry(RentalCategory.SOFA, "/living-room-sofa-furniture-on-rent"),
-            Map.entry(RentalCategory.DINING_TABLE, "/dining-room-furniture-on-rent"),
-            Map.entry(RentalCategory.STUDY_TABLE, "/study-table-on-rent"),
-            Map.entry(RentalCategory.OFFICE_CHAIR, "/office-chairs-on-rent"),
-            Map.entry(RentalCategory.TV, "/television-on-rent"),
-            Map.entry(RentalCategory.MICROWAVE, "/microwave-on-rent")
+    /**
+     * Category listing paths under the city prefix, from the published sitemap.
+     *
+     * Three of the sitemap's per-product-type pages (`bedroom-beds-…`,
+     * `living-room-sofa-…`, `television-on-rent`) render an empty shell — a
+     * generic title and no cards, however long you wait. Their broader parents
+     * do work, so those categories read the parent and keep the cards whose
+     * name belongs to them. `keep` is null where the page is already specific.
+     */
+    private record Source(String path, java.util.function.Predicate<String> keep) {
+        static Source of(String path) {
+            return new Source(path, null);
+        }
+    }
+
+    private static final Map<RentalCategory, Source> CATEGORY_PATHS = new EnumMap<>(Map.ofEntries(
+            Map.entry(RentalCategory.BED, new Source("/bedroom-furniture-on-rent",
+                    name -> name.contains("bed") && !name.contains("bedside") && !name.contains("mattress"))),
+            Map.entry(RentalCategory.WARDROBE, Source.of("/wardrobes-on-rent")),
+            Map.entry(RentalCategory.REFRIGERATOR, Source.of("/refrigerators-on-rent")),
+            Map.entry(RentalCategory.WASHING_MACHINE, Source.of("/washing-machine-on-rent")),
+            Map.entry(RentalCategory.SOFA, new Source("/living-room-furniture-on-rent",
+                    name -> name.contains("sofa") || name.contains("recliner"))),
+            Map.entry(RentalCategory.DINING_TABLE, Source.of("/dining-room-furniture-on-rent")),
+            Map.entry(RentalCategory.STUDY_TABLE, Source.of("/study-table-on-rent")),
+            Map.entry(RentalCategory.OFFICE_CHAIR, Source.of("/office-chairs-on-rent")),
+            Map.entry(RentalCategory.TV, new Source("/appliances-on-rent",
+                    name -> (name.contains("tv") || name.contains("television")) && !name.contains("unit"))),
+            Map.entry(RentalCategory.MICROWAVE, Source.of("/microwave-on-rent"))
     ));
 
     /** /rent/products/<slug>-<id>-rent — the trailing number is the listing id. */
@@ -107,11 +124,11 @@ public class FurlencoAdapter implements RentalProvider {
 
     private List<RentalProduct> fetchCategory(String city, RentalCategory category, List<String> warnings)
             throws Exception {
-        String path = CATEGORY_PATHS.get(category);
-        if (path == null) {
+        Source source = CATEGORY_PATHS.get(category);
+        if (source == null) {
             return List.of();
         }
-        String listingUrl = BASE_URL + "/" + cityPath(city) + path;
+        String listingUrl = BASE_URL + "/" + cityPath(city) + source.path();
         client.requireAllowed(listingUrl);
 
         try (BrowserRenderer renderer = new BrowserRenderer(userAgent, requestDelayMillis)) {
@@ -139,12 +156,18 @@ public class FurlencoAdapter implements RentalProvider {
                 if (!seen.add(card.externalId())) {
                     continue; // the same product can appear in more than one rail
                 }
+                // A broad page carries more than this category; the card's own
+                // name decides what it is, and the matcher checks that again.
+                if (source.keep() != null && !source.keep().test(card.name().toLowerCase(java.util.Locale.ROOT))) {
+                    continue;
+                }
                 if (card.monthlyPaise() <= 0) {
                     warnings.add(card.url() + ": no published price on the card");
                     continue;
                 }
                 products.add(toProduct(card, category));
             }
+            log.info("furlenco: {} kept for {}", products.size(), category);
             return products;
         }
     }
