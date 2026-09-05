@@ -73,6 +73,6 @@ if ($NoPush) {
 }
 
 Write-Host ""
-Write-Host "Done. Site: https://rentradar.verida-healthcare.workers.dev" -ForegroundColor Green
+Write-Host "Done. Site: https://rentradar.builtbypk.workers.dev" -ForegroundColor Green
 Write-Host "Pipeline health: /status" -ForegroundColor DarkGray
 exit $pipelineExit
