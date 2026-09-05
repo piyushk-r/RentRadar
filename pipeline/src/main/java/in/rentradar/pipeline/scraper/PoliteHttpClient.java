@@ -64,10 +64,20 @@ public class PoliteHttpClient {
             robots = RobotsTxt.parse(rawFetch(robotsUri));
         } catch (FetchException e) {
             // No readable robots.txt: treat the host as closed rather than open.
-            throw new FetchException("could not read robots.txt for " + host + "; refusing to crawl", e);
+            // Seen in practice when a host serves us fine from a residential IP
+            // but refuses datacenter ranges, which is what a CI runner has. That
+            // is the host declining to be read from here, so we do not read.
+            throw new FetchException("robots.txt unreachable for " + host
+                    + " (" + shortReason(e) + ") — refusing to crawl; the host may not serve this network", e);
         }
         robotsByHost.put(host, robots);
         return robots;
+    }
+
+    private static String shortReason(Exception e) {
+        String message = e.getMessage();
+        return message == null || message.isBlank() ? e.getClass().getSimpleName() : message.split("
+")[0];
     }
 
     private synchronized String rawFetch(URI uri) throws FetchException, InterruptedException {
