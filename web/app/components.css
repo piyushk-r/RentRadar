@@ -982,8 +982,15 @@
    Same markup, different arrangement. */
 
 .home.is-collapsed {
-  position: sticky;
+  /* Fixed, not sticky: a sticky header still occupies its own (now smaller)
+     box in the flow, so collapsing shortens the document and the browser's
+     scroll anchoring fights the scroll threshold — the header visibly
+     oscillates. Out of the flow entirely, with the results reserving exactly
+     the height the hero had, the document never changes size. */
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 30;
   display: flex;
   align-items: center;
@@ -1039,6 +1046,11 @@
 .home.is-collapsed .controls select {
   padding: 7px 32px 7px 13px;
   font-size: 12.5px;
+}
+
+/* Reserve the hero's measured height so nothing below it moves. */
+.home.is-collapsed ~ .results {
+  margin-top: calc(var(--hero-h, 0px) + 26px);
 }
 
 /* The filter bar sticks below the collapsed header rather than under it. */

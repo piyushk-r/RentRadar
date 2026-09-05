@@ -105,6 +105,12 @@ export default function Home() {
   const [copied, setCopied] = useState(false);
   // Past the hero, the header becomes a slim bar: search, city, tenure.
   const [collapsed, setCollapsed] = useState(false);
+  // The hero's height while expanded. When it collapses to a fixed bar its
+  // space is reserved with exactly this much margin, so the document never
+  // changes height — which is the one thing that makes a collapsing header
+  // stable under the browser's scroll anchoring.
+  const homeRef = useRef<HTMLDivElement>(null);
+  const [heroHeight, setHeroHeight] = useState(0);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -147,13 +153,9 @@ export default function Home() {
     const EXPAND_AT = 120;
     const onScroll = () => {
       const y = window.scrollY;
-      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
       setCollapsed((was) => {
-        // Measured: collapsing shortens the page by roughly 460px, and the
-        // browser clamps the scroll to match. The page must be long enough
-        // that the clamped position still lands above EXPAND_AT, or the two
-        // thresholds trade places and it oscillates again.
-        if (scrollable < 1500) return false;
+        // Measure while expanded, so the reserved space matches the real hero.
+        if (!was && homeRef.current) setHeroHeight(homeRef.current.offsetHeight);
         if (!was && y > COLLAPSE_AT) return true;
         if (was && y < EXPAND_AT) return false;
         return was;
@@ -394,8 +396,8 @@ export default function Home() {
   const currentCity = cities.find((c) => c.id === city) ?? cities[0] ?? null;
 
   return (
-    <main>
-      <div className={`home${loaded ? ' has-results' : ''}${collapsed ? ' is-collapsed' : ''}`}>
+    <main style={{ '--hero-h': `${heroHeight}px` } as React.CSSProperties}>
+      <div ref={homeRef} className={`home${loaded ? ' has-results' : ''}${collapsed ? ' is-collapsed' : ''}`}>
         <h1 className="wordmark">
           Rent<span className="accent">Radar</span>
         </h1>
