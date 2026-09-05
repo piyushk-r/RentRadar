@@ -18,7 +18,7 @@
       "provider" : "rentomojo",
       "providerName" : "Kent Pride Plus Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-kent-pride-plus-water-purifier/103107",
-      "scrapedAt" : "2026-09-03T17:01:59.737193Z",
+      "scrapedAt" : "2026-09-05T19:04:18.445594300Z",
       "tenureMonths" : 3
     },
     {
@@ -39,7 +39,7 @@
       "provider" : "rentomojo",
       "providerName" : "Kent Pride Plus Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-kent-pride-plus-water-purifier/103107",
-      "scrapedAt" : "2026-09-03T17:01:59.737193Z",
+      "scrapedAt" : "2026-09-05T19:04:18.445594300Z",
       "tenureMonths" : 6
     },
     {
@@ -60,7 +60,7 @@
       "provider" : "rentomojo",
       "providerName" : "Kent Pride Plus Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-kent-pride-plus-water-purifier/103107",
-      "scrapedAt" : "2026-09-03T17:01:59.737193Z",
+      "scrapedAt" : "2026-09-05T19:04:18.445594300Z",
       "tenureMonths" : 9
     },
     {
@@ -81,7 +81,7 @@
       "provider" : "rentomojo",
       "providerName" : "Kent Pride Plus Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-kent-pride-plus-water-purifier/103107",
-      "scrapedAt" : "2026-09-03T17:01:59.737193Z",
+      "scrapedAt" : "2026-09-05T19:04:18.445594300Z",
       "tenureMonths" : 12
     },
     {
@@ -102,116 +102,11 @@
       "provider" : "rentomojo",
       "providerName" : "Kent Pride Plus Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-kent-pride-plus-water-purifier/103107",
-      "scrapedAt" : "2026-09-03T17:01:59.737193Z",
+      "scrapedAt" : "2026-09-05T19:04:18.445594300Z",
       "tenureMonths" : 24
     },
     {
       "availability" : "OUT_OF_STOCK",
-      "canonicalProductId" : "water-purifier",
-      "cashUpfrontPaise" : 134800,
-      "city" : "bangalore",
-      "deliveryFeePaise" : 0,
-      "depositPaise" : 67400,
-      "discountPaise" : 0,
-      "estimatedTotalPaise" : 202200,
-      "externalId" : "106654",
-      "imageUrl" : null,
-      "installationFeePaise" : 0,
-      "monthlyPaise" : 67400,
-      "monthlyTaxPaise" : 12100,
-      "otherFeesPaise" : 0,
-      "provider" : "rentomojo",
-      "providerName" : "Kent Maxx Water Purifier",
-      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-kent-maxx-water-purifier/106654",
-      "scrapedAt" : "2026-09-03T17:02:25.410932500Z",
-      "tenureMonths" : 3
-    },
-    {
-      "availability" : "OUT_OF_STOCK",
-      "canonicalProductId" : "water-purifier",
-      "cashUpfrontPaise" : 123800,
-      "city" : "bangalore",
-      "deliveryFeePaise" : 0,
-      "depositPaise" : 61900,
-      "discountPaise" : 0,
-      "estimatedTotalPaise" : 371400,
-      "externalId" : "106654",
-      "imageUrl" : null,
-      "installationFeePaise" : 0,
-      "monthlyPaise" : 61900,
-      "monthlyTaxPaise" : 11200,
-      "otherFeesPaise" : 0,
-      "provider" : "rentomojo",
-      "providerName" : "Kent Maxx Water Purifier",
-      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-kent-maxx-water-purifier/106654",
-      "scrapedAt" : "2026-09-03T17:02:25.410932500Z",
-      "tenureMonths" : 6
-    },
-    {
-      "availability" : "OUT_OF_STOCK",
-      "canonicalProductId" : "water-purifier",
-      "cashUpfrontPaise" : 115400,
-      "city" : "bangalore",
-      "deliveryFeePaise" : 0,
-      "depositPaise" : 57700,
-      "discountPaise" : 0,
-      "estimatedTotalPaise" : 519300,
-      "externalId" : "106654",
-      "imageUrl" : null,
-      "installationFeePaise" : 0,
-      "monthlyPaise" : 57700,
-      "monthlyTaxPaise" : 10400,
-      "otherFeesPaise" : 0,
-      "provider" : "rentomojo",
-      "providerName" : "Kent Maxx Water Purifier",
-      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-kent-maxx-water-purifier/106654",
-      "scrapedAt" : "2026-09-03T17:02:25.410932500Z",
-      "tenureMonths" : 9
-    },
-    {
-      "availability" : "OUT_OF_STOCK",
-      "canonicalProductId" : "water-purifier",
-      "cashUpfrontPaise" : 107800,
-      "city" : "bangalore",
-      "deliveryFeePaise" : 0,
-      "depositPaise" : 53900,
-      "discountPaise" : 0,
-      "estimatedTotalPaise" : 646800,
-      "externalId" : "106654",
-      "imageUrl" : null,
-      "installationFeePaise" : 0,
-      "monthlyPaise" : 53900,
-      "monthlyTaxPaise" : 9700,
-      "otherFeesPaise" : 0,
-      "provider" : "rentomojo",
-      "providerName" : "Kent Maxx Water Purifier",
-      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-kent-maxx-water-purifier/106654",
-      "scrapedAt" : "2026-09-03T17:02:25.410932500Z",
-      "tenureMonths" : 12
-    },
-    {
-      "availability" : "OUT_OF_STOCK",
-      "canonicalProductId" : "water-purifier",
-      "cashUpfrontPaise" : 106600,
-      "city" : "bangalore",
-      "deliveryFeePaise" : 0,
-      "depositPaise" : 53300,
-      "discountPaise" : 0,
-      "estimatedTotalPaise" : 1279200,
-      "externalId" : "106654",
-      "imageUrl" : null,
-      "installationFeePaise" : 0,
-      "monthlyPaise" : 53300,
-      "monthlyTaxPaise" : 9600,
-      "otherFeesPaise" : 0,
-      "provider" : "rentomojo",
-      "providerName" : "Kent Maxx Water Purifier",
-      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-kent-maxx-water-purifier/106654",
-      "scrapedAt" : "2026-09-03T17:02:25.410932500Z",
-      "tenureMonths" : 24
-    },
-    {
-      "availability" : "IN_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 109800,
       "city" : "bangalore",
@@ -228,11 +123,11 @@
       "provider" : "rentomojo",
       "providerName" : "Water Purifier with Mineral Enhancer",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-water-purifier-with-mineral-enhancer/115262",
-      "scrapedAt" : "2026-09-03T17:01:41.421709Z",
+      "scrapedAt" : "2026-09-05T19:04:32.022326200Z",
       "tenureMonths" : 3
     },
     {
-      "availability" : "IN_STOCK",
+      "availability" : "OUT_OF_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 99800,
       "city" : "bangalore",
@@ -249,11 +144,11 @@
       "provider" : "rentomojo",
       "providerName" : "Water Purifier with Mineral Enhancer",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-water-purifier-with-mineral-enhancer/115262",
-      "scrapedAt" : "2026-09-03T17:01:41.421709Z",
+      "scrapedAt" : "2026-09-05T19:04:32.022326200Z",
       "tenureMonths" : 6
     },
     {
-      "availability" : "IN_STOCK",
+      "availability" : "OUT_OF_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 81800,
       "city" : "bangalore",
@@ -270,11 +165,11 @@
       "provider" : "rentomojo",
       "providerName" : "Water Purifier with Mineral Enhancer",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-water-purifier-with-mineral-enhancer/115262",
-      "scrapedAt" : "2026-09-03T17:01:41.421709Z",
+      "scrapedAt" : "2026-09-05T19:04:32.022326200Z",
       "tenureMonths" : 12
     },
     {
-      "availability" : "IN_STOCK",
+      "availability" : "OUT_OF_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 81000,
       "city" : "bangalore",
@@ -291,7 +186,7 @@
       "provider" : "rentomojo",
       "providerName" : "Water Purifier with Mineral Enhancer",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-water-purifier-with-mineral-enhancer/115262",
-      "scrapedAt" : "2026-09-03T17:01:41.421709Z",
+      "scrapedAt" : "2026-09-05T19:04:32.022326200Z",
       "tenureMonths" : 24
     },
     {
@@ -312,7 +207,7 @@
       "provider" : "rentomojo",
       "providerName" : "DrinkPrime - Unlimited",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-unlimited-water-plan/116143",
-      "scrapedAt" : "2026-09-03T17:02:02.908673100Z",
+      "scrapedAt" : "2026-09-05T19:04:21.147720600Z",
       "tenureMonths" : 3
     },
     {
@@ -333,7 +228,7 @@
       "provider" : "rentomojo",
       "providerName" : "DrinkPrime - Unlimited",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-unlimited-water-plan/116143",
-      "scrapedAt" : "2026-09-03T17:02:02.908673100Z",
+      "scrapedAt" : "2026-09-05T19:04:21.147720600Z",
       "tenureMonths" : 6
     },
     {
@@ -354,7 +249,7 @@
       "provider" : "rentomojo",
       "providerName" : "DrinkPrime - Unlimited",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-unlimited-water-plan/116143",
-      "scrapedAt" : "2026-09-03T17:02:02.908673100Z",
+      "scrapedAt" : "2026-09-05T19:04:21.147720600Z",
       "tenureMonths" : 12
     },
     {
@@ -375,7 +270,7 @@
       "provider" : "rentomojo",
       "providerName" : "Urban Company Native M2 Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-urban-company-native-m2-water-purifier/117272",
-      "scrapedAt" : "2026-09-03T17:02:20.992097800Z",
+      "scrapedAt" : "2026-09-05T19:04:40.517016100Z",
       "tenureMonths" : 3
     },
     {
@@ -396,7 +291,7 @@
       "provider" : "rentomojo",
       "providerName" : "Urban Company Native M2 Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-urban-company-native-m2-water-purifier/117272",
-      "scrapedAt" : "2026-09-03T17:02:20.992097800Z",
+      "scrapedAt" : "2026-09-05T19:04:40.517016100Z",
       "tenureMonths" : 6
     },
     {
@@ -417,7 +312,7 @@
       "provider" : "rentomojo",
       "providerName" : "Urban Company Native M2 Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-urban-company-native-m2-water-purifier/117272",
-      "scrapedAt" : "2026-09-03T17:02:20.992097800Z",
+      "scrapedAt" : "2026-09-05T19:04:40.517016100Z",
       "tenureMonths" : 9
     },
     {
@@ -438,7 +333,7 @@
       "provider" : "rentomojo",
       "providerName" : "Urban Company Native M2 Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-urban-company-native-m2-water-purifier/117272",
-      "scrapedAt" : "2026-09-03T17:02:20.992097800Z",
+      "scrapedAt" : "2026-09-05T19:04:40.517016100Z",
       "tenureMonths" : 12
     },
     {
@@ -459,7 +354,7 @@
       "provider" : "rentomojo",
       "providerName" : "Urban Company Native M2 Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-urban-company-native-m2-water-purifier/117272",
-      "scrapedAt" : "2026-09-03T17:02:20.992097800Z",
+      "scrapedAt" : "2026-09-05T19:04:40.517016100Z",
       "tenureMonths" : 24
     },
     {
@@ -480,7 +375,7 @@
       "provider" : "rentomojo",
       "providerName" : "Urban Company Native M1 Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-urban-company-native-m1-water-purifier/117291",
-      "scrapedAt" : "2026-09-03T17:02:14.722969300Z",
+      "scrapedAt" : "2026-09-05T19:04:37.772735800Z",
       "tenureMonths" : 3
     },
     {
@@ -501,7 +396,7 @@
       "provider" : "rentomojo",
       "providerName" : "Urban Company Native M1 Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-urban-company-native-m1-water-purifier/117291",
-      "scrapedAt" : "2026-09-03T17:02:14.722969300Z",
+      "scrapedAt" : "2026-09-05T19:04:37.772735800Z",
       "tenureMonths" : 6
     },
     {
@@ -522,7 +417,7 @@
       "provider" : "rentomojo",
       "providerName" : "Urban Company Native M1 Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-urban-company-native-m1-water-purifier/117291",
-      "scrapedAt" : "2026-09-03T17:02:14.722969300Z",
+      "scrapedAt" : "2026-09-05T19:04:37.772735800Z",
       "tenureMonths" : 9
     },
     {
@@ -543,7 +438,7 @@
       "provider" : "rentomojo",
       "providerName" : "Urban Company Native M1 Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-urban-company-native-m1-water-purifier/117291",
-      "scrapedAt" : "2026-09-03T17:02:14.722969300Z",
+      "scrapedAt" : "2026-09-05T19:04:37.772735800Z",
       "tenureMonths" : 12
     },
     {
@@ -564,11 +459,11 @@
       "provider" : "rentomojo",
       "providerName" : "Urban Company Native M1 Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-urban-company-native-m1-water-purifier/117291",
-      "scrapedAt" : "2026-09-03T17:02:14.722969300Z",
+      "scrapedAt" : "2026-09-05T19:04:37.772735800Z",
       "tenureMonths" : 24
     },
     {
-      "availability" : "IN_STOCK",
+      "availability" : "OUT_OF_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 142200,
       "city" : "bangalore",
@@ -585,11 +480,11 @@
       "provider" : "rentomojo",
       "providerName" : "Livpure Envy Alkaline Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-livpure-envy-alkaline-water-purifier/122121",
-      "scrapedAt" : "2026-09-03T17:01:50.982694300Z",
+      "scrapedAt" : "2026-09-05T19:04:35.037740200Z",
       "tenureMonths" : 3
     },
     {
-      "availability" : "IN_STOCK",
+      "availability" : "OUT_OF_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 130800,
       "city" : "bangalore",
@@ -606,11 +501,11 @@
       "provider" : "rentomojo",
       "providerName" : "Livpure Envy Alkaline Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-livpure-envy-alkaline-water-purifier/122121",
-      "scrapedAt" : "2026-09-03T17:01:50.982694300Z",
+      "scrapedAt" : "2026-09-05T19:04:35.037740200Z",
       "tenureMonths" : 6
     },
     {
-      "availability" : "IN_STOCK",
+      "availability" : "OUT_OF_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 121600,
       "city" : "bangalore",
@@ -627,11 +522,11 @@
       "provider" : "rentomojo",
       "providerName" : "Livpure Envy Alkaline Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-livpure-envy-alkaline-water-purifier/122121",
-      "scrapedAt" : "2026-09-03T17:01:50.982694300Z",
+      "scrapedAt" : "2026-09-05T19:04:35.037740200Z",
       "tenureMonths" : 9
     },
     {
-      "availability" : "IN_STOCK",
+      "availability" : "OUT_OF_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 113800,
       "city" : "bangalore",
@@ -648,11 +543,11 @@
       "provider" : "rentomojo",
       "providerName" : "Livpure Envy Alkaline Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-livpure-envy-alkaline-water-purifier/122121",
-      "scrapedAt" : "2026-09-03T17:01:50.982694300Z",
+      "scrapedAt" : "2026-09-05T19:04:35.037740200Z",
       "tenureMonths" : 12
     },
     {
-      "availability" : "IN_STOCK",
+      "availability" : "OUT_OF_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 112600,
       "city" : "bangalore",
@@ -669,7 +564,7 @@
       "provider" : "rentomojo",
       "providerName" : "Livpure Envy Alkaline Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-livpure-envy-alkaline-water-purifier/122121",
-      "scrapedAt" : "2026-09-03T17:01:50.982694300Z",
+      "scrapedAt" : "2026-09-05T19:04:35.037740200Z",
       "tenureMonths" : 24
     },
     {
@@ -690,7 +585,7 @@
       "provider" : "rentomojo",
       "providerName" : "RM® Premium Water Purifier RO+UF+In Tank UV LED 6L",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-rm-premium-water-purifier-ro-uf-in-tank-uv-led-6l/127036",
-      "scrapedAt" : "2026-09-03T17:01:48.051137500Z",
+      "scrapedAt" : "2026-09-05T19:04:07.557080700Z",
       "tenureMonths" : 3
     },
     {
@@ -711,7 +606,7 @@
       "provider" : "rentomojo",
       "providerName" : "RM® Premium Water Purifier RO+UF+In Tank UV LED 6L",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-rm-premium-water-purifier-ro-uf-in-tank-uv-led-6l/127036",
-      "scrapedAt" : "2026-09-03T17:01:48.051137500Z",
+      "scrapedAt" : "2026-09-05T19:04:07.557080700Z",
       "tenureMonths" : 6
     },
     {
@@ -732,7 +627,7 @@
       "provider" : "rentomojo",
       "providerName" : "RM® Premium Water Purifier RO+UF+In Tank UV LED 6L",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-rm-premium-water-purifier-ro-uf-in-tank-uv-led-6l/127036",
-      "scrapedAt" : "2026-09-03T17:01:48.051137500Z",
+      "scrapedAt" : "2026-09-05T19:04:07.557080700Z",
       "tenureMonths" : 12
     },
     {
@@ -753,7 +648,7 @@
       "provider" : "rentomojo",
       "providerName" : "RM® Premium Water Purifier RO+UF+In Tank UV LED 6L",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-rm-premium-water-purifier-ro-uf-in-tank-uv-led-6l/127036",
-      "scrapedAt" : "2026-09-03T17:01:48.051137500Z",
+      "scrapedAt" : "2026-09-05T19:04:07.557080700Z",
       "tenureMonths" : 24
     },
     {
@@ -774,7 +669,7 @@
       "provider" : "rentomojo",
       "providerName" : "DriftPro 7 Stage Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftpro-7-stage-water-purifier/132285",
-      "scrapedAt" : "2026-09-03T17:01:35.579764700Z",
+      "scrapedAt" : "2026-09-05T19:03:59.343152700Z",
       "tenureMonths" : 6
     },
     {
@@ -795,7 +690,7 @@
       "provider" : "rentomojo",
       "providerName" : "DriftPro 7 Stage Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftpro-7-stage-water-purifier/132285",
-      "scrapedAt" : "2026-09-03T17:01:35.579764700Z",
+      "scrapedAt" : "2026-09-05T19:03:59.343152700Z",
       "tenureMonths" : 12
     },
     {
@@ -816,7 +711,7 @@
       "provider" : "rentomojo",
       "providerName" : "DriftPro 7 Stage Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftpro-7-stage-water-purifier/132285",
-      "scrapedAt" : "2026-09-03T17:01:35.579764700Z",
+      "scrapedAt" : "2026-09-05T19:03:59.343152700Z",
       "tenureMonths" : 24
     },
     {
@@ -837,7 +732,7 @@
       "provider" : "rentomojo",
       "providerName" : "DriftLux 7 Stage Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftlux-7-stage-water-purifier/132305",
-      "scrapedAt" : "2026-09-03T17:01:56.879805600Z",
+      "scrapedAt" : "2026-09-05T19:04:13.005257200Z",
       "tenureMonths" : 3
     },
     {
@@ -858,7 +753,7 @@
       "provider" : "rentomojo",
       "providerName" : "DriftLux 7 Stage Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftlux-7-stage-water-purifier/132305",
-      "scrapedAt" : "2026-09-03T17:01:56.879805600Z",
+      "scrapedAt" : "2026-09-05T19:04:13.005257200Z",
       "tenureMonths" : 6
     },
     {
@@ -879,7 +774,7 @@
       "provider" : "rentomojo",
       "providerName" : "DriftLux 7 Stage Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftlux-7-stage-water-purifier/132305",
-      "scrapedAt" : "2026-09-03T17:01:56.879805600Z",
+      "scrapedAt" : "2026-09-05T19:04:13.005257200Z",
       "tenureMonths" : 9
     },
     {
@@ -900,7 +795,7 @@
       "provider" : "rentomojo",
       "providerName" : "DriftLux 7 Stage Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftlux-7-stage-water-purifier/132305",
-      "scrapedAt" : "2026-09-03T17:01:56.879805600Z",
+      "scrapedAt" : "2026-09-05T19:04:13.005257200Z",
       "tenureMonths" : 12
     },
     {
@@ -921,11 +816,11 @@
       "provider" : "rentomojo",
       "providerName" : "DriftLux 7 Stage Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftlux-7-stage-water-purifier/132305",
-      "scrapedAt" : "2026-09-03T17:01:56.879805600Z",
+      "scrapedAt" : "2026-09-05T19:04:13.005257200Z",
       "tenureMonths" : 24
     },
     {
-      "availability" : "OUT_OF_STOCK",
+      "availability" : "IN_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 137200,
       "city" : "bangalore",
@@ -942,11 +837,11 @@
       "provider" : "rentomojo",
       "providerName" : "Livpure Glitz Smart Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-livpure-glitz-smart-water-purifier/136604",
-      "scrapedAt" : "2026-09-03T17:02:17.742186800Z",
+      "scrapedAt" : "2026-09-05T19:04:15.738801400Z",
       "tenureMonths" : 3
     },
     {
-      "availability" : "OUT_OF_STOCK",
+      "availability" : "IN_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 126200,
       "city" : "bangalore",
@@ -963,11 +858,11 @@
       "provider" : "rentomojo",
       "providerName" : "Livpure Glitz Smart Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-livpure-glitz-smart-water-purifier/136604",
-      "scrapedAt" : "2026-09-03T17:02:17.742186800Z",
+      "scrapedAt" : "2026-09-05T19:04:15.738801400Z",
       "tenureMonths" : 6
     },
     {
-      "availability" : "OUT_OF_STOCK",
+      "availability" : "IN_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 117400,
       "city" : "bangalore",
@@ -984,11 +879,11 @@
       "provider" : "rentomojo",
       "providerName" : "Livpure Glitz Smart Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-livpure-glitz-smart-water-purifier/136604",
-      "scrapedAt" : "2026-09-03T17:02:17.742186800Z",
+      "scrapedAt" : "2026-09-05T19:04:15.738801400Z",
       "tenureMonths" : 9
     },
     {
-      "availability" : "OUT_OF_STOCK",
+      "availability" : "IN_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 109800,
       "city" : "bangalore",
@@ -1005,11 +900,11 @@
       "provider" : "rentomojo",
       "providerName" : "Livpure Glitz Smart Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-livpure-glitz-smart-water-purifier/136604",
-      "scrapedAt" : "2026-09-03T17:02:17.742186800Z",
+      "scrapedAt" : "2026-09-05T19:04:15.738801400Z",
       "tenureMonths" : 12
     },
     {
-      "availability" : "OUT_OF_STOCK",
+      "availability" : "IN_STOCK",
       "canonicalProductId" : "water-purifier",
       "cashUpfrontPaise" : 108800,
       "city" : "bangalore",
@@ -1026,7 +921,7 @@
       "provider" : "rentomojo",
       "providerName" : "Livpure Glitz Smart Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-livpure-glitz-smart-water-purifier/136604",
-      "scrapedAt" : "2026-09-03T17:02:17.742186800Z",
+      "scrapedAt" : "2026-09-05T19:04:15.738801400Z",
       "tenureMonths" : 24
     },
     {
@@ -1047,7 +942,7 @@
       "provider" : "rentomojo",
       "providerName" : "DriftGo Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftgo-7-stage-water-purifier/136671",
-      "scrapedAt" : "2026-09-03T17:01:38.553705900Z",
+      "scrapedAt" : "2026-09-05T19:04:02.082320500Z",
       "tenureMonths" : 3
     },
     {
@@ -1068,7 +963,7 @@
       "provider" : "rentomojo",
       "providerName" : "DriftGo Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftgo-7-stage-water-purifier/136671",
-      "scrapedAt" : "2026-09-03T17:01:38.553705900Z",
+      "scrapedAt" : "2026-09-05T19:04:02.082320500Z",
       "tenureMonths" : 6
     },
     {
@@ -1089,7 +984,7 @@
       "provider" : "rentomojo",
       "providerName" : "DriftGo Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftgo-7-stage-water-purifier/136671",
-      "scrapedAt" : "2026-09-03T17:01:38.553705900Z",
+      "scrapedAt" : "2026-09-05T19:04:02.082320500Z",
       "tenureMonths" : 12
     },
     {
@@ -1110,7 +1005,7 @@
       "provider" : "rentomojo",
       "providerName" : "DriftGo Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-driftgo-7-stage-water-purifier/136671",
-      "scrapedAt" : "2026-09-03T17:01:38.553705900Z",
+      "scrapedAt" : "2026-09-05T19:04:02.082320500Z",
       "tenureMonths" : 24
     },
     {
@@ -1131,7 +1026,7 @@
       "provider" : "rentomojo",
       "providerName" : "Drinkprime Alkaline",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-alkaline/138286",
-      "scrapedAt" : "2026-09-03T17:02:06.032114Z",
+      "scrapedAt" : "2026-09-05T19:04:23.862831200Z",
       "tenureMonths" : 3
     },
     {
@@ -1152,7 +1047,7 @@
       "provider" : "rentomojo",
       "providerName" : "Drinkprime Alkaline",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-alkaline/138286",
-      "scrapedAt" : "2026-09-03T17:02:06.032114Z",
+      "scrapedAt" : "2026-09-05T19:04:23.862831200Z",
       "tenureMonths" : 6
     },
     {
@@ -1173,7 +1068,7 @@
       "provider" : "rentomojo",
       "providerName" : "Drinkprime Alkaline",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-alkaline/138286",
-      "scrapedAt" : "2026-09-03T17:02:06.032114Z",
+      "scrapedAt" : "2026-09-05T19:04:23.862831200Z",
       "tenureMonths" : 12
     },
     {
@@ -1194,7 +1089,7 @@
       "provider" : "rentomojo",
       "providerName" : "Drinkprime RO+",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-ro-plus/138385",
-      "scrapedAt" : "2026-09-03T17:02:08.966552100Z",
+      "scrapedAt" : "2026-09-05T19:04:26.582861900Z",
       "tenureMonths" : 3
     },
     {
@@ -1215,7 +1110,7 @@
       "provider" : "rentomojo",
       "providerName" : "Drinkprime RO+",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-ro-plus/138385",
-      "scrapedAt" : "2026-09-03T17:02:08.966552100Z",
+      "scrapedAt" : "2026-09-05T19:04:26.582861900Z",
       "tenureMonths" : 6
     },
     {
@@ -1236,7 +1131,7 @@
       "provider" : "rentomojo",
       "providerName" : "Drinkprime RO+",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-ro-plus/138385",
-      "scrapedAt" : "2026-09-03T17:02:08.966552100Z",
+      "scrapedAt" : "2026-09-05T19:04:26.582861900Z",
       "tenureMonths" : 12
     },
     {
@@ -1257,7 +1152,7 @@
       "provider" : "rentomojo",
       "providerName" : "Drinkprime Copper Under The Sink",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-copper-under-the-sink/138386",
-      "scrapedAt" : "2026-09-03T17:02:11.789805800Z",
+      "scrapedAt" : "2026-09-05T19:04:29.295288200Z",
       "tenureMonths" : 3
     },
     {
@@ -1278,7 +1173,7 @@
       "provider" : "rentomojo",
       "providerName" : "Drinkprime Copper Under The Sink",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-copper-under-the-sink/138386",
-      "scrapedAt" : "2026-09-03T17:02:11.789805800Z",
+      "scrapedAt" : "2026-09-05T19:04:29.295288200Z",
       "tenureMonths" : 6
     },
     {
@@ -1299,7 +1194,7 @@
       "provider" : "rentomojo",
       "providerName" : "Drinkprime Copper Under The Sink",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-copper-under-the-sink/138386",
-      "scrapedAt" : "2026-09-03T17:02:11.789805800Z",
+      "scrapedAt" : "2026-09-05T19:04:29.295288200Z",
       "tenureMonths" : 12
     },
     {
@@ -1320,7 +1215,7 @@
       "provider" : "rentomojo",
       "providerName" : "NiraFlo Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-nira-flo-water-purifer/151288",
-      "scrapedAt" : "2026-09-03T17:01:44.466467Z",
+      "scrapedAt" : "2026-09-05T19:04:04.830681500Z",
       "tenureMonths" : 3
     },
     {
@@ -1341,7 +1236,7 @@
       "provider" : "rentomojo",
       "providerName" : "NiraFlo Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-nira-flo-water-purifer/151288",
-      "scrapedAt" : "2026-09-03T17:01:44.466467Z",
+      "scrapedAt" : "2026-09-05T19:04:04.830681500Z",
       "tenureMonths" : 6
     },
     {
@@ -1362,7 +1257,7 @@
       "provider" : "rentomojo",
       "providerName" : "NiraFlo Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-nira-flo-water-purifer/151288",
-      "scrapedAt" : "2026-09-03T17:01:44.466467Z",
+      "scrapedAt" : "2026-09-05T19:04:04.830681500Z",
       "tenureMonths" : 12
     },
     {
@@ -1383,7 +1278,7 @@
       "provider" : "rentomojo",
       "providerName" : "NiraFlo Water Purifier",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-nira-flo-water-purifer/151288",
-      "scrapedAt" : "2026-09-03T17:01:44.466467Z",
+      "scrapedAt" : "2026-09-05T19:04:04.830681500Z",
       "tenureMonths" : 24
     },
     {
@@ -1404,7 +1299,7 @@
       "provider" : "rentomojo",
       "providerName" : "Nirapure UV+UF Water Purifier (Non-RO)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-nirapure-uv-uf-water-purifer-non-ro/155973",
-      "scrapedAt" : "2026-09-03T17:01:53.876317900Z",
+      "scrapedAt" : "2026-09-05T19:04:10.263827400Z",
       "tenureMonths" : 3
     },
     {
@@ -1425,7 +1320,7 @@
       "provider" : "rentomojo",
       "providerName" : "Nirapure UV+UF Water Purifier (Non-RO)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-nirapure-uv-uf-water-purifer-non-ro/155973",
-      "scrapedAt" : "2026-09-03T17:01:53.876317900Z",
+      "scrapedAt" : "2026-09-05T19:04:10.263827400Z",
       "tenureMonths" : 6
     },
     {
@@ -1446,7 +1341,7 @@
       "provider" : "rentomojo",
       "providerName" : "Nirapure UV+UF Water Purifier (Non-RO)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-nirapure-uv-uf-water-purifer-non-ro/155973",
-      "scrapedAt" : "2026-09-03T17:01:53.876317900Z",
+      "scrapedAt" : "2026-09-05T19:04:10.263827400Z",
       "tenureMonths" : 12
     },
     {
@@ -1467,7 +1362,7 @@
       "provider" : "rentomojo",
       "providerName" : "Nirapure UV+UF Water Purifier (Non-RO)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-nirapure-uv-uf-water-purifer-non-ro/155973",
-      "scrapedAt" : "2026-09-03T17:01:53.876317900Z",
+      "scrapedAt" : "2026-09-05T19:04:10.263827400Z",
       "tenureMonths" : 24
     }
   ]

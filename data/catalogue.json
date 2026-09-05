@@ -202,6 +202,15 @@
     },
     {
       "attributes" : {
+        "capacity_band" : "0-100l",
+        "door_type" : "double_door"
+      },
+      "category" : "REFRIGERATOR",
+      "id" : "refrigerator-double-door-0-100l",
+      "name" : "Double door refrigerator (0–100L)"
+    },
+    {
+      "attributes" : {
         "capacity_band" : "200-250l",
         "door_type" : "double_door"
       },
@@ -211,11 +220,29 @@
     },
     {
       "attributes" : {
+        "capacity_band" : "250-350l",
+        "door_type" : "double_door"
+      },
+      "category" : "REFRIGERATOR",
+      "id" : "refrigerator-double-door-250-350l",
+      "name" : "Double door refrigerator (250–350L)"
+    },
+    {
+      "attributes" : {
         "door_type" : "mini"
       },
       "category" : "REFRIGERATOR",
       "id" : "refrigerator-mini",
       "name" : "Mini refrigerator"
+    },
+    {
+      "attributes" : {
+        "capacity_band" : "100-150l",
+        "door_type" : "single_door"
+      },
+      "category" : "REFRIGERATOR",
+      "id" : "refrigerator-single-door-100-150l",
+      "name" : "Single door refrigerator (100–150L)"
     },
     {
       "attributes" : {
@@ -357,6 +384,14 @@
     },
     {
       "attributes" : {
+        "doors" : "4"
+      },
+      "category" : "WARDROBE",
+      "id" : "wardrobe-4-door",
+      "name" : "4-door wardrobe"
+    },
+    {
+      "attributes" : {
         "capacity_band" : "7-8kg",
         "load_type" : "front_load"
       },
@@ -400,6 +435,16 @@
       "category" : "WASHING_MACHINE",
       "id" : "washing-machine-top-load-7-8kg",
       "name" : "Top load washing machine (7–8 kg)"
+    },
+    {
+      "attributes" : {
+        "automation" : "fully",
+        "capacity_band" : "8kg-plus",
+        "load_type" : "top_load"
+      },
+      "category" : "WASHING_MACHINE",
+      "id" : "washing-machine-top-load-8kg-plus",
+      "name" : "Top load washing machine (8 kg+)"
     },
     {
       "attributes" : {

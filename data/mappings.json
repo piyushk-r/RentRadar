@@ -1,6 +1,1046 @@
 {
   "mappings" : [
     {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "198",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Bianca Engineered Wood 2 Door Wardrobe with Mirror in Ivory White Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/wardrobe-bianca-198-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "199",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Engineered Wood 2 Door Wardrobe with Mirror in Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/wardrobe-lana-199-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "200",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMezzo Engineered Wood 2 Door Wardrobe with Mirror in Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/wardrobe-mezzo-200-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "201",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Grig Engineered Wood 2 Door Wardrobe with Mirror in Mocha Brown Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/wardrobe-grig-201-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "202",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Bianca Engineered Wood 2 Door Wardrobe without Mirror in Ivory White Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/wardrobe-bianca-without-mirror-202-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "203",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockEbony Engineered Wood 2 Door Wardrobe without Mirror in Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/wardrobe-ebony-203-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-3-door",
+      "confidence" : 0.9,
+      "externalId" : "204",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Bianca Engineered Wood 3 Door Wardrobe with Mirror in Ivory White Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/wardrobe-bianca-3-door-204-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "213",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Nauka Solid Wood Study Table in Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/nauka-study-table-213-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "214",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Lana Engineered Wood Study Table in Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-study-table-214-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "215",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVitello Solid Wood Study Table in Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-study-table-215-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-150-200l",
+      "confidence" : 1.0,
+      "externalId" : "261",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Refrigerator Single Door - 190L",
+      "providerUrl" : "https://www.furlenco.com/rent/products/refrigerator-(181-190-l)-261-rent"
+    },
+    {
+      "canonicalProductId" : "washing-machine-top-load-under-7kg",
+      "confidence" : 1.0,
+      "externalId" : "263",
+      "matchedAt" : "2026-09-05T18:51:16.027214Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Washing MachineTop Load Fully Automatic - 6KG",
+      "providerUrl" : "https://www.furlenco.com/rent/products/top-load-washing-machine-6kg-263-rent"
+    },
+    {
+      "canonicalProductId" : "washing-machine-top-load-under-7kg",
+      "confidence" : 1.0,
+      "externalId" : "265",
+      "matchedAt" : "2026-09-05T18:51:16.027214Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Washing MachineTop Load Fully Automatic - 6KG Gently Used",
+      "providerUrl" : "https://www.furlenco.com/rent/products/top-load-washing-machine-6kg-gently-used-265-rent"
+    },
+    {
+      "canonicalProductId" : "microwave-solo",
+      "confidence" : 0.9,
+      "externalId" : "268",
+      "matchedAt" : "2026-09-05T18:52:53.947096200Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMicrowave Solo - 20L",
+      "providerUrl" : "https://www.furlenco.com/rent/products/microwave-268-rent"
+    },
+    {
+      "canonicalProductId" : "washing-machine-front-load-under-7kg",
+      "confidence" : 1.0,
+      "externalId" : "278",
+      "matchedAt" : "2026-09-05T18:51:16.027214Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockWashing Machine Front Load Fully Automatic - 6KG",
+      "providerUrl" : "https://www.furlenco.com/rent/products/front-load-washing-machine-6kg-278-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "330",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockPico Solid Wood 4 Seater Dining Set",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-330-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "331",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-classic-331-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "332",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set with Bench",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-classic-332-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "333",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Set in Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mili-dining-table-with-2-bench-and-2-chairs-333-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "336",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockPico Solid Wood 4 Seater Dining Set",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-336-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "337",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-novo-337-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "338",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-novo-338-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "340",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-set-340-rent"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "3561",
+      "matchedAt" : "2026-09-05T18:52:08.976340300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockEclectic Glamour Study Chair",
+      "providerUrl" : "https://www.furlenco.com/rent/products/eclectic-glamour-study-chair-3561-rent"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "3566",
+      "matchedAt" : "2026-09-05T18:52:08.976340300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFloral Affair Study Chair",
+      "providerUrl" : "https://www.furlenco.com/rent/products/floral-affair-study-chair-3566-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "3567",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Floral Affair Study Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/floral-affair-study-table-3567-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "3619",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBianca Engineered Wood 2 Door Wardrobe without Mirror in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/wardrobe-bianca-without-mirror---walnut-3619-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "3620",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Bianca Engineered Wood 2 Door Wardrobe with Mirror In Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/wardrobe-bianca-with-mirror---walnut-3620-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "3621",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Engineered Wood 2 Door Wardrobe with Mirror In Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/wardrobe-lana---walnut-3621-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "3626",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockHaimish Engineered Wood 2 Door Wardrobe without Mirror In Carbon Grey Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/haimish-wardrobe-without-mirror-3626-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "3630",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockHaimish Engineered Wood 2 Door Wardrobe with Mirror In Carbon Grey Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/haimish-wardrobe-with-mirror-3630-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-double-door-250-350l",
+      "confidence" : 1.0,
+      "externalId" : "3789",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBottom Mount Refrigerator - Double Door",
+      "providerUrl" : "https://www.furlenco.com/rent/products/appliance-2-door-ref-256l-bottom-freezer-3789-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "3795",
+      "matchedAt" : "2026-09-05T18:52:15.545969800Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Kayra Solid Wood 4 Seater Dining Set in Timeless Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-3795-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "3796",
+      "matchedAt" : "2026-09-05T18:52:15.545969800Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Kayra Solid Wood 6 Seater Dining Set in Timeless Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-3796-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "3797",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockKayra Solid Wood 6 Seater Dining Set with Bench in Timeless Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-with-bench-3797-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "3809",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Moreno Engineered Wood Study Table in Neo Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/moreno-study-table-3809-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "3900",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-3900-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "3901",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "3905",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
+      "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "3906",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Kayra 4 Seater Dining Set with Bianca Chest of Drawer",
+      "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-3906-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "3943",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBlanca Queen Bed with Premium 6 inch Mattress and Bianca 2 Door Wardrobe without Mirror",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blanca-queen-bed-with-premium-6-inch-mattress-and-bianca-2-door-wardrobe-without-mirror-3943-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "3944",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Blanca Queen Bed with Premium 6 inch Mattress and Grig 2 Door Wardrobe with Mirror",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blanca-queen-bed-with-premium-6-inch-mattress-and-grig-2-door-wardrobe-with-mirror-3944-rent"
+    },
+    {
+      "canonicalProductId" : "microwave-convection",
+      "confidence" : 0.9,
+      "externalId" : "4206",
+      "matchedAt" : "2026-09-05T18:52:53.947096200Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Microwave Convection - 20L",
+      "providerUrl" : "https://www.furlenco.com/rent/products/microwave-convection---20l-4206-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-double-door-0-100l",
+      "confidence" : 1.0,
+      "externalId" : "4248",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Double Door Refrigerator with Microwave Convection 20L",
+      "providerUrl" : "https://www.furlenco.com/rent/products/double-door-refrigerator-with-microwave-convection-20l-4248-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "4249",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent"
+    },
+    {
+      "canonicalProductId" : "washing-machine-semi-automatic",
+      "confidence" : 0.9,
+      "externalId" : "4254",
+      "matchedAt" : "2026-09-05T18:51:16.027214Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Semi Automatic Washing Machine",
+      "providerUrl" : "https://www.furlenco.com/rent/products/semi-automatic-washing-machine-4254-rent"
+    },
+    {
+      "canonicalProductId" : "washing-machine-semi-automatic",
+      "confidence" : 0.9,
+      "externalId" : "4256",
+      "matchedAt" : "2026-09-05T18:51:16.027214Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Refrigerator 190L with Semi Automatic Washing Machine",
+      "providerUrl" : "https://www.furlenco.com/rent/products/refrigerator-190l-with-semi-automatic-washing-machine-4256-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "4286",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockThe Infinity 2 Door Wardrobe with Mirror",
+      "providerUrl" : "https://www.furlenco.com/rent/products/the-infinity-2-door-wardrobe-with-mirror-4286-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "4368",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Deep Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/dualo-solid-wood-4-seater-dining-cum-study-set-in-deep-walnut-finish-4368-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "4411",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Bench Set In Magic Blue Colour",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mili-solid-wood-4-seater-dining-bench-set-in-magic-blue-colour-4411-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "4427",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "DANK Engineered Wood Study Table in Mushroom Beige Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/dank-engineered-wood-study-table-4427-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "4433",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockNO CAP Engineered Wood Study Table in Smoked Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/no-cap-engineered-wood-study-table-in-smoked-walnut-finish-4433-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "4443",
+      "matchedAt" : "2026-09-05T18:52:15.545969800Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "DRIP 2 Seater Dining Set",
+      "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-4443-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "4538",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockDRIP 2 Seater Dining Set with Solo Microwave",
+      "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-solo-microwave-4538-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-150-200l",
+      "confidence" : 1.0,
+      "externalId" : "4539",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "DRIP 2 Seater Dining Set with Refrigerator Single Door 190L",
+      "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-refrigerator-single-door-190l-4539-rent"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "4553",
+      "matchedAt" : "2026-09-05T18:52:08.976340300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockCruxe Mid Back Office Chair with Headrest",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cruxe-mid-back-office-chair-with-headrest-4553-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "4690",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockGlyde Engineered Wood Study Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/glyde-engineered-wood-study-table-4690-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "4725",
+      "matchedAt" : "2026-09-05T18:52:15.545969800Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "DRIP 4 Seater Dining Set",
+      "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-set-4725-rent"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "4732",
+      "matchedAt" : "2026-09-05T18:52:08.976340300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Gaming Chair - Pro",
+      "providerUrl" : "https://www.furlenco.com/rent/products/gaming-chair---pro-4732-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "4745",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "DRIP 4 Seater Dining Set with Refrigerator",
+      "providerUrl" : "https://www.furlenco.com/rent/products/kephi-4s-dining-with-refrigerator-4745-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "4831",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockPico 4 Seater Dining Set Classic",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-4831-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "4858",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockEclectic Glamour Study Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pra-eclectic-glamour-study-table-4858-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "4878",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockClare 4 Seater Dining Set",
+      "providerUrl" : "https://www.furlenco.com/rent/products/clare-4-seater-dining-set-4878-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "4904",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Mili 4 Seater Dining Set in Magic Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mili-4-seater-dining-set-in-magic-blue-color-4904-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "4919",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Hugo 2 Door Wardrobe with Mirror",
+      "providerUrl" : "https://www.furlenco.com/rent/products/hugo-2-door-wardrobe-with-mirror-4919-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-200-250l",
+      "confidence" : 1.0,
+      "externalId" : "4920",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Refrigerator Single Door - 215L",
+      "providerUrl" : "https://www.furlenco.com/rent/products/refrigerator-single-door---215l-4920-rent"
+    },
+    {
+      "canonicalProductId" : "microwave-solo",
+      "confidence" : 0.9,
+      "externalId" : "4928",
+      "matchedAt" : "2026-09-05T18:52:53.947096200Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Microwave Solo 20L",
+      "providerUrl" : "https://www.furlenco.com/rent/products/appliance---microwave-4928-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "4934",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Folding Laptop Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/folding-laptop-table-4934-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "4964",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Hugo 2 Door Wardrobe with Chest of Drawers",
+      "providerUrl" : "https://www.furlenco.com/rent/products/hugo-2-door-wardrobe-with-chest-of-drawers-4964-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-200-250l",
+      "confidence" : 1.0,
+      "externalId" : "4976",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Haier (235-240L) Single Door Refrigerator",
+      "providerUrl" : "https://www.furlenco.com/rent/products/refrigerator-single-door---230l-4976-rent"
+    },
+    {
+      "canonicalProductId" : "washing-machine-front-load-8kg-plus",
+      "confidence" : 1.0,
+      "externalId" : "4988",
+      "matchedAt" : "2026-09-05T18:51:16.027214Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Washing Machine Fully Automatic (Front Load) - 8KG",
+      "providerUrl" : "https://www.furlenco.com/rent/products/appliance-washing-machine-front-load---8kg-4988-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "5051",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockPico 6 Seater Dining Set - Classic",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set---classic-5051-rent"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "5084",
+      "matchedAt" : "2026-09-05T18:52:08.976340300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Cruxe Premium Office Chair with Headrest",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cruxe-premium-office-chair-with-headrest-5084-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "5182",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockHugo 2 Door Wardrobe with mirror in Columbia Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/hugo-2-door-wardrobe-with-mirror---columbia-walnut-5182-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "53",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Dualo Solid Wood 4 Seater Dining cum Study Table in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-53-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "5353",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Boho Earth Solid Wood Study Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/boho-earth-solid-wood-study-table-5353-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-4-door",
+      "confidence" : 0.9,
+      "externalId" : "5472",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockHugo 4 Door Wardrobe",
+      "providerUrl" : "https://www.furlenco.com/rent/products/hugo-4-door-wardrobe-5472-rent"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "55",
+      "matchedAt" : "2026-09-05T18:52:08.976340300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Dualo Upholstered Study Chair in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/dualo-study-chair-55-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-3-door",
+      "confidence" : 0.9,
+      "externalId" : "5505",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Hugo 3 Door Wardrobe with Mirror",
+      "providerUrl" : "https://www.furlenco.com/rent/products/hugo-3-door-wardrobe-with-mirror-5505-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-1-door",
+      "confidence" : 0.9,
+      "externalId" : "5576",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Hugo Engineered Wood 1 door wardrobe without mirror",
+      "providerUrl" : "https://www.furlenco.com/rent/products/hugo-engineered-wood-1-door-wardrobe-without-mirror-5576-rent"
+    },
+    {
+      "canonicalProductId" : "wardrobe-1-door",
+      "confidence" : 0.9,
+      "externalId" : "5594",
+      "matchedAt" : "2026-09-05T18:51:54.743272400Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Hugo Twin 1 Door Wardrobe without Mirror",
+      "providerUrl" : "https://www.furlenco.com/rent/products/hugo-twin-1-door-wardrobe-without-mirror-5594-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-150-200l",
+      "confidence" : 1.0,
+      "externalId" : "5672",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Refrigerator Single Door - 190L - Haier (Brand New)",
+      "providerUrl" : "https://www.furlenco.com/rent/products/appliance---refrigerator-190---brand-new-5672-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-double-door-200-250l",
+      "confidence" : 1.0,
+      "externalId" : "5674",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockRefrigerator Double Door - Brand New (Haier)",
+      "providerUrl" : "https://www.furlenco.com/rent/products/appliance--2-door-ref-235l-to-250l---brand-new-5674-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-200-250l",
+      "confidence" : 1.0,
+      "externalId" : "5675",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockRefrigerator Single Door (235-240L) - Brand New (Haier)",
+      "providerUrl" : "https://www.furlenco.com/rent/products/appliance---refrigerator-235l--single-door----brand-new-5675-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "5742",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Hillo Study Table (for Age 6-12 years)",
+      "providerUrl" : "https://www.furlenco.com/rent/products/hillo-study-table-5742-rent"
+    },
+    {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "5743",
+      "matchedAt" : "2026-09-05T18:52:08.976340300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Hillo Kids Study Table with Kids Study Chair",
+      "providerUrl" : "https://www.furlenco.com/rent/products/hillo-kids-study-with-study-chair-5743-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-double-door-250-350l",
+      "confidence" : 1.0,
+      "externalId" : "5749",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Refrigerator Double Door 328L - Graphite Black",
+      "providerUrl" : "https://www.furlenco.com/rent/products/refrigerator-double-door-328l-5749-rent"
+    },
+    {
+      "canonicalProductId" : "washing-machine-top-load-8kg-plus",
+      "confidence" : 1.0,
+      "externalId" : "5750",
+      "matchedAt" : "2026-09-05T18:51:16.027214Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Haier 9KG Washing Machine Top Load Fully Automatic",
+      "providerUrl" : "https://www.furlenco.com/rent/products/washing-machine-top-load-fully-automatic-9kg-5750-rent"
+    },
+    {
+      "canonicalProductId" : "washing-machine-front-load-8kg-plus",
+      "confidence" : 1.0,
+      "externalId" : "5763",
+      "matchedAt" : "2026-09-05T18:51:16.027214Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Haier 9KG Front Load Washing Machine Fully Automatic",
+      "providerUrl" : "https://www.furlenco.com/rent/products/appliance-washing-machine-front-load---9kg-5763-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "5780",
+      "matchedAt" : "2026-09-05T18:52:15.545969800Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Drip 2 Seater Dining Set With Water Purifier - Drink Prime",
+      "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-water-purifier---drink-prime-5780-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "5781",
+      "matchedAt" : "2026-09-05T18:52:15.545969800Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "DRIP 4 Seater Dining Sets with Water Purifier - Drink Prime",
+      "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-sets-with-water-purifier---drink-prime-5781-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "5808",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Side-by-Side Study Set",
+      "providerUrl" : "https://www.furlenco.com/rent/products/side-by-side-study-set-5808-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-6-seater",
+      "confidence" : 0.9,
+      "externalId" : "5940",
+      "matchedAt" : "2026-09-05T18:52:15.545969800Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "DRIP 6 Seater Dining Set",
+      "providerUrl" : "https://www.furlenco.com/rent/products/drip-6-seater-dining-set-5940-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-mini",
+      "confidence" : 0.95,
+      "externalId" : "5943",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Haier 50L Mini Refrigerator",
+      "providerUrl" : "https://www.furlenco.com/rent/products/refrigerator-single-door---50l-5943-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-100-150l",
+      "confidence" : 1.0,
+      "externalId" : "5944",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Haier 100L Single Door Refrigerator",
+      "providerUrl" : "https://www.furlenco.com/rent/products/refrigerator-single-door---100l-5944-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-single-door-150-200l",
+      "confidence" : 1.0,
+      "externalId" : "5946",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Haier Refrigerator Single Door - 170L",
+      "providerUrl" : "https://www.furlenco.com/rent/products/refrigerator-single-door---170l-5946-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "5948",
+      "matchedAt" : "2026-09-05T18:52:01.071366900Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Mono Workstation",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mono-workstation-5948-rent"
+    },
+    {
+      "canonicalProductId" : "microwave-convection",
+      "confidence" : 0.9,
+      "externalId" : "5949",
+      "matchedAt" : "2026-09-05T18:52:53.947096200Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockHaier Microwave Convection - 28L",
+      "providerUrl" : "https://www.furlenco.com/rent/products/microwave-convection---28l-5949-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "6074",
+      "matchedAt" : "2026-09-05T18:52:01.071366900Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Dank Workstation with Storage Drawer",
+      "providerUrl" : "https://www.furlenco.com/rent/products/dank-workstation-with-storage-drawer-6074-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "6076",
+      "matchedAt" : "2026-09-05T18:52:01.073380500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Dank Workstation with Storage Drawer Cum Shelves",
+      "providerUrl" : "https://www.furlenco.com/rent/products/dank-workstation-with-storage-drawer-cum-shelves-6076-rent"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "6088",
+      "matchedAt" : "2026-09-05T18:52:01.071366900Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Bianca Height Adjustable Study Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/bianca-height-adjustable-study-table-6088-rent"
+    },
+    {
+      "canonicalProductId" : "washing-machine-top-load-7-8kg",
+      "confidence" : 1.0,
+      "externalId" : "6094",
+      "matchedAt" : "2026-09-05T18:51:16.027214Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Haier 7.5KG Top Load Washing Machine - Fully Automatic",
+      "providerUrl" : "https://www.furlenco.com/rent/products/top-load-washing-machine---7-5-kg-fully-automatic-6094-rent"
+    },
+    {
+      "canonicalProductId" : "refrigerator-double-door-250-350l",
+      "confidence" : 1.0,
+      "externalId" : "6112",
+      "matchedAt" : "2026-09-05T18:51:10.232432300Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Haier Double Door Refrigerator 270L",
+      "providerUrl" : "https://www.furlenco.com/rent/products/refrigerator-double-door-268l-6112-rent"
+    },
+    {
+      "canonicalProductId" : "dining-table-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "6170",
+      "matchedAt" : "2026-09-05T18:52:15.546966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockOlivia Solid Wood 4 Seater Dining Set in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/olivia-solid-wood-4-seater-dining-set-in-walnut-finish-6170-rent"
+    },
+    {
       "canonicalProductId" : "tv-32-39-inch",
       "confidence" : 0.9,
       "externalId" : "32-inch-smart-led-tv",
@@ -1241,6 +2281,16 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-set-of-2-single-foam-mattress/105028"
     },
     {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "106145",
+      "matchedAt" : "2026-09-05T18:59:00.356854900Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Emily Study Table",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-emily-study-table/106145"
+    },
+    {
       "canonicalProductId" : "sofa-3-seater",
       "confidence" : 0.9,
       "externalId" : "106276",
@@ -1299,6 +2349,16 @@
       "provider" : "rentomojo",
       "providerName" : "Stuart Study Table (Walnut)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-stuart-study-table-walnut/114988"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "114998",
+      "matchedAt" : "2026-09-05T18:55:58.325375800Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Cheshire Fabric Sofa cum Bed (Charcoal Grey)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-cheshire-sofa-cum-bed-charcoal-grey/114998"
     },
     {
       "canonicalProductId" : "sofa-recliner",
@@ -1541,6 +2601,16 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-rian-2-door-wardrobe-with-mirror-sonoma-oak/117101"
     },
     {
+      "canonicalProductId" : "bed-single-storage",
+      "confidence" : 0.9,
+      "externalId" : "117123",
+      "matchedAt" : "2026-09-05T18:51:39.117528300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Rian Engineered Wood Non Storage Single Bed(Sonoma Oak)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-rian-engineered-wood-non-storage-single-bed-sonoma-oak/117123"
+    },
+    {
       "canonicalProductId" : "wardrobe-3-door",
       "confidence" : 0.9,
       "externalId" : "117145",
@@ -1719,6 +2789,16 @@
       "provider" : "rentomojo",
       "providerName" : "Roma 1-Seater Fabric Sofa (Safari Brown)",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-roma-1-seater-fabric-sofa-safari-brown/118358"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "118395",
+      "matchedAt" : "2026-09-05T18:55:30.667035700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Moonstone Fabric 3-Seater Sofa Sky Blue",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-moonstone-fabric-3-seater-sofa-sky-blue/118395"
     },
     {
       "canonicalProductId" : "sofa-1-seater",
@@ -2121,6 +3201,16 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-mircowave-convection/127336"
     },
     {
+      "canonicalProductId" : "microwave-solo",
+      "confidence" : 0.9,
+      "externalId" : "127353",
+      "matchedAt" : "2026-09-05T19:03:42.708745700Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Samsung Mircowave Solo",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-samsung-mircowave-solo/127353"
+    },
+    {
       "canonicalProductId" : "microwave-grill",
       "confidence" : 0.9,
       "externalId" : "127378",
@@ -2281,6 +3371,16 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-nova-ergonomic-office-chair-with-adjustable-headrest/137961"
     },
     {
+      "canonicalProductId" : "wardrobe-1-door",
+      "confidence" : 0.9,
+      "externalId" : "138096",
+      "matchedAt" : "2026-09-05T18:58:35.586603200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Magnum 1-Door Wardrobe (Walnut)",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-magnum-1-door-wardrobe-walnut/138096"
+    },
+    {
       "canonicalProductId" : "washing-machine-semi-automatic",
       "confidence" : 0.9,
       "externalId" : "138224",
@@ -2329,6 +3429,16 @@
       "provider" : "rentomojo",
       "providerName" : "Drinkprime Copper Under The Sink",
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-drinkprime-copper-under-the-sink/138386"
+    },
+    {
+      "canonicalProductId" : "wardrobe-3-door",
+      "confidence" : 0.9,
+      "externalId" : "138585",
+      "matchedAt" : "2026-09-05T18:58:46.524112600Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Serra 3 Door Wardrobe",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-serra-3-door-wardobe/138585"
     },
     {
       "canonicalProductId" : "bed-queen-storage",
@@ -2841,6 +3951,16 @@
       "providerUrl" : "https://www.rentomojo.com/bangalore/appliances/rent-convection-microwave/17666"
     },
     {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "1972",
+      "matchedAt" : "2026-09-05T18:55:08.512399300Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Harvey Sofa cum Bed",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-harvey-sofas-cum-bed/1972"
+    },
+    {
       "canonicalProductId" : "wardrobe-2-door",
       "confidence" : 0.9,
       "externalId" : "1981",
@@ -2859,6 +3979,16 @@
       "provider" : "rentomojo",
       "providerName" : "Simba 1-Seater Couch",
       "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-simba-couch-1-seater/1985"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "1986",
+      "matchedAt" : "2026-09-05T18:54:29.701560200Z",
+      "matchedBy" : "auto",
+      "provider" : "rentomojo",
+      "providerName" : "Simba 3-Seater Couch",
+      "providerUrl" : "https://www.rentomojo.com/bangalore/furniture/rent-simba-couch-3-seater/1986"
     },
     {
       "canonicalProductId" : "study-table",

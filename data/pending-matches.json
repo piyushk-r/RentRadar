@@ -1,6 +1,156 @@
 {
   "pending" : [
     {
+      "category" : "REFRIGERATOR",
+      "confidence" : 0.6,
+      "externalId" : "266",
+      "firstSeenAt" : "2026-09-05T18:51:10.232432300Z",
+      "name" : "Refrigerator Double Door",
+      "proposedCanonicalId" : "refrigerator-double-door",
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/double-door-refrigerator-266-rent"
+    },
+    {
+      "category" : "DINING_TABLE",
+      "confidence" : 0.0,
+      "externalId" : "3576",
+      "firstSeenAt" : "2026-09-05T18:52:15.546966Z",
+      "name" : "Glen Solid Wood and Upholstered Bar Stool In Walnut Finish",
+      "proposedCanonicalId" : null,
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/glen-bar-stool-3576-rent"
+    },
+    {
+      "category" : "WARDROBE",
+      "confidence" : 0.0,
+      "externalId" : "3772",
+      "firstSeenAt" : "2026-09-05T18:51:54.743272400Z",
+      "name" : "Out of stockLana Twin Wardrobe",
+      "proposedCanonicalId" : null,
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/lana-twin-wardrobe-3772-rent"
+    },
+    {
+      "category" : "WARDROBE",
+      "confidence" : 0.0,
+      "externalId" : "3773",
+      "firstSeenAt" : "2026-09-05T18:51:54.743272400Z",
+      "name" : "Grig Twin Wardrobe",
+      "proposedCanonicalId" : null,
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/grig-twin-wardrobe-3773-rent"
+    },
+    {
+      "category" : "WARDROBE",
+      "confidence" : 0.0,
+      "externalId" : "3774",
+      "firstSeenAt" : "2026-09-05T18:51:54.743272400Z",
+      "name" : "Bianca Four Door Wardrobe",
+      "proposedCanonicalId" : null,
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/bianca-four-door-wardrobe-3774-rent"
+    },
+    {
+      "category" : "MICROWAVE",
+      "confidence" : 0.0,
+      "externalId" : "3894",
+      "firstSeenAt" : "2026-09-05T18:51:10.232432300Z",
+      "name" : "Out of stockAppliance Essentials",
+      "proposedCanonicalId" : null,
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/appliance-essentials-3894-rent"
+    },
+    {
+      "category" : "WASHING_MACHINE",
+      "confidence" : 0.0,
+      "externalId" : "3898",
+      "firstSeenAt" : "2026-09-05T18:51:10.232432300Z",
+      "name" : "LED Smart TV 43 inch with Refrigerator and Washing Machine",
+      "proposedCanonicalId" : null,
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/led-smart-tv-43-inch-with-refrigerator-and-washing-machine-3898-rent"
+    },
+    {
+      "category" : "WARDROBE",
+      "confidence" : 0.6,
+      "externalId" : "4460",
+      "firstSeenAt" : "2026-09-05T18:51:54.743272400Z",
+      "name" : "Out of stockTrine Engineered Wood Three Door Wardrobe",
+      "proposedCanonicalId" : "wardrobe-engineered-wood",
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/trine-engineered-wood-three-door-wardrobe-4460-rent"
+    },
+    {
+      "category" : "REFRIGERATOR",
+      "confidence" : 0.5,
+      "externalId" : "5082",
+      "firstSeenAt" : "2026-09-05T18:51:10.232432300Z",
+      "name" : "Refrigerator 190L With Parker Console Unit",
+      "proposedCanonicalId" : "refrigerator-150-200l",
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/refrigerator-190l-with-parker-console-unit-5082-rent"
+    },
+    {
+      "category" : "REFRIGERATOR",
+      "confidence" : 0.0,
+      "externalId" : "5322",
+      "firstSeenAt" : "2026-09-05T18:51:10.232432300Z",
+      "name" : "LED 55\" UHD 4K TV (Table Stand) With Elvis 3 Seater Sofa Moroccan Blue",
+      "proposedCanonicalId" : null,
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/led-55--uhd-4k-tv--table-stand--with-elvis-3-seater-sofa-moroccan-blue-5322-rent"
+    },
+    {
+      "category" : "WARDROBE",
+      "confidence" : 0.0,
+      "externalId" : "5402",
+      "firstSeenAt" : "2026-09-05T18:51:54.743272400Z",
+      "name" : "Steal DealRio kids wardrobe - Jungle Green",
+      "proposedCanonicalId" : null,
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/rio-kids-wardrobe-5402-rent"
+    },
+    {
+      "category" : "DINING_TABLE",
+      "confidence" : 0.0,
+      "externalId" : "5451",
+      "firstSeenAt" : "2026-09-05T18:52:15.545969800Z",
+      "name" : "Water Purifier - DrinkPrime RO+Copper (Unlimited)",
+      "proposedCanonicalId" : null,
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/fur---water-purifier---drinkprime-5451-rent"
+    },
+    {
+      "category" : "WASHING_MACHINE",
+      "confidence" : 0.0,
+      "externalId" : "5673",
+      "firstSeenAt" : "2026-09-05T18:51:16.027214Z",
+      "name" : "Out of stockWashing Machine T/L Fully Automatic - 6KG (Brand New - Haier)",
+      "proposedCanonicalId" : null,
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/appliance---washing-machine-6kg--t-l----brand-new-5673-rent"
+    },
+    {
+      "category" : "DINING_TABLE",
+      "confidence" : 0.0,
+      "externalId" : "70",
+      "firstSeenAt" : "2026-09-05T18:52:15.546966Z",
+      "name" : "Pico Solid Wood Dining Bench in Walnut Finish",
+      "proposedCanonicalId" : null,
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/pico-bench-classic-70-rent"
+    },
+    {
+      "category" : "DINING_TABLE",
+      "confidence" : 0.0,
+      "externalId" : "71",
+      "firstSeenAt" : "2026-09-05T18:52:15.546966Z",
+      "name" : "Pico Solid Wood Dining Bench in Teak Finish",
+      "proposedCanonicalId" : null,
+      "provider" : "furlenco",
+      "url" : "https://www.furlenco.com/rent/products/pico-bench-novo-71-rent"
+    },
+    {
       "category" : "BED",
       "confidence" : 0.0,
       "externalId" : "bed-with-storage-on-rent",
