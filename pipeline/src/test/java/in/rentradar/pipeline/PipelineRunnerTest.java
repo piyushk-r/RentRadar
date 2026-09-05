@@ -158,4 +158,27 @@ class PipelineRunnerTest {
         assertThat(runs.providers().get("fakeprov").status()).isEqualTo("DEGRADED");
         assertThat(runs.providers().get("fakeprov").warnings()).anySatisfy(w -> assertThat(w).contains("review queue"));
     }
+
+    @Test
+    void aProviderLeftOutOfARunKeepsItsPricesAndItsStatusRecord() throws Exception {
+        // The CI runner cannot reach every host, so a provider can be disabled
+        // for a run. Its prices already survive (FR-5.4); its runs.json entry
+        // must too, or the status page forgets the provider exists and can no
+        // longer say how old those prices are.
+        DataStore store = new DataStore(tempDir);
+        List<RentalProduct> dayOne = List.of(fridge("1", "Single Door Fridge (190 Litre)", 470_00, DAY_ONE));
+        new PipelineRunner(config(tempDir), store,
+                List.of(fakeProvider(new ProviderRefreshResult("fakeprov", true, dayOne, List.of(), List.of(), 10)))).run();
+
+        // Day two: the provider is not configured at all.
+        int exit = new PipelineRunner(config(tempDir), store, List.of()).run();
+
+        assertThat(exit).as("nothing failed; nothing ran").isZero();
+        assertThat(store.loadPrices().records()).hasSize(1);
+        FileModels.RunsFile runs = Json.mapper().readValue(tempDir.resolve("runs.json").toFile(), FileModels.RunsFile.class);
+        assertThat(runs.providers()).containsKey("fakeprov");
+        assertThat(runs.providers().get("fakeprov").lastSuccessAt())
+                .as("the carried-forward record still dates its data")
+                .isEqualTo(runs.providers().get("fakeprov").lastAttemptAt());
+    }
 }

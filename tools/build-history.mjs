@@ -169,11 +169,17 @@ if (newest) {
   // widens or narrows the window.
   const cutoff = new Date(newest.date).getTime() - 30 * 24 * 3600 * 1000;
   const tallies = new Map(); // provider → { ok, failed }
+  // A provider left out of a run has its previous record carried forward
+  // unchanged. That is one attempt, not one per commit — count a status only
+  // when the attempt time moved.
+  const lastAttempt = new Map(); // provider → lastAttemptAt
   for (const { sha, date } of runCommits) {
     if (new Date(date).getTime() < cutoff) continue;
     const runs = gitShowJson(`${sha}:data/runs.json`);
     if (!runs?.providers) continue;
     for (const [provider, run] of Object.entries(runs.providers)) {
+      if (run.lastAttemptAt && lastAttempt.get(provider) === run.lastAttemptAt) continue;
+      lastAttempt.set(provider, run.lastAttemptAt);
       const tally = tallies.get(provider) ?? { ok: 0, failed: 0 };
       if (run.status === 'FAILED') tally.failed += 1;
       else tally.ok += 1;

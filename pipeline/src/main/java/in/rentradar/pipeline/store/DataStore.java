@@ -79,6 +79,10 @@ public class DataStore {
         return load("mappings.json", FileModels.MappingsFile.class, new FileModels.MappingsFile(List.of()));
     }
 
+    public FileModels.RunsFile loadRuns() {
+        return load("runs.json", FileModels.RunsFile.class, new FileModels.RunsFile(null, Map.of()));
+    }
+
     public FileModels.PendingFile loadPending() {
         return load("pending-matches.json", FileModels.PendingFile.class, new FileModels.PendingFile(List.of()));
     }

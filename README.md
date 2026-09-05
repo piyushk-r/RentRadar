@@ -80,9 +80,10 @@ Cloudflare rebuilds on the push, so that is the whole update.
 
 The 12-hour cron does the same thing unattended, with one gap: RentoMojo's
 host serves this project from a home connection but refuses GitHub's runner IP
-range, so CI cannot refresh it and `/status` says so. Guarented and Furlenco
-refresh fine there. Running `refresh.ps1` locally is what keeps RentoMojo
-current.
+range, so the scheduled run leaves it out — it would otherwise fail twice a
+day forever — and carries its last record forward so `/status` still shows
+how old its prices are. Guarented and Furlenco refresh fine there. Running
+`refresh.ps1` locally is what keeps RentoMojo current.
 
 Order matters, and the script handles it: `build-history.mjs` walks
 *committed* history, so the data is committed first and the history rebuilt

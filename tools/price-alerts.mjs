@@ -54,7 +54,10 @@ function recordsAt(sha) {
   return records;
 }
 
-const commits = git('log', '-2', '--format=%H', '--', 'data/prices.json', 'data/prices')
+// --full-history: with a pathspec, git prunes commits it deems redundant after a
+// merge, and a shallow checkout hides them entirely — either way the diff
+// silently finds one commit and reports nothing (the workflow fetches full depth).
+const commits = git('log', '--full-history', '-2', '--format=%H', '--', 'data/prices.json', 'data/prices')
   .trim()
   .split('\n')
   .filter(Boolean);

@@ -145,6 +145,12 @@ public class PipelineRunner {
         Map<String, in.rentradar.pipeline.common.model.RentalCategory> categoryById = new TreeMap<>();
         catalogue.forEach((id, product) -> categoryById.put(id, product.category()));
         store.writePrices(new FileModels.PricesFile(merged), categoryById);
+        // A provider not configured for this run keeps its last known record:
+        // its prices survived the merge (FR-5.4), so the status page must still
+        // be able to say how old they are rather than forgetting the provider.
+        for (Map.Entry<String, FileModels.ProviderRun> previous : store.loadRuns().providers().entrySet()) {
+            providerRuns.putIfAbsent(previous.getKey(), previous.getValue());
+        }
         store.writeRuns(new FileModels.RunsFile(new FileModels.RunInfo(runStarted, Instant.now()), providerRuns));
 
         log.info("run finished: {} price records ({} fresh), {} canonical products, {} pending matches{}",

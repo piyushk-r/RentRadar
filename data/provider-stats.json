@@ -7,11 +7,11 @@
     },
     "guarented": {
       "successRate30d": 1,
-      "samples": 27
+      "samples": 25
     },
     "rentomojo": {
-      "successRate30d": 0.21,
-      "samples": 29
+      "successRate30d": 0.19,
+      "samples": 27
     }
   }
 }

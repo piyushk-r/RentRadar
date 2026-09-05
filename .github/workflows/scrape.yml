@@ -60,7 +60,14 @@ jobs:
         # was kept (FR-5.4) and runs.json records the failure — both of which
         # should still be committed, so the job continues and fails at the end.
         continue-on-error: true
-        run: java -jar pipeline/target/pipeline.jar --pipeline.data-dir=data
+        # RentoMojo's host refuses GitHub's runner IP range (its robots.txt itself
+        # answers 429 from here, while serving a home connection fine), so it is
+        # left out of the scheduled run rather than failing it twice a day forever.
+        # Its previous records and its runs.json entry are carried forward, so the
+        # status page still shows how old its data is. refresh.ps1 from a home
+        # connection is what refreshes it. Remove this flag on a runner that can
+        # reach it.
+        run: java -jar pipeline/target/pipeline.jar --pipeline.data-dir=data --pipeline.providers.rentomojo.enabled=false
 
       - name: Commit refreshed data
         run: |
