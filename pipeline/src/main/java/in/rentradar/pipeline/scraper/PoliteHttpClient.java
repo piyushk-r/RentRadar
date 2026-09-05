@@ -76,8 +76,11 @@ public class PoliteHttpClient {
 
     private static String shortReason(Exception e) {
         String message = e.getMessage();
-        return message == null || message.isBlank() ? e.getClass().getSimpleName() : message.split("
-")[0];
+        if (message == null || message.isBlank()) {
+            return e.getClass().getSimpleName();
+        }
+        int firstBreak = message.indexOf('\n');
+        return firstBreak < 0 ? message : message.substring(0, firstBreak);
     }
 
     private synchronized String rawFetch(URI uri) throws FetchException, InterruptedException {
