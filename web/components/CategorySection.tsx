@@ -30,6 +30,7 @@ export function CategorySection({
   attrFilters,
   stats,
   providerTypes,
+  knownProviders,
   onNeedData,
   onAttrFilterChange,
 }: {
@@ -44,6 +45,8 @@ export function CategorySection({
   attrFilters: Record<string, string>;
   stats: ProviderStats | null;
   providerTypes: Record<string, string | null | undefined>;
+  /** every active provider, so one with nothing here still shows a cell */
+  knownProviders: string[];
   onNeedData: (category: string) => void;
   onAttrFilterChange: (category: string, key: string, value: string) => void;
 }) {
@@ -55,7 +58,7 @@ export function CategorySection({
 
   const view = useMemo(() => {
     if (!loaded) return null;
-    const comparison = buildComparison(records, catalogue, tenure, now);
+    const comparison = buildComparison(records, catalogue, tenure, now, knownProviders);
     const scored = sortRows(filterRows(comparison.rows, { ...rowFilters, attributes: attrFilters }), sort, now, stats);
     const why: Record<string, string> = {};
     for (const row of scored) if (row.why) why[row.row.product.id] = row.why;
@@ -73,7 +76,7 @@ export function CategorySection({
       else options[key].sort();
     }
     return { comparison, rows: scored.map((s) => s.row), why, options };
-  }, [loaded, records, catalogue, tenure, now, sort, rowFilters, attrFilters, stats, category]);
+  }, [loaded, records, catalogue, tenure, now, sort, rowFilters, attrFilters, stats, category, knownProviders]);
 
   return (
     <div className="category-section" ref={ref}>

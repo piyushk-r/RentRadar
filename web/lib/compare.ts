@@ -203,8 +203,15 @@ export function buildComparison(
   catalogue: CatalogueEntry[],
   tenureMonths: number,
   now: Date,
+  /**
+   * The providers to show columns for. Pass the full active set, otherwise a
+   * provider that stocks nothing in this category disappears from it — which
+   * reads as "we never checked" when the honest answer is "not offered"
+   * (FR-2.3: a cell is never blank).
+   */
+  knownProviders?: string[],
 ): Comparison {
-  const providers = [...new Set(records.map((r) => r.provider))].sort();
+  const providers = (knownProviders ?? [...new Set(records.map((r) => r.provider))]).slice().sort();
   const productsWithData = new Set(records.map((r) => r.canonicalProductId));
   const rows: Row[] = [];
 

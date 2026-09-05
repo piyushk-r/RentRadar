@@ -280,11 +280,25 @@ export default function Home() {
   }, [data, basket, basketReady, tenure, now, recordsFor]);
 
   const allProviders = useMemo(() => {
-    const ids = new Set<string>();
+    // runs.json is the authoritative list: it names every provider that ran,
+    // so a provider appears from first paint rather than only once a category
+    // it happens to stock has loaded.
+    const ids = new Set<string>(Object.keys(data?.runs.providers ?? {}));
     for (const records of Object.values(priceMap)) for (const r of records) ids.add(r.provider);
     for (const r of legacy ?? []) ids.add(r.provider);
     return [...ids].sort();
-  }, [priceMap, legacy]);
+  }, [data, priceMap, legacy]);
+
+  /**
+   * The providers a section should show a column for: everything active,
+   * narrowed by the provider filter. Without this a provider that stocks
+   * nothing in a category vanishes from it, which reads as "never checked"
+   * when the truth is "not offered".
+   */
+  const activeProviders = useMemo(
+    () => (filters.providers ? allProviders.filter((p) => filters.providers!.includes(p)) : allProviders),
+    [allProviders, filters.providers],
+  );
 
   const latestScrapedAt = useMemo(() => {
     let latest: string | null = null;
@@ -480,6 +494,7 @@ export default function Home() {
                 attrFilters={attrFilters[category] ?? EMPTY_ATTRS}
                 stats={data.stats}
                 providerTypes={providerTypes}
+                knownProviders={activeProviders}
                 onNeedData={loadCategory}
                 onAttrFilterChange={setAttrFilter}
               />

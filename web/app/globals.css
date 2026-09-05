@@ -1378,3 +1378,58 @@ summary:focus-visible,
   backdrop-filter: blur(6px);
   padding-top: 12px;
 }
+
+/* --- one content column ------------------------------------------------- */
+
+/* The header used to run edge to edge while the results sat in a 980px
+   column, so on a wide screen nothing lined up with anything. Both now share
+   a single measure, and the column is wider so three provider panels have
+   room to breathe. */
+:root {
+  --content: 1180px;
+}
+
+.home,
+.results {
+  width: 100%;
+  max-width: var(--content);
+  margin-inline: auto;
+}
+
+/* A landing page's worth of vertical space is right before a search and wrong
+   after one; once results exist the header becomes a header. */
+.home {
+  margin-top: 14vh;
+  padding-bottom: 4px;
+}
+
+.home.has-results {
+  margin-top: 34px;
+}
+
+.results {
+  margin-top: 28px;
+}
+
+/* Chips wrap inside the column instead of stretching across the viewport. */
+.chips {
+  max-width: 940px;
+  margin-inline: auto;
+}
+
+.tagline {
+  max-width: none;
+}
+
+/* Wide screens: the offer panels get a floor so three of them read as three
+   comparable things rather than three thin strips. */
+@media (min-width: 900px) {
+  .offers {
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  }
+}
+
+/* Keep the search box proportionate to the column, not the viewport. */
+.searchbox {
+  max-width: 620px;
+}
