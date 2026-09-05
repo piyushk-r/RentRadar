@@ -993,3 +993,197 @@ table.status {
   text-transform: none;
   color: var(--ink);
 }
+
+/* --- comparison as cards, not a grid of cells --------------------------- */
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* The row is the container; the offers inside it are the things being
+   compared. A hairline plus a lifted shadow reads as a surface above the
+   page rather than a ruled line across it. */
+.row-card {
+  background: linear-gradient(180deg, var(--surface-2) 0%, var(--surface) 100%);
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  padding: 16px 18px 18px;
+  box-shadow: var(--shadow);
+  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+}
+
+.row-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--hairline-strong);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.45), 0 12px 28px rgba(0, 0, 0, 0.42);
+}
+
+.row-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.row-head .product-name {
+  font-size: 15.5px;
+  font-weight: 650;
+  letter-spacing: -0.1px;
+}
+
+.offers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 10px;
+}
+
+/* Each offer is its own raised plane, so the eye compares surfaces rather
+   than scanning a ruled row. */
+.offer {
+  position: relative;
+  background: var(--page);
+  border: 1px solid var(--hairline);
+  border-radius: 11px;
+  padding: 12px 13px 10px;
+  transition: transform 0.14s ease, box-shadow 0.14s ease, border-color 0.14s ease;
+}
+
+.offer.is-priced:hover {
+  transform: translateY(-2px);
+  border-color: var(--hairline-strong);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.offer.is-absent {
+  background: transparent;
+  border-style: dashed;
+}
+
+/* The winner is the one thing worth an accent; a ring plus a lit ground,
+   never colour alone — the badge says "Best" in words too. */
+.offer.is-best {
+  border-color: var(--best);
+  background: linear-gradient(180deg, var(--best-bg) 0%, var(--page) 70%);
+  box-shadow: 0 0 0 1px var(--best) inset, 0 6px 18px rgba(52, 211, 153, 0.1);
+}
+
+.offer.is-dim {
+  opacity: 0.62;
+}
+
+.offer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.offer-head .provider-name {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.offer-price {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  line-height: 1.15;
+}
+
+.offer-price .per {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--faint);
+  letter-spacing: 0;
+}
+
+.offer-facts {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.offer-facts div {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-facts dt {
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--faint);
+}
+
+.offer-facts dd {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.offer-absent {
+  font-size: 13px;
+  color: var(--faint);
+  padding: 6px 0 2px;
+}
+
+.offer-foot {
+  margin-top: 9px;
+  padding-top: 8px;
+  border-top: 1px solid var(--hairline);
+  font-size: 11px;
+  color: var(--faint);
+  min-height: 12px;
+}
+
+.row-history {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--hairline);
+}
+
+/* The totals sit on the page rather than above it: a summary, not an offer. */
+.totals-card {
+  margin-top: 4px;
+  padding: 14px 18px 16px;
+  border: 1px dashed var(--hairline-strong);
+  border-radius: 14px;
+}
+
+.totals-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--faint);
+  margin-bottom: 10px;
+}
+
+.offer.is-total {
+  background: transparent;
+  border-color: transparent;
+  padding-left: 0;
+}
+
+.offer.is-total .offer-price {
+  font-size: 20px;
+}
+
+.offer.is-total .offer-foot {
+  border-top: none;
+  padding-top: 4px;
+}
+
+@media (max-width: 560px) {
+  .row-card {
+    padding: 14px;
+  }
+
+  .offers {
+    grid-template-columns: 1fr;
+  }
+}

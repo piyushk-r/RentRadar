@@ -1,6 +1,6 @@
 'use client';
 
-import { Fragment, useState } from 'react';
+import { useState } from 'react';
 import type { Cell, Comparison, Row } from '../lib/compare';
 import { formatAge } from '../lib/freshness';
 import { formatPaise } from '../lib/money';
@@ -8,54 +8,101 @@ import { ProviderName } from './ProviderMark';
 import { PriceHistory } from './PriceHistory';
 
 /**
- * One cell, one of four honest states: priced, not offered, out of stock, or
- * stale — each visually distinct, never blank (FR-2.3, PRD section 8). Plus
- * the tenure-specific state: the provider stocks the product but publishes no
- * plan for this tenure, which is said outright rather than derived.
+ * One product per card, one panel per provider inside it. A flat grid reads
+ * like a spreadsheet: what a reader actually does here is compare a handful of
+ * offers for one product, so the offer is the unit that gets a surface, and
+ * the row it belongs to is the container.
+ *
+ * Each panel keeps the four honest states — priced, not offered, out of stock,
+ * or no plan at this tenure — visually distinct and never blank (FR-2.3).
  */
-function PriceCell({ cell, tenure, now }: { cell: Cell; tenure: number; now: Date }) {
-  if (cell.state === 'not-offered') {
-    return <span className="state-note">Not offered</span>;
-  }
-  if (cell.state === 'not-published-for-tenure') {
-    return (
-      <span className="state-note">
-        No {tenure}-month plan
-        {cell.anyTenureRecord && (
-          <>
-            {' · '}
-            <a href={cell.anyTenureRecord.providerUrl} rel="noopener noreferrer" target="_blank">
-              view
-            </a>
-          </>
-        )}
-      </span>
-    );
-  }
-  if (cell.state === 'out-of-stock' || !cell.record || !cell.band) {
-    return <span className="state-note">Out of stock</span>;
-  }
-
-  const record = cell.record;
+function OfferPanel({
+  provider,
+  cell,
+  tenure,
+  now,
+  checkedAt,
+  integrationType,
+}: {
+  provider: string;
+  cell: Cell;
+  tenure: number;
+  now: Date;
+  checkedAt: string | null;
+  integrationType?: string | null;
+}) {
+  const priced = cell.state === 'priced' && cell.record && cell.band;
   const dim = cell.band === 'outdated' || cell.band === 'unverified';
+  const record = cell.record;
 
   return (
-    <div className={`price-cell${dim ? ' dim' : ''}`}>
-      {cell.isBest && <span className="best-badge">Best price</span>}
-      <div className="monthly">
-        <a href={record.providerUrl} rel="noopener noreferrer" target="_blank">
-          {formatPaise(record.monthlyPaise)}
-        </a>
-        <span className="per">/mo</span>
+    <div
+      className={[
+        'offer',
+        priced ? 'is-priced' : 'is-absent',
+        cell.isBest ? 'is-best' : '',
+        dim ? 'is-dim' : '',
+      ]
+        .filter(Boolean)
+        .join(' ')}
+    >
+      <div className="offer-head">
+        <ProviderName provider={provider} size={17} />
+        {cell.isBest && <span className="best-badge">Best</span>}
       </div>
-      <div className="sub">
-        {formatPaise(record.estimatedTotalPaise)} total · {formatPaise(record.depositPaise)} deposit (refundable)
-      </div>
-      {cell.band === 'outdated' && (
-        <div className="stale-note">Price may be outdated — checked {formatAge(record.scrapedAt, now)}</div>
+
+      {priced && record ? (
+        <>
+          <div className="offer-price">
+            <a href={record.providerUrl} rel="noopener noreferrer" target="_blank">
+              {formatPaise(record.monthlyPaise)}
+            </a>
+            <span className="per">/mo</span>
+          </div>
+          <dl className="offer-facts">
+            <div>
+              <dt>Total</dt>
+              <dd>{formatPaise(record.estimatedTotalPaise)}</dd>
+            </div>
+            <div>
+              <dt>Deposit</dt>
+              <dd>{formatPaise(record.depositPaise)}</dd>
+            </div>
+          </dl>
+          {cell.band === 'outdated' && (
+            <div className="stale-note">May be outdated — checked {formatAge(record.scrapedAt, now)}</div>
+          )}
+          {cell.band === 'unverified' && (
+            <div className="unverified-note">Not verified — checked {formatAge(record.scrapedAt, now)}</div>
+          )}
+        </>
+      ) : (
+        <div className="offer-absent">
+          {cell.state === 'not-offered' && 'Not offered'}
+          {cell.state === 'out-of-stock' && 'Out of stock'}
+          {cell.state === 'not-published-for-tenure' && (
+            <>
+              No {tenure}-month plan
+              {cell.anyTenureRecord && (
+                <>
+                  {' · '}
+                  <a href={cell.anyTenureRecord.providerUrl} rel="noopener noreferrer" target="_blank">
+                    view
+                  </a>
+                </>
+              )}
+            </>
+          )}
+        </div>
       )}
-      {cell.band === 'unverified' && (
-        <div className="unverified-note">Not verified — checked {formatAge(record.scrapedAt, now)}</div>
+
+      {/* The stale notes above already carry the checked-at time; repeating it
+          in the footer would just be noise. */}
+      {!dim && (
+        <div className="offer-foot">
+          {integrationType === 'MANUAL' ? 'manual sheet · ' : ''}
+          {checkedAt ? `checked ${formatAge(checkedAt, now)}` : ''}
+        </div>
       )}
     </div>
   );
@@ -89,128 +136,95 @@ export function ComparisonTable({
     return <p className="empty">No priced products yet for this selection.</p>;
   }
 
-  /** Latest scrapedAt per provider column, for the header's checked-at line. */
-  const columnCheckedAt: Record<string, string | null> = {};
+  /** Latest scrapedAt per provider, for each panel's checked-at line. */
+  const checkedAt: Record<string, string | null> = {};
   for (const provider of providers) {
     let latest: string | null = null;
     for (const row of rows) {
       const record = row.cells[provider]?.record ?? row.cells[provider]?.anyTenureRecord;
       if (record && (!latest || record.scrapedAt > latest)) latest = record.scrapedAt;
     }
-    columnCheckedAt[provider] = latest;
+    checkedAt[provider] = latest;
   }
 
   return (
-    <>
-      <table className="compare">
-        <caption className="visually-hidden">
-          {categoryLabel ?? 'Rental'} prices in Bengaluru for a {tenure}-month tenure, by provider
-        </caption>
-        <thead>
-          <tr>
-            <th scope="col">Product</th>
-            {providers.map((provider) => (
-              <th key={provider} scope="col">
-                <ProviderName provider={provider} />
-                <span className="checked">
-                  {providerTypes[provider] === 'MANUAL' ? 'manual sheet · ' : ''}
-                  {columnCheckedAt[provider] ? `checked ${formatAge(columnCheckedAt[provider]!, now)}` : ''}
-                </span>
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((row) => (
-            <Fragment key={row.product.id}>
-              <tr>
-                <th scope="row">
-                  <div className="product-name">
-                    {row.product.name}
-                    {why[row.product.id] && (
-                      <span className="why-rank" tabIndex={0} title={why[row.product.id]} aria-label="Why this ranked here">
-                        ⓘ
-                      </span>
-                    )}
-                  </div>
-                  <div className="product-attrs">
-                    {Object.entries(row.product.attributes)
-                      .map(([key, value]) => `${key.replace(/_/g, ' ')}: ${value.replace(/_/g, ' ')}`)
-                      .join(' · ')}
-                  </div>
-                  <button
-                    type="button"
-                    className="history-toggle"
-                    aria-expanded={historyFor === row.product.id}
-                    onClick={() => setHistoryFor((current) => (current === row.product.id ? null : row.product.id))}
-                  >
-                    {historyFor === row.product.id ? 'Hide price history' : 'Price history'}
-                  </button>
-                </th>
-                {providers.map((provider) => (
-                  <td key={provider}>
-                    <PriceCell cell={row.cells[provider]} tenure={tenure} now={now} />
-                  </td>
-                ))}
-              </tr>
-              {historyFor === row.product.id && (
-                <tr className="history-row">
-                  <td colSpan={providers.length + 1}>
-                    <PriceHistory productId={row.product.id} tenure={tenure} now={now} />
-                  </td>
-                </tr>
-              )}
-            </Fragment>
-          ))}
-        </tbody>
-        <tfoot>
-          <tr>
-            <td>Total per month</td>
-            {providers.map((provider) => {
-              const total = totals[provider];
-              return (
-                <td key={provider}>
-                  {total.itemsCovered > 0 ? (
-                    <>
-                      {formatPaise(total.monthlyPaise)}
-                      <div className="coverage-note">
-                        {total.itemsCovered} of {total.itemsRequested} items · {formatPaise(total.depositPaise)} deposit
-                      </div>
-                    </>
-                  ) : (
-                    <span className="state-note">—</span>
-                  )}
-                </td>
-              );
-            })}
-          </tr>
-        </tfoot>
-      </table>
-
-      {/* Mobile: one card per product, providers ranked inside (PRD section 8). */}
-      <div className="cards">
-        {rows.map((row) => (
-          <div className="card" key={row.product.id}>
-            <h3>{row.product.name}</h3>
-            {providers.map((provider) => (
-              <div className="provider-line" key={provider}>
-                <span className="who"><ProviderName provider={provider} size={16} /></span>
-                <PriceCell cell={row.cells[provider]} tenure={tenure} now={now} />
+    <div className="rows" aria-label={`${categoryLabel ?? 'Rental'} prices for a ${tenure}-month tenure`}>
+      {rows.map((row) => (
+        <article className="row-card" key={row.product.id}>
+          <header className="row-head">
+            <div>
+              <h3 className="product-name">
+                {row.product.name}
+                {why[row.product.id] && (
+                  <span className="why-rank" tabIndex={0} title={why[row.product.id]} aria-label="Why this ranked here">
+                    ⓘ
+                  </span>
+                )}
+              </h3>
+              <div className="product-attrs">
+                {Object.entries(row.product.attributes)
+                  .map(([key, value]) => `${key.replace(/_/g, ' ')}: ${value.replace(/_/g, ' ')}`)
+                  .join(' · ')}
               </div>
-            ))}
+            </div>
             <button
               type="button"
               className="history-toggle"
               aria-expanded={historyFor === row.product.id}
               onClick={() => setHistoryFor((current) => (current === row.product.id ? null : row.product.id))}
             >
-              {historyFor === row.product.id ? 'Hide price history' : 'Price history'}
+              {historyFor === row.product.id ? 'Hide history' : 'Price history'}
             </button>
-            {historyFor === row.product.id && <PriceHistory productId={row.product.id} tenure={tenure} now={now} />}
-          </div>
-        ))}
-      </div>
+          </header>
 
-    </>
+          <div className="offers" style={{ '--offer-count': providers.length } as React.CSSProperties}>
+            {providers.map((provider) => (
+              <OfferPanel
+                key={provider}
+                provider={provider}
+                cell={row.cells[provider]}
+                tenure={tenure}
+                now={now}
+                checkedAt={checkedAt[provider]}
+                integrationType={providerTypes[provider]}
+              />
+            ))}
+          </div>
+
+          {historyFor === row.product.id && (
+            <div className="row-history">
+              <PriceHistory productId={row.product.id} tenure={tenure} now={now} />
+            </div>
+          )}
+        </article>
+      ))}
+
+      <div className="totals-card">
+        <div className="totals-label">Total per month, over the items each provider stocks</div>
+        <div className="offers" style={{ '--offer-count': providers.length } as React.CSSProperties}>
+          {providers.map((provider) => {
+            const total = totals[provider];
+            return (
+              <div className="offer is-total" key={provider}>
+                <div className="offer-head">
+                  <ProviderName provider={provider} size={17} />
+                </div>
+                {total.itemsCovered > 0 ? (
+                  <>
+                    <div className="offer-price">{formatPaise(total.monthlyPaise)}</div>
+                    <div className="offer-foot">
+                      {total.itemsCovered} of {total.itemsRequested} items ·{' '}
+                      {formatPaise(total.depositPaise)} deposit
+                    </div>
+                  </>
+                ) : (
+                  <div className="offer-absent">—</div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
   );
 }
