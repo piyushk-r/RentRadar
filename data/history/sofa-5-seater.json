@@ -3,10 +3,1522 @@
   "collectingSince": "2026-09-03T22:52:59+05:30",
   "series": [
     {
+      "provider": "furlenco",
+      "externalId": "280",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "280",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "280",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "280",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "280",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "280",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "281",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "281",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "281",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "281",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "281",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "281",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "282",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "282",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "282",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "282",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "282",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "282",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "284",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "284",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "284",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "284",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "284",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "284",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "286",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "286",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "286",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "286",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "286",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "286",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "287",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "287",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "287",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "287",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "287",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "287",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "289",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "289",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "289",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "289",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "289",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "289",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "290",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "290",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "290",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "290",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "290",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "290",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          129900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "308",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "308",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "308",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "308",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "308",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "308",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "309",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "309",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "309",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "309",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "309",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "309",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "311",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "311",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "311",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "311",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "311",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "311",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "312",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "312",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "312",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "312",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "312",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "312",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "313",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "313",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "313",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "313",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "313",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "313",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "314",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          152900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "314",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          152900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "314",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          152900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "314",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          152900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "314",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          152900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "314",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          152900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "315",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "315",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "315",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "315",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "315",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "315",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          166900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "316",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          153900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "316",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          153900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "316",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          153900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "316",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          153900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "316",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          153900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "316",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          153900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4200",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          131900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4200",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          131900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4200",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          131900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4200",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          131900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4200",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          131900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4200",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          131900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4469",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          133900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4469",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          133900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4469",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          133900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4469",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          133900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4469",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          133900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4469",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          133900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4926",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          226900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4926",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          226900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4926",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          226900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4926",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          226900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4926",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          226900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "4926",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          226900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5380",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          143900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5380",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          143900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5380",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          143900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5380",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          143900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5380",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          143900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5380",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          143900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5528",
+      "tenureMonths": 3,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          124900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5528",
+      "tenureMonths": 6,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          124900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5528",
+      "tenureMonths": 9,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          124900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5528",
+      "tenureMonths": 12,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          124900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5528",
+      "tenureMonths": 18,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          124900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "5528",
+      "tenureMonths": 24,
+      "lastSeen": "2026-09-06T03:15:57Z",
+      "points": [
+        [
+          "2026-09-06T03:15:57Z",
+          124900
+        ]
+      ]
+    },
+    {
       "provider": "guarented",
       "externalId": "aria-5-seater-sofa-button-tufted",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -18,7 +1530,7 @@
       "provider": "guarented",
       "externalId": "aria-5-seater-sofa-button-tufted",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -30,7 +1542,7 @@
       "provider": "guarented",
       "externalId": "aria-5-seater-sofa-button-tufted",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -42,7 +1554,7 @@
       "provider": "guarented",
       "externalId": "aria-5-seater-sofa-button-tufted",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -54,7 +1566,7 @@
       "provider": "guarented",
       "externalId": "aria-5-seater-sofa-button-tufted",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -66,7 +1578,7 @@
       "provider": "guarented",
       "externalId": "aria-5-seater-sofa-button-tufted",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -78,7 +1590,7 @@
       "provider": "guarented",
       "externalId": "grey-jute-sofa-5-seater",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -90,7 +1602,7 @@
       "provider": "guarented",
       "externalId": "grey-jute-sofa-5-seater",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -102,7 +1614,7 @@
       "provider": "guarented",
       "externalId": "grey-jute-sofa-5-seater",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -114,7 +1626,7 @@
       "provider": "guarented",
       "externalId": "grey-jute-sofa-5-seater",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -126,7 +1638,7 @@
       "provider": "guarented",
       "externalId": "grey-jute-sofa-5-seater",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -138,7 +1650,7 @@
       "provider": "guarented",
       "externalId": "grey-jute-sofa-5-seater",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -150,7 +1662,7 @@
       "provider": "guarented",
       "externalId": "jute-brown-sofa-5-seater",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -162,7 +1674,7 @@
       "provider": "guarented",
       "externalId": "jute-brown-sofa-5-seater",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -174,7 +1686,7 @@
       "provider": "guarented",
       "externalId": "jute-brown-sofa-5-seater",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -186,7 +1698,7 @@
       "provider": "guarented",
       "externalId": "jute-brown-sofa-5-seater",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -198,7 +1710,7 @@
       "provider": "guarented",
       "externalId": "jute-brown-sofa-5-seater",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -210,7 +1722,7 @@
       "provider": "guarented",
       "externalId": "jute-brown-sofa-5-seater",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -222,7 +1734,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -234,7 +1746,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -246,7 +1758,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -258,7 +1770,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -270,7 +1782,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -282,7 +1794,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -294,7 +1806,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater-blue",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -306,7 +1818,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater-blue",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -318,7 +1830,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater-blue",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -330,7 +1842,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater-blue",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -342,7 +1854,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater-blue",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -354,7 +1866,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater-blue",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -366,7 +1878,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater-brown",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -378,7 +1890,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater-brown",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -390,7 +1902,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater-brown",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -402,7 +1914,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater-brown",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -414,7 +1926,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater-brown",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -426,7 +1938,7 @@
       "provider": "guarented",
       "externalId": "jute-sofa-5-seater-brown",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -438,7 +1950,7 @@
       "provider": "guarented",
       "externalId": "velvet-aquablue-sofa-5-seater",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -450,7 +1962,7 @@
       "provider": "guarented",
       "externalId": "velvet-aquablue-sofa-5-seater",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -462,7 +1974,7 @@
       "provider": "guarented",
       "externalId": "velvet-aquablue-sofa-5-seater",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -474,7 +1986,7 @@
       "provider": "guarented",
       "externalId": "velvet-aquablue-sofa-5-seater",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -486,7 +1998,7 @@
       "provider": "guarented",
       "externalId": "velvet-aquablue-sofa-5-seater",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -498,7 +2010,7 @@
       "provider": "guarented",
       "externalId": "velvet-aquablue-sofa-5-seater",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -510,7 +2022,7 @@
       "provider": "guarented",
       "externalId": "velvet-black-sofa-5-seater",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -522,7 +2034,7 @@
       "provider": "guarented",
       "externalId": "velvet-black-sofa-5-seater",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -534,7 +2046,7 @@
       "provider": "guarented",
       "externalId": "velvet-black-sofa-5-seater",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -546,7 +2058,7 @@
       "provider": "guarented",
       "externalId": "velvet-black-sofa-5-seater",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -558,7 +2070,7 @@
       "provider": "guarented",
       "externalId": "velvet-black-sofa-5-seater",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -570,7 +2082,7 @@
       "provider": "guarented",
       "externalId": "velvet-black-sofa-5-seater",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -582,7 +2094,7 @@
       "provider": "guarented",
       "externalId": "velvet-green-sofa-5-seater",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -594,7 +2106,7 @@
       "provider": "guarented",
       "externalId": "velvet-green-sofa-5-seater",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -606,7 +2118,7 @@
       "provider": "guarented",
       "externalId": "velvet-green-sofa-5-seater",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -618,7 +2130,7 @@
       "provider": "guarented",
       "externalId": "velvet-green-sofa-5-seater",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -630,7 +2142,7 @@
       "provider": "guarented",
       "externalId": "velvet-green-sofa-5-seater",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -642,7 +2154,7 @@
       "provider": "guarented",
       "externalId": "velvet-green-sofa-5-seater",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -654,7 +2166,7 @@
       "provider": "guarented",
       "externalId": "velvet-grey-sofa-5-seater",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -666,7 +2178,7 @@
       "provider": "guarented",
       "externalId": "velvet-grey-sofa-5-seater",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -678,7 +2190,7 @@
       "provider": "guarented",
       "externalId": "velvet-grey-sofa-5-seater",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -690,7 +2202,7 @@
       "provider": "guarented",
       "externalId": "velvet-grey-sofa-5-seater",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -702,7 +2214,7 @@
       "provider": "guarented",
       "externalId": "velvet-grey-sofa-5-seater",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -714,7 +2226,7 @@
       "provider": "guarented",
       "externalId": "velvet-grey-sofa-5-seater",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -726,7 +2238,7 @@
       "provider": "guarented",
       "externalId": "velvet-navyblue-sofa-5-seater",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -738,7 +2250,7 @@
       "provider": "guarented",
       "externalId": "velvet-navyblue-sofa-5-seater",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -750,7 +2262,7 @@
       "provider": "guarented",
       "externalId": "velvet-navyblue-sofa-5-seater",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -762,7 +2274,7 @@
       "provider": "guarented",
       "externalId": "velvet-navyblue-sofa-5-seater",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -774,7 +2286,7 @@
       "provider": "guarented",
       "externalId": "velvet-navyblue-sofa-5-seater",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -786,7 +2298,7 @@
       "provider": "guarented",
       "externalId": "velvet-navyblue-sofa-5-seater",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -798,7 +2310,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -810,7 +2322,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -822,7 +2334,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -834,7 +2346,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -846,7 +2358,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -858,7 +2370,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -870,7 +2382,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater-grey",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -882,7 +2394,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater-grey",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -894,7 +2406,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater-grey",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -906,7 +2418,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater-grey",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -918,7 +2430,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater-grey",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -930,7 +2442,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater-grey",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -942,7 +2454,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater-navy-blue",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -954,7 +2466,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater-navy-blue",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -966,7 +2478,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater-navy-blue",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -978,7 +2490,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater-navy-blue",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -990,7 +2502,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater-navy-blue",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1002,7 +2514,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-5-seater-navy-blue",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1014,7 +2526,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-blue-5-seater",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1026,7 +2538,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-blue-5-seater",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1038,7 +2550,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-blue-5-seater",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1050,7 +2562,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-blue-5-seater",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1062,7 +2574,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-blue-5-seater",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1074,7 +2586,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-blue-5-seater",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1086,7 +2598,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-green-5-seater",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1098,7 +2610,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-green-5-seater",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1110,7 +2622,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-green-5-seater",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1122,7 +2634,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-green-5-seater",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1134,7 +2646,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-green-5-seater",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1146,7 +2658,7 @@
       "provider": "guarented",
       "externalId": "velvet-sofa-green-5-seater",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1158,7 +2670,7 @@
       "provider": "guarented",
       "externalId": "zoey-5-seater-sofa-blue-button-tufted",
       "tenureMonths": 3,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1170,7 +2682,7 @@
       "provider": "guarented",
       "externalId": "zoey-5-seater-sofa-blue-button-tufted",
       "tenureMonths": 6,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1182,7 +2694,7 @@
       "provider": "guarented",
       "externalId": "zoey-5-seater-sofa-blue-button-tufted",
       "tenureMonths": 9,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1194,7 +2706,7 @@
       "provider": "guarented",
       "externalId": "zoey-5-seater-sofa-blue-button-tufted",
       "tenureMonths": 12,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1206,7 +2718,7 @@
       "provider": "guarented",
       "externalId": "zoey-5-seater-sofa-blue-button-tufted",
       "tenureMonths": 18,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -1218,7 +2730,7 @@
       "provider": "guarented",
       "externalId": "zoey-5-seater-sofa-blue-button-tufted",
       "tenureMonths": 24,
-      "lastSeen": "2026-09-06T00:43:28+05:30",
+      "lastSeen": "2026-09-06T03:15:57Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
