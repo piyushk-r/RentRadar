@@ -1,6 +1,626 @@
 {
   "mappings" : [
     {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "1",
+      "matchedAt" : "2026-09-06T02:52:10.763771667Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockAllen Engineered Wood Queen Bed in Ivory White Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/allen-queen-bed-1-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "100",
+      "matchedAt" : "2026-09-06T02:52:29.206508682Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric 3 Seater Sofa in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-3-seater-sofa-grey-100-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "102",
+      "matchedAt" : "2026-09-06T02:52:29.206512688Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric 3 Seater Sofa with Storage in Teal Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-3-seater-sofa-with-storage-teal-blue-102-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "103",
+      "matchedAt" : "2026-09-06T02:52:29.206516834Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockOso Fabric 3 Seater Sofa in Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/oso-3-seater-couch-beige-103-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "105",
+      "matchedAt" : "2026-09-06T02:52:29.208858791Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockOso Fabric 3 Seater Sofa in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/oso-3-seater-couch-grey-105-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "106",
+      "matchedAt" : "2026-09-06T02:52:29.208911939Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockOso Fabric 3 Seater Sofa in Magic Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/oso-3-seater-couch-magic-beige-106-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "109",
+      "matchedAt" : "2026-09-06T02:52:29.205874338Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 3 Seater Sofa in Azure Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-3-seater-azure-109-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "110",
+      "matchedAt" : "2026-09-06T02:52:29.206356979Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 3 Seater Sofa in Cinnamon Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-3-seater-cinnamon-110-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "111",
+      "matchedAt" : "2026-09-06T02:52:29.206361245Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 3 Seater Sofa in Camel Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-3-seater-camel-beige-111-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "112",
+      "matchedAt" : "2026-09-06T02:52:29.206365681Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 3 Seater Sofa in Damask Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-3-seater-damask-112-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "113",
+      "matchedAt" : "2026-09-06T02:52:29.206369798Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 3 Seater Sofa in Berry Red Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-3-seater-fusion-berry-113-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "114",
+      "matchedAt" : "2026-09-06T02:52:29.206374084Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 3 Seater Sofa in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-3-seater-grey-114-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "115",
+      "matchedAt" : "2026-09-06T02:52:29.206378480Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 3 Seater Sofa in Lilac Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-3-seater-lilac-115-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "116",
+      "matchedAt" : "2026-09-06T02:52:29.206161200Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 3 Seater Sofa in Magic Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-3-seater-magic-beige-116-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "117",
+      "matchedAt" : "2026-09-06T02:52:29.205869441Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 3 Seater Sofa in Aqua Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-3-seater-aqua-117-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "118",
+      "matchedAt" : "2026-09-06T02:52:29.206382757Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 3 Seater Sofa in Teal Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-3-seater-teal-blue-118-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "12",
+      "matchedAt" : "2026-09-06T02:52:10.762884402Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Pico Solid Wood Queen Bed in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-queen-bed-classic-12-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "121",
+      "matchedAt" : "2026-09-06T02:52:29.206388465Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Leatherette 2 Seater Sofa in Alex Tan Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-2-seater-alex-tan-leatherette-121-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "122",
+      "matchedAt" : "2026-09-06T02:52:29.206401544Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 2 Seater Sofa in Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-2-seater-blue-122-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "124",
+      "matchedAt" : "2026-09-06T02:52:29.206405570Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 2 Seater Sofa in Chocolava Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-2-seater-chocolava-brown-124-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "125",
+      "matchedAt" : "2026-09-06T02:52:29.206409616Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 2 Seater Sofa in Lilac Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-2-seater-couch-lilac-125-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "126",
+      "matchedAt" : "2026-09-06T02:52:29.206413792Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 2 Seater Sofa in Coco Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-2-seater-couch-alvar-126-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "127",
+      "matchedAt" : "2026-09-06T02:52:29.206343739Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 2 Seater Sofa in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-2-seater-couch-earth-grey-127-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "128",
+      "matchedAt" : "2026-09-06T02:52:29.206418018Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Leatherette 2 Seater Sofa in Tan Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-2-seater-couch-leatherette-128-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "129",
+      "matchedAt" : "2026-09-06T02:52:29.206392791Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 2 Seater Sofa in Magic Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-2-seater-magic-beige-129-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "13",
+      "matchedAt" : "2026-09-06T02:52:10.763509391Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockPico Solid Wood Queen Bed in Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/pico-queen-bed-novo-13-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "130",
+      "matchedAt" : "2026-09-06T02:52:29.205567286Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Flex Fabric 2 Seater Sofa in Magic Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-2-seater-magic-blue-130-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "131",
+      "matchedAt" : "2026-09-06T02:52:29.206396947Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 2 Seater Sofa in Turquoise Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-2-seater-turquoise-131-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "132",
+      "matchedAt" : "2026-09-06T02:52:29.206422225Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric 2 Seater Sofa with Storage in Teal Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-2-seater-sofa-with-storage-teal-blue-132-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "133",
+      "matchedAt" : "2026-09-06T02:52:29.206426401Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric 2 Seater Sofa in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-2-seater-sofa-grey-133-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "135",
+      "matchedAt" : "2026-09-06T02:52:29.206434713Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMili Fabric L Shape Sofa in Turquoise Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mili-2-seater-couch-blue-135-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "136",
+      "matchedAt" : "2026-09-06T02:52:29.206438739Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMili Fabric L Shape Sofa in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mili-2-seater-couch-grey-136-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "137",
+      "matchedAt" : "2026-09-06T02:52:29.206443035Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMili Fabric 2 Seater Sofa in Magic Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mili-2-seater-couch-magic-blue-137-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "15",
+      "matchedAt" : "2026-09-06T02:52:10.763587386Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockSantorini Engineered Wood Queen Bed in Aqua Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/santorini-queen-bed-aqua-15-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "156",
+      "matchedAt" : "2026-09-06T02:52:29.205676417Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Oso Fabric 1 Seater Sofa in Magic Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/oso-1-seater-couch-magic-beige-156-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "159",
+      "matchedAt" : "2026-09-06T02:52:29.205636598Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Steal DealVive Fabric 1 Seater Sofa in Azure Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-1-seater-azure-159-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "163",
+      "matchedAt" : "2026-09-06T02:52:29.209124372Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 1 Seater Sofa in Magic Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-1-seater-magic-beige-163-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "164",
+      "matchedAt" : "2026-09-06T02:52:29.209128418Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 1 Seater Sofa in Teal Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-1-seater-teal-blue-164-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "165",
+      "matchedAt" : "2026-09-06T02:52:29.209120506Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 1 Seater Sofa in Turquoise Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-1-seater-turquoise-165-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "166",
+      "matchedAt" : "2026-09-06T02:52:29.208938058Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Fabric Sofa Cum Bed in Coco Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-alvar-brown-166-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "167",
+      "matchedAt" : "2026-09-06T02:52:29.206504646Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Fabric Sofa Cum Bed in Azure Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-azure-167-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "168",
+      "matchedAt" : "2026-09-06T02:52:29.208934302Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Fabric Sofa Cum Bed in Caramel Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-bounce-brown-168-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "169",
+      "matchedAt" : "2026-09-06T02:52:29.208930276Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Fabric Sofa Cum Bed in Charcoal Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-charcoal-169-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "17",
+      "matchedAt" : "2026-09-06T02:52:10.763039029Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Haimish Engineered Wood King Bed in Carbon Grey Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/haimish-king-bed-17-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "170",
+      "matchedAt" : "2026-09-06T02:52:29.208926190Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Fabric Sofa Cum Bed in Berry Red Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-fusion-berry-170-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "171",
+      "matchedAt" : "2026-09-06T02:52:29.208922184Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Fabric Sofa Cum Bed in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-sapphire-171-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "173",
+      "matchedAt" : "2026-09-06T02:52:29.206098708Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Fabric Sofa Cum Bed in Mocha Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-mocha-173-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "174",
+      "matchedAt" : "2026-09-06T02:52:29.209191931Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric L Shape Sofa in Scarlet Red Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-l-shape-scarlet-red-174-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "175",
+      "matchedAt" : "2026-09-06T02:52:29.209195977Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric L Shape Sofa in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-l-shape-grey-175-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "176",
+      "matchedAt" : "2026-09-06T02:52:29.209199923Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric L Shape Sofa with Storage in Teal Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-l-shape-with-storage-teal-176-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "177",
+      "matchedAt" : "2026-09-06T02:52:29.209112424Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFloat Fabric Recliner in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/float-recliner-grey-177-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "178",
+      "matchedAt" : "2026-09-06T02:52:29.205609118Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Steal DealStretch Leatherette Recliner in Dark Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-stretch-leatherette-dark-brown-178-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "179",
+      "matchedAt" : "2026-09-06T02:52:29.209100557Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockStretch Fabric Recliner in Cinnamon Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-stretch-fabric-cinnamon-179-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "18",
+      "matchedAt" : "2026-09-06T02:52:10.763810635Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBordo Solid Wood King Bed in Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/bordo-king-bed-chevron-18-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "180",
+      "matchedAt" : "2026-09-06T02:52:29.209104593Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockStretch Fabric Recliner in Teal Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-stretch-fabric-teal-blue-180-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "181",
+      "matchedAt" : "2026-09-06T02:52:29.209108428Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockStretch Fabric Recliner in Turquoise Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-stretch-fabric-turquoise-181-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "182",
+      "matchedAt" : "2026-09-06T02:52:29.206103055Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockZest Fabric Recliner in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-zest-fabric-grey-182-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "183",
+      "matchedAt" : "2026-09-06T02:52:29.205281566Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Zest Leatherette Recliner in Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-zest-leatherette-brown-183-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "184",
+      "matchedAt" : "2026-09-06T02:52:29.209203859Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFluent Leatherette Motorized Recliner in Navy Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/fluent-motorized-recliner-navy-184-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "185",
+      "matchedAt" : "2026-09-06T02:52:29.209207714Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFluent Leatherette Motorized Recliner in Chocolate Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/fluent-motorized-recliner-chocolate-185-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "187",
+      "matchedAt" : "2026-09-06T02:52:29.209222837Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockSolace Leatherette Recliner 3 Seater in Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/solace-3-seater-recliner-brown-187-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "188",
+      "matchedAt" : "2026-09-06T02:52:29.209219131Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockSolace Leatherette Recliner 2 Seater in Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/solace-2-seater-recliner-brown-188-rent"
+    },
+    {
       "canonicalProductId" : "wardrobe-2-door",
       "confidence" : 0.9,
       "externalId" : "198",
@@ -19,6 +639,16 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockLana Engineered Wood 2 Door Wardrobe with Mirror in Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/wardrobe-lana-199-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "2",
+      "matchedAt" : "2026-09-06T02:52:10.762943268Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Blanca Engineered Wood Queen Bed in Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blanca-queen-bed-2-rent"
     },
     {
       "canonicalProductId" : "wardrobe-2-door",
@@ -101,6 +731,116 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/vitello-study-table-215-rent"
     },
     {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "222",
+      "matchedAt" : "2026-09-06T02:52:29.205220987Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Steal DealNoah Fabric 3 Seater Sofa in Turquoise Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-3-seater-couch-fabric-turquoise-222-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "223",
+      "matchedAt" : "2026-09-06T02:52:29.205530112Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Noah Fabric 3 Seater Sofa in Smoke Mustard Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-3-seater-couch-fabric-smoke-mustard-223-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "224",
+      "matchedAt" : "2026-09-06T02:52:29.205536942Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella Fabric 3 Seater Sofa in Dark Green Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-3-seater-couch-fabric-dark-green-224-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "225",
+      "matchedAt" : "2026-09-06T02:52:29.205108761Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella Leatherette 3 Seater Sofa in Sand Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-3-seater-couch-leatherette-sand-beige-225-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "226",
+      "matchedAt" : "2026-09-06T02:52:29.206465448Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElvis Fabric 3 Seater Sofa in Light Green Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-3-seater-couch-fabric-light-green-226-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "227",
+      "matchedAt" : "2026-09-06T02:52:29.205361423Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Steal DealElvis Leatherette 3 Seater Sofa in Sand Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-3-seater-couch-leatherette-sand-beige-227-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "228",
+      "matchedAt" : "2026-09-06T02:52:29.205879225Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElvis Velvet 3 Seater Sofa in Mineral Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-3-seater-couch-velvet-mineral-blue-228-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "240",
+      "matchedAt" : "2026-09-06T02:52:29.209140325Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElla Fabric 1 Seater Sofa in Dark Green Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-1-seater-couch-fabric-dark-green-240-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "241",
+      "matchedAt" : "2026-09-06T02:52:29.205663989Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella Leatherette 1 Seater Sofa in Sand Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-1-seater-couch-leatherette-sand-beige-241-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "242",
+      "matchedAt" : "2026-09-06T02:52:29.209144161Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElvis Fabric 1 Seater Sofa in Light Green Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-1-seater-couch-fabric-light-green-242-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "243",
+      "matchedAt" : "2026-09-06T02:52:29.205601316Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Steal DealElvis Leatherette 1 Seater Sofa in Sand Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-1-seater-couch-leatherette-sand-beige-243-rent"
+    },
+    {
       "canonicalProductId" : "refrigerator-single-door-150-200l",
       "confidence" : 1.0,
       "externalId" : "261",
@@ -141,6 +881,56 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/microwave-268-rent"
     },
     {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "27",
+      "matchedAt" : "2026-09-06T02:52:10.763553576Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBlaze Solid Wood Hydraulic Storage Queen Bed in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blaze-queen-hydraulic-storage-bed-aqua-27-rent"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "270",
+      "matchedAt" : "2026-09-06T02:52:56.544510912Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Steal DealLED UHD/4K Smart TV - 43 Inch",
+      "providerUrl" : "https://www.furlenco.com/rent/products/led-smart-tv-43-inch-270-rent"
+    },
+    {
+      "canonicalProductId" : "tv-50-inch-plus",
+      "confidence" : 0.9,
+      "externalId" : "271",
+      "matchedAt" : "2026-09-06T02:52:56.544574816Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "LED UHD/4K Smart TV - 55 Inch",
+      "providerUrl" : "https://www.furlenco.com/rent/products/led-smart-tv-55-inch-271-rent"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "275",
+      "matchedAt" : "2026-09-06T02:52:56.545127950Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLED HD Ready TV - 40 Inch",
+      "providerUrl" : "https://www.furlenco.com/rent/products/led-tv-40-inch-275-rent"
+    },
+    {
+      "canonicalProductId" : "tv-32-39-inch",
+      "confidence" : 0.9,
+      "externalId" : "277",
+      "matchedAt" : "2026-09-06T02:52:56.545124154Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLED HD Ready TV - 32 Inch",
+      "providerUrl" : "https://www.furlenco.com/rent/products/led-tv-32-inch-277-rent"
+    },
+    {
       "canonicalProductId" : "washing-machine-front-load-under-7kg",
       "confidence" : 1.0,
       "externalId" : "278",
@@ -149,6 +939,306 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockWashing Machine Front Load Fully Automatic - 6KG",
       "providerUrl" : "https://www.furlenco.com/rent/products/front-load-washing-machine-6kg-278-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "28",
+      "matchedAt" : "2026-09-06T02:52:10.763547558Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBlaze Solid Wood Hydraulic Storage Queen Bed in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blaze-queen-hydraulic-storage-bed-grey-28-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "280",
+      "matchedAt" : "2026-09-06T02:52:29.208988892Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Leatherette 5 Seater Sofa in Alex Tan Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-five-seater-alex-tan-leatherette-280-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "281",
+      "matchedAt" : "2026-09-06T02:52:29.208996684Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 5 Seater Sofa in Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-five-seater-blue-281-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "282",
+      "matchedAt" : "2026-09-06T02:52:29.209002883Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 5 Seater Sofa in Chocolava Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-five-seater-chocolava-brown-282-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "284",
+      "matchedAt" : "2026-09-06T02:52:29.209006759Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 5 Seater Sofa in Turquoise Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-five-seater-turquoise-284-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "286",
+      "matchedAt" : "2026-09-06T02:52:29.206447101Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 5 Seater Sofa in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-five-seater-earth-grey-286-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "287",
+      "matchedAt" : "2026-09-06T02:52:29.209010715Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Leatherette 5 Seater Sofa in Tan Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-five-seater-leatherette-287-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "289",
+      "matchedAt" : "2026-09-06T02:52:29.208992778Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 5 Seater Sofa in Magic Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-five-seater-magic-beige-289-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "290",
+      "matchedAt" : "2026-09-06T02:52:29.206093220Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 5 Seater Sofa in Magic Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-five-seater-magic-blue-290-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "291",
+      "matchedAt" : "2026-09-06T02:52:29.209049762Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Leatherette 4 Seater Sofa in Alex Tan Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-four-seater-alex-tan-leatherette-291-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "292",
+      "matchedAt" : "2026-09-06T02:52:29.209058144Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 4 Seater Sofa in Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-four-seater-blue-292-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "293",
+      "matchedAt" : "2026-09-06T02:52:29.209066447Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 4 Seater Sofa in Chocolava Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-four-seater-chocolava-brown-293-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "297",
+      "matchedAt" : "2026-09-06T02:52:29.206352712Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 4 Seater Sofa in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-four-seater-eartth-grey-297-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "298",
+      "matchedAt" : "2026-09-06T02:52:29.209070523Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Leatherette 4 Seater Sofa in Tan Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-four-seater-leatherette-298-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "3",
+      "matchedAt" : "2026-09-06T02:52:10.763426690Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBordo Solid Wood Queen Bed in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/bordo-queen-bed-3-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "300",
+      "matchedAt" : "2026-09-06T02:52:29.209053928Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 4 Seater Sofa in Magic Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-four-seater-magic-beige-300-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-4-seater",
+      "confidence" : 0.9,
+      "externalId" : "301",
+      "matchedAt" : "2026-09-06T02:52:29.205587005Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Flex Fabric 4 Seater Sofa in Magic Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-four-seater-magic-blue-301-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "302",
+      "matchedAt" : "2026-09-06T02:52:29.208956124Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Leatherette L Shape Sofa in Alex Tan Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-l-shape-alex-tan-leatherette-302-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "303",
+      "matchedAt" : "2026-09-06T02:52:29.208959960Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric L Shape Sofa in Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-l-shape-beige-303-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "305",
+      "matchedAt" : "2026-09-06T02:52:29.208964086Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric L Shape Sofa in Chocolava Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-l-shape-chocolava-brown-305-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "306",
+      "matchedAt" : "2026-09-06T02:52:29.208967851Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric L Shape Sofa in Turquoise Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-l-shape-turquoise-306-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "308",
+      "matchedAt" : "2026-09-06T02:52:29.205905865Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 5 Seater Sofa in Azure Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-five-seater-azure-308-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "309",
+      "matchedAt" : "2026-09-06T02:52:29.209014710Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 5 Seater Sofa in Cinnamon Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-five-seater-brick-309-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "311",
+      "matchedAt" : "2026-09-06T02:52:29.209018596Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 5 Seater Sofa in Lilac Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-five-seater-lilac-311-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "312",
+      "matchedAt" : "2026-09-06T02:52:29.208975663Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 5 Seater Sofa in Aqua Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-five-seater-aqua-312-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "313",
+      "matchedAt" : "2026-09-06T02:52:29.208979529Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 5 Seater Sofa in Magic Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-five-seater-magic-beige-313-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "314",
+      "matchedAt" : "2026-09-06T02:52:29.208983344Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 5 Seater Sofa in Teal Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-five-seater-magic-blue-314-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "315",
+      "matchedAt" : "2026-09-06T02:52:29.205959724Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 5 Seater Sofa in Turquoise Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-five-seater-turquoise-315-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "316",
+      "matchedAt" : "2026-09-06T02:52:29.209022552Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockOso Fabric 5 Seater Sofa in Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/oso-five-seater-beige-316-rent"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "33",
+      "matchedAt" : "2026-09-06T02:52:10.763816634Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockAllen Engineered Wood Single Bed in Ivory White Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/allen-single-bed-33-rent"
     },
     {
       "canonicalProductId" : "dining-table-4-seater",
@@ -221,6 +1311,16 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-novo-338-rent"
     },
     {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "3389",
+      "matchedAt" : "2026-09-06T02:52:29.209095559Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFloat Fabric Recliner in Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/float-reclinerbeige-3389-rent"
+    },
+    {
       "canonicalProductId" : "dining-table-4-seater",
       "confidence" : 0.9,
       "externalId" : "340",
@@ -229,6 +1329,126 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-set-340-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "3415",
+      "matchedAt" : "2026-09-06T02:52:29.205797685Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Eclectic Glamour Fabric 1 Seater Sofa in Blue Opal Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/eclectic-glamour-1-seater-sofa-blue-opal-3415-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "3438",
+      "matchedAt" : "2026-09-06T02:52:29.206201840Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockAbstract Energy Fabric L Shaped Sofa in Silver Cloud Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/abstract-energy-sofa-silver-cloud-3438-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "3440",
+      "matchedAt" : "2026-09-06T02:52:29.206211104Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockAbstract Energy Fabric L Shaped Sofa in Apricot Orange Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/abstract-energy-sofa-apricot-orange-3440-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "3443",
+      "matchedAt" : "2026-09-06T02:52:29.205863663Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBoho Earth Fabric 3 Seater Sofa in Smoke Pine Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/boho-earth-3-seater-sofa-smoke-pine-3443-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "345",
+      "matchedAt" : "2026-09-06T02:52:29.205683057Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Vive Fabric 1 Seater Sofa in Cinnamon Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-1-seater-cinnamon-345-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "3452",
+      "matchedAt" : "2026-09-06T02:52:29.205004969Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Stretch Leatherette Recliner in Dark Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/reclinerstretch-3452-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "346",
+      "matchedAt" : "2026-09-06T02:52:29.209132454Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 1 Seater Sofa in Aqua Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-1-seater-aqua-346-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "347",
+      "matchedAt" : "2026-09-06T02:52:29.209136450Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 1 Seater Sofa in Magic Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-1-seater-magic-blue-347-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "348",
+      "matchedAt" : "2026-09-06T02:52:29.206479699Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 3 Seater Sofa in Magic Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-3-seater-magic-blue-348-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "3542",
+      "matchedAt" : "2026-09-06T02:52:29.206483976Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric 3 Seater Sofa in Aqua Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-3-seaternon-storageaqua-3542-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "3549",
+      "matchedAt" : "2026-09-06T02:52:29.209087538Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockStretch Fabric Recliner with Cup Holder in Turquoise Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-chmagic-blueturquoise-3549-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "3550",
+      "matchedAt" : "2026-09-06T02:52:29.209083191Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockStretch Leatherette Recliner in Magic Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-stretchmagic-blueturquoise-3550-rent"
     },
     {
       "canonicalProductId" : "office-chair",
@@ -261,6 +1481,16 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/floral-affair-study-table-3567-rent"
     },
     {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "36",
+      "matchedAt" : "2026-09-06T02:52:10.763823093Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVitello Solid Wood Single Bed in Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-single-bed-36-rent"
+    },
+    {
       "canonicalProductId" : "wardrobe-2-door",
       "confidence" : 0.9,
       "externalId" : "3619",
@@ -289,6 +1519,36 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockLana Engineered Wood 2 Door Wardrobe with Mirror In Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/wardrobe-lana---walnut-3621-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "3622",
+      "matchedAt" : "2026-09-06T02:52:10.763784496Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockSol Solid Wood Queen Bed In Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/sol-queen-bed-3622-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "3623",
+      "matchedAt" : "2026-09-06T02:52:10.763400351Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMojave Solid Wood Queen Bed In Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mojave-queen-bed-3623-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "3624",
+      "matchedAt" : "2026-09-06T02:52:10.763882551Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockDune Engineered Wood Box Storage Queen Bed In Carbon Grey Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/dune-storage-queen-bed-3624-rent"
     },
     {
       "canonicalProductId" : "wardrobe-2-door",
@@ -321,6 +1581,16 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/appliance-2-door-ref-256l-bottom-freezer-3789-rent"
     },
     {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "3790",
+      "matchedAt" : "2026-09-06T02:52:29.205229099Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Optimus Velvet Sofa cum bed in Deep Teal Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/optimus-sofa-cum-bed-3790-rent"
+    },
+    {
       "canonicalProductId" : "dining-table-4-seater",
       "confidence" : 0.9,
       "externalId" : "3795",
@@ -351,6 +1621,46 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-with-bench-3797-rent"
     },
     {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "3803",
+      "matchedAt" : "2026-09-06T02:52:29.206078018Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Fabric Sofa Cum Bed in Chocolava Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-chocolava-brown-3803-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "3804",
+      "matchedAt" : "2026-09-06T02:52:29.208917738Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Fabric Sofa Cum Bed in Aqua Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-aqua-3804-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "3805",
+      "matchedAt" : "2026-09-06T02:52:29.206430557Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric 2 Seater Sofa in Aqua Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-2-seater-non-storage-aqua-3805-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "3806",
+      "matchedAt" : "2026-09-06T02:52:29.209166644Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric L Shape Sofa in Aqua Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-2-seater-sofa-chaise-non-storage-aqua-3806-rent"
+    },
+    {
       "canonicalProductId" : "study-table",
       "confidence" : 0.85,
       "externalId" : "3809",
@@ -359,6 +1669,176 @@
       "provider" : "furlenco",
       "providerName" : "Moreno Engineered Wood Study Table in Neo Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/moreno-study-table-3809-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "3811",
+      "matchedAt" : "2026-09-06T02:52:29.209079085Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFabric Recliner Cup Holder in Cinnamon Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-ch-brick-3811-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "3812",
+      "matchedAt" : "2026-09-06T02:52:29.209074899Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFabric Recliner Cup Holder in Teal Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-ch-teal-3812-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "3813",
+      "matchedAt" : "2026-09-06T02:52:10.763610290Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockSol Solid Wood King Bed in Timeless teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/sol-king-bed-3813-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "3814",
+      "matchedAt" : "2026-09-06T02:52:29.205177623Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Linora Velvet L-Shape Sofa in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/linora-l-shape-sofa-3814-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "3815",
+      "matchedAt" : "2026-09-06T02:52:29.206488142Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockEnzzo Leatherette 3 Seater Sofa in Brunette Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/enzzo-3-seater-sofa-leatherette-brown-3815-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "3816",
+      "matchedAt" : "2026-09-06T02:52:29.209147987Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockEnzzo Velvet 1 Seater Sofa in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/enzzo-1-seater-sofa-velvet-blue-3816-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "3817",
+      "matchedAt" : "2026-09-06T02:52:29.209159123Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockEnzzo Leatherette L-Shape Sofa in Brunette Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/enzzo-l-shape-2-chaise-leatherette-brown-3817-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "3818",
+      "matchedAt" : "2026-09-06T02:52:29.209162959Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockEnzzo Velvet L-Shape Sofa in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/enzzo-l-shape-2-chaise-velvet-blue-3818-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "3819",
+      "matchedAt" : "2026-09-06T02:52:10.763798096Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLevi Solid Wood Queen Bed in Warm Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/levi-queen-bed-3819-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "3820",
+      "matchedAt" : "2026-09-06T02:52:10.763248518Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Mojave Solid Wood King Bed in Timeless Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mojave-king-bed-3820-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "3821",
+      "matchedAt" : "2026-09-06T02:52:29.205577361Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Noah Fabric L-Shape Sofa in Turquoise Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-l-shape-sofa-turquoise-3821-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "3822",
+      "matchedAt" : "2026-09-06T02:52:29.208946320Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockNoah Fabric L-Shape Sofa in Smoke Mustard Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-l-shape-sofa-smoke-mustard-3822-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "3832",
+      "matchedAt" : "2026-09-06T02:52:29.206496324Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockEnzzo Velvet 3 Seater Sofa in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/enzzo-3-seater-sofa-velvet-blue-3832-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "3833",
+      "matchedAt" : "2026-09-06T02:52:29.209151672Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockEnzzo Leatherette 1 Seater Sofa in Brunette Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/enzzo-1-seater-sofa-leatherette-brown-3833-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "3844",
+      "matchedAt" : "2026-09-06T02:52:29.206314756Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElla Fabric 2 Seater Sofa in Deep Teal Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-two-seater-dark-green-3844-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "3889",
+      "matchedAt" : "2026-09-06T02:52:29.206500560Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Sofa cum Bed Mocha with Pico Center Table - Novo",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-mocha-with-pico-center-table-novo-3889-rent"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "3898",
+      "matchedAt" : "2026-09-06T02:52:56.544671618Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "LED Smart TV 43 inch with Refrigerator and Washing Machine",
+      "providerUrl" : "https://www.furlenco.com/rent/products/led-smart-tv-43-inch-with-refrigerator-and-washing-machine-3898-rent"
     },
     {
       "canonicalProductId" : "dining-table-4-seater",
@@ -401,6 +1881,56 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-3906-rent"
     },
     {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "3910",
+      "matchedAt" : "2026-09-06T02:52:29.205753380Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Noah 3 Seater - Smoke Mustard with Recliner Stretch",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-3-seater-smoke-mustard-with-recliner-stretch-3910-rent"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "3918",
+      "matchedAt" : "2026-09-06T02:52:56.545038669Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Noah 3 Seater - Turquoise with LED Smart 43 inch TV",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-3-seater-turquoise-with-led-smart-43-inch-tv-3918-rent"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "3920",
+      "matchedAt" : "2026-09-06T02:52:56.545069374Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella 3 Seater - Dark Green with LED Smart 43 inch TV",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-3-seater-dark-green-with-led-smart-43-inch-tv-3920-rent"
+    },
+    {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "3921",
+      "matchedAt" : "2026-09-06T02:52:56.545076474Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella 3 Seater - Sand Beige with LED Smart 43 inch TV",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-3-seater-sand-beige-with-led-smart-43-inch-tv-3921-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "3931",
+      "matchedAt" : "2026-09-06T02:52:29.205784055Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Recliner Stretch with LED Smart 43 inch TV and Bianca Entertainment Unit",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-stretch-with-led-smart-43-inch-tv-and-bianca-entertainment-unit-3931-rent"
+    },
+    {
       "canonicalProductId" : "wardrobe-2-door",
       "confidence" : 0.9,
       "externalId" : "3943",
@@ -419,6 +1949,216 @@
       "provider" : "furlenco",
       "providerName" : "Blanca Queen Bed with Premium 6 inch Mattress and Grig 2 Door Wardrobe with Mirror",
       "providerUrl" : "https://www.furlenco.com/rent/products/blanca-queen-bed-with-premium-6-inch-mattress-and-grig-2-door-wardrobe-with-mirror-3944-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "3958",
+      "matchedAt" : "2026-09-06T02:52:29.205760170Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Noah 3 Seater - Turquoise with Recliner Stretch",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-3-seater-turquoise-with-recliner-stretch-3958-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "3959",
+      "matchedAt" : "2026-09-06T02:52:29.205767110Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella 3 Seater - Sand Beige with Recliner Stretch",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-3-seater-sand-beige-with-recliner-stretch-3959-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4026",
+      "matchedAt" : "2026-09-06T02:52:29.205202219Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella Velvet 3 Seater Sofa in Deep Teal Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-velvet-3-seater-sofa-deep-teal-4026-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4027",
+      "matchedAt" : "2026-09-06T02:52:29.205650339Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella Velvet 1 Seater Sofa in Deep Teal Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-velvet-1-seater-sofa-deep-teal-4027-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4038",
+      "matchedAt" : "2026-09-06T02:52:29.205999142Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockNoah Velvet 3 Seater Sofa in Honey Gold Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-velvet-3-seater-sofa-honey-gold-4038-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4039",
+      "matchedAt" : "2026-09-06T02:52:29.205622878Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Noah Velvet 1 Seater Sofa in Honey Gold Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-velvet-1-seater-sofa-honey-gold-4039-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "4041",
+      "matchedAt" : "2026-09-06T02:52:29.209032336Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockNoah Velvet L Shape Sofa in Honey Gold Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-3-seater-with-ottoman-honey-gold-4041-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "4047",
+      "matchedAt" : "2026-09-06T02:52:29.205515110Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella Leatherette 2 Seater Sofa in Sand Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-leatherette-2-seater-sofa-sand-beige-4047-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "4060",
+      "matchedAt" : "2026-09-06T02:52:29.206459269Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Fabric Sofa Cum Bed in Azure Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-azure-blue-4060-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "4061",
+      "matchedAt" : "2026-09-06T02:52:29.205170102Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Lana Fabric Sofa Cum Bed in Denim Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-denim-blue-4061-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4171",
+      "matchedAt" : "2026-09-06T02:52:10.763394623Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVitello Solid Wood Queen Bed in Timeless Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-queen-bed-deep-teal-4171-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "4174",
+      "matchedAt" : "2026-09-06T02:52:10.763905344Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVitello Solid Wood Queen Hydraulic Storage Bed in Timeless Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-storage-queen-bed-deep-teal-4174-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4177",
+      "matchedAt" : "2026-09-06T02:52:10.763264942Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Mili Dvi Solid Wood Queen Bed in Deep Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mili-dvi-queen-bed-leatherette-4177-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4179",
+      "matchedAt" : "2026-09-06T02:52:10.763894238Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockCoco Solid Wood Queen Bed in Deep Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/coco-queen-bed-leatherette-4179-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4183",
+      "matchedAt" : "2026-09-06T02:52:10.763899606Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBlaze Solid Wood Queen Bed in Timeless Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blaze-queen-bed-leatherette-4183-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4186",
+      "matchedAt" : "2026-09-06T02:52:29.205095322Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Steal DealNoah Fabric 3 Seater Sofa in Grace Denim Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-fabric-3-seater-sofa-in-grace-denim-color-4186-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4188",
+      "matchedAt" : "2026-09-06T02:52:10.763888449Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVitello Solid Wood Queen Bed in Timeless Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-solid-wood-queen-bed-in-timeless-teak-finish-4188-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4189",
+      "matchedAt" : "2026-09-06T02:52:29.205790845Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Noah Fabric 1 Seater Sofa in Grace Denim Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-fabric-1-seater-sofa-in-grace-denim-color-4189-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "4197",
+      "matchedAt" : "2026-09-06T02:52:10.763804295Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVitello Solid Wood Queen Hydraulic Storage Bed in Timeless Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-solid-wood-queen-hydraulic-storage-bed-in-timeless-teak-finish-4197-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4199",
+      "matchedAt" : "2026-09-06T02:52:29.205629678Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Vive Fabric 1 Seater Sofa in Grace Denim Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-fabric-1-seater-sofa-in-azure-color-4199-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "4200",
+      "matchedAt" : "2026-09-06T02:52:29.205295646Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Vive Fabric 5 Seater Sofa in Grace Denim Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-fabric-5-seater-sofa-in-grace-denim-color-4200-rent"
     },
     {
       "canonicalProductId" : "microwave-convection",
@@ -471,6 +2211,66 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/refrigerator-190l-with-semi-automatic-washing-machine-4256-rent"
     },
     {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "4257",
+      "matchedAt" : "2026-09-06T02:52:10.763952744Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBlaze Solid Wood Hydraulic Storage Queen Bed in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blaze-solid-wood-hydraulic-storage-queen-bed-in-walnut-finish-4257-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "4277",
+      "matchedAt" : "2026-09-06T02:52:29.206267287Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockStretch Fabric Recliner in Grace Denim Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/stretch-fabric-recliner-in-grace-denim-color-4277-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4278",
+      "matchedAt" : "2026-09-06T02:52:10.763930351Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBordo Solid Wood Queen Bed - Sapphire Blue",
+      "providerUrl" : "https://www.furlenco.com/rent/products/bordo-solid-wood-queen-bed---sapphire-blue-4278-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4280",
+      "matchedAt" : "2026-09-06T02:52:10.763936189Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBordo Solid Wood Queen Bed - Ikat",
+      "providerUrl" : "https://www.furlenco.com/rent/products/bordo-solid-wood-queen-bed---ikat-4280-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4282",
+      "matchedAt" : "2026-09-06T02:52:10.763941968Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMili Dvi Solid Wood Queen Bed in Deep Walnut Finish - Sand Green",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mili-dvi-solid-wood-queen-bed-in-deep-walnut-finish---sand-green-4282-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "4284",
+      "matchedAt" : "2026-09-06T02:52:29.206310230Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric L Shape(2+Chaise) Sofa in Denim Grace Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-fabric-l-shape-2-chaise--sofa-in-denim-grace-color-4284-rent"
+    },
+    {
       "canonicalProductId" : "wardrobe-2-door",
       "confidence" : 0.9,
       "externalId" : "4286",
@@ -479,6 +2279,56 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockThe Infinity 2 Door Wardrobe with Mirror",
       "providerUrl" : "https://www.furlenco.com/rent/products/the-infinity-2-door-wardrobe-with-mirror-4286-rent"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "4287",
+      "matchedAt" : "2026-09-06T02:52:10.763516642Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBlanca Engineered Wood Single Bed",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blanca-engineered-wood-single-bed-4287-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4305",
+      "matchedAt" : "2026-09-06T02:52:10.763490534Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBordo Solid Wood Queen Bed - Holland Grey",
+      "providerUrl" : "https://www.furlenco.com/rent/products/bordo-solid-wood-queen-bed---holland-grey-4305-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4306",
+      "matchedAt" : "2026-09-06T02:52:10.763791947Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVitello Solid Wood Queen Bed in Timeless Teak Finish - Pyramid",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-solid-wood-queen-bed-in-timeless-teak-finish---pyramid-4306-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "4308",
+      "matchedAt" : "2026-09-06T02:52:10.763617901Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockHeiko Solid Wood King Bed in Dark Walnut Finish - Brunette Brown",
+      "providerUrl" : "https://www.furlenco.com/rent/products/heiko-solid-wood-king-bed-in-dark-walnut-finish---brunette-brown-4308-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "4309",
+      "matchedAt" : "2026-09-06T02:52:10.763628647Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVitello Solid Wood Hydraulic Storage Queen Bed in Timeless Teak Finish - Holland Grey",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-solid-wood-hydraulic-storage-queen-bed-in-timeless-teak-finish---holland-grey-4309-rent"
     },
     {
       "canonicalProductId" : "dining-table-4-seater",
@@ -491,6 +2341,46 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-solid-wood-4-seater-dining-cum-study-set-in-deep-walnut-finish-4368-rent"
     },
     {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "4396",
+      "matchedAt" : "2026-09-06T02:52:10.763958432Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVitello Solid Wood Single Bed - Chevron",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-solid-wood-single-bed---chevron-4396-rent"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "4399",
+      "matchedAt" : "2026-09-06T02:52:10.763964071Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVitello Solid Wood Single Bed - Holland Grey",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-solid-wood-single-bed---holland-grey-4399-rent"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "4400",
+      "matchedAt" : "2026-09-06T02:52:10.763970500Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVitello Solid Wood Single Bed - Pyramid",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-solid-wood-single-bed---pyramid-4400-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4403",
+      "matchedAt" : "2026-09-06T02:52:29.206250352Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Chevron Print",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-fabric-3-seater-sofa-in-chevron-print-4403-rent"
+    },
+    {
       "canonicalProductId" : "dining-table-4-seater",
       "confidence" : 0.9,
       "externalId" : "4411",
@@ -501,6 +2391,36 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-solid-wood-4-seater-dining-bench-set-in-magic-blue-colour-4411-rent"
     },
     {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "4415",
+      "matchedAt" : "2026-09-06T02:52:29.206245855Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFloat Velvet Recliner in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/float-velvet-recliner-in-grey-color-4415-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "4416",
+      "matchedAt" : "2026-09-06T02:52:29.206455293Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFloat Velvet Recliner in Mineral Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/float-velvet-recliner-in-mineral-blue-color-4416-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "4418",
+      "matchedAt" : "2026-09-06T02:52:29.205896921Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMili Fabric L Shape Sofa in Mint Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mili-fabric-l-shape-sofa-in-mint-blue-color-4418-rent"
+    },
+    {
       "canonicalProductId" : "study-table",
       "confidence" : 0.85,
       "externalId" : "4427",
@@ -509,6 +2429,26 @@
       "provider" : "furlenco",
       "providerName" : "DANK Engineered Wood Study Table in Mushroom Beige Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dank-engineered-wood-study-table-4427-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "4428",
+      "matchedAt" : "2026-09-06T02:52:29.205410375Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Z RatedG.O.A.T Fabric Sofa cum Bed in Jalapeno Green Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/g-o-a-t-fabric-sofa-cum-bed-4428-rent"
+    },
+    {
+      "canonicalProductId" : "bed-double",
+      "confidence" : 0.9,
+      "externalId" : "4431",
+      "matchedAt" : "2026-09-06T02:52:10.763916180Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLIT Engineered Wood Compact Double Bed",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lit-engineered-wood-double-bed-in-mushroom-beige-finish-4431-rent"
     },
     {
       "canonicalProductId" : "study-table",
@@ -531,6 +2471,136 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-4443-rent"
     },
     {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4461",
+      "matchedAt" : "2026-09-06T02:52:29.205643358Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Maximus Fabric 1 Seater Sofa in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-fabric-1-seater-sofa-in-grey-color-4461-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4463",
+      "matchedAt" : "2026-09-06T02:52:29.205901288Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Grace Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-fabric-3-seater-sofa-in-grace-grey-color-4463-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "4464",
+      "matchedAt" : "2026-09-06T02:52:29.206319263Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 2 Seater Sofa in Grace Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-fabric-2-seater-sofa-in-grace-grey-color-4464-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "4469",
+      "matchedAt" : "2026-09-06T02:52:29.206451137Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 5 Seater Sofa in Grace Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-fabric-5-seater-sofa-in-grace-grey-color-4469-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4472",
+      "matchedAt" : "2026-09-06T02:52:29.206279495Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Light Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-fabric-3-seater-sofa-in-light-grey-color-4472-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "4473",
+      "matchedAt" : "2026-09-06T02:52:10.763871705Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBlaze Solid Wood King Bed in Timeless Teak Finish - Deep Teal",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blaze-solid-wood-king-bed-in-timeless-teak-finish---deep-teal-4473-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4508",
+      "matchedAt" : "2026-09-06T02:52:29.205438447Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Helio Velvet 3 Seater Sofa in Desert Rose Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/helio-velvet-3-seater-sofa-in-desert-rose-color-4508-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4509",
+      "matchedAt" : "2026-09-06T02:52:29.205128651Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Cleo Velvet 3 Seater Sofa in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cleo-velvet-3-seater-sofa-in-sapphire-blue-color-4509-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "4510",
+      "matchedAt" : "2026-09-06T02:52:10.762812075Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Vitello Solid Wood Queen Box Storage Bed in Timeless Teak Finish - Dark Grey",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-solid-wood-queen-box-storage-bed-in-timeless-teak-finish---dark-grey-4510-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "4512",
+      "matchedAt" : "2026-09-06T02:52:29.206206487Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Fabric Sofa Cum Bed in Grace Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-fabric-sofa-cum-bed-in-grace-grey-color-4512-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4519",
+      "matchedAt" : "2026-09-06T02:52:29.205506587Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella Velvet 3 Seater Sofa in Deep Teal Color with Kapa Center Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-velvet-3-seater-sofa-in-deep-teal-color-with-kapa-center-table-4519-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4520",
+      "matchedAt" : "2026-09-06T02:52:29.205305531Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Noah Fabric 3 Seater Sofa in Turquoise Color with Kapa Center Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-fabric-3-seater-sofa-in-turquoise-color-with-kapa-center-table-4520-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "4535",
+      "matchedAt" : "2026-09-06T02:52:10.762856130Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Mojave Solid Wood Box Storage Queen Bed in Timeless Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mojave-solid-wood-box-storage-queen-bed-in-timeless-teak-finish-4535-rent"
+    },
+    {
       "canonicalProductId" : "dining-table-2-seater",
       "confidence" : 0.9,
       "externalId" : "4538",
@@ -551,6 +2621,56 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-refrigerator-single-door-190l-4539-rent"
     },
     {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "4543",
+      "matchedAt" : "2026-09-06T02:52:29.205804966Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "DRIP 2 Seater Dining Set with Noah Fabric 3 Seater Sofa in Turquoise Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-noah-fabric-3-seater-sofa-in-turquoise-color-4543-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4544",
+      "matchedAt" : "2026-09-06T02:52:10.763475151Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBordo Solid Wood Queen Bed in Deep Walnut Finish - Blue Lagoon",
+      "providerUrl" : "https://www.furlenco.com/rent/products/bordo-solid-wood-queen-bed-in-deep-walnut-finish---blue-lagoon-4544-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "4545",
+      "matchedAt" : "2026-09-06T02:52:29.205811646Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "DRIP 2 Seater Dining Set with Noah Fabric 3 Seater Sofa in Grace Denim Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-noah-fabric-3-seater-sofa-in-grace-denim-color-4545-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "4547",
+      "matchedAt" : "2026-09-06T02:52:29.205818456Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "DRIP 2 Seater Dining Set with Ella Velvet 3 Seater Sofa in Deep Teal Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-ella-velvet-3-seater-sofa-in-deep-teal-color-4547-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4549",
+      "matchedAt" : "2026-09-06T02:52:10.763778097Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockCrest Solid Wood Queen Bed in Deep Walnut Finish - Holland Grey",
+      "providerUrl" : "https://www.furlenco.com/rent/products/crest-solid-wood-queen-bed-in-deep-walnut-finish---holland-grey-4549-rent"
+    },
+    {
       "canonicalProductId" : "office-chair",
       "confidence" : 0.85,
       "externalId" : "4553",
@@ -559,6 +2679,146 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockCruxe Mid Back Office Chair with Headrest",
       "providerUrl" : "https://www.furlenco.com/rent/products/cruxe-mid-back-office-chair-with-headrest-4553-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "4554",
+      "matchedAt" : "2026-09-06T02:52:29.206348486Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric 2 Seater Sofa in Grace Denim Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-fabric-2-seater-sofa-in-grace-denim-color-4554-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "4555",
+      "matchedAt" : "2026-09-06T02:52:29.206241429Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus Fabric L Shape(2+Chaise) Storage Sofa in Denim Grace Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-fabric-l-shape-2-chaise--storage-sofa-in-denim-grace-color-4555-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "4556",
+      "matchedAt" : "2026-09-06T02:52:29.206012001Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Fabric Sofa Cum Bed in Forest Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-fabric-sofa-cum-bed-in-forest-brown-color-4556-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "4557",
+      "matchedAt" : "2026-09-06T02:52:29.205237231Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Lana Fabric Sofa Cum Bed in Silver Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-fabric-sofa-cum-bed-in-silver-grey-color-4557-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4566",
+      "matchedAt" : "2026-09-06T02:52:29.205892245Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElla Fabric 3 Seater Sofa in Moroccan Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-fabric-3-seater-sofa-in-moroccan-blue-color-4566-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4567",
+      "matchedAt" : "2026-09-06T02:52:29.206192466Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElla Fabric 3 Seater Sofa in Shell Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-fabric-3-seater-sofa-in-shell-grey-color-4567-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "4568",
+      "matchedAt" : "2026-09-06T02:52:10.763406610Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockHaimish Engineered Wood King Bed in Lyon Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/haimish-engineered-wood-king-bed-in-lyon-walnut-finish-4568-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "4595",
+      "matchedAt" : "2026-09-06T02:52:10.763024037Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Dune Upholstered Box Storage Queen Bed in Lyon Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/dune-upholstered-box-storage-queen-bed-in-lyon-walnut-finish-4595-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4639",
+      "matchedAt" : "2026-09-06T02:52:10.763319472Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Vitello Solid Wood Queen Bed in Teak Finish - Holland Grey",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-solid-wood-queen-bed-in-teak-finish---holland-grey-4639-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4642",
+      "matchedAt" : "2026-09-06T02:52:10.763706702Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stock1 BHK - Sol Queen Bed Collection 1",
+      "providerUrl" : "https://www.furlenco.com/rent/products/1-bhk---sol-queen-bed-collection-1-4642-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4643",
+      "matchedAt" : "2026-09-06T02:52:10.763667604Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stock1 BHK - Sol Queen Bed Collection 2",
+      "providerUrl" : "https://www.furlenco.com/rent/products/1-bhk---sol-queen-bed-collection-2-4643-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4645",
+      "matchedAt" : "2026-09-06T02:52:29.206215430Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockNoah Fabric 3 Seater Sofa in Forest Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-fabric-3-seater-sofa-in-forest-brown-color-4645-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4646",
+      "matchedAt" : "2026-09-06T02:52:29.205615968Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Noah Fabric 1 Seater Sofa in Forest Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-fabric-1-seater-sofa-in-forest-brown-color-4646-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4684",
+      "matchedAt" : "2026-09-06T02:52:10.763750476Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stock1 BHK Mojave Queen bed Collection",
+      "providerUrl" : "https://www.furlenco.com/rent/products/1-bhk-mojave-queen-bed-collection-4684-rent"
     },
     {
       "canonicalProductId" : "study-table",
@@ -571,6 +2831,46 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/glyde-engineered-wood-study-table-4690-rent"
     },
     {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4713",
+      "matchedAt" : "2026-09-06T02:52:29.205462913Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella Fabric 1 Seater Sofa in Shell Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-fabric-1-seater-sofa-in-shell-grey-color-4713-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4716",
+      "matchedAt" : "2026-09-06T02:52:10.763328355Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Mojave Upholstered Solid Wood Queen Bed in Timeless Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mojave-upholstered-solid-wood-queen-bed-in-timeless-teak-finish-4716-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4717",
+      "matchedAt" : "2026-09-06T02:52:29.205147699Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Elvis Fabric 3 Seater Sofa in Moroccan Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-fabric-3-seater-sofa-in-moroccan-blue-color-4717-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4718",
+      "matchedAt" : "2026-09-06T02:52:29.205394832Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Elvis Fabric 3 Seater Sofa in Shell Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-fabric-3-seater-sofa-in-shell-grey-color-4718-rent"
+    },
+    {
       "canonicalProductId" : "dining-table-4-seater",
       "confidence" : 0.9,
       "externalId" : "4725",
@@ -579,6 +2879,16 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-set-4725-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4730",
+      "matchedAt" : "2026-09-06T02:52:10.762909489Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Sara Solid Wood Queen Bed in Timeless Teak Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/sara-solid-wood-queen-bed-in-timeless-teak-finish-4730-rent"
     },
     {
       "canonicalProductId" : "office-chair",
@@ -591,6 +2901,46 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/gaming-chair---pro-4732-rent"
     },
     {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4733",
+      "matchedAt" : "2026-09-06T02:52:29.205424656Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Linora Velvet 3 Seater Sofa in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/linora-velvet-3-seater-sofa-in-sapphire-blue-color-4733-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4734",
+      "matchedAt" : "2026-09-06T02:52:29.205403185Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Noah 3 Seater sofa Denim Grace with Mili Coffee table teak",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-3-seater-sofa-denim-grace-with-mili-coffee-table-teak-4734-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4736",
+      "matchedAt" : "2026-09-06T02:52:29.206221029Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElla 3 Seater Sofa Moroccan Blue with Mili Coffee table Teak",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-3-seater-sofa-moroccan-blue-with-mili-coffee-table-teak-4736-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4740",
+      "matchedAt" : "2026-09-06T02:52:29.206152498Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLinora Velvet 3 Seater Sofa in Alpine Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/linora-velvet-3-seater-sofa-in-alpine-brown-color-4740-rent"
+    },
+    {
       "canonicalProductId" : "dining-table-4-seater",
       "confidence" : 0.9,
       "externalId" : "4745",
@@ -599,6 +2949,96 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set with Refrigerator",
       "providerUrl" : "https://www.furlenco.com/rent/products/kephi-4s-dining-with-refrigerator-4745-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4746",
+      "matchedAt" : "2026-09-06T02:52:29.205265963Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Elvis 3 seater sofa with Slay Coffee Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-3-seater-sofa-with-lunar-coffee-table-4746-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4748",
+      "matchedAt" : "2026-09-06T02:52:29.205274105Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Noah 3 seater Sofa Denim Grace with Slay Coffee table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-3-seater-sofa-denim-grace-with-lunar-coffee-table-4748-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4749",
+      "matchedAt" : "2026-09-06T02:52:29.205117524Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Noah 3 seater sofa Turquoise with Slay Coffee Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-3-seater-sofa-turquoise-with-lunar-coffee-table-4749-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "4759",
+      "matchedAt" : "2026-09-06T02:52:29.205993974Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockCleo L Shape Sofa in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cleo-l-shape-sofa---holland-56-4759-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4760",
+      "matchedAt" : "2026-09-06T02:52:29.209062341Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockCleo Velvet 1 Seater Sofa in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cleo-velvet-1-seater-sofa-in-sapphire-blue-color-4760-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4775",
+      "matchedAt" : "2026-09-06T02:52:29.205338640Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Helio Velvet 3 Seater Sofa in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/helio-velvet-3-seater-sofa-in-sapphire-blue-color-4775-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4796",
+      "matchedAt" : "2026-09-06T02:52:29.205594226Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Helio Velvet 1 Seater Sofa in Desert Rose",
+      "providerUrl" : "https://www.furlenco.com/rent/products/helio-1-seater-sofa---desert-rose--4796-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4810",
+      "matchedAt" : "2026-09-06T02:52:10.763718559Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stock1 BHK Allen Queen bed Collection",
+      "providerUrl" : "https://www.furlenco.com/rent/products/1-bhk-allen-queen-bed-collection-4810-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "4819",
+      "matchedAt" : "2026-09-06T02:52:29.206170184Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFloat Recliner in Mili Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/float-recliner-in-mili-grey-color-4819-rent"
     },
     {
       "canonicalProductId" : "dining-table-4-seater",
@@ -611,6 +3051,66 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-4831-rent"
     },
     {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4835",
+      "matchedAt" : "2026-09-06T02:52:29.205553456Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Cleo 3 Seater Sofa with Amy side Table and 2 Blue Pouff",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cleo-3-seater-sofa-with-amy-side-table-and-2-blue-pouff-4835-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4836",
+      "matchedAt" : "2026-09-06T02:52:29.206141742Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElla 3 Seater Sofa with Amy side table and Blue Pouff",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-3-seater-sofa-with-amy-side-table-and-blue-pouff-4836-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4837",
+      "matchedAt" : "2026-09-06T02:52:29.205478636Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella 3 Seater Sofa (Deep Teal) with Amy side table and Brown Pouff",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-3-seater-sofa--deep-teal--with-amy-side-table-and-brown-pouff-4837-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4838",
+      "matchedAt" : "2026-09-06T02:52:29.205546546Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Elvis 3 Seater Sofa with Amy side table and Blue pouff",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-3-seater-sofa-with-amy-side-table-and-blue-pouff-4838-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "4850",
+      "matchedAt" : "2026-09-06T02:52:10.763336817Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Floral Affair King Bed - Morganite",
+      "providerUrl" : "https://www.furlenco.com/rent/products/floral-affair-king-bed---morganite-4850-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4852",
+      "matchedAt" : "2026-09-06T02:52:10.763977230Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFloral Affair Queen Bed - Morganite",
+      "providerUrl" : "https://www.furlenco.com/rent/products/floral-affair-queen-bed---morganite-4852-rent"
+    },
+    {
       "canonicalProductId" : "study-table",
       "confidence" : 0.85,
       "externalId" : "4858",
@@ -619,6 +3119,26 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockEclectic Glamour Study Table",
       "providerUrl" : "https://www.furlenco.com/rent/products/pra-eclectic-glamour-study-table-4858-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4871",
+      "matchedAt" : "2026-09-06T02:52:29.205454390Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Ella 1 Seater Sofa - Moroccan Blue",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-1-seater-sofa---moroccan-blue-4871-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "4873",
+      "matchedAt" : "2026-09-06T02:52:29.206165607Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLana Sofa cum bed (Denim Blue) with Cubo Coffee Table Set",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed--denim-blue--with-cubo-coffee-table-set-4873-rent"
     },
     {
       "canonicalProductId" : "dining-table-4-seater",
@@ -631,6 +3151,86 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/clare-4-seater-dining-set-4878-rent"
     },
     {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4883",
+      "matchedAt" : "2026-09-06T02:52:29.205471325Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Elvis 3 Seater Leatherette Sofa with Ottoman",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-3-seater-leatherette-sofa--with-ottoman-4883-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "4884",
+      "matchedAt" : "2026-09-06T02:52:29.206178917Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElla 2 Seater Sofa - Moroccan Blue",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-2-seater-sofa---moroccan-blue-4884-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-2-seater",
+      "confidence" : 0.9,
+      "externalId" : "4885",
+      "matchedAt" : "2026-09-06T02:52:29.206188150Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElla 2 Seater Sofa - Shell Grey",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-2-seater-sofa---shell-grey-4885-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4887",
+      "matchedAt" : "2026-09-06T02:52:29.205954346Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockCleo Velvet 3 Seater Sofa in Desert Rose",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cleo-velvet-3-seater-sofa-in-desert-rose-4887-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "4888",
+      "matchedAt" : "2026-09-06T02:52:29.206147941Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockCleo Velvet L Shape Sofa - Desert Rose",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cleo-velvet-l-shape-sofa---desert-rose-4888-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "4889",
+      "matchedAt" : "2026-09-06T02:52:29.206156894Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLinora Velvet L Shape Sofa - Desert Rose",
+      "providerUrl" : "https://www.furlenco.com/rent/products/linora-velvet-l-shape-sofa---desert-rose-4889-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4901",
+      "matchedAt" : "2026-09-06T02:52:29.209251369Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockNoah Fabric 1 Seater Sofa in Smoke Mustard Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-fabric-1-seater-sofa-in-smoke-mustard-color-4901-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "4902",
+      "matchedAt" : "2026-09-06T02:52:29.205431547Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Lana Sofa cum bed - Magic Grey",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed---magic-grey-4902-rent"
+    },
+    {
       "canonicalProductId" : "dining-table-4-seater",
       "confidence" : 0.9,
       "externalId" : "4904",
@@ -639,6 +3239,26 @@
       "provider" : "furlenco",
       "providerName" : "Mili 4 Seater Dining Set in Magic Blue Color",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-4-seater-dining-set-in-magic-blue-color-4904-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4917",
+      "matchedAt" : "2026-09-06T02:52:29.206069105Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMelo Fabric 3 Seater Storage Sofa",
+      "providerUrl" : "https://www.furlenco.com/rent/products/melo-fabric-storage-sofa-4917-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "4918",
+      "matchedAt" : "2026-09-06T02:52:10.762931771Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Dune Upholstered Queen Bed",
+      "providerUrl" : "https://www.furlenco.com/rent/products/dune-upholstered-queen-bed-4918-rent"
     },
     {
       "canonicalProductId" : "wardrobe-2-door",
@@ -659,6 +3279,26 @@
       "provider" : "furlenco",
       "providerName" : "Refrigerator Single Door - 215L",
       "providerUrl" : "https://www.furlenco.com/rent/products/refrigerator-single-door---215l-4920-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4925",
+      "matchedAt" : "2026-09-06T02:52:29.206123154Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockCleo 1 Seater Sofa - Desert Rose",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cleo-velvet-1-seater-sofa-in-desert-rose-color-4925-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "4926",
+      "matchedAt" : "2026-09-06T02:52:29.206118548Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockCleo Velvet 5 Seater Sofa - Desert Rose",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cleo-velvet-5-seater-sofa---desert-rose-4926-rent"
     },
     {
       "canonicalProductId" : "microwave-solo",
@@ -701,6 +3341,26 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/refrigerator-single-door---230l-4976-rent"
     },
     {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4981",
+      "matchedAt" : "2026-09-06T02:52:29.205211523Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Cleo 3 Seater Sofa in Moroccan Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cleo-3-seater-sofa-in-moroccan-blue-color-4981-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "4987",
+      "matchedAt" : "2026-09-06T02:52:29.205163101Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Helio 3 Seater Sofa in Moroccan Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/helio-3-seater-sofa-in-moroccan-blue-color-4987-rent"
+    },
+    {
       "canonicalProductId" : "washing-machine-front-load-8kg-plus",
       "confidence" : 1.0,
       "externalId" : "4988",
@@ -709,6 +3369,76 @@
       "provider" : "furlenco",
       "providerName" : "Washing Machine Fully Automatic (Front Load) - 8KG",
       "providerUrl" : "https://www.furlenco.com/rent/products/appliance-washing-machine-front-load---8kg-4988-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "4992",
+      "matchedAt" : "2026-09-06T02:52:29.205445467Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Helio 1 Seater Sofa - Moroccan Blue",
+      "providerUrl" : "https://www.furlenco.com/rent/products/helio-1-seater-sofa---moroccan-blue-4992-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "5",
+      "matchedAt" : "2026-09-06T02:52:10.763013902Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Steal DealBordo Solid Wood Queen Bed in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/bordo-queen-bed-damask-5-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "5019",
+      "matchedAt" : "2026-09-06T02:52:29.205258973Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Single Seater Recliner - Leatherette",
+      "providerUrl" : "https://www.furlenco.com/rent/products/single-seater-recliner---leatherette-5019-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "5020",
+      "matchedAt" : "2026-09-06T02:52:29.205368854Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Recliner Three Seater - Leatherette",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-three-seater---leatherette-5020-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "5033",
+      "matchedAt" : "2026-09-06T02:52:29.205195339Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Two Seater Recliner - Leatherette",
+      "providerUrl" : "https://www.furlenco.com/rent/products/two-seater-recliner---leatherette-5033-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "5034",
+      "matchedAt" : "2026-09-06T02:52:29.206088133Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLeatherette Recliner - 3+1+1 (Set)",
+      "providerUrl" : "https://www.furlenco.com/rent/products/leatherette-recliner---3-1-1--set--5034-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "5040",
+      "matchedAt" : "2026-09-06T02:52:29.205251852Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Leatherette Recliner 3+2 Seater Set",
+      "providerUrl" : "https://www.furlenco.com/rent/products/leatherette-recliner-3-2-seater-set-5040-rent"
     },
     {
       "canonicalProductId" : "dining-table-6-seater",
@@ -721,6 +3451,26 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set---classic-5051-rent"
     },
     {
+      "canonicalProductId" : "bed-double-storage",
+      "confidence" : 0.9,
+      "externalId" : "5054",
+      "matchedAt" : "2026-09-06T02:52:10.762899284Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Hugo Upholstered Box Storage Compact Double Bed",
+      "providerUrl" : "https://www.furlenco.com/rent/products/hugo-upholstered-box-storage-double-bed-5054-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "5059",
+      "matchedAt" : "2026-09-06T02:52:10.763924803Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBoho Earth 4-Poster Queen Bed Birch",
+      "providerUrl" : "https://www.furlenco.com/rent/products/boho-earth-4-poster-queen-bed-birch-5059-rent"
+    },
+    {
       "canonicalProductId" : "office-chair",
       "confidence" : 0.85,
       "externalId" : "5084",
@@ -729,6 +3479,66 @@
       "provider" : "furlenco",
       "providerName" : "Cruxe Premium Office Chair with Headrest",
       "providerUrl" : "https://www.furlenco.com/rent/products/cruxe-premium-office-chair-with-headrest-5084-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "5091",
+      "matchedAt" : "2026-09-06T02:52:29.205886266Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockCleo L Shape Sofa in Moroccan Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cleo-l-shape-sofa-in-moroccan-blue-color-5091-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5107",
+      "matchedAt" : "2026-09-06T02:52:29.206073491Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockCleo 3 Seater Leatherette Sofa in Irish Green Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cleo-3-seater-leatherette-sofa-in-sage-green-color-5107-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5108",
+      "matchedAt" : "2026-09-06T02:52:29.206053111Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElvis 3 Seater Leatherette Sofa in Sage Green Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-3-seater-leatherette-sofa-in-sage-green-color-5108-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "5117",
+      "matchedAt" : "2026-09-06T02:52:29.209247563Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockNoah Fabric 1 Seater Sofa in Shell Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-fabric-1-seater-sofa-in-shell-grey-color-5117-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5144",
+      "matchedAt" : "2026-09-06T02:52:29.205353051Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Helio 3 Seater Sofa in Purple Berry Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/helio-3-seater-sofa-in-purple-berry-color-5144-rent"
+    },
+    {
+      "canonicalProductId" : "bed-double",
+      "confidence" : 0.9,
+      "externalId" : "5159",
+      "matchedAt" : "2026-09-06T02:52:10.762979832Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "LIT Engineered wood Compact Double Bed",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lit-engineered-wood-double-bed-5159-rent"
     },
     {
       "canonicalProductId" : "wardrobe-2-door",
@@ -741,6 +3551,26 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/hugo-2-door-wardrobe-with-mirror---columbia-walnut-5182-rent"
     },
     {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5219",
+      "matchedAt" : "2026-09-06T02:52:29.205385689Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Elvis 3 Seater Sofa Moroccan Blue with Kapa Coffee Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-3-seater-sofa-moroccan-blue-with-kapa-coffee-table-5219-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "5280",
+      "matchedAt" : "2026-09-06T02:52:29.205320834Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Lana sofa cum bed Silver Grey with kapa Coffee Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/lana-sofa-cum-bed-silver-grey-with-kapa-coffee-table-5280-rent"
+    },
+    {
       "canonicalProductId" : "dining-table-4-seater",
       "confidence" : 0.9,
       "externalId" : "53",
@@ -749,6 +3579,56 @@
       "provider" : "furlenco",
       "providerName" : "Dualo Solid Wood 4 Seater Dining cum Study Table in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-53-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5317",
+      "matchedAt" : "2026-09-06T02:52:29.205698800Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "LED 43\" UHD 4K TV (Table Stand) With Elvis 3 Seater Sofa Moroccan Blue",
+      "providerUrl" : "https://www.furlenco.com/rent/products/led-43--uhd-4k-tv--table-stand--with-elvis-3-seater-sofa-moroccan-blue-5317-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5320",
+      "matchedAt" : "2026-09-06T02:52:29.205706Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "LED 55\" UHD 4K TV (Table Stand) With Noah 3 Seater Sofa Denim Grace",
+      "providerUrl" : "https://www.furlenco.com/rent/products/led-55--uhd-4k-tv--table-stand--with-noah-3-seater-sofa-denim-grace-5320-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5321",
+      "matchedAt" : "2026-09-06T02:52:29.209215346Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLED 55\" UHD 4K TV (Table Stand) With Ella 3 Seater Sofa Moroccan Blue",
+      "providerUrl" : "https://www.furlenco.com/rent/products/led-55--uhd-4k-tv--table-stand--with-ella-3-seater-sofa-moroccan-blue-5321-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5322",
+      "matchedAt" : "2026-09-06T02:52:29.205713732Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "LED 55\" UHD 4K TV (Table Stand) With Elvis 3 Seater Sofa Moroccan Blue",
+      "providerUrl" : "https://www.furlenco.com/rent/products/led-55--uhd-4k-tv--table-stand--with-elvis-3-seater-sofa-moroccan-blue-5322-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "5341",
+      "matchedAt" : "2026-09-06T02:52:10.762954174Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Mojave Solid Wood Upholstered Queen Bed - Moroccan Blue",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mojave-solid-wood-upholstered-queen-bed---moroccan-blue-5341-rent"
     },
     {
       "canonicalProductId" : "study-table",
@@ -761,6 +3641,106 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/boho-earth-solid-wood-study-table-5353-rent"
     },
     {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "5380",
+      "matchedAt" : "2026-09-06T02:52:29.205949319Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVive Fabric 5 Seater Sofa in Moroccan Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vive-fabric-5-seater-sofa-in-moroccan-blue-color-5380-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "5394",
+      "matchedAt" : "2026-09-06T02:52:29.205943600Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockLinora Velvet L Shape Sofa in Sunshine Yellow Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/linora-velvet-l-shape-sofa-in-sunshine-yellow-color-5394-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5398",
+      "matchedAt" : "2026-09-06T02:52:29.209263847Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Moroccan Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-fabric-3-seater-sofa-in-moroccan-blue-color-5398-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "5414",
+      "matchedAt" : "2026-09-06T02:52:10.762704096Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Aara Solid Wood Upholstered Queen Bed",
+      "providerUrl" : "https://www.furlenco.com/rent/products/aara-solid-wood-upholstered-queen-bed-5414-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "5417",
+      "matchedAt" : "2026-09-06T02:52:29.209255184Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMili Fabric L Shape Sofa in Magic Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mili-fabric-l-shape-sofa-in-magic-blue-color-5417-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "5420",
+      "matchedAt" : "2026-09-06T02:52:10.763660163Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockHaimish King Bed 1 BHK",
+      "providerUrl" : "https://www.furlenco.com/rent/products/haimish-king-bed-1-bhk-5420-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "5421",
+      "matchedAt" : "2026-09-06T02:52:10.763651911Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockHaimish King Bed Essentials",
+      "providerUrl" : "https://www.furlenco.com/rent/products/haimish-king-bed-essentials-5421-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "5424",
+      "matchedAt" : "2026-09-06T02:52:10.762825926Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Aara Solid Wood Queen Hydraulic Storage Bed",
+      "providerUrl" : "https://www.furlenco.com/rent/products/aara-solid-wood-upholstered-queen-hydraulic-storage-bed-5424-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "5428",
+      "matchedAt" : "2026-09-06T02:52:29.206024720Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMaximus L Shape Sofa in Chocolava Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/maximus-l-shape-sofa-in-chocolava-brown-color-5428-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "5452",
+      "matchedAt" : "2026-09-06T02:52:10.762790423Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Mojave Upholstered King Bed - Moroccan Blue",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mojave-upholstered-king-bed---moroccan-blue-5452-rent"
+    },
+    {
       "canonicalProductId" : "wardrobe-4-door",
       "confidence" : 0.9,
       "externalId" : "5472",
@@ -769,6 +3749,36 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockHugo 4 Door Wardrobe",
       "providerUrl" : "https://www.furlenco.com/rent/products/hugo-4-door-wardrobe-5472-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5492",
+      "matchedAt" : "2026-09-06T02:52:29.205925504Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElvis Velvet 3 Seater Sofa in Sunshine yellow Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/elvis-velvet-3-seater-sofa-in-sunshine-yellow-color-5492-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "5493",
+      "matchedAt" : "2026-09-06T02:52:10.763360402Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockAbstract Energy Solid Wood Queen Bed",
+      "providerUrl" : "https://www.furlenco.com/rent/products/abstract-energy-queen-bed---lsr-molfino-300031-5493-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5495",
+      "matchedAt" : "2026-09-06T02:52:29.205140098Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Eclectic Glamour 3 Seater Sofa in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/eclectic-glamour-3-seater-sofa-in-sapphire-blue-color-5495-rent"
     },
     {
       "canonicalProductId" : "office-chair",
@@ -781,6 +3791,26 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-study-chair-55-rent"
     },
     {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
+      "externalId" : "5501",
+      "matchedAt" : "2026-09-06T02:52:29.209258910Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockHelio Fabric 1 Seater Sofa in Purple Berry Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/helio-fabric-1-seater-sofa-in-purple-berry-color-5501-rent"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "5502",
+      "matchedAt" : "2026-09-06T02:52:10.763990109Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockVitello Solid Wood Single Bed",
+      "providerUrl" : "https://www.furlenco.com/rent/products/vitello-solid-wood-single-bed-5502-rent"
+    },
+    {
       "canonicalProductId" : "wardrobe-3-door",
       "confidence" : 0.9,
       "externalId" : "5505",
@@ -789,6 +3819,46 @@
       "provider" : "furlenco",
       "providerName" : "Hugo 3 Door Wardrobe with Mirror",
       "providerUrl" : "https://www.furlenco.com/rent/products/hugo-3-door-wardrobe-with-mirror-5505-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5522",
+      "matchedAt" : "2026-09-06T02:52:29.205930511Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockElla 3 Seater Sofa Moroccan Blue with Mio Kids Sofa - Sage Green",
+      "providerUrl" : "https://www.furlenco.com/rent/products/ella-3-seater-sofa-moroccan-blue-with-mio-kids-sofa---sage-green-5522-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "5528",
+      "matchedAt" : "2026-09-06T02:52:29.205971982Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 5 Seater Sofa in Morrocan Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-fabric-5-seater-sofa-in-morrocan-blue-color-5528-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "5532",
+      "matchedAt" : "2026-09-06T02:52:10.763005049Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Aara Upholstered Queen Bed with Cleo 3 Seater Sofa Sapphire Blue",
+      "providerUrl" : "https://www.furlenco.com/rent/products/aara-upholstered-queen-bed-with-cleo-3-seater-sofa-sapphire-blue-5532-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "5567",
+      "matchedAt" : "2026-09-06T02:52:10.763291100Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Aara Upholstered Queen Bed with Optimus Velvet Sofa Cum Bed",
+      "providerUrl" : "https://www.furlenco.com/rent/products/aara-upholstered-queen-bed-with-optimus-velvet-sofa-cum-bed-5567-rent"
     },
     {
       "canonicalProductId" : "wardrobe-1-door",
@@ -801,6 +3871,56 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/hugo-engineered-wood-1-door-wardrobe-without-mirror-5576-rent"
     },
     {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5585",
+      "matchedAt" : "2026-09-06T02:52:29.205745529Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Eclectic Velvet 3 Seater Sofa in Sapphire Blue With Kasagi Coffee Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/eclectic-velvet-3-seater-sofa-in-sapphire-blue-with-kasagi-coffee-table-5585-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "5586",
+      "matchedAt" : "2026-09-06T02:52:10.763300033Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Aara Hydraulic Queen Storage Bed with Eclectic Velvet 3 Seater Sofa in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/aara-hydraulic-queen-storage-bed-with-eclectic-velvet-3-seater-sofa-in-sapphire-blue-color-5586-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "5587",
+      "matchedAt" : "2026-09-06T02:52:10.763529451Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockAbstract Energy Queen Bed With Eclectic Velvet 3 Seater Sofa in Sapphire Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/abstract-energy-queen-bed-with-eclectic-velvet-3-seater-sofa-in-sapphire-blue-color-5587-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "5588",
+      "matchedAt" : "2026-09-06T02:52:10.763379260Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMojave Upholstered Queen Box Storage Bed in Moroccan Blue",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mojave-upholstered-queen-box-storage-bed-in-moroccan-blue-5588-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king-storage",
+      "confidence" : 0.9,
+      "externalId" : "5589",
+      "matchedAt" : "2026-09-06T02:52:10.763418047Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMojave Upholstered King Box Storage Bed in Moroccan Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mojave-upholstered-king-box-storage-bed-in-moroccan-blue-color-5589-rent"
+    },
+    {
       "canonicalProductId" : "wardrobe-1-door",
       "confidence" : 0.9,
       "externalId" : "5594",
@@ -809,6 +3929,26 @@
       "provider" : "furlenco",
       "providerName" : "Hugo Twin 1 Door Wardrobe without Mirror",
       "providerUrl" : "https://www.furlenco.com/rent/products/hugo-twin-1-door-wardrobe-without-mirror-5594-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-cum-bed",
+      "confidence" : 0.85,
+      "externalId" : "5624",
+      "matchedAt" : "2026-09-06T02:52:29.205920656Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockAlba Sofa Cum Bed - Denim Grace",
+      "providerUrl" : "https://www.furlenco.com/rent/products/alba-sofa-cum-bed---denim-grace--5624-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen-storage",
+      "confidence" : 0.9,
+      "externalId" : "5636",
+      "matchedAt" : "2026-09-06T02:52:10.763563481Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBlanca Queen Storage Bed with 2 Side Attachments",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blanca-queen-storage-bed-with-2-side-attachments-5636-rent"
     },
     {
       "canonicalProductId" : "refrigerator-single-door-150-200l",
@@ -839,6 +3979,46 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockRefrigerator Single Door (235-240L) - Brand New (Haier)",
       "providerUrl" : "https://www.furlenco.com/rent/products/appliance---refrigerator-235l--single-door----brand-new-5675-rent"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "5707",
+      "matchedAt" : "2026-09-06T02:52:10.763370177Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMojave Solid wood upholstered Single Bed in Moroccan Blue colour",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mojave-solid-wood-upholstered-single-bed-in-moroccan-blue-colour-5707-rent"
+    },
+    {
+      "canonicalProductId" : "bed-single-storage",
+      "confidence" : 0.9,
+      "externalId" : "5709",
+      "matchedAt" : "2026-09-06T02:52:10.762874838Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Dune Upholstered Box Storage Single Bed in Lyon Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/dune-upholstered-box-storage-single-bed-in-lyon-walnut-finish-5709-rent"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "5732",
+      "matchedAt" : "2026-09-06T02:52:10.763643719Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBlanca Single Bed Essentials",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blanca-single-bed-essentials-5732-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king",
+      "confidence" : 0.9,
+      "externalId" : "5736",
+      "matchedAt" : "2026-09-06T02:52:10.763535440Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockHaimish Engineered Wood King Bed with 2 Side Attachments",
+      "providerUrl" : "https://www.furlenco.com/rent/products/haimish-engineered-wood-king-bed-with-2-side-attachments-5736-rent"
     },
     {
       "canonicalProductId" : "study-table",
@@ -891,6 +4071,26 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/appliance-washing-machine-front-load---9kg-5763-rent"
     },
     {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "5773",
+      "matchedAt" : "2026-09-06T02:52:29.205842101Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Recliner 3 Seater with LED 43\" UHD 4K TV (with Table stand)",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-3-seater-with-led-43--uhd-4k-tv--with-table-stand--5773-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "5775",
+      "matchedAt" : "2026-09-06T02:52:29.205849382Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Recliner 2 Seater with LED 43\" UHD 4K TV (with table stand)",
+      "providerUrl" : "https://www.furlenco.com/rent/products/recliner-2-seater-with-led-43--uhd-4k-tv--with-table-stand--5775-rent"
+    },
+    {
       "canonicalProductId" : "dining-table-2-seater",
       "confidence" : 0.9,
       "externalId" : "5780",
@@ -911,6 +4111,46 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-sets-with-water-purifier---drink-prime-5781-rent"
     },
     {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "5782",
+      "matchedAt" : "2026-09-06T02:52:10.763068433Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Blanca Queen Bed essentials",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blanca-queen-bed-essentials-5782-rent"
+    },
+    {
+      "canonicalProductId" : "bed-single",
+      "confidence" : 0.9,
+      "externalId" : "5783",
+      "matchedAt" : "2026-09-06T02:52:10.763680273Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBlanca Single bed-Essentials",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blanca-single-bed-essentials-5783-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "5784",
+      "matchedAt" : "2026-09-06T02:52:10.763690298Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockMojave Queen Bed Essentials",
+      "providerUrl" : "https://www.furlenco.com/rent/products/mojave-queen-bed-essentials-5784-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-l-shape",
+      "confidence" : 0.9,
+      "externalId" : "5796",
+      "matchedAt" : "2026-09-06T02:52:29.205288696Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Eclectic Glamour Velvet L Shaped Sofa in Sapphire Blue Colour",
+      "providerUrl" : "https://www.furlenco.com/rent/products/eclectic-glamour-velvet-l-shaped-sofa-in-sapphire-blue-colour-5796-rent"
+    },
+    {
       "canonicalProductId" : "study-table",
       "confidence" : 0.85,
       "externalId" : "5808",
@@ -921,6 +4161,36 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/side-by-side-study-set-5808-rent"
     },
     {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "5825",
+      "matchedAt" : "2026-09-06T02:52:10.763279834Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "New Parents Co-Sleep Setup - Mojave Queen Bed Edition",
+      "providerUrl" : "https://www.furlenco.com/rent/products/new-parents-co-sleep-setup---mojave-queen-bed-edition-5825-rent"
+    },
+    {
+      "canonicalProductId" : "bed-king-storage",
+      "confidence" : 0.9,
+      "externalId" : "5894",
+      "matchedAt" : "2026-09-06T02:52:10.762962467Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Aara Solid Wood King Hydraulic Storage Bed",
+      "providerUrl" : "https://www.furlenco.com/rent/products/aara-solid-wood-king-hydraulic-storage-bed-5894-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "5908",
+      "matchedAt" : "2026-09-06T02:52:10.763433460Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBlanca Engineered Wood Queen Bed with 2 Side Attachments",
+      "providerUrl" : "https://www.furlenco.com/rent/products/blanca-engineered-wood-queen-bed-with-2-side-attachments-5908-rent"
+    },
+    {
       "canonicalProductId" : "dining-table-6-seater",
       "confidence" : 0.9,
       "externalId" : "5940",
@@ -929,6 +4199,16 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-6-seater-dining-set-5940-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "5941",
+      "matchedAt" : "2026-09-06T02:52:29.205155030Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Aurelia Leatherette 3 Seater Sofa in Amber Yellow Colour",
+      "providerUrl" : "https://www.furlenco.com/rent/products/aurelia-leatherette-3-seater-sofa-in-amber-yellow-colour-5941-rent"
     },
     {
       "canonicalProductId" : "refrigerator-mini",
@@ -979,6 +4259,16 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockHaier Microwave Convection - 28L",
       "providerUrl" : "https://www.furlenco.com/rent/products/microwave-convection---28l-5949-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "6",
+      "matchedAt" : "2026-09-06T02:52:10.763523142Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockBordo Solid Wood Queen Bed in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/bordo-queen-bed-pyramid-6-rent"
     },
     {
       "canonicalProductId" : "study-table",
@@ -1039,6 +4329,126 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockOlivia Solid Wood 4 Seater Dining Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/olivia-solid-wood-4-seater-dining-set-in-walnut-finish-6170-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "86",
+      "matchedAt" : "2026-09-06T02:52:29.206492188Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-3-seater-brown-86-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "87",
+      "matchedAt" : "2026-09-06T02:52:29.206292524Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Damask Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-3-seater-damask-87-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "89",
+      "matchedAt" : "2026-09-06T02:52:29.206471427Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Leatherette 3 Seater Sofa in Alex Tan Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-3-seater-alex-tan-leatherette-89-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "90",
+      "matchedAt" : "2026-09-06T02:52:29.206475523Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-3-seater-beige-90-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "91",
+      "matchedAt" : "2026-09-06T02:52:29.206283861Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-3-seater-blue-91-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "92",
+      "matchedAt" : "2026-09-06T02:52:29.206296940Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Chocolava Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-3-seater-chocolava-brown-92-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "93",
+      "matchedAt" : "2026-09-06T02:52:29.206301247Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Coco Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-3-seater-couch-alvar-93-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "94",
+      "matchedAt" : "2026-09-06T02:52:29.205988606Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Grey Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-3-seater-couch-earth-grey-94-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "95",
+      "matchedAt" : "2026-09-06T02:52:29.205560486Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Flex Leatherette 3 Seater Sofa in Tan Brown Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-3-seater-couch-leatherette-95-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "96",
+      "matchedAt" : "2026-09-06T02:52:29.206305743Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Lilac Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-3-seater-couch-lilac-96-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "97",
+      "matchedAt" : "2026-09-06T02:52:29.206273055Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Magic Beige Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-3-seater-magic-beige-97-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
+      "externalId" : "98",
+      "matchedAt" : "2026-09-06T02:52:29.206260296Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockFlex Fabric 3 Seater Sofa in Magic Blue Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/flex-3-seater-magic-blue-98-rent"
     },
     {
       "canonicalProductId" : "tv-32-39-inch",

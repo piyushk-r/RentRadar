@@ -54,6 +54,15 @@
     },
     {
       "attributes" : {
+        "size" : "double",
+        "storage" : "yes"
+      },
+      "category" : "BED",
+      "id" : "bed-double-storage",
+      "name" : "Double bed with storage"
+    },
+    {
+      "attributes" : {
         "size" : "king",
         "storage" : "no"
       },
@@ -285,6 +294,14 @@
       "category" : "SOFA",
       "id" : "sofa-3-seater",
       "name" : "3-seater sofa"
+    },
+    {
+      "attributes" : {
+        "seats" : "4"
+      },
+      "category" : "SOFA",
+      "id" : "sofa-4-seater",
+      "name" : "4-seater sofa"
     },
     {
       "attributes" : {
