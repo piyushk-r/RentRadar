@@ -1,35 +1,30 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-09-07T03:08:40.998831447Z",
-    "startedAt" : "2026-09-07T02:49:56.667976050Z"
+    "finishedAt" : "2026-09-07T17:36:14.290451524Z",
+    "startedAt" : "2026-09-07T17:13:01.652465471Z"
   },
   "providers" : {
     "furlenco" : {
-      "coverageDeltaPercent" : 21,
+      "coverageDeltaPercent" : null,
       "displayName" : "Furlenco",
-      "error" : null,
+      "error" : "BED: Timeout 30000ms exceeded; SOFA: Timeout 30000ms exceeded; WARDROBE: Timeout 30000ms exceeded; STUDY_TABLE: Timeout 30000ms exceeded; OFFICE_CHAIR: Timeout 30000ms exceeded; TV: Timeout 30000ms exceeded",
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-09-07T03:08:40.887502375Z",
+      "lastAttemptAt" : "2026-09-07T17:36:14.112936073Z",
       "lastSuccessAt" : "2026-09-07T03:08:40.887502375Z",
       "previousProductsFound" : 445,
-      "productsFound" : 540,
-      "status" : "DEGRADED",
-      "warnings" : [
-        "https://www.furlenco.com/rent/products/mono-mid-back-office-chair-with-mesh-back---fixed-arms-in-black-color-4394-rent: no published price on the card",
-        "https://www.furlenco.com/rent/products/cruxe-office-study-chair-black-216-rent: no published price on the card",
-        "https://www.furlenco.com/rent/products/robo-office-study-chair-221-rent: no published price on the card",
-        "66 listing(s) below match confidence — sent to review queue"
-      ]
+      "productsFound" : 0,
+      "status" : "FAILED",
+      "warnings" : [ ]
     },
     "guarented" : {
-      "coverageDeltaPercent" : 17,
+      "coverageDeltaPercent" : 16,
       "displayName" : "Guarented",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-09-07T03:08:40.877448946Z",
-      "lastSuccessAt" : "2026-09-07T03:08:40.877448946Z",
+      "lastAttemptAt" : "2026-09-07T17:36:14.097686033Z",
+      "lastSuccessAt" : "2026-09-07T17:36:14.097686033Z",
       "previousProductsFound" : 100,
-      "productsFound" : 117,
+      "productsFound" : 116,
       "status" : "DEGRADED",
       "warnings" : [
         "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-double-bed-white: Timeout 20000ms exceeded",
@@ -48,6 +43,7 @@
         "https://www.guarented.com/bangalore/rent/furniture/wardrobes/flora-2-door-wardrobe-without-mirror: Timeout 20000ms exceeded",
         "https://www.guarented.com/bangalore/rent/furniture/study/oliver-study-desk: Timeout 20000ms exceeded",
         "https://www.guarented.com/bangalore/rent/furniture/study/oliver-study-chair: Timeout 20000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/dining/patio-table-chair-on-rent: Timeout 30000ms exceeded",
         "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-dining-table-rectangle: Timeout 20000ms exceeded",
         "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-dining-table-square: Timeout 20000ms exceeded",
         "https://www.guarented.com/bangalore/rent/furniture/dining/laminate-dining-table-square: Timeout 20000ms exceeded",
