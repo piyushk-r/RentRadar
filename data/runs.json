@@ -1,15 +1,15 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-09-11T03:18:52.429537259Z",
-    "startedAt" : "2026-09-11T02:56:35.567296888Z"
+    "finishedAt" : "2026-09-11T16:10:33.434494154Z",
+    "startedAt" : "2026-09-11T15:50:53.306089724Z"
   },
   "providers" : {
     "furlenco" : {
       "coverageDeltaPercent" : null,
       "displayName" : "Furlenco",
-      "error" : "REFRIGERATOR: Timeout 30000ms exceeded; WASHING_MACHINE: Timeout 30000ms exceeded; SOFA: Timeout 30000ms exceeded; STUDY_TABLE: Timeout 30000ms exceeded",
+      "error" : "BED: Timeout 30000ms exceeded; REFRIGERATOR: Timeout 30000ms exceeded; WARDROBE: Timeout 30000ms exceeded; STUDY_TABLE: Timeout 30000ms exceeded; TV: Timeout 30000ms exceeded; MICROWAVE: Timeout 30000ms exceeded",
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-09-11T03:18:52.253497517Z",
+      "lastAttemptAt" : "2026-09-11T16:10:33.256182941Z",
       "lastSuccessAt" : "2026-09-10T16:09:43.518194823Z",
       "previousProductsFound" : 439,
       "productsFound" : 0,
@@ -25,8 +25,8 @@
       "displayName" : "Guarented",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-09-11T03:18:52.241615362Z",
-      "lastSuccessAt" : "2026-09-11T03:18:52.241615362Z",
+      "lastAttemptAt" : "2026-09-11T16:10:33.242839597Z",
+      "lastSuccessAt" : "2026-09-11T16:10:33.242839597Z",
       "previousProductsFound" : 100,
       "productsFound" : 117,
       "status" : "DEGRADED",
