@@ -1,24 +1,23 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-09-10T16:09:43.704901918Z",
-    "startedAt" : "2026-09-10T15:49:12.360049912Z"
+    "finishedAt" : "2026-09-11T03:18:52.429537259Z",
+    "startedAt" : "2026-09-11T02:56:35.567296888Z"
   },
   "providers" : {
     "furlenco" : {
-      "coverageDeltaPercent" : 21,
+      "coverageDeltaPercent" : null,
       "displayName" : "Furlenco",
-      "error" : null,
+      "error" : "REFRIGERATOR: Timeout 30000ms exceeded; WASHING_MACHINE: Timeout 30000ms exceeded; SOFA: Timeout 30000ms exceeded; STUDY_TABLE: Timeout 30000ms exceeded",
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-09-10T16:09:43.518194823Z",
+      "lastAttemptAt" : "2026-09-11T03:18:52.253497517Z",
       "lastSuccessAt" : "2026-09-10T16:09:43.518194823Z",
       "previousProductsFound" : 439,
-      "productsFound" : 531,
-      "status" : "DEGRADED",
+      "productsFound" : 0,
+      "status" : "FAILED",
       "warnings" : [
         "https://www.furlenco.com/rent/products/mono-mid-back-office-chair-with-mesh-back---fixed-arms-in-black-color-4394-rent: no published price on the card",
         "https://www.furlenco.com/rent/products/cruxe-office-study-chair-black-216-rent: no published price on the card",
-        "https://www.furlenco.com/rent/products/robo-office-study-chair-221-rent: no published price on the card",
-        "64 listing(s) below match confidence — sent to review queue"
+        "https://www.furlenco.com/rent/products/robo-office-study-chair-221-rent: no published price on the card"
       ]
     },
     "guarented" : {
@@ -26,8 +25,8 @@
       "displayName" : "Guarented",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-09-10T16:09:43.506896411Z",
-      "lastSuccessAt" : "2026-09-10T16:09:43.506896411Z",
+      "lastAttemptAt" : "2026-09-11T03:18:52.241615362Z",
+      "lastSuccessAt" : "2026-09-11T03:18:52.241615362Z",
       "previousProductsFound" : 100,
       "productsFound" : 117,
       "status" : "DEGRADED",
