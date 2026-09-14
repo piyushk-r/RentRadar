@@ -1,7 +1,7 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-09-14T03:41:16.509602270Z",
-    "startedAt" : "2026-09-14T03:18:15.494971948Z"
+    "finishedAt" : "2026-09-14T18:07:29.685011963Z",
+    "startedAt" : "2026-09-14T17:39:37.523596724Z"
   },
   "providers" : {
     "furlenco" : {
@@ -9,8 +9,8 @@
       "displayName" : "Furlenco",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-09-14T03:41:16.345669628Z",
-      "lastSuccessAt" : "2026-09-14T03:41:16.345669628Z",
+      "lastAttemptAt" : "2026-09-14T18:07:29.498624705Z",
+      "lastSuccessAt" : "2026-09-14T18:07:29.498624705Z",
       "previousProductsFound" : 439,
       "productsFound" : 530,
       "status" : "DEGRADED",
@@ -22,16 +22,29 @@
       ]
     },
     "guarented" : {
-      "coverageDeltaPercent" : 17,
+      "coverageDeltaPercent" : 4,
       "displayName" : "Guarented",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-09-14T03:41:16.335131653Z",
-      "lastSuccessAt" : "2026-09-14T03:41:16.335131653Z",
+      "lastAttemptAt" : "2026-09-14T18:07:29.484532265Z",
+      "lastSuccessAt" : "2026-09-14T18:07:29.484532265Z",
       "previousProductsFound" : 100,
-      "productsFound" : 117,
+      "productsFound" : 104,
       "status" : "DEGRADED",
       "warnings" : [
+        "https://www.guarented.com/bangalore/rent/furniture/beds/rubberwood-double-bed: Timeout 30000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/coach-wood-double-bed-on-rent: Timeout 30000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/bed-with-storage-on-rent: Timeout 30000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-double-bed: Timeout 30000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/wrought-iron-double-bed: Timeout 30000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/rubberwood-single-bed: Timeout 30000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-single-bed: Timeout 30000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/wrought-iron-single-bed: Timeout 30000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/noah-storage-king-bed: Timeout 30000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/helix-single-storage-bed-on-rent: Timeout 30000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/new-eden-upholstered-double-bed-rent: Timeout 30000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/emma-baby-cot-with-mattress: Timeout 20000ms exceeded",
+        "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-grey-velvet: Timeout 20000ms exceeded",
         "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-double-bed-white: Timeout 20000ms exceeded",
         "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-yellow: Timeout 20000ms exceeded",
         "https://www.guarented.com/bangalore/rent/appliances/washing-machine/top-load-washing-machine-on-rent: Timeout 20000ms exceeded",
@@ -61,7 +74,7 @@
         "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-24-32-litres: Timeout 20000ms exceeded",
         "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-44-54-litres: Timeout 20000ms exceeded",
         "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-58-72-litres: Timeout 20000ms exceeded",
-        "15 listing(s) below match confidence — sent to review queue"
+        "13 listing(s) below match confidence — sent to review queue"
       ]
     },
     "rentomojo" : {
