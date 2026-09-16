@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-09-16T03:36:34Z",
+  "asOf": "2026-09-16T16:27:47Z",
   "providers": {
     "furlenco": {
-      "successRate30d": 0.82,
-      "samples": 22
+      "successRate30d": 0.83,
+      "samples": 23
     },
     "guarented": {
       "successRate30d": 1,
-      "samples": 46
+      "samples": 47
     },
     "rentomojo": {
       "successRate30d": 0.19,
