@@ -5,7 +5,7 @@
       "confidence" : 0.6,
       "externalId" : "266",
       "firstSeenAt" : "2026-09-05T18:51:10.232432300Z",
-      "name" : "Out of stockRefrigerator Double Door",
+      "name" : "Refrigerator Double Door",
       "proposedCanonicalId" : "refrigerator-double-door",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/double-door-refrigerator-266-rent"
@@ -75,7 +75,7 @@
       "confidence" : 0.0,
       "externalId" : "3774",
       "firstSeenAt" : "2026-09-05T18:51:54.743272400Z",
-      "name" : "Out of stockBianca Four Door Wardrobe",
+      "name" : "Bianca Four Door Wardrobe",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/bianca-four-door-wardrobe-3774-rent"
@@ -205,7 +205,7 @@
       "confidence" : 0.4,
       "externalId" : "4049",
       "firstSeenAt" : "2026-09-06T02:52:29.206197193Z",
-      "name" : "Out of stockElla Leatherette 3+1+1 Seater Sofa Set in Sand Beige Color",
+      "name" : "Ella Leatherette 3+1+1 Seater Sofa Set in Sand Beige Color",
       "proposedCanonicalId" : "sofa-set-1-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/ella-3-1-1-seater-sofa-set-sand-beige-4049-rent"
@@ -225,7 +225,7 @@
       "confidence" : 0.4,
       "externalId" : "4051",
       "firstSeenAt" : "2026-09-06T02:52:29.206127581Z",
-      "name" : "Out of stockElla Leatherette 2+1+1 Seater Sofa Set in Sand Beige Color",
+      "name" : "Ella Leatherette 2+1+1 Seater Sofa Set in Sand Beige Color",
       "proposedCanonicalId" : "sofa-set-1-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/ella-2-1-1-seater-sofa-set-sand-beige-4051-rent"
@@ -235,7 +235,7 @@
       "confidence" : 0.0,
       "externalId" : "4195",
       "firstSeenAt" : "2026-09-06T02:52:29.205185044Z",
-      "name" : "Noah Fabric 3+1+1 Sofa Set in Denim Grace Color",
+      "name" : "Out of stockNoah Fabric 3+1+1 Sofa Set in Denim Grace Color",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/noah-fabric-3-1-1-sofa-set-in-grace-denim-color-4195-rent"
@@ -265,7 +265,7 @@
       "confidence" : 0.4,
       "externalId" : "4766",
       "firstSeenAt" : "2026-09-06T02:52:29.206032201Z",
-      "name" : "Out of stockCleo Velvet 3+1+1 sofa set in Sapphire Blue Color",
+      "name" : "Cleo Velvet 3+1+1 sofa set in Sapphire Blue Color",
       "proposedCanonicalId" : "sofa-set-5-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/cleo-5-seater-sofa-in-sapphire-blue-color-4766-rent"
@@ -335,7 +335,7 @@
       "confidence" : 0.0,
       "externalId" : "4874",
       "firstSeenAt" : "2026-09-06T02:52:29.205977049Z",
-      "name" : "Ella 3+1+1 Sofa Set - Moroccan Blue",
+      "name" : "Out of stockElla 3+1+1 Sofa Set - Moroccan Blue",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/ella-3-1-1-sofa-set---moroccan-blue-4874-rent"
@@ -365,7 +365,7 @@
       "confidence" : 0.0,
       "externalId" : "4898",
       "firstSeenAt" : "2026-09-06T02:52:29.205911082Z",
-      "name" : "Out of stockElla Fabric 3+2 Sofa set - Moroccan Blue",
+      "name" : "Ella Fabric 3+2 Sofa set - Moroccan Blue",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/ella-fabric-3-2-sofa-set---moroccan-blue-4898-rent"
@@ -475,7 +475,7 @@
       "confidence" : 0.0,
       "externalId" : "5358",
       "firstSeenAt" : "2026-09-06T02:52:10.763569890Z",
-      "name" : "Out of stockAll Things Bedroom (Mojave Edition)",
+      "name" : "All Things Bedroom (Mojave Edition)",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/all-things-bedroom--mojave-edition--5358-rent"
@@ -555,7 +555,7 @@
       "confidence" : 0.0,
       "externalId" : "5670",
       "firstSeenAt" : "2026-09-06T02:52:10.763100920Z",
-      "name" : "Hugo Bedroom Essentials",
+      "name" : "Out of stockHugo Bedroom Essentials",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/hugo-bedroom-essentials-5670-rent"
@@ -565,7 +565,7 @@
       "confidence" : 0.0,
       "externalId" : "5671",
       "firstSeenAt" : "2026-09-06T02:52:10.763110494Z",
-      "name" : "Hugo Bedroom Collection",
+      "name" : "Out of stockHugo Bedroom Collection",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/hugo-bedroom-collection-5671-rent"
