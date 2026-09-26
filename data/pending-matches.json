@@ -85,7 +85,7 @@
       "confidence" : 0.0,
       "externalId" : "3894",
       "firstSeenAt" : "2026-09-05T18:51:10.232432300Z",
-      "name" : "Out of stockAppliance Essentials",
+      "name" : "Appliance Essentials",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/appliance-essentials-3894-rent"
@@ -195,7 +195,7 @@
       "confidence" : 0.4,
       "externalId" : "4048",
       "firstSeenAt" : "2026-09-06T02:52:29.205417346Z",
-      "name" : "Ella Leatherette 2+2 Seater Sofa Set in Sand Beige Color",
+      "name" : "Out of stockElla Leatherette 2+2 Seater Sofa Set in Sand Beige Color",
       "proposedCanonicalId" : "sofa-set-2-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/ella-2-2-seater-sofa-set-sand-beige-4048-rent"
@@ -235,7 +235,7 @@
       "confidence" : 0.0,
       "externalId" : "4195",
       "firstSeenAt" : "2026-09-06T02:52:29.205185044Z",
-      "name" : "Out of stockNoah Fabric 3+1+1 Sofa Set in Denim Grace Color",
+      "name" : "Noah Fabric 3+1+1 Sofa Set in Denim Grace Color",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/noah-fabric-3-1-1-sofa-set-in-grace-denim-color-4195-rent"
@@ -405,7 +405,7 @@
       "confidence" : 0.4,
       "externalId" : "5037",
       "firstSeenAt" : "2026-09-06T02:52:29.205915679Z",
-      "name" : "Cleo 3+1+1 Seater Sofa set - Moroccan Blue",
+      "name" : "Out of stockCleo 3+1+1 Seater Sofa set - Moroccan Blue",
       "proposedCanonicalId" : "sofa-set-1-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/cleo-3-1-1-seater-sofa-set---moroccan-blue-5037-rent"
@@ -545,7 +545,7 @@
       "confidence" : 0.0,
       "externalId" : "5626",
       "firstSeenAt" : "2026-09-06T02:52:10.763081532Z",
-      "name" : "Out of stockVitello Storage Bed Essentials",
+      "name" : "Vitello Storage Bed Essentials",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/vitello-storage-bed-essentials-5626-rent"
@@ -555,7 +555,7 @@
       "confidence" : 0.0,
       "externalId" : "5670",
       "firstSeenAt" : "2026-09-06T02:52:10.763100920Z",
-      "name" : "Out of stockHugo Bedroom Essentials",
+      "name" : "Hugo Bedroom Essentials",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/hugo-bedroom-essentials-5670-rent"
@@ -565,7 +565,7 @@
       "confidence" : 0.0,
       "externalId" : "5671",
       "firstSeenAt" : "2026-09-06T02:52:10.763110494Z",
-      "name" : "Out of stockHugo Bedroom Collection",
+      "name" : "Hugo Bedroom Collection",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/hugo-bedroom-collection-5671-rent"
