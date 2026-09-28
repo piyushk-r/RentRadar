@@ -18,7 +18,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 2 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-4443-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132040025Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217777368Z",
       "tenureMonths" : 3
     },
     {
@@ -39,7 +39,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 2 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-4443-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132040025Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217777368Z",
       "tenureMonths" : 6
     },
     {
@@ -60,7 +60,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 2 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-4443-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132040025Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217777368Z",
       "tenureMonths" : 9
     },
     {
@@ -81,7 +81,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 2 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-4443-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132040025Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217777368Z",
       "tenureMonths" : 12
     },
     {
@@ -102,7 +102,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 2 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-4443-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132040025Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217777368Z",
       "tenureMonths" : 18
     },
     {
@@ -123,133 +123,133 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 2 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-4443-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132040025Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217777368Z",
       "tenureMonths" : 24
     },
     {
       "availability" : "IN_STOCK",
       "canonicalProductId" : "dining-table-2-seater",
-      "cashUpfrontPaise" : 219800,
+      "cashUpfrontPaise" : 197800,
       "city" : "bangalore",
       "deliveryFeePaise" : 0,
-      "depositPaise" : 109900,
+      "depositPaise" : 98900,
       "discountPaise" : 0,
-      "estimatedTotalPaise" : 329700,
+      "estimatedTotalPaise" : 296700,
       "externalId" : "5780",
       "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8218/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
-      "monthlyPaise" : 109900,
+      "monthlyPaise" : 98900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
       "providerName" : "Drip 2 Seater Dining Set With Water Purifier - Drink Prime",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-water-purifier---drink-prime-5780-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132079884Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217816181Z",
       "tenureMonths" : 3
     },
     {
       "availability" : "IN_STOCK",
       "canonicalProductId" : "dining-table-2-seater",
-      "cashUpfrontPaise" : 219800,
+      "cashUpfrontPaise" : 197800,
       "city" : "bangalore",
       "deliveryFeePaise" : 0,
-      "depositPaise" : 109900,
+      "depositPaise" : 98900,
       "discountPaise" : 0,
-      "estimatedTotalPaise" : 659400,
+      "estimatedTotalPaise" : 593400,
       "externalId" : "5780",
       "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8218/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
-      "monthlyPaise" : 109900,
+      "monthlyPaise" : 98900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
       "providerName" : "Drip 2 Seater Dining Set With Water Purifier - Drink Prime",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-water-purifier---drink-prime-5780-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132079884Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217816181Z",
       "tenureMonths" : 6
     },
     {
       "availability" : "IN_STOCK",
       "canonicalProductId" : "dining-table-2-seater",
-      "cashUpfrontPaise" : 219800,
+      "cashUpfrontPaise" : 197800,
       "city" : "bangalore",
       "deliveryFeePaise" : 0,
-      "depositPaise" : 109900,
+      "depositPaise" : 98900,
       "discountPaise" : 0,
-      "estimatedTotalPaise" : 989100,
+      "estimatedTotalPaise" : 890100,
       "externalId" : "5780",
       "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8218/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
-      "monthlyPaise" : 109900,
+      "monthlyPaise" : 98900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
       "providerName" : "Drip 2 Seater Dining Set With Water Purifier - Drink Prime",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-water-purifier---drink-prime-5780-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132079884Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217816181Z",
       "tenureMonths" : 9
     },
     {
       "availability" : "IN_STOCK",
       "canonicalProductId" : "dining-table-2-seater",
-      "cashUpfrontPaise" : 219800,
+      "cashUpfrontPaise" : 197800,
       "city" : "bangalore",
       "deliveryFeePaise" : 0,
-      "depositPaise" : 109900,
+      "depositPaise" : 98900,
       "discountPaise" : 0,
-      "estimatedTotalPaise" : 1318800,
+      "estimatedTotalPaise" : 1186800,
       "externalId" : "5780",
       "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8218/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
-      "monthlyPaise" : 109900,
+      "monthlyPaise" : 98900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
       "providerName" : "Drip 2 Seater Dining Set With Water Purifier - Drink Prime",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-water-purifier---drink-prime-5780-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132079884Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217816181Z",
       "tenureMonths" : 12
     },
     {
       "availability" : "IN_STOCK",
       "canonicalProductId" : "dining-table-2-seater",
-      "cashUpfrontPaise" : 219800,
+      "cashUpfrontPaise" : 197800,
       "city" : "bangalore",
       "deliveryFeePaise" : 0,
-      "depositPaise" : 109900,
+      "depositPaise" : 98900,
       "discountPaise" : 0,
-      "estimatedTotalPaise" : 1978200,
+      "estimatedTotalPaise" : 1780200,
       "externalId" : "5780",
       "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8218/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
-      "monthlyPaise" : 109900,
+      "monthlyPaise" : 98900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
       "providerName" : "Drip 2 Seater Dining Set With Water Purifier - Drink Prime",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-water-purifier---drink-prime-5780-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132079884Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217816181Z",
       "tenureMonths" : 18
     },
     {
       "availability" : "IN_STOCK",
       "canonicalProductId" : "dining-table-2-seater",
-      "cashUpfrontPaise" : 219800,
+      "cashUpfrontPaise" : 197800,
       "city" : "bangalore",
       "deliveryFeePaise" : 0,
-      "depositPaise" : 109900,
+      "depositPaise" : 98900,
       "discountPaise" : 0,
-      "estimatedTotalPaise" : 2637600,
+      "estimatedTotalPaise" : 2373600,
       "externalId" : "5780",
       "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8218/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
-      "monthlyPaise" : 109900,
+      "monthlyPaise" : 98900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
       "providerName" : "Drip 2 Seater Dining Set With Water Purifier - Drink Prime",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-2-seater-dining-set-with-water-purifier---drink-prime-5780-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132079884Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217816181Z",
       "tenureMonths" : 24
     },
     {
@@ -438,7 +438,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-330-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132044281Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217785393Z",
       "tenureMonths" : 3
     },
     {
@@ -459,7 +459,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-330-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132044281Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217785393Z",
       "tenureMonths" : 6
     },
     {
@@ -480,7 +480,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-330-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132044281Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217785393Z",
       "tenureMonths" : 9
     },
     {
@@ -501,7 +501,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-330-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132044281Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217785393Z",
       "tenureMonths" : 12
     },
     {
@@ -522,7 +522,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-330-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132044281Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217785393Z",
       "tenureMonths" : 18
     },
     {
@@ -543,7 +543,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-330-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132044281Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217785393Z",
       "tenureMonths" : 24
     },
     {
@@ -564,7 +564,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Set in Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-dining-table-with-2-bench-and-2-chairs-333-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132143366Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217909816Z",
       "tenureMonths" : 3
     },
     {
@@ -585,7 +585,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Set in Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-dining-table-with-2-bench-and-2-chairs-333-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132143366Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217909816Z",
       "tenureMonths" : 6
     },
     {
@@ -606,7 +606,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Set in Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-dining-table-with-2-bench-and-2-chairs-333-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132143366Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217909816Z",
       "tenureMonths" : 9
     },
     {
@@ -627,7 +627,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Set in Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-dining-table-with-2-bench-and-2-chairs-333-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132143366Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217909816Z",
       "tenureMonths" : 12
     },
     {
@@ -648,7 +648,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Set in Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-dining-table-with-2-bench-and-2-chairs-333-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132143366Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217909816Z",
       "tenureMonths" : 18
     },
     {
@@ -669,7 +669,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Set in Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-dining-table-with-2-bench-and-2-chairs-333-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132143366Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217909816Z",
       "tenureMonths" : 24
     },
     {
@@ -690,7 +690,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-336-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132138820Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217897553Z",
       "tenureMonths" : 3
     },
     {
@@ -711,7 +711,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-336-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132138820Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217897553Z",
       "tenureMonths" : 6
     },
     {
@@ -732,7 +732,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-336-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132138820Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217897553Z",
       "tenureMonths" : 9
     },
     {
@@ -753,7 +753,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-336-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132138820Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217897553Z",
       "tenureMonths" : 12
     },
     {
@@ -774,7 +774,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-336-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132138820Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217897553Z",
       "tenureMonths" : 18
     },
     {
@@ -795,7 +795,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-336-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132138820Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217897553Z",
       "tenureMonths" : 24
     },
     {
@@ -816,7 +816,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-set-340-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132137268Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217894007Z",
       "tenureMonths" : 3
     },
     {
@@ -837,7 +837,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-set-340-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132137268Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217894007Z",
       "tenureMonths" : 6
     },
     {
@@ -858,7 +858,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-set-340-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132137268Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217894007Z",
       "tenureMonths" : 9
     },
     {
@@ -879,7 +879,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-set-340-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132137268Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217894007Z",
       "tenureMonths" : 12
     },
     {
@@ -900,7 +900,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-set-340-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132137268Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217894007Z",
       "tenureMonths" : 18
     },
     {
@@ -921,7 +921,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-set-340-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132137268Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217894007Z",
       "tenureMonths" : 24
     },
     {
@@ -942,7 +942,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra Solid Wood 4 Seater Dining Set in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-3795-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132064341Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217795652Z",
       "tenureMonths" : 3
     },
     {
@@ -963,7 +963,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra Solid Wood 4 Seater Dining Set in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-3795-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132064341Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217795652Z",
       "tenureMonths" : 6
     },
     {
@@ -984,7 +984,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra Solid Wood 4 Seater Dining Set in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-3795-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132064341Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217795652Z",
       "tenureMonths" : 9
     },
     {
@@ -1005,7 +1005,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra Solid Wood 4 Seater Dining Set in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-3795-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132064341Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217795652Z",
       "tenureMonths" : 12
     },
     {
@@ -1026,7 +1026,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra Solid Wood 4 Seater Dining Set in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-3795-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132064341Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217795652Z",
       "tenureMonths" : 18
     },
     {
@@ -1047,7 +1047,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra Solid Wood 4 Seater Dining Set in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-3795-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132064341Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217795652Z",
       "tenureMonths" : 24
     },
     {
@@ -1068,7 +1068,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-3900-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132147132Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217918924Z",
       "tenureMonths" : 3
     },
     {
@@ -1089,7 +1089,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-3900-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132147132Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217918924Z",
       "tenureMonths" : 6
     },
     {
@@ -1110,7 +1110,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-3900-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132147132Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217918924Z",
       "tenureMonths" : 9
     },
     {
@@ -1131,7 +1131,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-3900-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132147132Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217918924Z",
       "tenureMonths" : 12
     },
     {
@@ -1152,7 +1152,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-3900-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132147132Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217918924Z",
       "tenureMonths" : 18
     },
     {
@@ -1173,7 +1173,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-3900-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132147132Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217918924Z",
       "tenureMonths" : 24
     },
     {
@@ -1194,7 +1194,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132148844Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217922050Z",
       "tenureMonths" : 3
     },
     {
@@ -1207,7 +1207,7 @@
       "discountPaise" : 0,
       "estimatedTotalPaise" : 614700,
       "externalId" : "3901",
-      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/5457/thumbnail/plp_1.jpg",
+      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/5457/desktop/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
       "monthlyPaise" : 204900,
       "monthlyTaxPaise" : 0,
@@ -1215,7 +1215,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476395852Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975564173Z",
       "tenureMonths" : 3
     },
     {
@@ -1236,7 +1236,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132148844Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217922050Z",
       "tenureMonths" : 6
     },
     {
@@ -1249,7 +1249,7 @@
       "discountPaise" : 0,
       "estimatedTotalPaise" : 1229400,
       "externalId" : "3901",
-      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/5457/thumbnail/plp_1.jpg",
+      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/5457/desktop/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
       "monthlyPaise" : 204900,
       "monthlyTaxPaise" : 0,
@@ -1257,7 +1257,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476395852Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975564173Z",
       "tenureMonths" : 6
     },
     {
@@ -1278,7 +1278,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132148844Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217922050Z",
       "tenureMonths" : 9
     },
     {
@@ -1291,7 +1291,7 @@
       "discountPaise" : 0,
       "estimatedTotalPaise" : 1844100,
       "externalId" : "3901",
-      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/5457/thumbnail/plp_1.jpg",
+      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/5457/desktop/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
       "monthlyPaise" : 204900,
       "monthlyTaxPaise" : 0,
@@ -1299,7 +1299,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476395852Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975564173Z",
       "tenureMonths" : 9
     },
     {
@@ -1320,7 +1320,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132148844Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217922050Z",
       "tenureMonths" : 12
     },
     {
@@ -1333,7 +1333,7 @@
       "discountPaise" : 0,
       "estimatedTotalPaise" : 2458800,
       "externalId" : "3901",
-      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/5457/thumbnail/plp_1.jpg",
+      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/5457/desktop/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
       "monthlyPaise" : 204900,
       "monthlyTaxPaise" : 0,
@@ -1341,7 +1341,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476395852Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975564173Z",
       "tenureMonths" : 12
     },
     {
@@ -1362,7 +1362,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132148844Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217922050Z",
       "tenureMonths" : 18
     },
     {
@@ -1375,7 +1375,7 @@
       "discountPaise" : 0,
       "estimatedTotalPaise" : 3688200,
       "externalId" : "3901",
-      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/5457/thumbnail/plp_1.jpg",
+      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/5457/desktop/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
       "monthlyPaise" : 204900,
       "monthlyTaxPaise" : 0,
@@ -1383,7 +1383,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476395852Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975564173Z",
       "tenureMonths" : 18
     },
     {
@@ -1404,7 +1404,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132148844Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217922050Z",
       "tenureMonths" : 24
     },
     {
@@ -1417,7 +1417,7 @@
       "discountPaise" : 0,
       "estimatedTotalPaise" : 4917600,
       "externalId" : "3901",
-      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/5457/thumbnail/plp_1.jpg",
+      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/5457/desktop/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
       "monthlyPaise" : 204900,
       "monthlyTaxPaise" : 0,
@@ -1425,7 +1425,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Fusil Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-fusil-chest-of-drawer-and-microwave-3901-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476395852Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975564173Z",
       "tenureMonths" : 24
     },
     {
@@ -1446,7 +1446,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132133953Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217886573Z",
       "tenureMonths" : 3
     },
     {
@@ -1467,7 +1467,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476394230Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975561418Z",
       "tenureMonths" : 3
     },
     {
@@ -1488,7 +1488,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132133953Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217886573Z",
       "tenureMonths" : 6
     },
     {
@@ -1509,7 +1509,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476394230Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975561418Z",
       "tenureMonths" : 6
     },
     {
@@ -1530,7 +1530,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132133953Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217886573Z",
       "tenureMonths" : 9
     },
     {
@@ -1551,7 +1551,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476394230Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975561418Z",
       "tenureMonths" : 9
     },
     {
@@ -1572,7 +1572,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132133953Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217886573Z",
       "tenureMonths" : 12
     },
     {
@@ -1593,7 +1593,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476394230Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975561418Z",
       "tenureMonths" : 12
     },
     {
@@ -1614,7 +1614,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132133953Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217886573Z",
       "tenureMonths" : 18
     },
     {
@@ -1635,7 +1635,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476394230Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975561418Z",
       "tenureMonths" : 18
     },
     {
@@ -1656,7 +1656,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132133953Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217886573Z",
       "tenureMonths" : 24
     },
     {
@@ -1677,7 +1677,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra 4 Seater Dining Set with Bianca Chest of Drawer and Microwave",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-and-microwave-3905-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476394230Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975561418Z",
       "tenureMonths" : 24
     },
     {
@@ -1698,7 +1698,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra 4 Seater Dining Set with Bianca Chest of Drawer",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-3906-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132124339Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217859913Z",
       "tenureMonths" : 3
     },
     {
@@ -1719,7 +1719,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra 4 Seater Dining Set with Bianca Chest of Drawer",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-3906-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132124339Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217859913Z",
       "tenureMonths" : 6
     },
     {
@@ -1740,7 +1740,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra 4 Seater Dining Set with Bianca Chest of Drawer",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-3906-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132124339Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217859913Z",
       "tenureMonths" : 9
     },
     {
@@ -1761,7 +1761,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra 4 Seater Dining Set with Bianca Chest of Drawer",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-3906-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132124339Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217859913Z",
       "tenureMonths" : 12
     },
     {
@@ -1782,7 +1782,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra 4 Seater Dining Set with Bianca Chest of Drawer",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-3906-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132124339Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217859913Z",
       "tenureMonths" : 18
     },
     {
@@ -1803,7 +1803,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra 4 Seater Dining Set with Bianca Chest of Drawer",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-4-seater-dining-set-with-bianca-chest-of-drawer-3906-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132124339Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217859913Z",
       "tenureMonths" : 24
     },
     {
@@ -1824,7 +1824,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132152330Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217939603Z",
       "tenureMonths" : 3
     },
     {
@@ -1845,7 +1845,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476398816Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975566567Z",
       "tenureMonths" : 3
     },
     {
@@ -1866,7 +1866,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132152330Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217939603Z",
       "tenureMonths" : 6
     },
     {
@@ -1887,7 +1887,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476398816Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975566567Z",
       "tenureMonths" : 6
     },
     {
@@ -1908,7 +1908,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132152330Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217939603Z",
       "tenureMonths" : 9
     },
     {
@@ -1929,7 +1929,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476398816Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975566567Z",
       "tenureMonths" : 9
     },
     {
@@ -1950,7 +1950,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132152330Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217939603Z",
       "tenureMonths" : 12
     },
     {
@@ -1971,7 +1971,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476398816Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975566567Z",
       "tenureMonths" : 12
     },
     {
@@ -1992,7 +1992,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132152330Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217939603Z",
       "tenureMonths" : 18
     },
     {
@@ -2013,7 +2013,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476398816Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975566567Z",
       "tenureMonths" : 18
     },
     {
@@ -2034,7 +2034,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132152330Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217939603Z",
       "tenureMonths" : 24
     },
     {
@@ -2055,7 +2055,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico 4 Seater Dining Set Novo with Microwave Convection 20L",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-novo-with-microwave-convection-20l-4249-rent",
-      "scrapedAt" : "2026-09-28T03:35:02.476398816Z",
+      "scrapedAt" : "2026-09-28T19:14:46.975566567Z",
       "tenureMonths" : 24
     },
     {
@@ -2076,7 +2076,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Deep Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-solid-wood-4-seater-dining-cum-study-set-in-deep-walnut-finish-4368-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132135695Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217890971Z",
       "tenureMonths" : 3
     },
     {
@@ -2097,7 +2097,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Deep Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-solid-wood-4-seater-dining-cum-study-set-in-deep-walnut-finish-4368-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132135695Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217890971Z",
       "tenureMonths" : 6
     },
     {
@@ -2118,7 +2118,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Deep Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-solid-wood-4-seater-dining-cum-study-set-in-deep-walnut-finish-4368-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132135695Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217890971Z",
       "tenureMonths" : 9
     },
     {
@@ -2139,7 +2139,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Deep Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-solid-wood-4-seater-dining-cum-study-set-in-deep-walnut-finish-4368-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132135695Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217890971Z",
       "tenureMonths" : 12
     },
     {
@@ -2160,7 +2160,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Deep Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-solid-wood-4-seater-dining-cum-study-set-in-deep-walnut-finish-4368-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132135695Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217890971Z",
       "tenureMonths" : 18
     },
     {
@@ -2181,7 +2181,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockDualo Solid Wood 4 Seater Dining cum Study Set in Deep Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-solid-wood-4-seater-dining-cum-study-set-in-deep-walnut-finish-4368-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132135695Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217890971Z",
       "tenureMonths" : 24
     },
     {
@@ -2202,7 +2202,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Bench Set In Magic Blue Colour",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-solid-wood-4-seater-dining-bench-set-in-magic-blue-colour-4411-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132132280Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217879670Z",
       "tenureMonths" : 3
     },
     {
@@ -2223,7 +2223,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Bench Set In Magic Blue Colour",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-solid-wood-4-seater-dining-bench-set-in-magic-blue-colour-4411-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132132280Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217879670Z",
       "tenureMonths" : 6
     },
     {
@@ -2244,7 +2244,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Bench Set In Magic Blue Colour",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-solid-wood-4-seater-dining-bench-set-in-magic-blue-colour-4411-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132132280Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217879670Z",
       "tenureMonths" : 9
     },
     {
@@ -2265,7 +2265,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Bench Set In Magic Blue Colour",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-solid-wood-4-seater-dining-bench-set-in-magic-blue-colour-4411-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132132280Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217879670Z",
       "tenureMonths" : 12
     },
     {
@@ -2286,7 +2286,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Bench Set In Magic Blue Colour",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-solid-wood-4-seater-dining-bench-set-in-magic-blue-colour-4411-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132132280Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217879670Z",
       "tenureMonths" : 18
     },
     {
@@ -2307,7 +2307,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili Solid Wood 4 Seater Dining Bench Set In Magic Blue Colour",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-solid-wood-4-seater-dining-bench-set-in-magic-blue-colour-4411-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132132280Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217879670Z",
       "tenureMonths" : 24
     },
     {
@@ -2328,7 +2328,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-set-4725-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132047466Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217790753Z",
       "tenureMonths" : 3
     },
     {
@@ -2349,7 +2349,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-set-4725-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132047466Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217790753Z",
       "tenureMonths" : 6
     },
     {
@@ -2370,7 +2370,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-set-4725-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132047466Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217790753Z",
       "tenureMonths" : 9
     },
     {
@@ -2391,7 +2391,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-set-4725-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132047466Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217790753Z",
       "tenureMonths" : 12
     },
     {
@@ -2412,7 +2412,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-set-4725-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132047466Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217790753Z",
       "tenureMonths" : 18
     },
     {
@@ -2433,7 +2433,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-set-4725-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132047466Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217790753Z",
       "tenureMonths" : 24
     },
     {
@@ -2454,7 +2454,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set with Refrigerator",
       "providerUrl" : "https://www.furlenco.com/rent/products/kephi-4s-dining-with-refrigerator-4745-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132100454Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217827442Z",
       "tenureMonths" : 3
     },
     {
@@ -2475,7 +2475,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set with Refrigerator",
       "providerUrl" : "https://www.furlenco.com/rent/products/kephi-4s-dining-with-refrigerator-4745-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132100454Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217827442Z",
       "tenureMonths" : 6
     },
     {
@@ -2496,7 +2496,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set with Refrigerator",
       "providerUrl" : "https://www.furlenco.com/rent/products/kephi-4s-dining-with-refrigerator-4745-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132100454Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217827442Z",
       "tenureMonths" : 9
     },
     {
@@ -2517,7 +2517,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set with Refrigerator",
       "providerUrl" : "https://www.furlenco.com/rent/products/kephi-4s-dining-with-refrigerator-4745-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132100454Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217827442Z",
       "tenureMonths" : 12
     },
     {
@@ -2538,7 +2538,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set with Refrigerator",
       "providerUrl" : "https://www.furlenco.com/rent/products/kephi-4s-dining-with-refrigerator-4745-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132100454Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217827442Z",
       "tenureMonths" : 18
     },
     {
@@ -2559,7 +2559,7 @@
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Set with Refrigerator",
       "providerUrl" : "https://www.furlenco.com/rent/products/kephi-4s-dining-with-refrigerator-4745-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132100454Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217827442Z",
       "tenureMonths" : 24
     },
     {
@@ -2580,7 +2580,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico 4 Seater Dining Set Classic",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-4831-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132112712Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217839695Z",
       "tenureMonths" : 3
     },
     {
@@ -2601,7 +2601,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico 4 Seater Dining Set Classic",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-4831-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132112712Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217839695Z",
       "tenureMonths" : 6
     },
     {
@@ -2622,7 +2622,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico 4 Seater Dining Set Classic",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-4831-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132112712Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217839695Z",
       "tenureMonths" : 9
     },
     {
@@ -2643,7 +2643,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico 4 Seater Dining Set Classic",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-4831-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132112712Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217839695Z",
       "tenureMonths" : 12
     },
     {
@@ -2664,7 +2664,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico 4 Seater Dining Set Classic",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-4831-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132112712Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217839695Z",
       "tenureMonths" : 18
     },
     {
@@ -2685,7 +2685,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico 4 Seater Dining Set Classic",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-4-seater-dining-set-classic-4831-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132112712Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217839695Z",
       "tenureMonths" : 24
     },
     {
@@ -2706,7 +2706,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili 4 Seater Dining Set in Magic Blue Color",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-4-seater-dining-set-in-magic-blue-color-4904-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132150547Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217925185Z",
       "tenureMonths" : 3
     },
     {
@@ -2727,7 +2727,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili 4 Seater Dining Set in Magic Blue Color",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-4-seater-dining-set-in-magic-blue-color-4904-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132150547Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217925185Z",
       "tenureMonths" : 6
     },
     {
@@ -2748,7 +2748,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili 4 Seater Dining Set in Magic Blue Color",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-4-seater-dining-set-in-magic-blue-color-4904-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132150547Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217925185Z",
       "tenureMonths" : 9
     },
     {
@@ -2769,7 +2769,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili 4 Seater Dining Set in Magic Blue Color",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-4-seater-dining-set-in-magic-blue-color-4904-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132150547Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217925185Z",
       "tenureMonths" : 12
     },
     {
@@ -2790,7 +2790,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili 4 Seater Dining Set in Magic Blue Color",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-4-seater-dining-set-in-magic-blue-color-4904-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132150547Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217925185Z",
       "tenureMonths" : 18
     },
     {
@@ -2811,7 +2811,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockMili 4 Seater Dining Set in Magic Blue Color",
       "providerUrl" : "https://www.furlenco.com/rent/products/mili-4-seater-dining-set-in-magic-blue-color-4904-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132150547Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217925185Z",
       "tenureMonths" : 24
     },
     {
@@ -2832,7 +2832,7 @@
       "provider" : "furlenco",
       "providerName" : "Dualo Solid Wood 4 Seater Dining cum Study Table in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-53-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132115506Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217844875Z",
       "tenureMonths" : 3
     },
     {
@@ -2853,7 +2853,7 @@
       "provider" : "furlenco",
       "providerName" : "Dualo Solid Wood 4 Seater Dining cum Study Table in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-53-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132115506Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217844875Z",
       "tenureMonths" : 6
     },
     {
@@ -2874,7 +2874,7 @@
       "provider" : "furlenco",
       "providerName" : "Dualo Solid Wood 4 Seater Dining cum Study Table in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-53-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132115506Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217844875Z",
       "tenureMonths" : 9
     },
     {
@@ -2895,7 +2895,7 @@
       "provider" : "furlenco",
       "providerName" : "Dualo Solid Wood 4 Seater Dining cum Study Table in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-53-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132115506Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217844875Z",
       "tenureMonths" : 12
     },
     {
@@ -2916,7 +2916,7 @@
       "provider" : "furlenco",
       "providerName" : "Dualo Solid Wood 4 Seater Dining cum Study Table in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-53-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132115506Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217844875Z",
       "tenureMonths" : 18
     },
     {
@@ -2937,133 +2937,133 @@
       "provider" : "furlenco",
       "providerName" : "Dualo Solid Wood 4 Seater Dining cum Study Table in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/dualo-4-seater-dining-cum-study-table-53-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132115506Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217844875Z",
       "tenureMonths" : 24
     },
     {
       "availability" : "IN_STOCK",
       "canonicalProductId" : "dining-table-4-seater",
-      "cashUpfrontPaise" : 311800,
+      "cashUpfrontPaise" : 287800,
       "city" : "bangalore",
       "deliveryFeePaise" : 0,
-      "depositPaise" : 155900,
+      "depositPaise" : 143900,
       "discountPaise" : 0,
-      "estimatedTotalPaise" : 467700,
+      "estimatedTotalPaise" : 431700,
       "externalId" : "5781",
       "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8219/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
-      "monthlyPaise" : 155900,
+      "monthlyPaise" : 143900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Sets with Water Purifier - Drink Prime",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-sets-with-water-purifier---drink-prime-5781-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132097469Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217821891Z",
       "tenureMonths" : 3
     },
     {
       "availability" : "IN_STOCK",
       "canonicalProductId" : "dining-table-4-seater",
-      "cashUpfrontPaise" : 311800,
+      "cashUpfrontPaise" : 287800,
       "city" : "bangalore",
       "deliveryFeePaise" : 0,
-      "depositPaise" : 155900,
+      "depositPaise" : 143900,
       "discountPaise" : 0,
-      "estimatedTotalPaise" : 935400,
+      "estimatedTotalPaise" : 863400,
       "externalId" : "5781",
       "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8219/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
-      "monthlyPaise" : 155900,
+      "monthlyPaise" : 143900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Sets with Water Purifier - Drink Prime",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-sets-with-water-purifier---drink-prime-5781-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132097469Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217821891Z",
       "tenureMonths" : 6
     },
     {
       "availability" : "IN_STOCK",
       "canonicalProductId" : "dining-table-4-seater",
-      "cashUpfrontPaise" : 311800,
+      "cashUpfrontPaise" : 287800,
       "city" : "bangalore",
       "deliveryFeePaise" : 0,
-      "depositPaise" : 155900,
+      "depositPaise" : 143900,
       "discountPaise" : 0,
-      "estimatedTotalPaise" : 1403100,
+      "estimatedTotalPaise" : 1295100,
       "externalId" : "5781",
       "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8219/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
-      "monthlyPaise" : 155900,
+      "monthlyPaise" : 143900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Sets with Water Purifier - Drink Prime",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-sets-with-water-purifier---drink-prime-5781-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132097469Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217821891Z",
       "tenureMonths" : 9
     },
     {
       "availability" : "IN_STOCK",
       "canonicalProductId" : "dining-table-4-seater",
-      "cashUpfrontPaise" : 311800,
+      "cashUpfrontPaise" : 287800,
       "city" : "bangalore",
       "deliveryFeePaise" : 0,
-      "depositPaise" : 155900,
+      "depositPaise" : 143900,
       "discountPaise" : 0,
-      "estimatedTotalPaise" : 1870800,
+      "estimatedTotalPaise" : 1726800,
       "externalId" : "5781",
       "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8219/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
-      "monthlyPaise" : 155900,
+      "monthlyPaise" : 143900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Sets with Water Purifier - Drink Prime",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-sets-with-water-purifier---drink-prime-5781-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132097469Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217821891Z",
       "tenureMonths" : 12
     },
     {
       "availability" : "IN_STOCK",
       "canonicalProductId" : "dining-table-4-seater",
-      "cashUpfrontPaise" : 311800,
+      "cashUpfrontPaise" : 287800,
       "city" : "bangalore",
       "deliveryFeePaise" : 0,
-      "depositPaise" : 155900,
+      "depositPaise" : 143900,
       "discountPaise" : 0,
-      "estimatedTotalPaise" : 2806200,
+      "estimatedTotalPaise" : 2590200,
       "externalId" : "5781",
       "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8219/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
-      "monthlyPaise" : 155900,
+      "monthlyPaise" : 143900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Sets with Water Purifier - Drink Prime",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-sets-with-water-purifier---drink-prime-5781-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132097469Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217821891Z",
       "tenureMonths" : 18
     },
     {
       "availability" : "IN_STOCK",
       "canonicalProductId" : "dining-table-4-seater",
-      "cashUpfrontPaise" : 311800,
+      "cashUpfrontPaise" : 287800,
       "city" : "bangalore",
       "deliveryFeePaise" : 0,
-      "depositPaise" : 155900,
+      "depositPaise" : 143900,
       "discountPaise" : 0,
-      "estimatedTotalPaise" : 3741600,
+      "estimatedTotalPaise" : 3453600,
       "externalId" : "5781",
       "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8219/thumbnail/plp_1.jpg",
       "installationFeePaise" : 0,
-      "monthlyPaise" : 155900,
+      "monthlyPaise" : 143900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
       "providerName" : "DRIP 4 Seater Dining Sets with Water Purifier - Drink Prime",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-4-seater-dining-sets-with-water-purifier---drink-prime-5781-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132097469Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217821891Z",
       "tenureMonths" : 24
     },
     {
@@ -3084,7 +3084,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockOlivia Solid Wood 4 Seater Dining Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/olivia-solid-wood-4-seater-dining-set-in-walnut-finish-6170-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132129757Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217869200Z",
       "tenureMonths" : 3
     },
     {
@@ -3105,7 +3105,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockOlivia Solid Wood 4 Seater Dining Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/olivia-solid-wood-4-seater-dining-set-in-walnut-finish-6170-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132129757Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217869200Z",
       "tenureMonths" : 6
     },
     {
@@ -3126,7 +3126,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockOlivia Solid Wood 4 Seater Dining Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/olivia-solid-wood-4-seater-dining-set-in-walnut-finish-6170-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132129757Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217869200Z",
       "tenureMonths" : 9
     },
     {
@@ -3147,7 +3147,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockOlivia Solid Wood 4 Seater Dining Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/olivia-solid-wood-4-seater-dining-set-in-walnut-finish-6170-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132129757Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217869200Z",
       "tenureMonths" : 12
     },
     {
@@ -3168,7 +3168,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockOlivia Solid Wood 4 Seater Dining Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/olivia-solid-wood-4-seater-dining-set-in-walnut-finish-6170-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132129757Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217869200Z",
       "tenureMonths" : 18
     },
     {
@@ -3189,7 +3189,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockOlivia Solid Wood 4 Seater Dining Set in Walnut Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/olivia-solid-wood-4-seater-dining-set-in-walnut-finish-6170-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132129757Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217869200Z",
       "tenureMonths" : 24
     },
     {
@@ -3210,7 +3210,7 @@
       "provider" : "guarented",
       "providerName" : "Harry 4-Seater Dining Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/harry-4-seater-dining-set",
-      "scrapedAt" : "2026-09-28T03:50:15.709276821Z",
+      "scrapedAt" : "2026-09-28T19:31:21.251946449Z",
       "tenureMonths" : 3
     },
     {
@@ -3231,7 +3231,7 @@
       "provider" : "guarented",
       "providerName" : "Harry 4-Seater Dining Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/harry-4-seater-dining-set",
-      "scrapedAt" : "2026-09-28T03:50:15.709276821Z",
+      "scrapedAt" : "2026-09-28T19:31:21.251946449Z",
       "tenureMonths" : 6
     },
     {
@@ -3252,7 +3252,7 @@
       "provider" : "guarented",
       "providerName" : "Harry 4-Seater Dining Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/harry-4-seater-dining-set",
-      "scrapedAt" : "2026-09-28T03:50:15.709276821Z",
+      "scrapedAt" : "2026-09-28T19:31:21.251946449Z",
       "tenureMonths" : 9
     },
     {
@@ -3273,7 +3273,7 @@
       "provider" : "guarented",
       "providerName" : "Harry 4-Seater Dining Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/harry-4-seater-dining-set",
-      "scrapedAt" : "2026-09-28T03:50:15.709276821Z",
+      "scrapedAt" : "2026-09-28T19:31:21.251946449Z",
       "tenureMonths" : 12
     },
     {
@@ -3294,7 +3294,7 @@
       "provider" : "guarented",
       "providerName" : "Harry 4-Seater Dining Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/harry-4-seater-dining-set",
-      "scrapedAt" : "2026-09-28T03:50:15.709276821Z",
+      "scrapedAt" : "2026-09-28T19:31:21.251946449Z",
       "tenureMonths" : 18
     },
     {
@@ -3315,7 +3315,7 @@
       "provider" : "guarented",
       "providerName" : "Harry 4-Seater Dining Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/harry-4-seater-dining-set",
-      "scrapedAt" : "2026-09-28T03:50:15.709276821Z",
+      "scrapedAt" : "2026-09-28T19:31:21.251946449Z",
       "tenureMonths" : 24
     },
     {
@@ -3336,7 +3336,7 @@
       "provider" : "guarented",
       "providerName" : "4-Seater Wooden Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/solid-wood-4-seater-dining-table",
-      "scrapedAt" : "2026-09-28T03:48:51.316121747Z",
+      "scrapedAt" : "2026-09-28T19:29:41.540953305Z",
       "tenureMonths" : 3
     },
     {
@@ -3357,7 +3357,7 @@
       "provider" : "guarented",
       "providerName" : "4-Seater Wooden Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/solid-wood-4-seater-dining-table",
-      "scrapedAt" : "2026-09-28T03:48:51.316121747Z",
+      "scrapedAt" : "2026-09-28T19:29:41.540953305Z",
       "tenureMonths" : 6
     },
     {
@@ -3378,7 +3378,7 @@
       "provider" : "guarented",
       "providerName" : "4-Seater Wooden Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/solid-wood-4-seater-dining-table",
-      "scrapedAt" : "2026-09-28T03:48:51.316121747Z",
+      "scrapedAt" : "2026-09-28T19:29:41.540953305Z",
       "tenureMonths" : 9
     },
     {
@@ -3399,7 +3399,7 @@
       "provider" : "guarented",
       "providerName" : "4-Seater Wooden Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/solid-wood-4-seater-dining-table",
-      "scrapedAt" : "2026-09-28T03:48:51.316121747Z",
+      "scrapedAt" : "2026-09-28T19:29:41.540953305Z",
       "tenureMonths" : 12
     },
     {
@@ -3420,7 +3420,7 @@
       "provider" : "guarented",
       "providerName" : "4-Seater Wooden Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/solid-wood-4-seater-dining-table",
-      "scrapedAt" : "2026-09-28T03:48:51.316121747Z",
+      "scrapedAt" : "2026-09-28T19:29:41.540953305Z",
       "tenureMonths" : 18
     },
     {
@@ -3441,7 +3441,7 @@
       "provider" : "guarented",
       "providerName" : "4-Seater Wooden Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/solid-wood-4-seater-dining-table",
-      "scrapedAt" : "2026-09-28T03:48:51.316121747Z",
+      "scrapedAt" : "2026-09-28T19:29:41.540953305Z",
       "tenureMonths" : 24
     },
     {
@@ -4134,7 +4134,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-classic-331-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132077049Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217810460Z",
       "tenureMonths" : 3
     },
     {
@@ -4155,7 +4155,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-classic-331-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132077049Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217810460Z",
       "tenureMonths" : 6
     },
     {
@@ -4176,7 +4176,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-classic-331-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132077049Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217810460Z",
       "tenureMonths" : 9
     },
     {
@@ -4197,7 +4197,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-classic-331-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132077049Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217810460Z",
       "tenureMonths" : 12
     },
     {
@@ -4218,7 +4218,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-classic-331-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132077049Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217810460Z",
       "tenureMonths" : 18
     },
     {
@@ -4239,7 +4239,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-classic-331-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132077049Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217810460Z",
       "tenureMonths" : 24
     },
     {
@@ -4260,7 +4260,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 6 Seater Dining Set with Bench",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-classic-332-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132106793Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217833413Z",
       "tenureMonths" : 3
     },
     {
@@ -4281,7 +4281,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 6 Seater Dining Set with Bench",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-classic-332-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132106793Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217833413Z",
       "tenureMonths" : 6
     },
     {
@@ -4302,7 +4302,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 6 Seater Dining Set with Bench",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-classic-332-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132106793Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217833413Z",
       "tenureMonths" : 9
     },
     {
@@ -4323,7 +4323,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 6 Seater Dining Set with Bench",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-classic-332-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132106793Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217833413Z",
       "tenureMonths" : 12
     },
     {
@@ -4344,7 +4344,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 6 Seater Dining Set with Bench",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-classic-332-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132106793Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217833413Z",
       "tenureMonths" : 18
     },
     {
@@ -4365,7 +4365,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico Solid Wood 6 Seater Dining Set with Bench",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-classic-332-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132106793Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217833413Z",
       "tenureMonths" : 24
     },
     {
@@ -4386,7 +4386,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-novo-337-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132141814Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217903655Z",
       "tenureMonths" : 3
     },
     {
@@ -4407,7 +4407,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-novo-337-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132141814Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217903655Z",
       "tenureMonths" : 6
     },
     {
@@ -4428,7 +4428,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-novo-337-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132141814Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217903655Z",
       "tenureMonths" : 9
     },
     {
@@ -4449,7 +4449,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-novo-337-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132141814Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217903655Z",
       "tenureMonths" : 12
     },
     {
@@ -4470,7 +4470,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-novo-337-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132141814Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217903655Z",
       "tenureMonths" : 18
     },
     {
@@ -4491,7 +4491,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-novo-337-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132141814Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217903655Z",
       "tenureMonths" : 24
     },
     {
@@ -4512,7 +4512,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-novo-338-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132145329Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217912922Z",
       "tenureMonths" : 3
     },
     {
@@ -4533,7 +4533,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-novo-338-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132145329Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217912922Z",
       "tenureMonths" : 6
     },
     {
@@ -4554,7 +4554,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-novo-338-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132145329Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217912922Z",
       "tenureMonths" : 9
     },
     {
@@ -4575,7 +4575,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-novo-338-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132145329Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217912922Z",
       "tenureMonths" : 12
     },
     {
@@ -4596,7 +4596,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-novo-338-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132145329Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217912922Z",
       "tenureMonths" : 18
     },
     {
@@ -4617,7 +4617,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockPico Solid Wood 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set-with-bench-novo-338-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132145329Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217912922Z",
       "tenureMonths" : 24
     },
     {
@@ -4638,7 +4638,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra Solid Wood 6 Seater Dining Set in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-3796-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132070920Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217800501Z",
       "tenureMonths" : 3
     },
     {
@@ -4659,7 +4659,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra Solid Wood 6 Seater Dining Set in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-3796-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132070920Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217800501Z",
       "tenureMonths" : 6
     },
     {
@@ -4680,7 +4680,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra Solid Wood 6 Seater Dining Set in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-3796-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132070920Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217800501Z",
       "tenureMonths" : 9
     },
     {
@@ -4701,7 +4701,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra Solid Wood 6 Seater Dining Set in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-3796-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132070920Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217800501Z",
       "tenureMonths" : 12
     },
     {
@@ -4722,7 +4722,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra Solid Wood 6 Seater Dining Set in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-3796-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132070920Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217800501Z",
       "tenureMonths" : 18
     },
     {
@@ -4743,7 +4743,7 @@
       "provider" : "furlenco",
       "providerName" : "Kayra Solid Wood 6 Seater Dining Set in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-3796-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132070920Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217800501Z",
       "tenureMonths" : 24
     },
     {
@@ -4764,7 +4764,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra Solid Wood 6 Seater Dining Set with Bench in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-with-bench-3797-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132140282Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217900770Z",
       "tenureMonths" : 3
     },
     {
@@ -4785,7 +4785,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra Solid Wood 6 Seater Dining Set with Bench in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-with-bench-3797-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132140282Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217900770Z",
       "tenureMonths" : 6
     },
     {
@@ -4806,7 +4806,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra Solid Wood 6 Seater Dining Set with Bench in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-with-bench-3797-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132140282Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217900770Z",
       "tenureMonths" : 9
     },
     {
@@ -4827,7 +4827,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra Solid Wood 6 Seater Dining Set with Bench in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-with-bench-3797-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132140282Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217900770Z",
       "tenureMonths" : 12
     },
     {
@@ -4848,7 +4848,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra Solid Wood 6 Seater Dining Set with Bench in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-with-bench-3797-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132140282Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217900770Z",
       "tenureMonths" : 18
     },
     {
@@ -4869,7 +4869,7 @@
       "provider" : "furlenco",
       "providerName" : "Out of stockKayra Solid Wood 6 Seater Dining Set with Bench in Timeless Teak Finish",
       "providerUrl" : "https://www.furlenco.com/rent/products/kayra-6-seater-dining-set-with-bench-3797-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132140282Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217900770Z",
       "tenureMonths" : 24
     },
     {
@@ -4890,7 +4890,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico 6 Seater Dining Set - Classic",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set---classic-5051-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132073945Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217805591Z",
       "tenureMonths" : 3
     },
     {
@@ -4911,7 +4911,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico 6 Seater Dining Set - Classic",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set---classic-5051-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132073945Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217805591Z",
       "tenureMonths" : 6
     },
     {
@@ -4932,7 +4932,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico 6 Seater Dining Set - Classic",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set---classic-5051-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132073945Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217805591Z",
       "tenureMonths" : 9
     },
     {
@@ -4953,7 +4953,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico 6 Seater Dining Set - Classic",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set---classic-5051-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132073945Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217805591Z",
       "tenureMonths" : 12
     },
     {
@@ -4974,7 +4974,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico 6 Seater Dining Set - Classic",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set---classic-5051-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132073945Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217805591Z",
       "tenureMonths" : 18
     },
     {
@@ -4995,7 +4995,7 @@
       "provider" : "furlenco",
       "providerName" : "Pico 6 Seater Dining Set - Classic",
       "providerUrl" : "https://www.furlenco.com/rent/products/pico-6-seater-dining-set---classic-5051-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132073945Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217805591Z",
       "tenureMonths" : 24
     },
     {
@@ -5008,15 +5008,15 @@
       "discountPaise" : 0,
       "estimatedTotalPaise" : 329700,
       "externalId" : "5940",
-      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8384/thumbnail/plp_1.jpg",
+      "imageUrl" : null,
       "installationFeePaise" : 0,
       "monthlyPaise" : 109900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
-      "providerName" : "DRIP 6 Seater Dining Set",
+      "providerName" : "Out of stockDRIP 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-6-seater-dining-set-5940-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132067836Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217872687Z",
       "tenureMonths" : 3
     },
     {
@@ -5029,15 +5029,15 @@
       "discountPaise" : 0,
       "estimatedTotalPaise" : 659400,
       "externalId" : "5940",
-      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8384/thumbnail/plp_1.jpg",
+      "imageUrl" : null,
       "installationFeePaise" : 0,
       "monthlyPaise" : 109900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
-      "providerName" : "DRIP 6 Seater Dining Set",
+      "providerName" : "Out of stockDRIP 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-6-seater-dining-set-5940-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132067836Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217872687Z",
       "tenureMonths" : 6
     },
     {
@@ -5050,15 +5050,15 @@
       "discountPaise" : 0,
       "estimatedTotalPaise" : 989100,
       "externalId" : "5940",
-      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8384/thumbnail/plp_1.jpg",
+      "imageUrl" : null,
       "installationFeePaise" : 0,
       "monthlyPaise" : 109900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
-      "providerName" : "DRIP 6 Seater Dining Set",
+      "providerName" : "Out of stockDRIP 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-6-seater-dining-set-5940-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132067836Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217872687Z",
       "tenureMonths" : 9
     },
     {
@@ -5071,15 +5071,15 @@
       "discountPaise" : 0,
       "estimatedTotalPaise" : 1318800,
       "externalId" : "5940",
-      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8384/thumbnail/plp_1.jpg",
+      "imageUrl" : null,
       "installationFeePaise" : 0,
       "monthlyPaise" : 109900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
-      "providerName" : "DRIP 6 Seater Dining Set",
+      "providerName" : "Out of stockDRIP 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-6-seater-dining-set-5940-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132067836Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217872687Z",
       "tenureMonths" : 12
     },
     {
@@ -5092,15 +5092,15 @@
       "discountPaise" : 0,
       "estimatedTotalPaise" : 1978200,
       "externalId" : "5940",
-      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8384/thumbnail/plp_1.jpg",
+      "imageUrl" : null,
       "installationFeePaise" : 0,
       "monthlyPaise" : 109900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
-      "providerName" : "DRIP 6 Seater Dining Set",
+      "providerName" : "Out of stockDRIP 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-6-seater-dining-set-5940-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132067836Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217872687Z",
       "tenureMonths" : 18
     },
     {
@@ -5113,15 +5113,15 @@
       "discountPaise" : 0,
       "estimatedTotalPaise" : 2637600,
       "externalId" : "5940",
-      "imageUrl" : "https://assets.furlenco.com/image/upload/c_scale,f_auto,q_auto:eco,fl_progressive,w_20/plutus/products/8384/thumbnail/plp_1.jpg",
+      "imageUrl" : null,
       "installationFeePaise" : 0,
       "monthlyPaise" : 109900,
       "monthlyTaxPaise" : 0,
       "otherFeesPaise" : 0,
       "provider" : "furlenco",
-      "providerName" : "DRIP 6 Seater Dining Set",
+      "providerName" : "Out of stockDRIP 6 Seater Dining Set",
       "providerUrl" : "https://www.furlenco.com/rent/products/drip-6-seater-dining-set-5940-rent",
-      "scrapedAt" : "2026-09-28T03:34:52.132067836Z",
+      "scrapedAt" : "2026-09-28T19:14:36.217872687Z",
       "tenureMonths" : 24
     },
     {
@@ -5142,7 +5142,7 @@
       "provider" : "guarented",
       "providerName" : "Hudson 6-Seater Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/6-seater-dining-table-on-rent",
-      "scrapedAt" : "2026-09-28T03:48:43.993623749Z",
+      "scrapedAt" : "2026-09-28T19:29:30.931288357Z",
       "tenureMonths" : 3
     },
     {
@@ -5163,7 +5163,7 @@
       "provider" : "guarented",
       "providerName" : "Hudson 6-Seater Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/6-seater-dining-table-on-rent",
-      "scrapedAt" : "2026-09-28T03:48:43.993623749Z",
+      "scrapedAt" : "2026-09-28T19:29:30.931288357Z",
       "tenureMonths" : 6
     },
     {
@@ -5184,7 +5184,7 @@
       "provider" : "guarented",
       "providerName" : "Hudson 6-Seater Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/6-seater-dining-table-on-rent",
-      "scrapedAt" : "2026-09-28T03:48:43.993623749Z",
+      "scrapedAt" : "2026-09-28T19:29:30.931288357Z",
       "tenureMonths" : 9
     },
     {
@@ -5205,7 +5205,7 @@
       "provider" : "guarented",
       "providerName" : "Hudson 6-Seater Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/6-seater-dining-table-on-rent",
-      "scrapedAt" : "2026-09-28T03:48:43.993623749Z",
+      "scrapedAt" : "2026-09-28T19:29:30.931288357Z",
       "tenureMonths" : 12
     },
     {
@@ -5226,7 +5226,7 @@
       "provider" : "guarented",
       "providerName" : "Hudson 6-Seater Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/6-seater-dining-table-on-rent",
-      "scrapedAt" : "2026-09-28T03:48:43.993623749Z",
+      "scrapedAt" : "2026-09-28T19:29:30.931288357Z",
       "tenureMonths" : 18
     },
     {
@@ -5247,7 +5247,7 @@
       "provider" : "guarented",
       "providerName" : "Hudson 6-Seater Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/6-seater-dining-table-on-rent",
-      "scrapedAt" : "2026-09-28T03:48:43.993623749Z",
+      "scrapedAt" : "2026-09-28T19:29:30.931288357Z",
       "tenureMonths" : 24
     },
     {
@@ -5268,7 +5268,7 @@
       "provider" : "guarented",
       "providerName" : "Wooden 6 Seater Dining Table with Picasso Chairs Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-6-seater-dining-table-with-picasso-chair-set",
-      "scrapedAt" : "2026-09-28T03:50:12.430875499Z",
+      "scrapedAt" : "2026-09-28T19:31:15.788592885Z",
       "tenureMonths" : 3
     },
     {
@@ -5289,7 +5289,7 @@
       "provider" : "guarented",
       "providerName" : "Wooden 6 Seater Dining Table with Picasso Chairs Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-6-seater-dining-table-with-picasso-chair-set",
-      "scrapedAt" : "2026-09-28T03:50:12.430875499Z",
+      "scrapedAt" : "2026-09-28T19:31:15.788592885Z",
       "tenureMonths" : 6
     },
     {
@@ -5310,7 +5310,7 @@
       "provider" : "guarented",
       "providerName" : "Wooden 6 Seater Dining Table with Picasso Chairs Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-6-seater-dining-table-with-picasso-chair-set",
-      "scrapedAt" : "2026-09-28T03:50:12.430875499Z",
+      "scrapedAt" : "2026-09-28T19:31:15.788592885Z",
       "tenureMonths" : 9
     },
     {
@@ -5331,7 +5331,7 @@
       "provider" : "guarented",
       "providerName" : "Wooden 6 Seater Dining Table with Picasso Chairs Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-6-seater-dining-table-with-picasso-chair-set",
-      "scrapedAt" : "2026-09-28T03:50:12.430875499Z",
+      "scrapedAt" : "2026-09-28T19:31:15.788592885Z",
       "tenureMonths" : 12
     },
     {
@@ -5352,7 +5352,7 @@
       "provider" : "guarented",
       "providerName" : "Wooden 6 Seater Dining Table with Picasso Chairs Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-6-seater-dining-table-with-picasso-chair-set",
-      "scrapedAt" : "2026-09-28T03:50:12.430875499Z",
+      "scrapedAt" : "2026-09-28T19:31:15.788592885Z",
       "tenureMonths" : 18
     },
     {
@@ -5373,7 +5373,7 @@
       "provider" : "guarented",
       "providerName" : "Wooden 6 Seater Dining Table with Picasso Chairs Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-6-seater-dining-table-with-picasso-chair-set",
-      "scrapedAt" : "2026-09-28T03:50:12.430875499Z",
+      "scrapedAt" : "2026-09-28T19:31:15.788592885Z",
       "tenureMonths" : 24
     },
     {
@@ -5394,7 +5394,7 @@
       "provider" : "guarented",
       "providerName" : "6-Seater Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-top-6-seater-dining-table",
-      "scrapedAt" : "2026-09-28T03:48:47.710163931Z",
+      "scrapedAt" : "2026-09-28T19:29:36.129225883Z",
       "tenureMonths" : 3
     },
     {
@@ -5415,7 +5415,7 @@
       "provider" : "guarented",
       "providerName" : "6-Seater Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-top-6-seater-dining-table",
-      "scrapedAt" : "2026-09-28T03:48:47.710163931Z",
+      "scrapedAt" : "2026-09-28T19:29:36.129225883Z",
       "tenureMonths" : 6
     },
     {
@@ -5436,7 +5436,7 @@
       "provider" : "guarented",
       "providerName" : "6-Seater Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-top-6-seater-dining-table",
-      "scrapedAt" : "2026-09-28T03:48:47.710163931Z",
+      "scrapedAt" : "2026-09-28T19:29:36.129225883Z",
       "tenureMonths" : 9
     },
     {
@@ -5457,7 +5457,7 @@
       "provider" : "guarented",
       "providerName" : "6-Seater Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-top-6-seater-dining-table",
-      "scrapedAt" : "2026-09-28T03:48:47.710163931Z",
+      "scrapedAt" : "2026-09-28T19:29:36.129225883Z",
       "tenureMonths" : 12
     },
     {
@@ -5478,7 +5478,7 @@
       "provider" : "guarented",
       "providerName" : "6-Seater Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-top-6-seater-dining-table",
-      "scrapedAt" : "2026-09-28T03:48:47.710163931Z",
+      "scrapedAt" : "2026-09-28T19:29:36.129225883Z",
       "tenureMonths" : 18
     },
     {
@@ -5499,7 +5499,7 @@
       "provider" : "guarented",
       "providerName" : "6-Seater Dining Table & Chair Set",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-top-6-seater-dining-table",
-      "scrapedAt" : "2026-09-28T03:48:47.710163931Z",
+      "scrapedAt" : "2026-09-28T19:29:36.129225883Z",
       "tenureMonths" : 24
     },
     {
