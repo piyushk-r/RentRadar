@@ -2573,6 +2573,16 @@
     {
       "canonicalProductId" : "sofa-3-seater",
       "confidence" : 0.9,
+      "externalId" : "4518",
+      "matchedAt" : "2026-09-29T17:36:52.574773273Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockNoah Fabric 3 Seater Sofa in Grace Denim Color with Kapa ̧Center Table",
+      "providerUrl" : "https://www.furlenco.com/rent/products/noah-fabric-3-seater-sofa-in-grace-denim-color-with-kapa--center-table-4518-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
       "externalId" : "4519",
       "matchedAt" : "2026-09-06T02:52:29.205506587Z",
       "matchedBy" : "auto",
