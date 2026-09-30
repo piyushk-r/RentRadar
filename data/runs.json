@@ -1,24 +1,24 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-09-30T04:17:48.785309707Z",
-    "startedAt" : "2026-09-30T03:55:17.941480483Z"
+    "finishedAt" : "2026-09-30T17:57:00.328471014Z",
+    "startedAt" : "2026-09-30T17:35:43.580182218Z"
   },
   "providers" : {
     "furlenco" : {
-      "coverageDeltaPercent" : 21,
+      "coverageDeltaPercent" : 13,
       "displayName" : "Furlenco",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-09-30T04:17:48.648605614Z",
-      "lastSuccessAt" : "2026-09-30T04:17:48.648605614Z",
+      "lastAttemptAt" : "2026-09-30T17:57:00.157031172Z",
+      "lastSuccessAt" : "2026-09-30T17:57:00.157031172Z",
       "previousProductsFound" : 437,
-      "productsFound" : 527,
+      "productsFound" : 495,
       "status" : "DEGRADED",
       "warnings" : [
         "https://www.furlenco.com/rent/products/mono-mid-back-office-chair-with-mesh-back---fixed-arms-in-black-color-4394-rent: no published price on the card",
         "https://www.furlenco.com/rent/products/cruxe-office-study-chair-black-216-rent: no published price on the card",
         "https://www.furlenco.com/rent/products/robo-office-study-chair-221-rent: no published price on the card",
-        "62 listing(s) below match confidence — sent to review queue"
+        "54 listing(s) below match confidence — sent to review queue"
       ]
     },
     "guarented" : {
@@ -26,8 +26,8 @@
       "displayName" : "Guarented",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-09-30T04:17:48.635991734Z",
-      "lastSuccessAt" : "2026-09-30T04:17:48.635991734Z",
+      "lastAttemptAt" : "2026-09-30T17:57:00.145478149Z",
+      "lastSuccessAt" : "2026-09-30T17:57:00.145478149Z",
       "previousProductsFound" : 100,
       "productsFound" : 117,
       "status" : "DEGRADED",
