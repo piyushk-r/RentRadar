@@ -55,7 +55,7 @@
       "confidence" : 0.0,
       "externalId" : "3772",
       "firstSeenAt" : "2026-09-05T18:51:54.743272400Z",
-      "name" : "Out of stockLana Twin Wardrobe",
+      "name" : "Lana Twin Wardrobe",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/lana-twin-wardrobe-3772-rent"
@@ -105,7 +105,7 @@
       "confidence" : 0.4,
       "externalId" : "4030",
       "firstSeenAt" : "2026-09-06T02:52:29.205378438Z",
-      "name" : "Out of stockElla Velvet 3+1+1 Seater Sofa Set in Deep Teal Color",
+      "name" : "Ella Velvet 3+1+1 Seater Sofa Set in Deep Teal Color",
       "proposedCanonicalId" : "sofa-set-1-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/ella-3-1-1-seater-sofa-set-deep-teal-4030-rent"
@@ -215,7 +215,7 @@
       "confidence" : 0.4,
       "externalId" : "4050",
       "firstSeenAt" : "2026-09-06T02:52:29.205312942Z",
-      "name" : "Out of stockElla Leatherette 3+2 Seater Sofa Set in Sand Beige Color",
+      "name" : "Ella Leatherette 3+2 Seater Sofa Set in Sand Beige Color",
       "proposedCanonicalId" : "sofa-set-2-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/ella-3-2-seater-sofa-set-sand-beige-4050-rent"
@@ -405,7 +405,7 @@
       "confidence" : 0.4,
       "externalId" : "5037",
       "firstSeenAt" : "2026-09-06T02:52:29.205915679Z",
-      "name" : "Out of stockCleo 3+1+1 Seater Sofa set - Moroccan Blue",
+      "name" : "Cleo 3+1+1 Seater Sofa set - Moroccan Blue",
       "proposedCanonicalId" : "sofa-set-1-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/cleo-3-1-1-seater-sofa-set---moroccan-blue-5037-rent"
@@ -475,7 +475,7 @@
       "confidence" : 0.0,
       "externalId" : "5358",
       "firstSeenAt" : "2026-09-06T02:52:10.763569890Z",
-      "name" : "Out of stockAll Things Bedroom (Mojave Edition)",
+      "name" : "All Things Bedroom (Mojave Edition)",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/all-things-bedroom--mojave-edition--5358-rent"
@@ -595,7 +595,7 @@
       "confidence" : 0.0,
       "externalId" : "5816",
       "firstSeenAt" : "2026-09-06T02:52:29.205737837Z",
-      "name" : "Out of stockLiving Room with Kids Zone - Cleo Sofa Edition",
+      "name" : "Living Room with Kids Zone - Cleo Sofa Edition",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/living-room-with-kids-zone---cleo-sofa-edition-5816-rent"
