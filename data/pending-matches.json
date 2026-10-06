@@ -5,7 +5,7 @@
       "confidence" : 0.6,
       "externalId" : "266",
       "firstSeenAt" : "2026-09-05T18:51:10.232432300Z",
-      "name" : "Refrigerator Double Door",
+      "name" : "Out of stockRefrigerator Double Door",
       "proposedCanonicalId" : "refrigerator-double-door",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/double-door-refrigerator-266-rent"
@@ -65,7 +65,7 @@
       "confidence" : 0.0,
       "externalId" : "3773",
       "firstSeenAt" : "2026-09-05T18:51:54.743272400Z",
-      "name" : "Grig Twin Wardrobe",
+      "name" : "Out of stockGrig Twin Wardrobe",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/grig-twin-wardrobe-3773-rent"
@@ -235,7 +235,7 @@
       "confidence" : 0.0,
       "externalId" : "4195",
       "firstSeenAt" : "2026-09-06T02:52:29.205185044Z",
-      "name" : "Out of stockNoah Fabric 3+1+1 Sofa Set in Denim Grace Color",
+      "name" : "Noah Fabric 3+1+1 Sofa Set in Denim Grace Color",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/noah-fabric-3-1-1-sofa-set-in-grace-denim-color-4195-rent"
