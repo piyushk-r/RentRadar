@@ -5,7 +5,7 @@
       "confidence" : 0.6,
       "externalId" : "266",
       "firstSeenAt" : "2026-09-05T18:51:10.232432300Z",
-      "name" : "Out of stockRefrigerator Double Door",
+      "name" : "Refrigerator Double Door",
       "proposedCanonicalId" : "refrigerator-double-door",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/double-door-refrigerator-266-rent"
@@ -105,7 +105,7 @@
       "confidence" : 0.4,
       "externalId" : "4030",
       "firstSeenAt" : "2026-09-06T02:52:29.205378438Z",
-      "name" : "Out of stockElla Velvet 3+1+1 Seater Sofa Set in Deep Teal Color",
+      "name" : "Ella Velvet 3+1+1 Seater Sofa Set in Deep Teal Color",
       "proposedCanonicalId" : "sofa-set-1-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/ella-3-1-1-seater-sofa-set-deep-teal-4030-rent"
@@ -165,7 +165,7 @@
       "confidence" : 0.4,
       "externalId" : "4043",
       "firstSeenAt" : "2026-09-06T02:52:29.208971827Z",
-      "name" : "Noah Velvet 5 Seater Sofa Set in Honey Gold Color",
+      "name" : "Out of stockNoah Velvet 5 Seater Sofa Set in Honey Gold Color",
       "proposedCanonicalId" : "sofa-set-5-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/noah-3-1-1-seater-sofa-set-honey-gold-4043-rent"
@@ -235,7 +235,7 @@
       "confidence" : 0.0,
       "externalId" : "4195",
       "firstSeenAt" : "2026-09-06T02:52:29.205185044Z",
-      "name" : "Noah Fabric 3+1+1 Sofa Set in Denim Grace Color",
+      "name" : "Out of stockNoah Fabric 3+1+1 Sofa Set in Denim Grace Color",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/noah-fabric-3-1-1-sofa-set-in-grace-denim-color-4195-rent"
@@ -395,7 +395,7 @@
       "confidence" : 0.0,
       "externalId" : "4975",
       "firstSeenAt" : "2026-09-06T02:52:10.763594156Z",
-      "name" : "Out of stockPapilion Box Storage Bed in Grey Color",
+      "name" : "Papilion Box Storage Bed in Grey Color",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/papilion-box-storage-bed-in-grey-color-4975-rent"
@@ -405,7 +405,7 @@
       "confidence" : 0.4,
       "externalId" : "5037",
       "firstSeenAt" : "2026-09-06T02:52:29.205915679Z",
-      "name" : "Out of stockCleo 3+1+1 Seater Sofa set - Moroccan Blue",
+      "name" : "Cleo 3+1+1 Seater Sofa set - Moroccan Blue",
       "proposedCanonicalId" : "sofa-set-1-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/cleo-3-1-1-seater-sofa-set---moroccan-blue-5037-rent"
@@ -545,7 +545,7 @@
       "confidence" : 0.0,
       "externalId" : "5626",
       "firstSeenAt" : "2026-09-06T02:52:10.763081532Z",
-      "name" : "Vitello Storage Bed Essentials",
+      "name" : "Out of stockVitello Storage Bed Essentials",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/vitello-storage-bed-essentials-5626-rent"
@@ -555,7 +555,7 @@
       "confidence" : 0.0,
       "externalId" : "5670",
       "firstSeenAt" : "2026-09-06T02:52:10.763100920Z",
-      "name" : "Out of stockHugo Bedroom Essentials",
+      "name" : "Hugo Bedroom Essentials",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/hugo-bedroom-essentials-5670-rent"
@@ -565,7 +565,7 @@
       "confidence" : 0.0,
       "externalId" : "5671",
       "firstSeenAt" : "2026-09-06T02:52:10.763110494Z",
-      "name" : "Out of stockHugo Bedroom Collection",
+      "name" : "Hugo Bedroom Collection",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/hugo-bedroom-collection-5671-rent"
