@@ -37,6 +37,14 @@
     },
     {
       "attributes" : {
+        "capacity_band" : "55l-plus"
+      },
+      "category" : "AIR_COOLER",
+      "id" : "air-cooler-55l-plus",
+      "name" : "Air cooler (55 L+)"
+    },
+    {
+      "attributes" : {
         "capacity_band" : "under-30l"
       },
       "category" : "AIR_COOLER",

@@ -1,7 +1,7 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-10-09T04:53:21.622100226Z",
-    "startedAt" : "2026-10-09T04:30:26.428690849Z"
+    "finishedAt" : "2026-10-09T18:12:37.688958778Z",
+    "startedAt" : "2026-10-09T17:57:31.563258618Z"
   },
   "providers" : {
     "furlenco" : {
@@ -9,8 +9,8 @@
       "displayName" : "Furlenco",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-10-09T04:53:21.446870174Z",
-      "lastSuccessAt" : "2026-10-09T04:53:21.446870174Z",
+      "lastAttemptAt" : "2026-10-09T18:12:37.552059296Z",
+      "lastSuccessAt" : "2026-10-09T18:12:37.552059296Z",
       "previousProductsFound" : 413,
       "productsFound" : 498,
       "status" : "DEGRADED",
@@ -22,46 +22,18 @@
       ]
     },
     "guarented" : {
-      "coverageDeltaPercent" : 17,
+      "coverageDeltaPercent" : 45,
       "displayName" : "Guarented",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-10-09T04:53:21.430943010Z",
-      "lastSuccessAt" : "2026-10-09T04:53:21.430943010Z",
+      "lastAttemptAt" : "2026-10-09T18:12:37.540371240Z",
+      "lastSuccessAt" : "2026-10-09T18:12:37.540371240Z",
       "previousProductsFound" : 100,
-      "productsFound" : 117,
+      "productsFound" : 145,
       "status" : "DEGRADED",
       "warnings" : [
-        "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-double-bed-white: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/beds/eden-upholstered-bed-yellow: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/washing-machine/top-load-washing-machine-on-rent: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/washing-machine/front-load-washing-machine-on-rent: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/washing-machine/semi-automatic-washing-machine: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/sofas/bounce-sofa-on-rent: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/sofas/recliner-olive: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-5-seater-beige: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-3-seater-beige: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-1-seater: Timeout 20000ms exceeded",
         "https://www.guarented.com/bangalore/rent/furniture/wardrobes/wardrobe-storage: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/wardrobes/luxe-bar-cabinet: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/wardrobes/flora-2-door-wardrobe-with-mirror: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/wardrobes/flora-2-door-wardrobe-without-mirror: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/study/oliver-study-desk: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/study/oliver-study-chair: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-dining-table-rectangle: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/dining/wooden-dining-table-square: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/dining/laminate-dining-table-square: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/tv/smart-tv-43-inch: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/microwave/solo-microwave-oven: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-28-litres-on-rent: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-50-litres-on-rent: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-70-litres-on-rent: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-80-litre: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-20-litre: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-24-32-litres: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-44-54-litres: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-58-72-litres: Timeout 20000ms exceeded",
-        "15 listing(s) below match confidence — sent to review queue"
+        "21 listing(s) below match confidence — sent to review queue"
       ]
     },
     "rentomojo" : {

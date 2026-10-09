@@ -4481,6 +4481,86 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/dining/6-seater-dining-table-on-rent"
     },
     {
+      "canonicalProductId" : "air-cooler-under-30l",
+      "confidence" : 0.9,
+      "externalId" : "air-cooler-20-litre",
+      "matchedAt" : "2026-10-09T18:12:12.939489708Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Air Cooler 20 Litres (12-month lock-in)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-20-litre"
+    },
+    {
+      "canonicalProductId" : "air-cooler-under-30l",
+      "confidence" : 0.9,
+      "externalId" : "air-cooler-24-32-litres",
+      "matchedAt" : "2026-10-09T18:12:18.721458807Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Air Cooler 24-32 Litres (12-month lock-in)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-24-32-litres"
+    },
+    {
+      "canonicalProductId" : "air-cooler-under-30l",
+      "confidence" : 0.9,
+      "externalId" : "air-cooler-28-litres-on-rent",
+      "matchedAt" : "2026-10-09T18:11:50.161737895Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Air Cooler 24-32 Litres",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-28-litres-on-rent"
+    },
+    {
+      "canonicalProductId" : "air-cooler-30-55l",
+      "confidence" : 0.9,
+      "externalId" : "air-cooler-44-54-litres",
+      "matchedAt" : "2026-10-09T18:12:25.001230232Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Air Cooler 44-54 Litres (12-month lock-in)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-44-54-litres"
+    },
+    {
+      "canonicalProductId" : "air-cooler-30-55l",
+      "confidence" : 0.9,
+      "externalId" : "air-cooler-50-litres-on-rent",
+      "matchedAt" : "2026-10-09T18:11:55.377003719Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Air Cooler 44-54 Litres",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-50-litres-on-rent"
+    },
+    {
+      "canonicalProductId" : "air-cooler-55l-plus",
+      "confidence" : 0.9,
+      "externalId" : "air-cooler-58-72-litres",
+      "matchedAt" : "2026-10-09T18:12:30.918651711Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Air Cooler 58-72 Litres (12-month lock-in)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-58-72-litres"
+    },
+    {
+      "canonicalProductId" : "air-cooler-55l-plus",
+      "confidence" : 0.9,
+      "externalId" : "air-cooler-70-litres-on-rent",
+      "matchedAt" : "2026-10-09T18:12:01.100671972Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Air Cooler 58-72 Litres",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-70-litres-on-rent"
+    },
+    {
+      "canonicalProductId" : "air-cooler-55l-plus",
+      "confidence" : 0.9,
+      "externalId" : "air-cooler-80-litre",
+      "matchedAt" : "2026-10-09T18:12:07.190654231Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Air Cooler 80 Litres (12-month lock-in)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/cooler/air-cooler-80-litre"
+    },
+    {
       "canonicalProductId" : "sofa-3-seater",
       "confidence" : 0.9,
       "externalId" : "aria-3-seater-brown",
@@ -4711,6 +4791,26 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/engineered-wood-study-table"
     },
     {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "flora-2-door-wardrobe-with-mirror",
+      "matchedAt" : "2026-10-09T18:08:49.325103737Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Flora 2-Door Wardorbe (With Mirror)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/wardrobes/flora-2-door-wardrobe-with-mirror"
+    },
+    {
+      "canonicalProductId" : "wardrobe-2-door",
+      "confidence" : 0.9,
+      "externalId" : "flora-2-door-wardrobe-without-mirror",
+      "matchedAt" : "2026-10-09T18:08:55.005752801Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Flora 2-Door Wardorbe (Without Mirror)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/wardrobes/flora-2-door-wardrobe-without-mirror"
+    },
+    {
       "canonicalProductId" : "washing-machine-front-load-under-7kg",
       "confidence" : 1.0,
       "externalId" : "front-load-washing-machine",
@@ -4719,6 +4819,16 @@
       "provider" : "guarented",
       "providerName" : "Front Load Washing Machine",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/washing-machine/front-load-washing-machine"
+    },
+    {
+      "canonicalProductId" : "washing-machine-front-load-7-8kg",
+      "confidence" : 1.0,
+      "externalId" : "front-load-washing-machine-on-rent",
+      "matchedAt" : "2026-10-09T18:01:35.031118701Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Front Load Washing Machine with Inbuilt Heater 7 Kg",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/washing-machine/front-load-washing-machine-on-rent"
     },
     {
       "canonicalProductId" : "study-table",
@@ -4833,6 +4943,16 @@
     {
       "canonicalProductId" : "sofa-1-seater",
       "confidence" : 0.9,
+      "externalId" : "jute-sofa-1-seater",
+      "matchedAt" : "2026-10-09T18:05:17.644673152Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 1 Seater (Beige)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-1-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-1-seater",
+      "confidence" : 0.9,
       "externalId" : "jute-sofa-1-seater-blue",
       "matchedAt" : "2026-09-03T16:30:52.526101200Z",
       "matchedBy" : "auto",
@@ -4863,6 +4983,16 @@
     {
       "canonicalProductId" : "sofa-3-seater",
       "confidence" : 0.9,
+      "externalId" : "jute-sofa-3-seater-beige",
+      "matchedAt" : "2026-10-09T18:03:55.328281930Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 3 Seater (Beige)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-3-seater-beige"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
       "externalId" : "jute-sofa-3-seater-brown",
       "matchedAt" : "2026-09-03T16:26:09.209376800Z",
       "matchedBy" : "auto",
@@ -4879,6 +5009,16 @@
       "provider" : "guarented",
       "providerName" : "Jute Sofa 5 Seater (Grey)",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-5-seater"
+    },
+    {
+      "canonicalProductId" : "sofa-5-seater",
+      "confidence" : 0.9,
+      "externalId" : "jute-sofa-5-seater-beige",
+      "matchedAt" : "2026-10-09T18:03:24.006851454Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Jute Sofa 5 Seater (Beige)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-5-seater-beige"
     },
     {
       "canonicalProductId" : "sofa-5-seater",
@@ -5041,6 +5181,26 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/noah-storage-king-bed"
     },
     {
+      "canonicalProductId" : "office-chair",
+      "confidence" : 0.85,
+      "externalId" : "oliver-study-chair",
+      "matchedAt" : "2026-10-09T18:09:59.808570194Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Oliver Study Chair",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/oliver-study-chair"
+    },
+    {
+      "canonicalProductId" : "study-table",
+      "confidence" : 0.85,
+      "externalId" : "oliver-study-desk",
+      "matchedAt" : "2026-10-09T18:09:35.712231803Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Oliver Study Desk",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/oliver-study-desk"
+    },
+    {
       "canonicalProductId" : "study-table",
       "confidence" : 0.85,
       "externalId" : "pika-study-table",
@@ -5049,6 +5209,16 @@
       "provider" : "guarented",
       "providerName" : "Pika Study Table",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/study/pika-study-table"
+    },
+    {
+      "canonicalProductId" : "sofa-recliner",
+      "confidence" : 0.85,
+      "externalId" : "recliner-olive",
+      "matchedAt" : "2026-10-09T18:02:43.012172694Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Recliner (Olive)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/sofas/recliner-olive"
     },
     {
       "canonicalProductId" : "office-chair",
@@ -5101,6 +5271,16 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/rubberwood-single-bed"
     },
     {
+      "canonicalProductId" : "washing-machine-semi-automatic",
+      "confidence" : 0.9,
+      "externalId" : "semi-automatic-washing-machine",
+      "matchedAt" : "2026-10-09T18:01:41.094981319Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Semi-Automatic Washing Machine 7 Kg",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/washing-machine/semi-automatic-washing-machine"
+    },
+    {
       "canonicalProductId" : "mattress-single",
       "confidence" : 0.9,
       "externalId" : "single-bed-6-foam-mattress",
@@ -5151,6 +5331,16 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/tv/smart-40-inch-tv-on-rent"
     },
     {
+      "canonicalProductId" : "tv-40-49-inch",
+      "confidence" : 0.9,
+      "externalId" : "smart-tv-43-inch",
+      "matchedAt" : "2026-10-09T18:11:31.063199724Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Smart TV 43-Inch",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/tv/smart-tv-43-inch"
+    },
+    {
       "canonicalProductId" : "dining-table-4-seater",
       "confidence" : 0.9,
       "externalId" : "solid-wood-4-seater-dining-table",
@@ -5171,6 +5361,16 @@
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-double-bed"
     },
     {
+      "canonicalProductId" : "bed-double",
+      "confidence" : 0.9,
+      "externalId" : "solid-wood-double-bed-white",
+      "matchedAt" : "2026-10-09T17:59:28.347652680Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Solid Wood Double Bed (White)",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-double-bed-white"
+    },
+    {
       "canonicalProductId" : "bed-single",
       "confidence" : 0.9,
       "externalId" : "solid-wood-single-bed",
@@ -5189,6 +5389,26 @@
       "provider" : "guarented",
       "providerName" : "Solid Wood Single Bed (6*4) - Brown",
       "providerUrl" : "https://www.guarented.com/bangalore/rent/furniture/beds/solid-wood-single-bed-6-4-brown"
+    },
+    {
+      "canonicalProductId" : "microwave-solo",
+      "confidence" : 0.9,
+      "externalId" : "solo-microwave-oven",
+      "matchedAt" : "2026-10-09T18:11:43.819029905Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Solo Microwave Oven",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/microwave/solo-microwave-oven"
+    },
+    {
+      "canonicalProductId" : "washing-machine-top-load-under-7kg",
+      "confidence" : 1.0,
+      "externalId" : "top-load-washing-machine-on-rent",
+      "matchedAt" : "2026-10-09T18:01:26.758257898Z",
+      "matchedBy" : "auto",
+      "provider" : "guarented",
+      "providerName" : "Top Load Washing Machine 6.5 Kg",
+      "providerUrl" : "https://www.guarented.com/bangalore/rent/appliances/washing-machine/top-load-washing-machine-on-rent"
     },
     {
       "canonicalProductId" : "sofa-2-seater",
