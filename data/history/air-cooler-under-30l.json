@@ -3,10 +3,154 @@
   "collectingSince": "2026-09-03T22:52:59+05:30",
   "series": [
     {
+      "provider": "guarented",
+      "externalId": "air-cooler-20-litre",
+      "tenureMonths": 12,
+      "lastSeen": "2026-10-09T18:12:37Z",
+      "points": [
+        [
+          "2026-10-09T18:12:37Z",
+          37200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "air-cooler-20-litre",
+      "tenureMonths": 18,
+      "lastSeen": "2026-10-09T18:12:37Z",
+      "points": [
+        [
+          "2026-10-09T18:12:37Z",
+          37200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "air-cooler-20-litre",
+      "tenureMonths": 24,
+      "lastSeen": "2026-10-09T18:12:37Z",
+      "points": [
+        [
+          "2026-10-09T18:12:37Z",
+          37200
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "air-cooler-24-32-litres",
+      "tenureMonths": 12,
+      "lastSeen": "2026-10-09T18:12:37Z",
+      "points": [
+        [
+          "2026-10-09T18:12:37Z",
+          42300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "air-cooler-24-32-litres",
+      "tenureMonths": 18,
+      "lastSeen": "2026-10-09T18:12:37Z",
+      "points": [
+        [
+          "2026-10-09T18:12:37Z",
+          42300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "air-cooler-24-32-litres",
+      "tenureMonths": 24,
+      "lastSeen": "2026-10-09T18:12:37Z",
+      "points": [
+        [
+          "2026-10-09T18:12:37Z",
+          42300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "air-cooler-28-litres-on-rent",
+      "tenureMonths": 3,
+      "lastSeen": "2026-10-09T18:12:37Z",
+      "points": [
+        [
+          "2026-10-09T18:12:37Z",
+          147800
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "air-cooler-28-litres-on-rent",
+      "tenureMonths": 6,
+      "lastSeen": "2026-10-09T18:12:37Z",
+      "points": [
+        [
+          "2026-10-09T18:12:37Z",
+          29600
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "air-cooler-28-litres-on-rent",
+      "tenureMonths": 9,
+      "lastSeen": "2026-10-09T18:12:37Z",
+      "points": [
+        [
+          "2026-10-09T18:12:37Z",
+          26700
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "air-cooler-28-litres-on-rent",
+      "tenureMonths": 12,
+      "lastSeen": "2026-10-09T18:12:37Z",
+      "points": [
+        [
+          "2026-10-09T18:12:37Z",
+          23600
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "air-cooler-28-litres-on-rent",
+      "tenureMonths": 18,
+      "lastSeen": "2026-10-09T18:12:37Z",
+      "points": [
+        [
+          "2026-10-09T18:12:37Z",
+          23300
+        ]
+      ]
+    },
+    {
+      "provider": "guarented",
+      "externalId": "air-cooler-28-litres-on-rent",
+      "tenureMonths": 24,
+      "lastSeen": "2026-10-09T18:12:37Z",
+      "points": [
+        [
+          "2026-10-09T18:12:37Z",
+          23100
+        ]
+      ]
+    },
+    {
       "provider": "rentomojo",
       "externalId": "101581",
       "tenureMonths": 3,
-      "lastSeen": "2026-10-09T04:53:22Z",
+      "lastSeen": "2026-10-09T18:12:37Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -18,7 +162,7 @@
       "provider": "rentomojo",
       "externalId": "101581",
       "tenureMonths": 6,
-      "lastSeen": "2026-10-09T04:53:22Z",
+      "lastSeen": "2026-10-09T18:12:37Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -30,7 +174,7 @@
       "provider": "rentomojo",
       "externalId": "101581",
       "tenureMonths": 9,
-      "lastSeen": "2026-10-09T04:53:22Z",
+      "lastSeen": "2026-10-09T18:12:37Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -42,7 +186,7 @@
       "provider": "rentomojo",
       "externalId": "101581",
       "tenureMonths": 12,
-      "lastSeen": "2026-10-09T04:53:22Z",
+      "lastSeen": "2026-10-09T18:12:37Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -54,7 +198,7 @@
       "provider": "rentomojo",
       "externalId": "101581",
       "tenureMonths": 24,
-      "lastSeen": "2026-10-09T04:53:22Z",
+      "lastSeen": "2026-10-09T18:12:37Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
