@@ -55,7 +55,7 @@
       "confidence" : 0.0,
       "externalId" : "3772",
       "firstSeenAt" : "2026-09-05T18:51:54.743272400Z",
-      "name" : "Out of stockLana Twin Wardrobe",
+      "name" : "Lana Twin Wardrobe",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/lana-twin-wardrobe-3772-rent"
@@ -85,7 +85,7 @@
       "confidence" : 0.0,
       "externalId" : "3894",
       "firstSeenAt" : "2026-09-05T18:51:10.232432300Z",
-      "name" : "Out of stockAppliance Essentials",
+      "name" : "Appliance Essentials",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/appliance-essentials-3894-rent"
@@ -105,7 +105,7 @@
       "confidence" : 0.4,
       "externalId" : "4030",
       "firstSeenAt" : "2026-09-06T02:52:29.205378438Z",
-      "name" : "Out of stockElla Velvet 3+1+1 Seater Sofa Set in Deep Teal Color",
+      "name" : "Ella Velvet 3+1+1 Seater Sofa Set in Deep Teal Color",
       "proposedCanonicalId" : "sofa-set-1-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/ella-3-1-1-seater-sofa-set-deep-teal-4030-rent"
@@ -235,7 +235,7 @@
       "confidence" : 0.0,
       "externalId" : "4195",
       "firstSeenAt" : "2026-09-06T02:52:29.205185044Z",
-      "name" : "Out of stockNoah Fabric 3+1+1 Sofa Set in Denim Grace Color",
+      "name" : "Noah Fabric 3+1+1 Sofa Set in Denim Grace Color",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/noah-fabric-3-1-1-sofa-set-in-grace-denim-color-4195-rent"
@@ -265,7 +265,7 @@
       "confidence" : 0.4,
       "externalId" : "4766",
       "firstSeenAt" : "2026-09-06T02:52:29.206032201Z",
-      "name" : "Out of stockCleo Velvet 3+1+1 sofa set in Sapphire Blue Color",
+      "name" : "Cleo Velvet 3+1+1 sofa set in Sapphire Blue Color",
       "proposedCanonicalId" : "sofa-set-5-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/cleo-5-seater-sofa-in-sapphire-blue-color-4766-rent"
@@ -325,7 +325,7 @@
       "confidence" : 0.0,
       "externalId" : "4859",
       "firstSeenAt" : "2026-09-06T02:52:10.763982748Z",
-      "name" : "Out of stockVitello Box Storage Bed - Dark Green",
+      "name" : "Vitello Box Storage Bed - Dark Green",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/vitello-box-storage-bed---dark-green-4859-rent"
@@ -365,7 +365,7 @@
       "confidence" : 0.0,
       "externalId" : "4898",
       "firstSeenAt" : "2026-09-06T02:52:29.205911082Z",
-      "name" : "Out of stockElla Fabric 3+2 Sofa set - Moroccan Blue",
+      "name" : "Ella Fabric 3+2 Sofa set - Moroccan Blue",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/ella-fabric-3-2-sofa-set---moroccan-blue-4898-rent"
@@ -385,7 +385,7 @@
       "confidence" : 0.0,
       "externalId" : "4908",
       "firstSeenAt" : "2026-09-06T02:52:29.206174430Z",
-      "name" : "Elvis Single Seater Sofa - Moroccan Blue",
+      "name" : "Out of stockElvis Single Seater Sofa - Moroccan Blue",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/elvis-single-seater-sofa---moroccan-blue-4908-rent"
@@ -435,7 +435,7 @@
       "confidence" : 0.5,
       "externalId" : "5082",
       "firstSeenAt" : "2026-09-05T18:51:10.232432300Z",
-      "name" : "Out of stockRefrigerator 190L With Parker Console Unit",
+      "name" : "Refrigerator 190L With Parker Console Unit",
       "proposedCanonicalId" : "refrigerator-150-200l",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/refrigerator-190l-with-parker-console-unit-5082-rent"
@@ -475,7 +475,7 @@
       "confidence" : 0.0,
       "externalId" : "5358",
       "firstSeenAt" : "2026-09-06T02:52:10.763569890Z",
-      "name" : "Out of stockAll Things Bedroom (Mojave Edition)",
+      "name" : "All Things Bedroom (Mojave Edition)",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/all-things-bedroom--mojave-edition--5358-rent"
@@ -565,7 +565,7 @@
       "confidence" : 0.0,
       "externalId" : "5671",
       "firstSeenAt" : "2026-09-06T02:52:10.763110494Z",
-      "name" : "Out of stockHugo Bedroom Collection",
+      "name" : "Hugo Bedroom Collection",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/hugo-bedroom-collection-5671-rent"
@@ -595,7 +595,7 @@
       "confidence" : 0.0,
       "externalId" : "5816",
       "firstSeenAt" : "2026-09-06T02:52:29.205737837Z",
-      "name" : "Out of stockLiving Room with Kids Zone - Cleo Sofa Edition",
+      "name" : "Living Room with Kids Zone - Cleo Sofa Edition",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/living-room-with-kids-zone---cleo-sofa-edition-5816-rent"
