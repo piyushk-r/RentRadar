@@ -55,7 +55,7 @@
       "confidence" : 0.0,
       "externalId" : "3772",
       "firstSeenAt" : "2026-09-05T18:51:54.743272400Z",
-      "name" : "Lana Twin Wardrobe",
+      "name" : "Out of stockLana Twin Wardrobe",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/lana-twin-wardrobe-3772-rent"
@@ -65,7 +65,7 @@
       "confidence" : 0.0,
       "externalId" : "3773",
       "firstSeenAt" : "2026-09-05T18:51:54.743272400Z",
-      "name" : "Out of stockGrig Twin Wardrobe",
+      "name" : "Grig Twin Wardrobe",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/grig-twin-wardrobe-3773-rent"
@@ -75,7 +75,7 @@
       "confidence" : 0.0,
       "externalId" : "3774",
       "firstSeenAt" : "2026-09-05T18:51:54.743272400Z",
-      "name" : "Out of stockBianca Four Door Wardrobe",
+      "name" : "Bianca Four Door Wardrobe",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/bianca-four-door-wardrobe-3774-rent"
@@ -165,7 +165,7 @@
       "confidence" : 0.4,
       "externalId" : "4043",
       "firstSeenAt" : "2026-09-06T02:52:29.208971827Z",
-      "name" : "Noah Velvet 5 Seater Sofa Set in Honey Gold Color",
+      "name" : "Out of stockNoah Velvet 5 Seater Sofa Set in Honey Gold Color",
       "proposedCanonicalId" : "sofa-set-5-seater",
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/noah-3-1-1-seater-sofa-set-honey-gold-4043-rent"
@@ -475,7 +475,7 @@
       "confidence" : 0.0,
       "externalId" : "5358",
       "firstSeenAt" : "2026-09-06T02:52:10.763569890Z",
-      "name" : "Out of stockAll Things Bedroom (Mojave Edition)",
+      "name" : "All Things Bedroom (Mojave Edition)",
       "proposedCanonicalId" : null,
       "provider" : "furlenco",
       "url" : "https://www.furlenco.com/rent/products/all-things-bedroom--mojave-edition--5358-rent"
