@@ -4341,6 +4341,26 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/olivia-solid-wood-4-seater-dining-set-in-walnut-finish-6170-rent"
     },
     {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "7",
+      "matchedAt" : "2026-10-22T16:37:05.222917187Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Crest Solid Wood Queen Bed in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/crest-queen-bed-grey-7-rent"
+    },
+    {
+      "canonicalProductId" : "bed-queen",
+      "confidence" : 0.9,
+      "externalId" : "8",
+      "matchedAt" : "2026-10-22T16:37:05.227495802Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Out of stockCrest Solid Wood Queen Bed in Walnut Finish",
+      "providerUrl" : "https://www.furlenco.com/rent/products/crest-queen-bed-lilac-8-rent"
+    },
+    {
       "canonicalProductId" : "sofa-3-seater",
       "confidence" : 0.9,
       "externalId" : "86",
