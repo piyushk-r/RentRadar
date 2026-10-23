@@ -1,7 +1,7 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-10-23T03:36:53.768930474Z",
-    "startedAt" : "2026-10-23T03:20:17.572154394Z"
+    "finishedAt" : "2026-10-23T16:39:19.273717742Z",
+    "startedAt" : "2026-10-23T16:26:22.824174268Z"
   },
   "providers" : {
     "furlenco" : {
@@ -9,8 +9,8 @@
       "displayName" : "Furlenco",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-10-23T03:36:53.532008272Z",
-      "lastSuccessAt" : "2026-10-23T03:36:53.532008272Z",
+      "lastAttemptAt" : "2026-10-23T16:39:19.151307571Z",
+      "lastSuccessAt" : "2026-10-23T16:39:19.151307571Z",
       "previousProductsFound" : 415,
       "productsFound" : 500,
       "status" : "DEGRADED",
@@ -22,17 +22,16 @@
       ]
     },
     "guarented" : {
-      "coverageDeltaPercent" : 18,
+      "coverageDeltaPercent" : 20,
       "displayName" : "Guarented",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-10-23T03:36:53.518423450Z",
-      "lastSuccessAt" : "2026-10-23T03:36:53.518423450Z",
-      "previousProductsFound" : 122,
-      "productsFound" : 144,
+      "lastAttemptAt" : "2026-10-23T16:39:19.142407876Z",
+      "lastSuccessAt" : "2026-10-23T16:39:19.142407876Z",
+      "previousProductsFound" : 121,
+      "productsFound" : 145,
       "status" : "DEGRADED",
       "warnings" : [
-        "https://www.guarented.com/bangalore/rent/furniture/sofas/divine-convertible-2-seater-sofa-cum-bed: Timeout 20000ms exceeded",
         "https://www.guarented.com/bangalore/rent/furniture/wardrobes/wardrobe-storage: Timeout 20000ms exceeded",
         "21 listing(s) below match confidence — sent to review queue"
       ]
