@@ -911,6 +911,16 @@
       "providerUrl" : "https://www.furlenco.com/rent/products/led-smart-tv-55-inch-271-rent"
     },
     {
+      "canonicalProductId" : "tv-32-39-inch",
+      "confidence" : 0.9,
+      "externalId" : "274",
+      "matchedAt" : "2026-11-03T19:02:07.673030667Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Smart LED TV - 32 Inch",
+      "providerUrl" : "https://www.furlenco.com/rent/products/led-smart-tv-32-inch-274-rent"
+    },
+    {
       "canonicalProductId" : "tv-40-49-inch",
       "confidence" : 0.9,
       "externalId" : "275",

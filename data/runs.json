@@ -1,7 +1,7 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-11-03T05:34:22.473356678Z",
-    "startedAt" : "2026-11-03T05:17:48.202538052Z"
+    "finishedAt" : "2026-11-03T19:15:34.480885277Z",
+    "startedAt" : "2026-11-03T19:01:09.146090157Z"
   },
   "providers" : {
     "furlenco" : {
@@ -9,10 +9,10 @@
       "displayName" : "Furlenco",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-11-03T05:34:22.241163053Z",
-      "lastSuccessAt" : "2026-11-03T05:34:22.241163053Z",
+      "lastAttemptAt" : "2026-11-03T19:15:34.262333498Z",
+      "lastSuccessAt" : "2026-11-03T19:15:34.262333498Z",
       "previousProductsFound" : 415,
-      "productsFound" : 502,
+      "productsFound" : 503,
       "status" : "DEGRADED",
       "warnings" : [
         "https://www.furlenco.com/rent/products/mono-mid-back-office-chair-with-mesh-back---fixed-arms-in-black-color-4394-rent: no published price on the card",
@@ -26,8 +26,8 @@
       "displayName" : "Guarented",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-11-03T05:34:22.222899350Z",
-      "lastSuccessAt" : "2026-11-03T05:34:22.222899350Z",
+      "lastAttemptAt" : "2026-11-03T19:15:34.243525848Z",
+      "lastSuccessAt" : "2026-11-03T19:15:34.243525848Z",
       "previousProductsFound" : 122,
       "productsFound" : 145,
       "status" : "DEGRADED",
