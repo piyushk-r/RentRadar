@@ -4,13 +4,89 @@
   "series": [
     {
       "provider": "furlenco",
+      "externalId": "274",
+      "tenureMonths": 3,
+      "lastSeen": "2026-11-03T19:15:34Z",
+      "points": [
+        [
+          "2026-11-03T19:15:34Z",
+          69900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "274",
+      "tenureMonths": 6,
+      "lastSeen": "2026-11-03T19:15:34Z",
+      "points": [
+        [
+          "2026-11-03T19:15:34Z",
+          69900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "274",
+      "tenureMonths": 9,
+      "lastSeen": "2026-11-03T19:15:34Z",
+      "points": [
+        [
+          "2026-11-03T19:15:34Z",
+          69900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "274",
+      "tenureMonths": 12,
+      "lastSeen": "2026-11-03T19:15:34Z",
+      "points": [
+        [
+          "2026-11-03T19:15:34Z",
+          69900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "274",
+      "tenureMonths": 18,
+      "lastSeen": "2026-11-03T19:15:34Z",
+      "points": [
+        [
+          "2026-11-03T19:15:34Z",
+          69900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
+      "externalId": "274",
+      "tenureMonths": 24,
+      "lastSeen": "2026-11-03T19:15:34Z",
+      "points": [
+        [
+          "2026-11-03T19:15:34Z",
+          69900
+        ]
+      ]
+    },
+    {
+      "provider": "furlenco",
       "externalId": "277",
       "tenureMonths": 3,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-06T03:15:57Z",
           55900
+        ],
+        [
+          "2026-11-03T19:15:34Z",
+          49900
         ]
       ]
     },
@@ -18,11 +94,15 @@
       "provider": "furlenco",
       "externalId": "277",
       "tenureMonths": 6,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-06T03:15:57Z",
           55900
+        ],
+        [
+          "2026-11-03T19:15:34Z",
+          49900
         ]
       ]
     },
@@ -30,11 +110,15 @@
       "provider": "furlenco",
       "externalId": "277",
       "tenureMonths": 9,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-06T03:15:57Z",
           55900
+        ],
+        [
+          "2026-11-03T19:15:34Z",
+          49900
         ]
       ]
     },
@@ -42,11 +126,15 @@
       "provider": "furlenco",
       "externalId": "277",
       "tenureMonths": 12,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-06T03:15:57Z",
           55900
+        ],
+        [
+          "2026-11-03T19:15:34Z",
+          49900
         ]
       ]
     },
@@ -54,11 +142,15 @@
       "provider": "furlenco",
       "externalId": "277",
       "tenureMonths": 18,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-06T03:15:57Z",
           55900
+        ],
+        [
+          "2026-11-03T19:15:34Z",
+          49900
         ]
       ]
     },
@@ -66,11 +158,15 @@
       "provider": "furlenco",
       "externalId": "277",
       "tenureMonths": 24,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-06T03:15:57Z",
           55900
+        ],
+        [
+          "2026-11-03T19:15:34Z",
+          49900
         ]
       ]
     },
@@ -78,7 +174,7 @@
       "provider": "guarented",
       "externalId": "32-inch-smart-led-tv",
       "tenureMonths": 3,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -94,7 +190,7 @@
       "provider": "guarented",
       "externalId": "32-inch-smart-led-tv",
       "tenureMonths": 6,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -110,7 +206,7 @@
       "provider": "guarented",
       "externalId": "32-inch-smart-led-tv",
       "tenureMonths": 9,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -126,7 +222,7 @@
       "provider": "guarented",
       "externalId": "32-inch-smart-led-tv",
       "tenureMonths": 12,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -142,7 +238,7 @@
       "provider": "guarented",
       "externalId": "32-inch-smart-led-tv",
       "tenureMonths": 18,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -158,7 +254,7 @@
       "provider": "guarented",
       "externalId": "32-inch-smart-led-tv",
       "tenureMonths": 24,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -174,7 +270,7 @@
       "provider": "guarented",
       "externalId": "led-tv-32-inch",
       "tenureMonths": 3,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -186,7 +282,7 @@
       "provider": "guarented",
       "externalId": "led-tv-32-inch",
       "tenureMonths": 6,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -198,7 +294,7 @@
       "provider": "guarented",
       "externalId": "led-tv-32-inch",
       "tenureMonths": 9,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -210,7 +306,7 @@
       "provider": "guarented",
       "externalId": "led-tv-32-inch",
       "tenureMonths": 12,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -222,7 +318,7 @@
       "provider": "guarented",
       "externalId": "led-tv-32-inch",
       "tenureMonths": 18,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -234,7 +330,7 @@
       "provider": "guarented",
       "externalId": "led-tv-32-inch",
       "tenureMonths": 24,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -246,7 +342,7 @@
       "provider": "rentomojo",
       "externalId": "115334",
       "tenureMonths": 3,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -258,7 +354,7 @@
       "provider": "rentomojo",
       "externalId": "115334",
       "tenureMonths": 6,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -270,7 +366,7 @@
       "provider": "rentomojo",
       "externalId": "115334",
       "tenureMonths": 9,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -282,7 +378,7 @@
       "provider": "rentomojo",
       "externalId": "115334",
       "tenureMonths": 12,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -294,7 +390,7 @@
       "provider": "rentomojo",
       "externalId": "115334",
       "tenureMonths": 24,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -306,7 +402,7 @@
       "provider": "rentomojo",
       "externalId": "82371",
       "tenureMonths": 3,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -318,7 +414,7 @@
       "provider": "rentomojo",
       "externalId": "82371",
       "tenureMonths": 6,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -330,7 +426,7 @@
       "provider": "rentomojo",
       "externalId": "82371",
       "tenureMonths": 9,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -342,7 +438,7 @@
       "provider": "rentomojo",
       "externalId": "82371",
       "tenureMonths": 12,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -354,7 +450,7 @@
       "provider": "rentomojo",
       "externalId": "82371",
       "tenureMonths": 24,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -366,7 +462,7 @@
       "provider": "rentomojo",
       "externalId": "82762",
       "tenureMonths": 3,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -378,7 +474,7 @@
       "provider": "rentomojo",
       "externalId": "82762",
       "tenureMonths": 6,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -390,7 +486,7 @@
       "provider": "rentomojo",
       "externalId": "82762",
       "tenureMonths": 9,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -402,7 +498,7 @@
       "provider": "rentomojo",
       "externalId": "82762",
       "tenureMonths": 12,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
@@ -414,7 +510,7 @@
       "provider": "rentomojo",
       "externalId": "82762",
       "tenureMonths": 24,
-      "lastSeen": "2026-11-03T05:34:22Z",
+      "lastSeen": "2026-11-03T19:15:34Z",
       "points": [
         [
           "2026-09-03T22:52:59+05:30",
