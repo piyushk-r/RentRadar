@@ -1,7 +1,7 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-11-04T19:35:28.521418536Z",
-    "startedAt" : "2026-11-04T19:20:27.981589168Z"
+    "finishedAt" : "2026-11-05T05:13:09.252943465Z",
+    "startedAt" : "2026-11-05T05:01:53.184330723Z"
   },
   "providers" : {
     "furlenco" : {
@@ -9,8 +9,8 @@
       "displayName" : "Furlenco",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-11-04T19:35:28.297325927Z",
-      "lastSuccessAt" : "2026-11-04T19:35:28.297325927Z",
+      "lastAttemptAt" : "2026-11-05T05:13:09.038646217Z",
+      "lastSuccessAt" : "2026-11-05T05:13:09.038646217Z",
       "previousProductsFound" : 416,
       "productsFound" : 503,
       "status" : "DEGRADED",
@@ -22,19 +22,17 @@
       ]
     },
     "guarented" : {
-      "coverageDeltaPercent" : 17,
+      "coverageDeltaPercent" : 21,
       "displayName" : "Guarented",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-11-04T19:35:28.280134200Z",
-      "lastSuccessAt" : "2026-11-04T19:35:28.280134200Z",
-      "previousProductsFound" : 122,
-      "productsFound" : 143,
+      "lastAttemptAt" : "2026-11-05T05:13:09.020839737Z",
+      "lastSuccessAt" : "2026-11-05T05:13:09.020839737Z",
+      "previousProductsFound" : 120,
+      "productsFound" : 145,
       "status" : "DEGRADED",
       "warnings" : [
-        "https://www.guarented.com/bangalore/rent/furniture/sofas/jute-sofa-1-seater-brown: Timeout 20000ms exceeded",
         "https://www.guarented.com/bangalore/rent/furniture/wardrobes/wardrobe-storage: Timeout 20000ms exceeded",
-        "https://www.guarented.com/bangalore/rent/furniture/dining/harry-4-seater-dining-set: Timeout 20000ms exceeded",
         "21 listing(s) below match confidence — sent to review queue"
       ]
     },
