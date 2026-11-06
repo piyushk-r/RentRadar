@@ -1,7 +1,7 @@
 {
   "lastRun" : {
-    "finishedAt" : "2026-11-05T19:43:38.241515014Z",
-    "startedAt" : "2026-11-05T19:28:42.776971982Z"
+    "finishedAt" : "2026-11-06T05:15:36.358824708Z",
+    "startedAt" : "2026-11-06T05:00:52.828017925Z"
   },
   "providers" : {
     "furlenco" : {
@@ -9,8 +9,8 @@
       "displayName" : "Furlenco",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-11-05T19:43:38.086230799Z",
-      "lastSuccessAt" : "2026-11-05T19:43:38.086230799Z",
+      "lastAttemptAt" : "2026-11-06T05:15:36.178681990Z",
+      "lastSuccessAt" : "2026-11-06T05:15:36.178681990Z",
       "previousProductsFound" : 416,
       "productsFound" : 503,
       "status" : "DEGRADED",
@@ -26,8 +26,8 @@
       "displayName" : "Guarented",
       "error" : null,
       "integrationType" : "SCRAPE_BROWSER",
-      "lastAttemptAt" : "2026-11-05T19:43:38.075507521Z",
-      "lastSuccessAt" : "2026-11-05T19:43:38.075507521Z",
+      "lastAttemptAt" : "2026-11-06T05:15:36.165045274Z",
+      "lastSuccessAt" : "2026-11-06T05:15:36.165045274Z",
       "previousProductsFound" : 122,
       "productsFound" : 145,
       "status" : "DEGRADED",
