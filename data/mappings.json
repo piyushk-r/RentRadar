@@ -3543,6 +3543,16 @@
     {
       "canonicalProductId" : "sofa-3-seater",
       "confidence" : 0.9,
+      "externalId" : "5140",
+      "matchedAt" : "2026-11-17T06:29:20.152181098Z",
+      "matchedBy" : "auto",
+      "provider" : "furlenco",
+      "providerName" : "Cleo 3 Seater Sofa in Terra Red Color",
+      "providerUrl" : "https://www.furlenco.com/rent/products/cleo-3-seater-sofa-in-terra-red-color-5140-rent"
+    },
+    {
+      "canonicalProductId" : "sofa-3-seater",
+      "confidence" : 0.9,
       "externalId" : "5144",
       "matchedAt" : "2026-09-06T02:52:29.205353051Z",
       "matchedBy" : "auto",
