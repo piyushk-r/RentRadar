@@ -6,7 +6,7 @@
       "provider": "furlenco",
       "externalId": "263",
       "tenureMonths": 3,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-09-06T00:43:28+05:30",
@@ -27,6 +27,10 @@
         [
           "2026-11-05T19:43:38Z",
           67900
+        ],
+        [
+          "2026-11-22T19:16:29Z",
+          64900
         ]
       ]
     },
@@ -34,7 +38,7 @@
       "provider": "furlenco",
       "externalId": "263",
       "tenureMonths": 6,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-09-06T00:43:28+05:30",
@@ -55,6 +59,10 @@
         [
           "2026-11-05T19:43:38Z",
           67900
+        ],
+        [
+          "2026-11-22T19:16:29Z",
+          64900
         ]
       ]
     },
@@ -62,7 +70,7 @@
       "provider": "furlenco",
       "externalId": "263",
       "tenureMonths": 9,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-09-06T00:43:28+05:30",
@@ -83,6 +91,10 @@
         [
           "2026-11-05T19:43:38Z",
           67900
+        ],
+        [
+          "2026-11-22T19:16:29Z",
+          64900
         ]
       ]
     },
@@ -90,7 +102,7 @@
       "provider": "furlenco",
       "externalId": "263",
       "tenureMonths": 12,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-09-06T00:43:28+05:30",
@@ -111,6 +123,10 @@
         [
           "2026-11-05T19:43:38Z",
           67900
+        ],
+        [
+          "2026-11-22T19:16:29Z",
+          64900
         ]
       ]
     },
@@ -118,7 +134,7 @@
       "provider": "furlenco",
       "externalId": "263",
       "tenureMonths": 18,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-09-06T00:43:28+05:30",
@@ -139,6 +155,10 @@
         [
           "2026-11-05T19:43:38Z",
           67900
+        ],
+        [
+          "2026-11-22T19:16:29Z",
+          64900
         ]
       ]
     },
@@ -146,7 +166,7 @@
       "provider": "furlenco",
       "externalId": "263",
       "tenureMonths": 24,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-09-06T00:43:28+05:30",
@@ -167,6 +187,10 @@
         [
           "2026-11-05T19:43:38Z",
           67900
+        ],
+        [
+          "2026-11-22T19:16:29Z",
+          64900
         ]
       ]
     },
@@ -246,7 +270,7 @@
       "provider": "guarented",
       "externalId": "top-load-washing-machine-on-rent",
       "tenureMonths": 3,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-10-09T18:12:37Z",
@@ -258,7 +282,7 @@
       "provider": "guarented",
       "externalId": "top-load-washing-machine-on-rent",
       "tenureMonths": 6,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-10-09T18:12:37Z",
@@ -270,7 +294,7 @@
       "provider": "guarented",
       "externalId": "top-load-washing-machine-on-rent",
       "tenureMonths": 9,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-10-09T18:12:37Z",
@@ -282,7 +306,7 @@
       "provider": "guarented",
       "externalId": "top-load-washing-machine-on-rent",
       "tenureMonths": 12,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-10-09T18:12:37Z",
@@ -294,7 +318,7 @@
       "provider": "guarented",
       "externalId": "top-load-washing-machine-on-rent",
       "tenureMonths": 18,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-10-09T18:12:37Z",
@@ -306,7 +330,7 @@
       "provider": "guarented",
       "externalId": "top-load-washing-machine-on-rent",
       "tenureMonths": 24,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-10-09T18:12:37Z",
@@ -318,7 +342,7 @@
       "provider": "rentomojo",
       "externalId": "127743",
       "tenureMonths": 6,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
@@ -330,7 +354,7 @@
       "provider": "rentomojo",
       "externalId": "127743",
       "tenureMonths": 9,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
@@ -342,7 +366,7 @@
       "provider": "rentomojo",
       "externalId": "127743",
       "tenureMonths": 12,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
@@ -354,7 +378,7 @@
       "provider": "rentomojo",
       "externalId": "127743",
       "tenureMonths": 24,
-      "lastSeen": "2026-11-22T05:14:26Z",
+      "lastSeen": "2026-11-22T19:16:29Z",
       "points": [
         [
           "2026-08-26T01:20:35+05:30",
